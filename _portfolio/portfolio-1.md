@@ -22,13 +22,39 @@ As an Undergraduate Research Assistant at the Theoretical & Applied Fluid Dynami
 - Developed autonomous up/downwind control using wind vanes, GPS, magnetometer, and motors
 - Conducted over 50 ocean tests and built a real-time raw data acquisition pipeline linking device firmware to a Python database
 
+### Demo Video
+
+<!-- Option 1: YouTube Embed (Recommended - easiest and best performance) -->
+<!-- Replace VIDEO_ID with your YouTube video ID -->
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 20px 0;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+          src="https://youtu.be/YaZquZc88fw" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+  </iframe>
+</div>
+
+<!-- Option 2: Vimeo Embed -->
+<!-- <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 20px 0;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+          src="https://player.vimeo.com/video/VIDEO_ID" 
+          frameborder="0" 
+          allow="autoplay; fullscreen; picture-in-picture" 
+          allowfullscreen>
+  </iframe>
+</div> -->
+
+<!-- Option 3: HTML5 Video (host video file in /images/ or /files/ folder) -->
+<!-- <video width="100%" controls style="margin: 20px 0; border-radius: 8px;">
+  <source src="/images/demo-video.mp4" type="video/mp4">
+  <source src="/images/demo-video.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video> -->
+
 ### Project Photos
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
   <img src="/images/TAF Lab_1.jpeg" alt="TAF Lab Team Photo 1" style="max-width: 300px;">
-  <img src="/images/TAF Lab_2.jpeg" alt="TAF Lab Team Photo 2" style="max-width: 300px;">
-  <img src="/images/TAF Lab_3.jpeg" alt="TAF Lab Team Photo 3" style="max-width: 300px;">
-  <img src="/images/TAF Lab_4.jpeg" alt="TAF Lab Team Photo 4" style="max-width: 300px;">
-</div>
-
-*Note: Please add the remaining 3 photos (TAF Lab_2.jpeg, TAF Lab_3.jpeg, TAF Lab_4.jpeg) to the /images/ folder* 
+  <img src="/images/TAFlab_lolus.jpeg" alt="TAF Lab Lolus" style="max-width: 300px;">
+</div> 

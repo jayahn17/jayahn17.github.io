@@ -22,18 +22,18 @@ repository               : "jayahn17.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "SeongJae Ahn(Jay 안성재)"
-  pronouns         : # example: "she/her"  
-  bio              : "Junior Engineer @ Root Applied Sciences | Incoming MS Mech @ UC Berkeley"
-  location         : "Berkeley"
-  employer         : "Root Applied Sciences"
+  avatar           : "seongjaeahn.jpeg"
+  name             : "SeongJae Ahn(Jay-Ahn, 안성재)"
+  # pronouns         : # example: "she/her"  
+  bio              : "M.S. Mechanical Engineering @ UC Berkeley | Controls and Simulations"
+  location         : "Berkeley, CA"
+  employer         : "current Khameleon Robotics, ex-Root Applied Sciences"
   uri              : # URL
   email            : "jayahn@berkeley.edu" 
 
   # Academic websites
   #arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  # googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   #impactstory      : # URL
   #orcid            : "http://orcid.org/yourorcidurl"
   #semantic         : # URL
@@ -59,7 +59,7 @@ author:
   #keybase          : # Username
   #instagram        : # Username
   #lastfm           : # Username
-  #linkedin         : # Username
+  linkedin         : "https://www.linkedin.com/in/seong-jae-ahn-126838244/"
   #mastodon         : # URL
   #medium           : # URL
   #pinterest        : # Username
@@ -131,7 +131,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : "@jayahn_v"
 facebook:
   username               :
   app_id                 :
