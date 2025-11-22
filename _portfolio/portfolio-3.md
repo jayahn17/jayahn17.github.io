@@ -2,7 +2,7 @@
 title: "Caliber"
 excerpt: "400+ open source projects in UC Berkeley <br/><img src='/images/500x300.png'>"
 collection: portfolio
-category: personal
+category: class
 date: 2024-01-01
 ---
 

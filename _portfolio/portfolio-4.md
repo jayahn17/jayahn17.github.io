@@ -2,7 +2,7 @@
 title: "CalSol"
 excerpt: "CalSol Solar Vehicle Team - Battery and Suspension Systems <br/><img src='/images/CalSol_suspension.png'>"
 collection: portfolio
-category: personal
+category: class
 date: 2024-01-01
 ---
 
