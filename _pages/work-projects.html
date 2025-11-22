@@ -1,0 +1,14 @@
+---
+layout: archive
+title: "Work Projects"
+permalink: /work-projects/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% assign work_projects = site.portfolio | where: "category", "work" %}
+{% for post in work_projects %}
+  {% include archive-single.html %}
+{% endfor %}
+

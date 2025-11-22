@@ -1,0 +1,14 @@
+---
+layout: archive
+title: "Class Projects"
+permalink: /class-projects/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% assign class_projects = site.portfolio | where: "category", "class" %}
+{% for post in class_projects %}
+  {% include archive-single.html %}
+{% endfor %}
+

@@ -1,0 +1,14 @@
+---
+layout: archive
+title: "Personal On-going Projects"
+permalink: /personal-projects/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% assign personal_projects = site.portfolio | where: "category", "personal" %}
+{% for post in personal_projects %}
+  {% include archive-single.html %}
+{% endfor %}
+
