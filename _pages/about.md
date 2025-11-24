@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm an M.S. Mechanical Engineering student in controls and simulation, fascinated by how technology works and how it connects to people. I was once the only one who didn't know. Now my goal is simple: keep learning, 0.1% at a time, and pass it on.
+I’m an M.S. Mechanical Engineering student focusing on controls and simulation, fascinated by how everyday technological developments shape people’s lives. I recognize my desire not only to follow these innovations, but also to be part of the teams that create them and lead their continued development around the world. My goal is simple: keep learning—1% at a time, today and tomorrow.
 
 ## Timeline
 
@@ -84,6 +84,58 @@ I'm an M.S. Mechanical Engineering student in controls and simulation, fascinate
   line-height: 1.6;
 }
 
+.timeline-item.military {
+  background: repeating-linear-gradient(
+    45deg,
+    #2d5016 0px,
+    #2d5016 20px,
+    #1a3009 20px,
+    #1a3009 40px,
+    #0d0d0d 40px,
+    #0d0d0d 60px,
+    #2d5016 60px,
+    #2d5016 80px
+  );
+  background-size: 113px 113px;
+  color: #fff;
+  border: 2px solid #1a3009;
+  position: relative;
+}
+
+.timeline-item.military::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: repeating-linear-gradient(
+    -45deg,
+    transparent 0px,
+    transparent 20px,
+    rgba(0,0,0,0.3) 20px,
+    rgba(0,0,0,0.3) 40px
+  );
+  background-size: 113px 113px;
+  pointer-events: none;
+}
+
+.timeline-item.military .timeline-year {
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+}
+
+.timeline-item.military .timeline-content {
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+}
+
+.timeline-item.military::before {
+  background: #2d5016;
+  border-color: #1a3009;
+  box-shadow: 0 0 0 2px #0d0d0d;
+}
+
 @media (max-width: 768px) {
   .timeline::before {
     left: 20px;
@@ -104,7 +156,7 @@ I'm an M.S. Mechanical Engineering student in controls and simulation, fascinate
 </style>
 
 <div class="timeline">
-  <div class="timeline-item">
+  <div class="timeline-item military">
     <div class="timeline-year">2017 - 2019</div>
     <div class="timeline-content">Republic of Korea Army<br>Signal Corps, Squad Leader</div>
   </div>

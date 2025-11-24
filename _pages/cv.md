@@ -11,7 +11,7 @@ redirect_from:
 
 # Seongjae Ahn
 
-Berkeley, CA • [jayahn@berkeley.edu](mailto:jayahn@berkeley.edu) • (628) 529-6598 • [LinkedIn](https://www.linkedin.com/in/seong-jae-ahn-126838244/)
+Berkeley, CA • [jayahn@berkeley.edu](mailto:jayahn@berkeley.edu) • (628) 529-6598 • [LinkedIn](https://www.linkedin.com/in/seongjae-ahn-126838244/)
 
 ## Education
 
