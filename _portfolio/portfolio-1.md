@@ -3,12 +3,12 @@ title: "TAF Lab - Autonomous Ocean Drone"
 excerpt: "Autonomous Ocean Drone prototype for sustainable marine transportation. Pitched to Vice Chancellor in Research at UC Berkeley with 3 co-workers. <br/><img src='/images/TAF Lab_1.jpeg'>"
 collection: portfolio
 category: work
-date: 2024-02-01
+date: 2025-11-01
 ---
 
 ## CAPTAIN: Smart Steering Through Waves for Sustainable Marine Transportation
 
-**Team Members:** Evan Koo, Seongjae Ahn, Arsh Khan, Prof. Reza Alim
+**Team Members:** Evan Koo, Seongjae Ahn, Arsh Khan, Prof. Reza Alam
 
 ### Project Overview
 
@@ -17,10 +17,10 @@ As an Undergraduate Research Assistant at the Theoretical & Applied Fluid Dynami
 ### Key Achievements
 
 - **Licensed IP** for "PowerCab: A Multimodal Mobile Sea-based Power Generation and Delivery"
-- **Pitched to Vice Chancellor in Research at UC Berkeley** alongside 3 co-workers, presenting our innovative autonomous ocean drone solution
+- **Pitched to Vice Chancellor in Research at UC Berkeley** alongside our best team, presenting our innovative autonomous ocean drone solution on collection data.
 - Led electronics implementation with 7+ sensors and established wireless communication using the Xbee protocol
 - Developed autonomous up/downwind control using wind vanes, GPS, magnetometer, and motors
-- Conducted over 50 ocean tests and built a real-time raw data acquisition pipeline linking device firmware to a Python database
+- Conducted over 50+ ocean tests and built a real-time raw data acquisition pipeline linking device firmware to a Python database
 
 ### Demo Video
 

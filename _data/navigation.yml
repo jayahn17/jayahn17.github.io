@@ -5,14 +5,11 @@
 # prevent it from being included in the site.
 
 main:
-  - title: "Resume"
-    url: /cv/
-
-  - title: "Work projects"
+  - title: "Work Experience"
     url: /work-projects/
         
-  - title: "Class projects"
+  - title: "Coursework"
     url: /class-projects/
     
-  - title: "Projects"
-    url: /personal-projects/
+  - title: "Resume"
+    url: /cv/
