@@ -20,7 +20,7 @@ Working with CalSol, UC Berkeley's solar vehicle team, on battery and suspension
 ### Project Photos
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="/images/CalSol_suspension.png" alt="CalSol Suspension" style="max-width: 250px;">
-  <img src="/images/Calsol_battery.jpeg" alt="CalSol Battery" style="max-width: 250px;">
+  <img src="/images/CalSol_suspension.png" alt="CalSol Suspension" style="max-width: 180px;">
+  <img src="/images/Calsol_battery.jpeg" alt="CalSol Battery" style="max-width: 180px;">
 </div>
 

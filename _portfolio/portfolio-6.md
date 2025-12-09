@@ -14,7 +14,7 @@ This project was completed as part of ME239 (Robotic Locomotion) coursework at U
 
 ### Project Video
 
-<video width="100%" controls style="margin: 20px 0; border-radius: 8px;">
+<video width="60%" controls style="margin: 20px 0; border-radius: 8px; display: block;">
   <source src="/images/me239_1.mov" type="video/quicktime">
   Your browser does not support the video tag.
 </video>

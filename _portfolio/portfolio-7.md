@@ -20,9 +20,9 @@ This project was completed as part of ME102B (Mechatronics) coursework at UC Ber
 
 ### Project Photos
 
-<img src="/images/me102b_1.jpg" alt="ME102B Robotic Fish 1" style="max-width: 60%; margin: 20px 0; display: block;">
+<img src="/images/me102b_1.jpg" alt="ME102B Robotic Fish 1" style="max-width: 40%; margin: 20px 0; display: block;">
 
-<img src="/images/me102b_2.jpg" alt="ME102B Robotic Fish 2" style="max-width: 60%; margin: 20px 0; display: block;">
+<img src="/images/me102b_2.jpg" alt="ME102B Robotic Fish 2" style="max-width: 40%; margin: 20px 0; display: block;">
 
-<img src="/images/me102b_3.jpg" alt="ME102B Robotic Fish 3" style="max-width: 60%; margin: 20px 0; display: block;">
+<img src="/images/me102b_3.jpg" alt="ME102B Robotic Fish 3" style="max-width: 40%; margin: 20px 0; display: block;">
 

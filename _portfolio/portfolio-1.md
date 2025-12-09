@@ -25,7 +25,7 @@ As an Undergraduate Research Assistant at the Theoretical & Applied Fluid Dynami
 
 <!-- Option 1: YouTube Embed (Recommended - easiest and best performance) -->
 <!-- Replace VIDEO_ID with your YouTube video ID -->
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 20px 0;">
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 60%; margin: 20px 0;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
           src="https://youtu.be/YaZquZc88fw" 
           frameborder="0" 
@@ -53,6 +53,6 @@ As an Undergraduate Research Assistant at the Theoretical & Applied Fluid Dynami
 
 ### Project Photos
 
-<img src="/images/TAF Lab_1.jpeg" alt="TAF Lab Team Photo 1" style="max-width: 60%; margin: 20px 0; display: block;">
+<img src="/images/TAF Lab_1.jpeg" alt="TAF Lab Team Photo 1" style="max-width: 40%; margin: 20px 0; display: block;">
 
-<img src="/images/TAFlab_lolus.jpeg" alt="TAF Lab Lolus" style="max-width: 60%; margin: 20px 0; display: block;"> 
+<img src="/images/TAFlab_lolus.jpeg" alt="TAF Lab Lolus" style="max-width: 40%; margin: 20px 0; display: block;"> 

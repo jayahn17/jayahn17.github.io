@@ -14,7 +14,7 @@ Caliber is a platform featuring 400+ open source projects from UC Berkeley, show
 
 ### Demo Video
 
-<video width="100%" controls style="margin: 20px 0; border-radius: 8px;">
+<video width="60%" controls style="margin: 20px 0; border-radius: 8px; display: block;">
   <source src="/images/ME239_video_1.mov" type="video/quicktime">
   Your browser does not support the video tag.
 </video>
@@ -27,7 +27,7 @@ Caliber is a platform featuring 400+ open source projects from UC Berkeley, show
 
 ### Presentation
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 20px 0;">
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 60%; margin: 20px 0;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
           src="https://docs.google.com/presentation/d/1O-A3STddmSCpnOkwsQuVuAJRZFTy298NqqmlJJ5ldtg/preview" 
           frameborder="0" 
@@ -38,5 +38,5 @@ Caliber is a platform featuring 400+ open source projects from UC Berkeley, show
 
 ### Project Photos
 
-<img src="/images/caliber_pg2.png" alt="SeongJae Ahn" style="max-width: 60%; margin: 20px 0; display: block;">
+<img src="/images/caliber_pg2.png" alt="SeongJae Ahn" style="max-width: 40%; margin: 20px 0; display: block;">
 
