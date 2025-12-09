@@ -118,7 +118,12 @@ I'm an M.S. Mechanical Engineering student in controls and simulation, fascinate
     <div class="timeline-year">2022 - 2024</div>
     <div class="timeline-content">B.S. in Mechanical Engineering<br>University of California, Berkeley</div>
   </div>
-  
+
+  <div class="timeline-item">
+    <div class="timeline-year">2024</div>
+    <div class="timeline-content">Controls & Simulation Intern<br>Khameleon Robotics<br><img src="/images/khameleon_1.jpg" alt="Khameleon Robotics" style="max-width: 100%;"></div>
+  </div>
+
   <div class="timeline-item">
     <div class="timeline-year">2025</div>
     <div class="timeline-content">M.S. in Mechanical Engineering<br>University of California, Berkeley</div>

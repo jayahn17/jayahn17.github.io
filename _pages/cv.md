@@ -28,8 +28,9 @@ Berkeley, CA • [jayahn@berkeley.edu](mailto:jayahn@berkeley.edu) • (628) 529
 ## Work Experience
 
 * **Mechanical / Hardware Engineering Intern**  
-  *Root Applied Sciences, Emeryville, CA*  
+  *Khameleon Robotics, Emeryville, CA*  
   November 2024 – December 2024  
+  <img src="/images/khameleon_1.jpg" alt="Khameleon Robotics" style="max-width: 200px; float: right; margin-left: 20px; border-radius: 8px;">
   - Conducted quality control, troubleshooting, and evaluation for hardware across 80+ units.
   - Debugged design errors and designed a solar panel adjustment mechanism to streamline the deployment process.
   - Developed spore influx analysis by integrating fluid dynamics with firmware data.

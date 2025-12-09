@@ -1,22 +1,36 @@
 ---
 title: "Khameleon Robotics"
-excerpt: "Khameleon Robotics - Advanced Robotics Solutions <br/><img src='/images/500x300.png'>"
+excerpt: "Controls & Simulation Intern - Advanced robotics controls and simulation development <br/><img src='/images/khameleon_1.jpg'>"
 collection: portfolio
 category: work
 date: 2024-12-01
 ---
 
-## Khameleon Robotics
+## Khameleon Robotics - Controls & Simulation Intern
 
 ### Project Overview
 
-Working with Khameleon Robotics on advanced robotics solutions and innovative automation systems.
+As a Controls & Simulation Intern at Khameleon Robotics, I worked on developing advanced robotics controls and simulation systems for innovative robotic applications.
 
 ### Key Achievements
 
-- Developed cutting-edge robotics solutions
-- Implemented advanced automation systems
-- Collaborated on innovative robotic applications
+- Developed and implemented control systems for robotic platforms
+- Created simulation environments for testing and validation
+- Collaborated on advanced robotics solutions and automation systems
 
+### Project Photos
+
+<img src="/images/khameleon_1.jpg" alt="Khameleon Robotics 1" style="max-width: 100%; margin: 20px 0; display: block;">
+
+<img src="/images/khameleon_2.jpg" alt="Khameleon Robotics 2" style="max-width: 100%; margin: 20px 0; display: block;">
+
+<img src="/images/khameleon_3.jpg" alt="Khameleon Robotics 3" style="max-width: 100%; margin: 20px 0; display: block;">
+
+### Project Video
+
+<video width="100%" controls style="margin: 20px 0; display: block;">
+  <source src="/images/khameleon_video.mov" type="video/quicktime">
+  Your browser does not support the video tag.
+</video>
 
 
