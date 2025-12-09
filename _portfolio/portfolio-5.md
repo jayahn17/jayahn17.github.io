@@ -20,11 +20,11 @@ As a Controls & Simulation Intern at Khameleon Robotics, I worked on developing 
 
 ### Project Photos
 
-<img src="/images/khameleon_1.jpg" alt="Khameleon Robotics 1" style="max-width: 100%; margin: 20px 0; display: block;">
+<img src="/images/khameleon_1.jpg" alt="Khameleon Robotics 1" style="max-width: 60%; margin: 20px 0; display: block;">
 
-<img src="/images/khameleon_2.jpg" alt="Khameleon Robotics 2" style="max-width: 100%; margin: 20px 0; display: block;">
+<img src="/images/khameleon_2.jpg" alt="Khameleon Robotics 2" style="max-width: 60%; margin: 20px 0; display: block;">
 
-<img src="/images/khameleon_3.jpg" alt="Khameleon Robotics 3" style="max-width: 100%; margin: 20px 0; display: block;">
+<img src="/images/khameleon_3.jpg" alt="Khameleon Robotics 3" style="max-width: 60%; margin: 20px 0; display: block;">
 
 ### Project Video
 

@@ -1,13 +1,17 @@
 ---
 permalink: /
-title: "About"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I’m an M.S. Mechanical Engineering student focusing on controls and simulation, fascinated by how everyday technological developments shape people’s lives. I recognize my desire not only to follow these innovations, but also to be part of the teams that create them and lead their continued development around the world. My goal is simple: keep learning—1% at a time, today and tomorrow.
+1. M.S. Mechanical Engineering student focusing on controls and simulation
+2. Fascinated by how everyday technological developments shape people’s lives. 
+3. I recognize my desire not only to follow these innovations, but also to be part of the teams that create them and lead their continued development around the world. 
+
+My goal is to keep learning—1% at a time, today and tomorrow.
 
 ## Timeline
 
@@ -136,6 +140,50 @@ I’m an M.S. Mechanical Engineering student focusing on controls and simulation
   box-shadow: 0 0 0 2px #0d0d0d;
 }
 
+.timeline-item.dvc {
+  background: #2d7a32;
+  color: #fff;
+  border: 2px solid #1b5e20;
+}
+
+.timeline-item.dvc .timeline-year {
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.timeline-item.dvc .timeline-content {
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.timeline-item.dvc::before {
+  background: #2d7a32;
+  border-color: #1b5e20;
+  box-shadow: 0 0 0 2px #0d4f1a;
+}
+
+.timeline-item.berkeley {
+  background: linear-gradient(135deg, #FDB515 0%, #FDB515 50%, #003262 50%, #003262 100%);
+  color: #fff;
+  border: 2px solid #003262;
+}
+
+.timeline-item.berkeley .timeline-year {
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+.timeline-item.berkeley .timeline-content {
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+.timeline-item.berkeley::before {
+  background: #FDB515;
+  border-color: #003262;
+  box-shadow: 0 0 0 2px #003262;
+}
+
 @media (max-width: 768px) {
   .timeline::before {
     left: 20px;
@@ -161,17 +209,17 @@ I’m an M.S. Mechanical Engineering student focusing on controls and simulation
     <div class="timeline-content">Republic of Korea Army<br>Signal Corps, Squad Leader</div>
   </div>
   
-  <div class="timeline-item">
+  <div class="timeline-item dvc">
     <div class="timeline-year">2020 - 2022</div>
     <div class="timeline-content">Mechanical Engineering<br>Diablo Valley College</div>
   </div>
   
-  <div class="timeline-item">
+  <div class="timeline-item berkeley">
     <div class="timeline-year">2022 - 2024</div>
     <div class="timeline-content">B.S. in Mechanical Engineering<br>University of California, Berkeley</div>
   </div>
   
-  <div class="timeline-item">
+  <div class="timeline-item berkeley">
     <div class="timeline-year">2025</div>
     <div class="timeline-content">M.S. in Mechanical Engineering<br>University of California, Berkeley</div>
   </div>

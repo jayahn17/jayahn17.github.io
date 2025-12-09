@@ -3,7 +3,7 @@ title: "Robotic Locomotion"
 excerpt: "ME239 - Robotic Locomotion coursework project"
 collection: portfolio
 category: class
-date: 2024-01-01
+date: 2025-11-01
 ---
 
 ## ME239 - Robotic Locomotion
