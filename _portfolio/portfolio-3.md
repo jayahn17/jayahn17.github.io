@@ -1,9 +1,9 @@
 ---
 title: "Caliber - Open Source Platform for Student Projects"
-excerpt: "Open source projects in UC Berkeley <br/><img src='/images/caliber_pg1.png'>"
+excerpt: "Open source projects in UC Berkeley <br/><img src='/images/caliber_pg1.png' style='max-width: 50%;'>"
 collection: portfolio
 category: class
-date: 2025-12-04
+date: 2025-12-01
 ---
 
 ## Caliber - Open Source Projects at UC Berkeley
@@ -15,7 +15,7 @@ Caliber is a platform featuring 400+ open source projects from UC Berkeley, show
 ### Demo Video
 
 <video width="60%" controls style="margin: 20px 0; border-radius: 8px; display: block;">
-  <source src="/images/ME239_video_1.mov" type="video/quicktime">
+  <source src="/images/caliber demo.mp4" type="video/quicktime">
   Your browser does not support the video tag.
 </video>
 

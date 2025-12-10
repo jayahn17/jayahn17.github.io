@@ -1,6 +1,6 @@
 ---
 title: "Robotic Fish - Mechatronics"
-excerpt: "ME102B - Robotic Fish Mechatronics Project <br/><img src='/images/me102b_robotic fish.jpeg'>"
+excerpt: "ME102B - Robotic Fish Mechatronics Project <br/><img src='/images/me102b_robotic fish.jpeg' style='max-width: 50%;'>"
 collection: portfolio
 category: class
 date: 2025-12-03

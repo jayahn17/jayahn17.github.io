@@ -3,7 +3,7 @@ title: "Spider Robot - Robotic Locomotion"
 excerpt: "ME239 - Robotic Locomotion coursework project"
 collection: portfolio
 category: class
-date: 2025-12-05
+date: 2025-12-02
 ---
 
 ## ME239 - Robotic Locomotion
