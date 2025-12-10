@@ -33,4 +33,19 @@ As a Controls & Simulation Intern at Khameleon Robotics, I worked on developing 
   Your browser does not support the video tag.
 </video>
 
+<video width="60%" controls style="margin: 20px 0; display: block; border-radius: 8px;">
+  <source src="/images/kha_khaleisaac_top.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+
+<video width="60%" controls style="margin: 20px 0; display: block; border-radius: 8px;">
+  <source src="/images/kha_leisaac_so101.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+
+<video width="60%" controls style="margin: 20px 0; display: block; border-radius: 8px;">
+  <source src="/images/kha_grab.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+
 
