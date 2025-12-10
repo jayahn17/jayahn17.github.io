@@ -1,9 +1,9 @@
 ---
 title: "Robotic Fish - Mechatronics"
-excerpt: "ME102B - Robotic Fish Mechatronics Project <br/><img src='/images/me102b_1.jpg'>"
+excerpt: "ME102B - Robotic Fish Mechatronics Project <br/><img src='/images/me102b_robotic fish.jpeg'>"
 collection: portfolio
 category: class
-date: 2025-12-02
+date: 2025-12-03
 ---
 
 ## ME102B - Mechatronics: Robotic Fish
@@ -20,9 +20,9 @@ This project was completed as part of ME102B (Mechatronics) coursework at UC Ber
 
 ### Project Photos
 
-<img src="/images/me102b_1.jpg" alt="ME102B Robotic Fish 1" style="max-width: 40%; margin: 20px 0; display: block;">
+<img src="/images/me102b_complete_design.png" alt="ME102B Robotic Fish 1" style="max-width: 40%; margin: 20px 0; display: block;">
 
-<img src="/images/me102b_2.jpg" alt="ME102B Robotic Fish 2" style="max-width: 40%; margin: 20px 0; display: block;">
+<img src="/images/me102b_tail_design.png" alt="ME102B Robotic Fish 2" style="max-width: 40%; margin: 20px 0; display: block;">
 
-<img src="/images/me102b_3.jpg" alt="ME102B Robotic Fish 3" style="max-width: 40%; margin: 20px 0; display: block;">
+<img src="/images/me102b_circuits.png" alt="ME102B Robotic Fish 3" style="max-width: 40%; margin: 20px 0; display: block;">
 
