@@ -53,6 +53,6 @@ As an Undergraduate Research Assistant at the Theoretical & Applied Fluid Dynami
 
 ### Project Photos
 
-<img src="/images/TAF Lab_1.jpeg" alt="TAF Lab Team Photo 1" style="max-width: 40%; margin: 20px 0; display: block;">
+<img src="/images/TAF Lab_1.jpeg" alt="TAF Lab Team Photo 1" style="max-width: 25%; margin: 20px 0; display: block;">
 
-<img src="/images/TAFlab_lolus.jpeg" alt="TAF Lab Lolus" style="max-width: 40%; margin: 20px 0; display: block;"> 
+<img src="/images/TAFlab_lolus.jpeg" alt="TAF Lab Lolus" style="max-width: 25%; margin: 20px 0; display: block;"> 

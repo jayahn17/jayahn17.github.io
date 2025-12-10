@@ -23,9 +23,9 @@ repository               : "jayahn17.github.io"
 author:
   # Biographic information
   avatar           : "seongjaeahn.jpeg"
-  name             : "SeongJae(Jay) Ahn (안성재)"
+  name             : "SeongJae(Jay) Ahn"
   # pronouns         : # example: "she/her"  
-  bio              : "M.S. Mechanical Engineering @ UC Berkeley | Controls and Simulations"
+  bio              : "M.S. ME @ UC Berkeley | Controls in Robotics"
   location         : "Berkeley, CA"
   employer         : "Khameleon Robotics, ex-Root Applied Sciences"
   uri              : # URL
