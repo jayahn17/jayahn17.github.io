@@ -1,6 +1,6 @@
 ---
 title: "Spider Robot - Robotic Locomotion"
-excerpt: "ME239 - Robotic Locomotion coursework project"
+excerpt: "ME239 - Robotic Locomotion coursework project <br/><img src='/images/ME239_video_1.mov'>"
 collection: portfolio
 category: class
 date: 2025-12-02
@@ -12,21 +12,24 @@ date: 2025-12-02
 
 This project was completed as part of ME239 (Robotic Locomotion) coursework at UC Berkeley. 
 
-### Project Video
+This Robotic Locomotion Control Algorithm has been developed based on an open source spider robot CAD hardware model from [ZaidHJaber's repository](https://github.com/ZaidHJaber/Four-legged-Spider-Robot-RL-locomotion). Huge thanks to ZaidHJaber for providing the foundation model for the spider robot!
+### Project Videos
 
-<video width="60%" controls style="margin: 20px 0; border-radius: 8px; display: block;">
-  <source src="/images/me239_1.mov" type="video/quicktime">
-  Your browser does not support the video tag.
-</video>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 20px; margin: 20px 0;">
+  <video width="100%" controls style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <source src="/images/me239_1.mov" type="video/quicktime">
+    Your browser does not support the video tag.
+  </video>
+  
+  <video width="100%" controls style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <source src="/images/ME239_video_1.mov" type="video/quicktime">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
-<video width="60%" controls style="margin: 20px 0; border-radius: 8px; display: block;">
-  <source src="/images/ME239_video_1.mov" type="video/quicktime">
-  Your browser does not support the video tag.
-</video>
+### Related: Khameleon Robotics Video
 
-### Project Video
-
-<video width="60%" controls style="margin: 20px 0; display: block; border-radius: 8px;">
+<video width="100%" controls style="max-width: 800px; margin: 20px auto; display: block; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
   <source src="/images/khameleon_video.mov" type="video/quicktime">
   Your browser does not support the video tag.
 </video>

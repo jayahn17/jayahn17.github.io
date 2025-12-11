@@ -25,9 +25,9 @@ As an Undergraduate Research Assistant at the Theoretical & Applied Fluid Dynami
 
 <!-- Option 1: YouTube Embed (Recommended - easiest and best performance) -->
 <!-- Replace VIDEO_ID with your YouTube video ID -->
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 60%; margin: 20px 0;">
-  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-          src="https://youtu.be/YaZquZc88fw" 
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 20px 0; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 8px;" 
+          src="https://www.youtube.com/embed/YaZquZc88fw" 
           frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
           allowfullscreen>
@@ -53,6 +53,7 @@ As an Undergraduate Research Assistant at the Theoretical & Applied Fluid Dynami
 
 ### Project Photos
 
-<img src="/images/TAF Lab_1.jpeg" alt="TAF Lab Team Photo 1" style="max-width: 25%; margin: 20px 0; display: block;">
-
-<img src="/images/TAFlab_lolus.jpeg" alt="TAF Lab Lolus" style="max-width: 25%; margin: 20px 0; display: block;"> 
+<div style="display: flex; flex-wrap: wrap; gap: 20px; margin: 20px 0;">
+  <img src="/images/TAF Lab_1.jpeg" alt="TAF Lab Team Photo 1" style="max-width: 45%; flex: 1 1 300px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+  <img src="/images/TAFlab_lolus.jpeg" alt="TAF Lab Lolus" style="max-width: 45%; flex: 1 1 300px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+</div> 

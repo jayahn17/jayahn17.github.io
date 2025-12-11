@@ -7,13 +7,51 @@ redirect_from:
   - /about.html
 ---
 
-1. M.S. Mechanical Engineering student focusing on controls and simulation
-2. Fascinated by how everyday technological developments shape people’s lives. 
-3. I recognize my desire not only to follow these innovations, but also to be part of the teams that create them and lead their continued development around the world. 
+<div class="hero-section">
+  <div class="hero-content">
+    <img src="/images/seongjaeahn.jpeg" alt="SeongJae Ahn" class="hero-avatar">
+    <h1 class="hero-title">SeongJae (Jay) Ahn</h1>
+    <p class="hero-subtitle">Controls & Robotics Engineer</p>
+    <p class="hero-tagline">Building the Future of Autonomous Systems | M.S. ME @ UC Berkeley</p>
+    
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <span class="hero-stat-number">7+</span>
+        <span class="hero-stat-label">Projects</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-number">3+</span>
+        <span class="hero-stat-label">Years Experience</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-number">UCB</span>
+        <span class="hero-stat-label">M.S. Mechanical Engineering</span>
+      </div>
+    </div>
+    
+    <div class="skill-badges">
+      <span class="skill-badge">Python</span>
+      <span class="skill-badge">C++</span>
+      <span class="skill-badge">ROS</span>
+      <span class="skill-badge">Isaac Sim</span>
+      <span class="skill-badge">Mujoco</span>
+      <span class="skill-badge">Robotics</span>
+      <span class="skill-badge">Control Systems</span>
+      <span class="skill-badge">Machine Learning</span>
+    </div>
+    
+    <div class="hero-cta">
+      <a href="/portfolio/" class="hero-btn">View My Work</a>
+      <a href="/cv/" class="hero-btn secondary">Download CV</a>
+    </div>
+  </div>
+</div>
 
-My goal is to keep learning—1% at a time, today and tomorrow.
+M.S. Mechanical Engineering student focusing on Controls and Robotics. I'm fascinated by how everyday technological developments shape people's lives, and I'd want to be part of the shaper. 
 
-## Timeline
+I recognize my desire not only to follow these innovations, but also to be part of the teams that create them and lead their continued development around the world. My goal is to keep learning—1% at a time, today and tomorrow.
+
+## Timeline of Academics
 
 <style>
 .timeline {

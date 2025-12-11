@@ -1,4 +1,4 @@
-# Welcome to Jekyl!
+# Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
@@ -27,7 +27,7 @@ author:
   # pronouns         : # example: "she/her"  
   bio              : "M.S. ME @ UC Berkeley | Controls in Robotics"
   location         : "Berkeley, CA"
-  employer         : "Khameleon Robotics, ex-Root Applied Sciences"
+  employer         : "prev Khameleon Robotics | Root Applied Sciences"
   uri              : # URL
   email            : "jayahn@berkeley.edu" 
 
