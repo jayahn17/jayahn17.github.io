@@ -9,8 +9,8 @@ redirect_from:
 
 <div class="hero-section">
   <div class="hero-content">
-    <img src="/images/seongjaeahn.jpeg" alt="SeongJae Ahn" class="hero-avatar">
-    <h1 class="hero-title">SeongJae (Jay) Ahn</h1>
+    <!-- <img src="/images/seongjaeahn.jpeg" alt="SeongJae Ahn" class="hero-avatar"> -->
+    <!-- <h1 class="hero-title">SeongJae (Jay) Ahn</h1> -->
     <p class="hero-subtitle">Controls & Robotics Engineer</p>
     <p class="hero-tagline">Building the Future of Autonomous Systems | M.S. ME @ UC Berkeley</p>
     
@@ -24,20 +24,20 @@ redirect_from:
         <span class="hero-stat-label">Years Experience</span>
       </div>
       <div class="hero-stat">
-        <span class="hero-stat-number">UCB</span>
-        <span class="hero-stat-label">M.S. Mechanical Engineering</span>
+        <span class="hero-stat-number">UC Berkeley</span>
+        <span class="hero-stat-label">B.S/M.S. in Mechanical Engineering</span>
       </div>
     </div>
     
     <div class="skill-badges">
       <span class="skill-badge">Python</span>
       <span class="skill-badge">C++</span>
-      <span class="skill-badge">ROS</span>
-      <span class="skill-badge">Isaac Sim</span>
-      <span class="skill-badge">Mujoco</span>
+      <span class="skill-badge">Isaac Sim/Lab</span>
+      <span class="skill-badge">Mujoco</>span
       <span class="skill-badge">Robotics</span>
       <span class="skill-badge">Control Systems</span>
-      <span class="skill-badge">Machine Learning</span>
+      <span class="skill-badge">Reconstruction-3DGS</span>
+
     </div>
     
     <div class="hero-cta">
