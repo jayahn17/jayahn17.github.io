@@ -10,6 +10,10 @@ date: 2025-12-01
 
 ### Project Overview
 
+<div style="text-align: center; margin: 16px 0;">
+  <img src="/images/caliber_front.png" alt="Caliber Front" style="max-width: 60%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+</div>
+
 Caliber is a platform featuring 400+ open source projects from UC Berkeley, showcasing the innovative work and contributions from the Berkeley community.
 
 ### Demo Video
