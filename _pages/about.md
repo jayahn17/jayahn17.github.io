@@ -10,7 +10,6 @@ redirect_from:
 <div class="hero-section">
   <div class="hero-content hero-grid">
     <aside class="hero-left">
-      <img src="/images/seongjaeahn.jpeg" alt="SeongJae (Jay) Ahn" class="hero-avatar">
       <h3>SeongJae (Jay) Ahn</h3>
       <p style="margin:6px 0 0; color:var(--text-secondary);">M.S. ME @ UC Berkeley | Controls in Robotics</p>
       <ul class="contact-list" aria-label="Contact and links">

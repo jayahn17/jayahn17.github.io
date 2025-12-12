@@ -21,9 +21,6 @@ teaser: "/images/TAF Lab_1.jpeg"
 **Team Members:** Evan Kuo, Seongjae Ahn, Arsh Khan, Prof. Reza Alam
 
 ### Project Overview
-
-
-
 As an Undergraduate Research Assistant at the Theoretical & Applied Fluid Dynamics Laboratory (TAF Lab) at UC Berkeley, I led electronics integration and autonomy development for an autonomous ocean drone prototype focused on sustainable marine transportation. The project placed in the Top 20 of the U.S. Department of Energy "Power at the Sea Prize."
 
 ### Key Achievements
