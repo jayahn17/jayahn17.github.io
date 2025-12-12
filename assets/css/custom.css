@@ -15,7 +15,7 @@
 
 /* Animated Gradient Background */
 body {
-  background-color: #001f3f; /* static navy */
+  background-color: #ffffff; /* default clean white background */
   min-height: 100vh;
   position: relative;
 }
@@ -46,13 +46,14 @@ body.bg-black {
 
 /* Overlay for content readability */
 body::before {
+  /* overlay removed to keep background pure white; keep pseudo-element empty for future effects */
   content: '';
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0);
   z-index: -1;
   pointer-events: none;
 }
@@ -100,6 +101,72 @@ body::before {
 .hero-content {
   position: relative;
   z-index: 1;
+}
+
+/* Professional hero layout: left sidebar + main content */
+.hero-grid {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 24px;
+  align-items: start;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.hero-left {
+  text-align: center;
+}
+.hero-left .hero-avatar {
+  width: 140px;
+  height: 140px;
+  margin-bottom: 12px;
+}
+.hero-left h3 {
+  margin: 8px 0 4px;
+  font-size: 1.1rem;
+  color: var(--text-primary);
+}
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  text-align: left;
+}
+.contact-list li { margin: 8px 0; }
+.hero-main {
+  padding: 18px 22px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.02));
+  border-radius: 12px;
+}
+.hero-main .hero-title {
+  font-size: 1.6rem;
+  color: var(--text-primary);
+  margin-bottom: 6px;
+}
+.hero-main .hero-tagline {
+  margin-bottom: 12px;
+  color: var(--text-secondary);
+}
+.hero-stats.grid {
+  display: flex;
+  gap: 24px;
+  margin: 12px 0 18px;
+  align-items: center;
+}
+.hero-stat-number {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  display: block;
+}
+.hero-summary {
+  margin-top: 12px;
+  padding: 14px;
+  background: rgba(0,0,0,0.03);
+  border-radius: 10px;
+  color: var(--text-primary);
+  line-height: 1.6;
 }
 
 .hero-avatar {

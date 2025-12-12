@@ -22,6 +22,10 @@ teaser: "/images/TAF Lab_1.jpeg"
 
 ### Project Overview
 
+<div style="text-align: center; margin: 16px 0;">
+  <img src="/images/caliber_front.png" alt="Caliber Front" style="max-width: 60%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+</div>
+
 As an Undergraduate Research Assistant at the Theoretical & Applied Fluid Dynamics Laboratory (TAF Lab) at UC Berkeley, I led electronics integration and autonomy development for an autonomous ocean drone prototype focused on sustainable marine transportation. The project placed in the Top 20 of the U.S. Department of Energy "Power at the Sea Prize."
 
 ### Key Achievements

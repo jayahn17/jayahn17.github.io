@@ -1,6 +1,6 @@
 ---
 title: "Khameleon Robotics"
-excerpt: "Controls & Simulation Intern - Advanced robotics controls and simulation development <br/><img src='/images/khameleon_1.jpg'>"
+excerpt: "Controls & Simulation Intern - Advanced robotics controls and simulation development <br/><img src='/images/kh_grab_img.png'>"
 collection: portfolio
 category: work
 date: 2024-12-01
@@ -18,13 +18,22 @@ As a Controls & Simulation Intern at Khameleon Robotics, I worked on developing 
 - Created simulation environments for testing and validation
 - Collaborated on advanced robotics solutions and automation systems
 
-### Project Photos
+
+<img src="/images/kha_top_cam.png" alt="Khameleon Top Camera" style="max-width: 60%; margin: 20px 0; display: block; border-radius: 8px;">
+
+<video width="60%" controls style="margin: 20px 0; display: block; border-radius: 8px;">
+  <source src="/images/kha_grab_little.mov" type="video/quicktime">
+  Your browser does not support the video tag.
+</video>
+
+
+<!-- ### Project Photos
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin: 20px 0;">
   <img src="/images/khameleon_1.jpg" alt="Khameleon Robotics 1" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
   <img src="/images/khameleon_2.jpg" alt="Khameleon Robotics 2" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
   <img src="/images/khameleon_3.jpg" alt="Khameleon Robotics 3" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-</div>
+</div> -->
 
 ### Project Video (Featured)
 
@@ -58,23 +67,18 @@ As a Controls & Simulation Intern at Khameleon Robotics, I worked on developing 
   </div>
   <div style="background: #fff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
     <strong>Screen 2 — Control Stack</strong>
-    <p style="margin-top:8px;">Describe controllers, state estimation, and safety layers. (Editable)</p>
+    <p style="margin-top:8px;">12DOF puppet controller from Dynamixel XC-330 12 servo motors</p>
   </div>
   <div style="background: #fff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
     <strong>Screen 3 — Simulation & Data Pipeline</strong>
-    <p style="margin-top:8px;">Detail simulation environment, data collection, and pipelines. (Editable)</p>
+    <p style="margin-top:8px;">Built customized using Nvidia Isaac Sim/Lab</p>
   </div>
   <div style="background: #fff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
     <strong>Screen 4 — Results & Metrics</strong>
-    <p style="margin-top:8px;">Summarize performance, tests, and key metrics. (Editable)</p>
+    <p style="margin-top:8px;"> Customized 4 camera angle view , and deployed unit in Isaac Lab environment to create collision avoidance test / Training</p>
   </div>
 </div>
 
-<img src="/images/kha_top_cam.png" alt="Khameleon Top Camera" style="max-width: 60%; margin: 20px 0; display: block; border-radius: 8px;">
 
-<video width="60%" controls style="margin: 20px 0; display: block; border-radius: 8px;">
-  <source src="/images/kha_grab_little.mov" type="video/quicktime">
-  Your browser does not support the video tag.
-</video>
 
 

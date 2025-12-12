@@ -8,40 +8,54 @@ redirect_from:
 ---
 
 <div class="hero-section">
-  <div class="hero-content">
-    <!-- <img src="/images/seongjaeahn.jpeg" alt="SeongJae Ahn" class="hero-avatar"> -->
-    <!-- <h1 class="hero-title">SeongJae (Jay) Ahn</h1> -->
-    <p class="hero-subtitle">Controls & Robotics Engineer</p>
-    <p class="hero-tagline">Building the Future of Autonomous Systems | M.S. ME @ UC Berkeley</p>
-    
-    <div class="hero-stats">
-      <div class="hero-stat">
-        <span class="hero-stat-number">7+</span>
-        <span class="hero-stat-label">Projects</span>
-      </div>
-      <div class="hero-stat">
-        <span class="hero-stat-number">3+</span>
-        <span class="hero-stat-label">Years Experience</span>
-      </div>
-      <div class="hero-stat">
-        <span class="hero-stat-number">UC Berkeley</span>
-        <span class="hero-stat-label">B.S/M.S. in Mechanical Engineering</span>
-      </div>
-    </div>
-    
-    <div class="skill-badges">
-      <span class="skill-badge">Python</span>
-      <span class="skill-badge">C++</span>
-      <span class="skill-badge">Isaac Sim/Lab</span>
-      <span class="skill-badge">Mujoco</>span
-      <span class="skill-badge">Robotics</span>
-      <span class="skill-badge">Control Systems</span>
-      <span class="skill-badge">Reconstruction-3DGS</span>
+  <div class="hero-content hero-grid">
+    <aside class="hero-left">
+      <img src="/images/seongjaeahn.jpeg" alt="SeongJae (Jay) Ahn" class="hero-avatar">
+      <h3>SeongJae (Jay) Ahn</h3>
+      <p style="margin:6px 0 0; color:var(--text-secondary);">M.S. ME @ UC Berkeley | Controls in Robotics</p>
+      <ul class="contact-list" aria-label="Contact and links">
+        <li>Berkeley, CA</li>
+        <li>prev Khameleon Robotics | Root Applied Sciences</li>
+        <li><a href="mailto:jayahn@berkeley.edu">jayahn@berkeley.edu</a></li>
+        <li><a href="https://github.com/jayahn17" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/seongjae-ahn-126838244/" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </aside>
 
-    </div>
-    
-    <div class="hero-cta">
-      
+    <div class="hero-main">
+      <h1 class="hero-title">Controls & Robotics Engineer</h1>
+      <p class="hero-tagline">Building the Future of Autonomous Systems | M.S. ME @ UC Berkeley</p>
+
+      <div class="hero-stats grid" role="list">
+        <div class="hero-stat" role="listitem">
+          <span class="hero-stat-number">1+</span>
+          <span class="hero-stat-label">Years Experience</span>
+        </div>
+        <div class="hero-stat" role="listitem">
+          <span class="hero-stat-number">UC Berkeley</span>
+          <span class="hero-stat-label">Education</span>
+        </div>
+      </div>
+
+      <div class="skill-badges" aria-hidden="false">
+        <span class="skill-badge">Python</span>
+        <span class="skill-badge">C++</span>
+        <span class="skill-badge">Linux</span>
+        <span class="skill-badge">MATLAB</span>
+        <span class="skill-badge">Simulink</span>
+        <span class="skill-badge">NVIDIA Isaac Sim</span>
+        <span class="skill-badge">Mujoco</span>
+        <span class="skill-badge">ROS</span>
+        <span class="skill-badge">PyTorch</span>
+        <span class="skill-badge">Docker</span>
+        <span class="skill-badge">SolidWorks</span>
+        <span class="skill-badge">3D Printing</span>
+        <span class="skill-badge">Control Systems</span>
+      </div>
+
+      <div class="hero-summary">
+        M.S. Mechanical Engineering student focusing on Controls and Robotics. I'm fascinated by how everyday technological developments shape people's lives, and I'd like to be part of the teams that create them and lead their continued development. My goal is continuous learning and delivering practical, tested solutions—1% at a time.
+      </div>
     </div>
   </div>
 </div>
