@@ -41,8 +41,7 @@ redirect_from:
     </div>
     
     <div class="hero-cta">
-      <a href="/portfolio/" class="hero-btn">View My Work</a>
-      <a href="/cv/" class="hero-btn secondary">Download CV</a>
+      
     </div>
   </div>
 </div>

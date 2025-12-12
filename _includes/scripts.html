@@ -1,3 +1,15 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
 {% include analytics.html %}
+
+<script>
+  (function(){
+    var btn = document.getElementById('bg-toggle');
+    if (!btn) return;
+    btn.addEventListener('click', function(){
+      var isOn = document.body.classList.toggle('bg-black');
+      btn.setAttribute('aria-pressed', isOn ? 'true' : 'false');
+      btn.textContent = isOn ? 'Light BG' : 'Dark BG';
+    });
+  })();
+</script>

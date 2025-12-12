@@ -30,7 +30,6 @@ Berkeley, CA • [jayahn@berkeley.edu](mailto:jayahn@berkeley.edu) • (628) 529
 * **Control & Simulation Engineer Intern**  
   *Khameleon Robotics: Cleaning Humanoid Robot Startup, Mountain View, CA*  
   July 2025 – Present  
-  <img src="/images/khameleon_1.jpg" alt="Khameleon Robotics" style="max-width: 200px; float: right; margin-left: 20px; border-radius: 8px;">
   - Built hardware-in-the-loop teleoperation ("puppet") control system in NVIDIA Isaac Sim/Lab for a 13-DOF(6+6+1) dual-arm humanoid, streaming real-time joint states from Dynamixel servo controllers into a PhysX-based USD model.
   - Designed a modular control stack supporting collision-aware joint-space and task-space control modes, enabling rapid iteration and validation of dual manipulation control tests in simulation before on-robot deployment.
   - Reconfigured and synchronized all simulation camera views (eye-in-hand, over-the-shoulder, top-down, and base cameras) based on Leissac(Isaacsim + Lerobot + GROOT) repository for teleoperation, data collection, preparing fine-tunning and VLA operation in the next step.

@@ -20,6 +20,24 @@ body {
   position: relative;
 }
 
+/* Black background override when toggled */
+body.bg-black {
+  background-color: #000000 !important;
+}
+
+/* Toggle button styles */
+.bg-toggle {
+  margin-left: 12px;
+  padding: 6px 10px;
+  background: rgba(255,255,255,0.06);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.bg-toggle:hover { background: rgba(255,255,255,0.09); }
+
 @keyframes gradientShift {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
