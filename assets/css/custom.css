@@ -18,6 +18,8 @@ body {
   background-color: #ffffff; /* default clean white background */
   min-height: 100vh;
   position: relative;
+  color: var(--text-primary);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
 }
 
 /* Black background override when toggled */
@@ -184,6 +186,25 @@ body::before {
 /* Hide duplicate avatar in hero-left; use sidebar avatar only */
 .hero-left .hero-avatar {
   display: none;
+}
+
+/* Contact / links styling */
+.contact-list a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.contact-list a:hover { text-decoration: underline; }
+
+/* Improve contrast for timeline and content */
+.timeline-content, .timeline-year {
+  color: var(--text-primary);
+}
+
+/* Masthead toggle contrast */
+.bg-toggle {
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
 }
 
 .hero-avatar {

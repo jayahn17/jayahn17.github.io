@@ -44,7 +44,6 @@ redirect_from:
         <span class="skill-badge">Simulink</span>
         <span class="skill-badge">NVIDIA Isaac Sim</span>
         <span class="skill-badge">Mujoco</span>
-        <span class="skill-badge">ROS</span>
         <span class="skill-badge">PyTorch</span>
         <span class="skill-badge">Docker</span>
         <span class="skill-badge">SolidWorks</span>
@@ -270,7 +269,7 @@ I recognize my desire not only to follow these innovations, but also to be part 
   </div>
   
   <div class="timeline-item berkeley">
-    <div class="timeline-year">2025</div>
+    <div class="timeline-year">2025 - May 2026/</div>
     <div class="timeline-content">M.S. in Mechanical Engineering<br>University of California, Berkeley</div>
   </div>
 </div>
