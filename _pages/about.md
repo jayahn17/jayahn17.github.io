@@ -22,13 +22,12 @@ redirect_from:
     </aside>
 
     <div class="hero-main">
-      <h1 class="hero-title">Controls & Robotics Engineer</h1>
-      <p class="hero-tagline">Building the Future of Autonomous Systems | M.S. ME @ UC Berkeley</p>
+      <h1 class="hero-title">Controls & Simulation in Robotics</h1>
+      <p class="hero-tagline">B.S. focused in Mechatronics | M.S. concentration in Controls/Robotics</p>
 
       <div class="hero-stats grid" role="list">
         <div class="hero-stat" role="listitem">
-          <span class="hero-stat-number">1+</span>
-          <span class="hero-stat-label">Years Experience</span>
+
         </div>
         <div class="hero-stat" role="listitem">
           <span class="hero-stat-number">UC Berkeley</span>
@@ -52,15 +51,15 @@ redirect_from:
       </div>
 
       <div class="hero-summary">
-        M.S. Mechanical Engineering student focusing on Controls and Robotics. I'm fascinated by how everyday technological developments shape people's lives, and I'd like to be part of the teams that create them and lead their continued development. My goal is continuous learning and delivering practical, tested solutions—1% at a time.
+M.S. Mechanical Engineering student focusing on Controls and Robotics. I'm fascinated by how everyday technological developments shape people's lives, and I'd want to be part of the shaper. 
+
+I recognize my desire not only to follow these innovations, but also to be part of the teams that create them and lead their continued development around the world. My goal is to keep learning—1% at a time, today and tomorrow.
       </div>
     </div>
   </div>
 </div>
 
-M.S. Mechanical Engineering student focusing on Controls and Robotics. I'm fascinated by how everyday technological developments shape people's lives, and I'd want to be part of the shaper. 
 
-I recognize my desire not only to follow these innovations, but also to be part of the teams that create them and lead their continued development around the world. My goal is to keep learning—1% at a time, today and tomorrow.
 
 ## Timeline of Academics
 

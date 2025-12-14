@@ -15,7 +15,7 @@
 
 /* Animated Gradient Background */
 body {
-  background-color: #ffffff; /* default clean white background */
+  background-color: #000000; /* default dark background */
   min-height: 100vh;
   position: relative;
   color: var(--text-primary);
