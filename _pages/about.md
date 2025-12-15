@@ -8,18 +8,6 @@ redirect_from:
 ---
 
 <div class="hero-section">
-  <div class="hero-content hero-grid">
-    <aside class="hero-left">
-      <h3>SeongJae (Jay) Ahn</h3>
-      <p style="margin:6px 0 0; color:var(--text-secondary);">M.S. ME @ UC Berkeley | Controls in Robotics</p>
-      <ul class="contact-list" aria-label="Contact and links">
-        <li>Berkeley, CA</li>
-        <li>prev Khameleon Robotics | Root Applied Sciences</li>
-        <li><a href="mailto:jayahn@berkeley.edu">jayahn@berkeley.edu</a></li>
-        <li><a href="https://github.com/jayahn17" target="_blank" rel="noopener">GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/seongjae-ahn-126838244/" target="_blank" rel="noopener">LinkedIn</a></li>
-      </ul>
-    </aside>
 
     <div class="hero-main">
       <h1 class="hero-title">Controls & Simulation in Robotics</h1>
