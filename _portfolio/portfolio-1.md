@@ -1,14 +1,14 @@
 ---
----
 title: "TAF Lab - Autonomous Ocean Drone"
-excerpt: "Autonomous Ocean Drone prototype for sustainable marine transportation. Pitched to Vice Chancellor in Research at UC Berkeley."
+excerpt: "Autonomous Ocean Drone prototype for sustainable marine transportation."
+excerpt: "Autonomous Ocean Drone prototype for sustainable marine transportation. <br/><img src='/images/TAFlab_lolus.jpeg' style='max-width: 50%;'>"
 collection: portfolio
 category: work
 date: 2025-11-01
 role: "Undergraduate Research Assistant"
-duration: "May 2024 – Nov 2025"
+duration: "Jan 2024 – Dec 2024"
 team_size: 4
-tech_tags: ["Python", "ROS", "Sensors", "XBee", "Embedded"]
+tech_tags: ["Python", "Sensors", "XBee", "Embedded"]
 impact: "Top 20 in U.S. DOE 'Power at the Sea' Prize; built a real-time data pipeline supporting 50+ ocean tests"
 repo_url: ""
 demo_url: "https://youtu.be/YaZquZc88fw"
@@ -29,7 +29,7 @@ As an Undergraduate Research Assistant at the Theoretical & Applied Fluid Dynami
 - Led electronics implementation with 7+ sensors and established wireless communication using the Xbee protocol
 - Developed autonomous up/downwind control system using wind vanes, GPS, magnetometer, and motors
 - Conducted over 50+ ocean tests and built a real-time raw data acquisition pipeline linking device firmware to a Python database
-- **Pitched to Vice Chancellor in Research at UC Berkeley** alongside our best team, presenting our innovative autonomous ocean drone solution on collection data.
+- **Pitched to Vice Chancellor in Research(VCR) at UC Berkeley** alongside our best team, presenting our innovative autonomous ocean drone solution on collection data.
 ### Demo Video
 
 <!-- Option 1: YouTube Embed (Recommended - easiest and best performance) -->
@@ -40,7 +40,7 @@ As an Undergraduate Research Assistant at the Theoretical & Applied Fluid Dynami
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; margin: 20px 0;">
   <img src="/images/TAF Lab_1.jpeg" alt="TAF Lab Team Photo 1" style="max-width: 45%; flex: 1 1 300px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-  <img src="/images/TAFlab_lolus.jpeg" alt="TAF Lab Lolus" style="max-width: 45%; flex: 1 1 300px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+  <!-- <img src="/images/TAFlab_lolus.jpeg" alt="TAF Lab Lolus" style="max-width: 45%; flex: 1 1 300px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"> -->
 </div> 
 
 <!-- Option 2: Vimeo Embed -->
@@ -60,9 +60,9 @@ As an Undergraduate Research Assistant at the Theoretical & Applied Fluid Dynami
   Your browser does not support the video tag.
 </video> -->
 
-### Project Photos
+<!-- ### Project Photos
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; margin: 20px 0;">
   <img src="/images/TAF Lab_1.jpeg" alt="TAF Lab Team Photo 1" style="max-width: 45%; flex: 1 1 300px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
   <img src="/images/TAFlab_lolus.jpeg" alt="TAF Lab Lolus" style="max-width: 45%; flex: 1 1 300px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-</div> 
+</div>  -->

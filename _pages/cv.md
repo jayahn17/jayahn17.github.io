@@ -56,10 +56,13 @@ Berkeley, CA • [jayahn@berkeley.edu](mailto:jayahn@berkeley.edu) • (628) 529
   - Assured QA test on ML training sets across 2000+ frames in accordance with evolving guidelines for guiding AV LLM.
 
 * **Undergraduate Research Assistant**  
-  *Prof. M. Reza Alam - Theoretical & Applied Fluid Dynamics (TAF) Laboratory, UC Berkeley*  
-  February 2024 – December 2024  
+  *TAF Lab (Theoretical & Applied Fluid Dynamics Laboratory) - Prof. M. Reza Alam, UC Berkeley*  
+  May 2024 – November 2025  
   - Ranked Top 20 / 3400 in the U.S. DOE "Power at the Sea Prize" competition and listed as an inventor on submitted patent application on "A Multimodal Mobile Sea-based Power Generation and Delivery" (patent pending review).
+  - Led electronics implementation with 7+ sensors and established wireless communication using XBee protocol for autonomous ocean drone prototype.
   - Developed autonomous up/downwind sail motion control using wind vanes, GPS, magnetometer, motors and designed a real-time raw data acquisition pipeline of Bay Ocean data by bridging device firmware to database.
+  - Conducted over 50+ ocean tests and built a real-time raw data acquisition pipeline linking device firmware to a Python database.
+  - Pitched to Vice Chancellor in Research at UC Berkeley, presenting the innovative autonomous ocean drone solution.
 
 * **UC Berkeley Solar Vehicle Team, CalSol – Battery & Suspension Team Member**  
   *UC Berkeley Solar Vehicle Team*  
