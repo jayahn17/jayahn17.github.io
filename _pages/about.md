@@ -310,17 +310,17 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
 
 * **\[Fall, 2024\]** Earned second place at design showcase for ME102B Mechatronics project - Robotic Fish with unique tail mechanism design. -->
 
-</div>
-
+  </div>
+  
 ## Projects
 
 <ol class="publication-list">
   <li class="publication-item">
     <span class="publication-number">1.</span>
     <div class="publication-thumbnail">
-      <div class="publication-tag">ME239</div>
+      <!-- <div class="publication-tag">ME239</div> -->
       <video muted preload="metadata" playsinline>
-        <source src="/images/me239_1.mov" type="video/quicktime">
+        <source src="/images/me239_front_pg.png" type="video/quicktime">
       </video>
     </div>
     <div class="publication-content">
@@ -348,7 +348,7 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
     <div class="publication-thumbnail">
       <div class="publication-tag">Class</div>
       <video muted preload="metadata" playsinline>
-        <source src="/images/caliber_demo_part1.mp4" type="video/mp4">
+        <source src="/images/caliber_pg1.png">
       </video>
     </div>
     <div class="publication-content">
@@ -388,12 +388,9 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
       </video>
     </div>
     <div class="publication-content">
-      <div class="publication-title">Khameleon Robotics - Humanoid Robot Cleaning Startup, Control & Simulation Engineer Intern</div>
+      <div class="publication-title"><a href="/portfolio/portfolio-5/">Khameleon Robotics - Humanoid Robot Cleaning Startup, Control & Simulation Engineer Intern</a></div>
       <div class="publication-authors">Elliot. Hong, Seongjae Ahn, Nilesh Kothari</div>
       <div class="publication-venue">Built hardware-in-the-loop teleoperation control system in NVIDIA Isaac Sim/Lab for a 13-DOF dual-arm humanoid, streaming real-time joint states from Dynamixel servo controllers. Designed modular control stack supporting collision-aware joint-space and task-space control modes.</div>
-      <div class="publication-links">
-        <a href="/portfolio/portfolio-5/" class="publication-link">Project Page</a>
-      </div>
     </div>
   </li>
 
@@ -404,11 +401,8 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
       <img src="/images/root_deployment.jpg" alt="Root Applied Sciences">
     </div>
     <div class="publication-content">
-      <div class="publication-title">Root Applied Sciences, Junior Engineer / Mechanical / Hardware Engineering Intern</div>
+      <div class="publication-title"><a href="/portfolio/portfolio-2/">Root Applied Sciences, Junior Engineer / Mechanical / Hardware Engineering Intern</a></div>
       <div class="publication-venue">Managed preparation and maintenance of 80+ devices, ensuring firmware reliability. Designed and 3D-printed insect-resistant housings, reducing damage by 100% and increasing QC efficiency by 50%. Designed micro-fluid door system using electromagnetic fields with SLA printing.</div>
-      <div class="publication-links">
-        <a href="/portfolio/portfolio-2/" class="publication-link">Project Page</a>
-      </div>
     </div>
   </li>
 </ol>
@@ -423,12 +417,9 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
       <img src="/images/TAF Lab_1.jpeg" alt="TAF Lab">
     </div>
     <div class="publication-content">
-      <div class="publication-title">TAF Lab (Theoretical & Applied Fluid Dynamics Laboratory) - Prof. M. Reza Alam, UC Berkeley, Undergraduate Research Assistant</div>
+      <div class="publication-title"><a href="/portfolio/portfolio-1/">TAF Lab (Theoretical & Applied Fluid Dynamics Laboratory) - Prof. M. Reza Alam, UC Berkeley, Undergraduate Research Assistant</a></div>
       <div class="publication-authors">E. Kuo, S. Ahn, A. Khan</div>
       <div class="publication-venue">Ranked Top 20 / 3400 in U.S. DOE "Power at the Sea Prize" competition. Led electronics implementation with 7+ sensors and established wireless communication using XBee protocol. Developed autonomous up/downwind sail motion control and conducted 50+ ocean tests. Listed as inventor on patent application for "A Multimodal Mobile Sea-based Power Generation and Delivery."</div>
-      <div class="publication-links">
-        <a href="/portfolio/portfolio-1/" class="publication-link">Project Page</a>
-      </div>
     </div>
   </li>
 </ol>
@@ -443,11 +434,8 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
       <img src="/images/CalSol_suspension.png" alt="CalSol">
     </div>
     <div class="publication-content">
-      <div class="publication-title">UC Berkeley Solar Vehicle Team, CalSol – Battery & Suspension Team Member</div>
+      <div class="publication-title"><a href="/portfolio/portfolio-4/">UC Berkeley Solar Vehicle Team, CalSol – Battery & Suspension Team Member</a></div>
       <div class="publication-venue">Consolidated two front suspension brackets, reducing weight by 10% while ensuring safety via FEA. Reconfigured circuit wiring to optimize battery efficiency, achieving 5% power savings.</div>
-      <div class="publication-links">
-        <a href="/portfolio/portfolio-4/" class="publication-link">Project Page</a>
-      </div>
     </div>
   </li>
 </ol>
@@ -476,7 +464,7 @@ Tutored students in Intro to Engineering Mechanics, Electromagnetics, and Quantu
   *August 2017 – April 2019*
 
 
-</div>
+  </div>
 
 </div>
 
