@@ -264,13 +264,13 @@ p {
 
 <div class="professional-header">
   <h1>SeongJae (Jay) Ahn</h1>
-  <div class="title">M.S. Student in Mechanical Engineering</div>
+  <div class="title">B.S / M.S. Student in Mechanical Engineering</div>
   <div class="affiliation">University of California, Berkeley</div>
   <div class="contact">
     <a href="mailto:jayahn@berkeley.edu">jayahn@berkeley.edu</a>
   </div>
-</div>
-
+  </div>
+  
 <div markdown="1">
 
 ## About Me
@@ -385,31 +385,33 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
   Squad Leader  
   *August 2017 – April 2019*
 
-## Work & Teaching Experiences
+## Work/Research Experiences
 
 #### Work Experience
 
-* **Khameleon Robotics, Control & Simulation Engineer Intern:** Built hardware-in-the-loop teleoperation control system in NVIDIA Isaac Sim/Lab for a 13-DOF dual-arm humanoid, streaming real-time joint states from Dynamixel servo controllers. Designed modular control stack supporting collision-aware joint-space and task-space control modes.
+* **Khameleon Robotics - Humanoid Robot Cleaning Startup, Control & Simulation Engineer Intern** 
+Built hardware-in-the-loop teleoperation control system in NVIDIA Isaac Sim/Lab for a 13-DOF dual-arm humanoid, streaming real-time joint states from Dynamixel servo controllers. Designed modular control stack supporting collision-aware joint-space and task-space control modes.  
+<a href="/portfolio/portfolio-5/" class="publication-link">Project Page</a>
 
-* **Root Applied Sciences, Junior Engineer / Mechanical / Hardware Engineering Intern:** Managed preparation and maintenance of 80+ devices, ensuring firmware reliability. Designed and 3D-printed insect-resistant housings, reducing damage by 100% and increasing QC efficiency by 50%. Designed micro-fluid door system using electromagnetic fields with SLA printing.
+* **Root Applied Sciences, Junior Engineer / Mechanical / Hardware Engineering Intern:** Managed preparation and maintenance of 80+ devices, ensuring firmware reliability. Designed and 3D-printed insect-resistant housings, reducing damage by 100% and increasing QC efficiency by 50%. Designed micro-fluid door system using electromagnetic fields with SLA printing.  
+<a href="/portfolio/portfolio-2/" class="publication-link">Project Page</a>
 
-* **TAF Lab (Theoretical & Applied Fluid Dynamics Laboratory) - Prof. M. Reza Alam, UC Berkeley, Undergraduate Research Assistant:** Ranked Top 20 / 3400 in U.S. DOE "Power at the Sea Prize" competition. Led electronics implementation with 7+ sensors and established wireless communication using XBee protocol. Developed autonomous up/downwind sail motion control and conducted 50+ ocean tests. Listed as inventor on patent application for "A Multimodal Mobile Sea-based Power Generation and Delivery."
+#### Research Experience
 
-* **UC Berkeley Solar Vehicle Team, CalSol – Battery & Suspension Team Member:** Consolidated two front suspension brackets, reducing weight by 10% while ensuring safety via FEA. Reconfigured circuit wiring to optimize battery efficiency, achieving 5% power savings.
+* **TAF Lab (Theoretical & Applied Fluid Dynamics Laboratory) - Prof. M. Reza Alam, UC Berkeley, Undergraduate Research Assistant:** 
+
+Ranked Top 20 / 3400 in U.S. DOE "Power at the Sea Prize" competition. Led electronics implementation with 7+ sensors and established wireless communication using XBee protocol. Developed autonomous up/downwind sail motion control and conducted 50+ ocean tests. Listed as inventor on patent application for "A Multimodal Mobile Sea-based Power Generation and Delivery."  
+<a href="/portfolio/portfolio-1/" class="publication-link">Project Page</a>
+
+#### Student Club
+
+* **UC Berkeley Solar Vehicle Team, CalSol – Battery & Suspension Team Member:** Consolidated two front suspension brackets, reducing weight by 10% while ensuring safety via FEA. Reconfigured circuit wiring to optimize battery efficiency, achieving 5% power savings.  
+<a href="/portfolio/portfolio-4/" class="publication-link">Project Page</a>
 
 #### Teaching Experience
 
-* **Diablo Valley College, Physics Tutor:** Tutored students in Engineering Mechanics, Electromagnetics, and Quantum Mechanics.
-
-## Honors & Awards
-
-#### Honors
-
-* **Top 20 / 3400 in U.S. DOE "Power at the Sea Prize" competition**, U.S. Department of Energy, 2025
-
-* **Second Place at Design Showcase**, ME102B Mechatronics, UC Berkeley, 2024
-
-* **Best Warrior Competition Recognition**, Republic of Korea Army, 2018
+* **Diablo Valley College, Physics Tutor**
+Tutored students in Intro to Engineering Mechanics, Electromagnetics, and Quantum Mechanics.
 
 </div>
 
