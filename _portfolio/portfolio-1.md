@@ -13,10 +13,10 @@ impact: "Top 20 in U.S. DOE 'Power at the Sea' Prize; built a real-time data pip
 repo_url: ""
 demo_url: "https://youtu.be/YaZquZc88fw"
 featured: true
-teaser: "/images/TAF Lab_1.jpeg"
+teaser: "/images/TAF_Lab_1.jpeg"
 ---
 
-## CAPTAIN: Smart Steering Through Waves for Sustainable Marine Transportation
+## CAPTAIN: Swarm of Autonomous Ocean Drone
 
 **Team Members:** Evan Kuo, Seongjae Ahn, Arsh Khan, Prof. Reza Alam
 

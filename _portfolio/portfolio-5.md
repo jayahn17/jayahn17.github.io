@@ -10,13 +10,12 @@ date: 2024-12-01
 
 ### Project Overview
 
-As a Controls & Simulation Intern at Khameleon Robotics, I worked on developing advanced robotics controls and simulation systems for innovative robotic applications.
+As a Controls & Simulation Intern at Khameleon Robotics, my responsibility was on setting up realiale simulation in Nvidia Isaac Sim/Lab and create lead/follower environment.
 
 ### Key Achievements
-
-- Developed and implemented control systems for robotic platforms
-- Created simulation environments for testing and validation
-- Collaborated on advanced robotics solutions and automation systems
+- Set up Nvidia Isaac Sim/Lab pipeline for 13DOF Humanoid arm from white paper.
+- Synchronized 12DOF puppet controller syncing with bimanual arm.
+- Generated camera views in front/back/left/right/chest angles.
 
 
 <img src="/images/kha_top_cam.png" alt="Khameleon Top Camera" style="max-width: 60%; margin: 20px 0; display: block; border-radius: 8px;">
