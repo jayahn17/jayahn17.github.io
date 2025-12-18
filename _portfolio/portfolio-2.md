@@ -53,3 +53,4 @@ Working at Root Applied Sciences on developing a pathogen monitoring device with
     <p style="margin-top: 8px; font-size: 0.9em; color: #666;"><strong>Field Deployment:</strong> Device installed in monitoring location</p>
   </div>
 </div> 
+

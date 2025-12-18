@@ -332,7 +332,7 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
 
 ## Research Interests
 
-* **Robot Learning:** VLA/VLM for robot control and manipulation
+* **Robot Learning:** VLA / VLM for robot control and manipulation
 * **Control Systems:** Advanced control theory and implementation for robotic systems
 * **Simulation & Hardware-in-the-Loop:** NVIDIA Isaac Sim/Lab, Mujoco, and real-time control systems
 * **Multi-Agent Systems:** Coordination and control of multi-robot systems
@@ -355,9 +355,7 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
     <span class="publication-number">1.</span>
     <div class="publication-thumbnail">
       <!-- <div class="publication-tag">ME239</div> -->
-      <video muted preload="metadata" playsinline>
-        <source src="/images/me239_front_pg.png" type="video/quicktime">
-      </video>
+      <img src="/images/me239_front_pg.png" alt="Spider Robot">
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-6/">Spider Robot - Robotic Locomotion</a></div>
@@ -383,12 +381,10 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
     <span class="publication-number">3.</span>
     <div class="publication-thumbnail">
       <div class="publication-tag">Class</div>
-      <video muted preload="metadata" playsinline>
-        <source src="/images/caliber_pg1.png">
-      </video>
+      <img src="/images/caliber_pg1.png" alt="Caliber Platform">
     </div>
     <div class="publication-content">
-      <div class="publication-title"><a href="/portfolio/portfolio-3/">Caliber - Open Source Platform</a></div>
+      <div class="publication-title"><a href="/portfolio/portfolio-3/">Caliber - Student Projects ssOpen Source Platform</a></div>
       <div class="publication-authors">S. Ahn</div>
       <div class="publication-venue">Open Source Platform, UC Berkeley, 2025.</div>
     </div>
@@ -419,12 +415,10 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
     <span class="publication-number">1.</span>
     <div class="publication-thumbnail">
       <div class="publication-tag">Work</div>
-      <video muted preload="metadata" playsinline>
-        <source src="/images/kha_grab_little.mov" type="video/quicktime">
-      </video>
+      <img src="/images/kha_grab_img.png" alt="Khameleon Robotics">
     </div>
     <div class="publication-content">
-      <div class="publication-title"><a href="/portfolio/portfolio-5/">Khameleon Robotics - Humanoid Robot Cleaning Startup, Control & Simulation Engineer Intern</a></div>
+      <div class="publication-title"><a href="/portfolio/portfolio-5/">Khameleon Robotics (Humanoid Robot Cleaning Startup) : Control & Simulation Engineer Intern</a></div>
       <div class="publication-authors">Elliot. Hong, Seongjae Ahn, Nilesh Kothari</div>
       <div class="publication-venue">Built hardware-in-the-loop teleoperation control system in NVIDIA Isaac Sim/Lab for a 13-DOF dual-arm humanoid, streaming real-time joint states from Dynamixel servo controllers. Designed modular control stack supporting collision-aware joint-space and task-space control modes.</div>
       <div class="publication-links">
@@ -440,7 +434,7 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
       <img src="/images/root_deployment.jpg" alt="Root Applied Sciences">
     </div>
     <div class="publication-content">
-      <div class="publication-title"><a href="/portfolio/portfolio-2/">Root Applied Sciences, Junior Engineer / Mechanical / Hardware Engineering Intern</a></div>
+      <div class="publication-title"><a href="/portfolio/portfolio-2/">Root Applied Sciences(AgriTech Startup):  Junior Engineer Contractor, Mechanical / Hardware Engineering Intern</a></div>
       <div class="publication-venue">Managed preparation and maintenance of 80+ devices, ensuring firmware reliability. Designed and 3D-printed insect-resistant housings, reducing damage by 100% and increasing QC efficiency by 50%. Designed micro-fluid door system using electromagnetic fields with SLA printing.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-2/" class="publication-link">Project Page</a>
@@ -456,7 +450,7 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
     <span class="publication-number">1.</span>
     <div class="publication-thumbnail">
       <div class="publication-tag">Research</div>
-      <img src="/images/TAF Lab_1.jpeg" alt="TAF Lab">
+      <img src="/images/TAF_Lab_1.jpeg" alt="TAF Lab">
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-1/">TAF Lab (Theoretical & Applied Fluid Dynamics Laboratory) - Prof. M. Reza Alam, UC Berkeley, Undergraduate Research Assistant</a></div>

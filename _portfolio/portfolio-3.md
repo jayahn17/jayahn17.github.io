@@ -19,7 +19,7 @@ Caliber is a platform featuring 400+ open source projects from UC Berkeley, show
 ### My Contributions
 
 **Frontend Development:**
-- Developed responsive web interface for browsing and searching through 400+ open source projects
+- Developed responsive web interface for browsing and searching through 500+ open source projects
 - Implemented user-friendly navigation and filtering systems to help users discover relevant projects
 - Created visually appealing project cards and detail pages with consistent design language
 
