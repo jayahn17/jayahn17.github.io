@@ -275,10 +275,11 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
 
 ## Research Interests
 
-* **Robot Learning:** Reinforcement learning for robot control and manipulation
+* **Robot Learning:** VLA/VLM for robot control and manipulation
 * **Control Systems:** Advanced control theory and implementation for robotic systems
 * **Simulation & Hardware-in-the-Loop:** NVIDIA Isaac Sim/Lab, Mujoco, and real-time control systems
 * **Multi-Agent Systems:** Coordination and control of multi-robot systems
+* **Reconstruction:** Worldlab, 3Dgrut 3D assest generation
 
 ## News
 
