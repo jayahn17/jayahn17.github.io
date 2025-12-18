@@ -139,6 +139,11 @@ p {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
+}
+
+.publication-thumbnail video {
+  background: #1a1a1a;
 }
 
 .publication-tag {
@@ -174,9 +179,10 @@ p {
 
 .publication-venue {
   color: #b0b0b0;
-  font-style: italic;
-  margin: 4px 0;
-  font-size: 0.9em;
+  font-style: normal;
+  margin: 8px 0;
+  font-size: 0.95em;
+  line-height: 1.6;
 }
 
 .publication-links {
@@ -302,7 +308,7 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
     <span class="publication-number">1.</span>
     <div class="publication-thumbnail">
       <div class="publication-tag">ME239</div>
-      <video muted>
+      <video muted preload="metadata" playsinline>
         <source src="/images/me239_1.mov" type="video/quicktime">
       </video>
     </div>
@@ -336,7 +342,7 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
     <span class="publication-number">3.</span>
     <div class="publication-thumbnail">
       <div class="publication-tag">Class</div>
-      <video muted>
+      <video muted preload="metadata" playsinline>
         <source src="/images/caliber_demo_part1.mp4" type="video/mp4">
       </video>
     </div>
@@ -389,24 +395,81 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
 
 #### Work Experience
 
-* **Khameleon Robotics - Humanoid Robot Cleaning Startup, Control & Simulation Engineer Intern** 
-Built hardware-in-the-loop teleoperation control system in NVIDIA Isaac Sim/Lab for a 13-DOF dual-arm humanoid, streaming real-time joint states from Dynamixel servo controllers. Designed modular control stack supporting collision-aware joint-space and task-space control modes.  
-<a href="/portfolio/portfolio-5/" class="publication-link">Project Page</a>
+<ol class="publication-list">
+  <li class="publication-item">
+    <span class="publication-number">1.</span>
+    <div class="publication-thumbnail">
+      <div class="publication-tag">Work</div>
+      <video muted preload="metadata" playsinline>
+        <source src="/images/kha_grab_little.mov" type="video/quicktime">
+      </video>
+    </div>
+    <div class="publication-content">
+      <div class="publication-title">Khameleon Robotics - Humanoid Robot Cleaning Startup, Control & Simulation Engineer Intern</div>
+      <div class="publication-authors">S. Ahn</div>
+      <div class="publication-venue">Built hardware-in-the-loop teleoperation control system in NVIDIA Isaac Sim/Lab for a 13-DOF dual-arm humanoid, streaming real-time joint states from Dynamixel servo controllers. Designed modular control stack supporting collision-aware joint-space and task-space control modes.</div>
+      <div class="publication-links">
+        <a href="/portfolio/portfolio-5/" class="publication-link">Project Page</a>
+      </div>
+    </div>
+  </li>
 
-* **Root Applied Sciences, Junior Engineer / Mechanical / Hardware Engineering Intern:** Managed preparation and maintenance of 80+ devices, ensuring firmware reliability. Designed and 3D-printed insect-resistant housings, reducing damage by 100% and increasing QC efficiency by 50%. Designed micro-fluid door system using electromagnetic fields with SLA printing.  
-<a href="/portfolio/portfolio-2/" class="publication-link">Project Page</a>
+  <li class="publication-item">
+    <span class="publication-number">2.</span>
+    <div class="publication-thumbnail">
+      <div class="publication-tag">Work</div>
+      <img src="/images/root_deployment.jpg" alt="Root Applied Sciences">
+    </div>
+    <div class="publication-content">
+      <div class="publication-title">Root Applied Sciences, Junior Engineer / Mechanical / Hardware Engineering Intern</div>
+      <div class="publication-authors">S. Ahn</div>
+      <div class="publication-venue">Managed preparation and maintenance of 80+ devices, ensuring firmware reliability. Designed and 3D-printed insect-resistant housings, reducing damage by 100% and increasing QC efficiency by 50%. Designed micro-fluid door system using electromagnetic fields with SLA printing.</div>
+      <div class="publication-links">
+        <a href="/portfolio/portfolio-2/" class="publication-link">Project Page</a>
+      </div>
+    </div>
+  </li>
+</ol>
 
 #### Research Experience
 
-* **TAF Lab (Theoretical & Applied Fluid Dynamics Laboratory) - Prof. M. Reza Alam, UC Berkeley, Undergraduate Research Assistant:** 
-
-Ranked Top 20 / 3400 in U.S. DOE "Power at the Sea Prize" competition. Led electronics implementation with 7+ sensors and established wireless communication using XBee protocol. Developed autonomous up/downwind sail motion control and conducted 50+ ocean tests. Listed as inventor on patent application for "A Multimodal Mobile Sea-based Power Generation and Delivery."  
-<a href="/portfolio/portfolio-1/" class="publication-link">Project Page</a>
+<ol class="publication-list">
+  <li class="publication-item">
+    <span class="publication-number">1.</span>
+    <div class="publication-thumbnail">
+      <div class="publication-tag">Research</div>
+      <img src="/images/TAF Lab_1.jpeg" alt="TAF Lab">
+    </div>
+    <div class="publication-content">
+      <div class="publication-title">TAF Lab (Theoretical & Applied Fluid Dynamics Laboratory) - Prof. M. Reza Alam, UC Berkeley, Undergraduate Research Assistant</div>
+      <div class="publication-authors">S. Ahn</div>
+      <div class="publication-venue">Ranked Top 20 / 3400 in U.S. DOE "Power at the Sea Prize" competition. Led electronics implementation with 7+ sensors and established wireless communication using XBee protocol. Developed autonomous up/downwind sail motion control and conducted 50+ ocean tests. Listed as inventor on patent application for "A Multimodal Mobile Sea-based Power Generation and Delivery."</div>
+      <div class="publication-links">
+        <a href="/portfolio/portfolio-1/" class="publication-link">Project Page</a>
+      </div>
+    </div>
+  </li>
+</ol>
 
 #### Student Club
 
-* **UC Berkeley Solar Vehicle Team, CalSol – Battery & Suspension Team Member:** Consolidated two front suspension brackets, reducing weight by 10% while ensuring safety via FEA. Reconfigured circuit wiring to optimize battery efficiency, achieving 5% power savings.  
-<a href="/portfolio/portfolio-4/" class="publication-link">Project Page</a>
+<ol class="publication-list">
+  <li class="publication-item">
+    <span class="publication-number">1.</span>
+    <div class="publication-thumbnail">
+      <div class="publication-tag">CalSol</div>
+      <img src="/images/CalSol_suspension.png" alt="CalSol">
+    </div>
+    <div class="publication-content">
+      <div class="publication-title">UC Berkeley Solar Vehicle Team, CalSol – Battery & Suspension Team Member</div>
+      <div class="publication-authors">S. Ahn</div>
+      <div class="publication-venue">Consolidated two front suspension brackets, reducing weight by 10% while ensuring safety via FEA. Reconfigured circuit wiring to optimize battery efficiency, achieving 5% power savings.</div>
+      <div class="publication-links">
+        <a href="/portfolio/portfolio-4/" class="publication-link">Project Page</a>
+      </div>
+    </div>
+  </li>
+</ol>
 
 #### Teaching Experience
 
@@ -434,9 +497,19 @@ document.addEventListener('DOMContentLoaded', function() {
       video.currentTime = 0;
     });
     
-    // Set video to show first frame
+    // Set video to show first frame as thumbnail
     video.addEventListener('loadedmetadata', function() {
       video.currentTime = 0.1;
+    });
+    
+    // Ensure video loads and shows first frame
+    video.load();
+    
+    // Try to show first frame immediately
+    video.addEventListener('canplay', function() {
+      if (video.readyState >= 2) {
+        video.currentTime = 0.1;
+      }
     });
   });
 });
