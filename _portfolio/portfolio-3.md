@@ -14,7 +14,7 @@ date: 2025-12-01
   <img src="/images/caliber_front.png" alt="Caliber Front" style="width: 100%; max-width: 800px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); object-fit: contain;">
 </div>
 
-Caliber is a platform featuring 400+ open source projects from UC Berkeley, showcasing the innovative work and contributions from the Berkeley community.
+Caliber is a platform featuring 500+ open source projects from UC Berkeley, showcasing the innovative work and contributions from the Berkeley community.
 
 ### My Contributions
 
@@ -36,12 +36,12 @@ Caliber is a platform featuring 400+ open source projects from UC Berkeley, show
 
 <p><em>Note: Due to 50MB file size limit, the demo video has been divided into two sections.</em></p>
 
-<div style="display: flex; gap: 20px; flex-wrap: wrap; margin: 20px 0;">
-  <video width="48%" controls style="border-radius: 8px;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 20px; margin: 20px 0;">
+  <video width="100%" controls style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
     <source src="/images/caliber_demo_part1.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-  <video width="48%" controls style="border-radius: 8px;">
+  <video width="100%" controls style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
     <source src="/images/caliber_demo_part2.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
@@ -49,7 +49,7 @@ Caliber is a platform featuring 400+ open source projects from UC Berkeley, show
 
 ### Key Features
 
-- Comprehensive collection of currently 400+ open source projects,
+- Comprehensive collection of currently 500+ open source projects
 - Community-driven platform for UC Berkeley
 - Showcasing innovative work from UC Berkeley students and researchers
 

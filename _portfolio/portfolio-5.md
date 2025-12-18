@@ -10,7 +10,7 @@ date: 2024-12-01
 
 ### Project Overview
 
-As a Controls & Simulation Intern at Khameleon Robotics, my responsibility was on setting up reliable simulation in Nvidia Isaac Sim/Lab and create lead/follower environment for humanoid robot control and training.
+As a Controls & Simulation Intern at Khameleon Robotics, I was responsible for setting up reliable simulation in Nvidia Isaac Sim/Lab and creating a lead/follower environment for humanoid robot control and training.
 
 ### My Contributions
 
@@ -51,15 +51,6 @@ As a Controls & Simulation Intern at Khameleon Robotics, my responsibility was o
     Your browser does not support the video tag.
   </video>
 </div>
-
-
-<!-- ### Project Photos
-
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin: 20px 0;">
-  <img src="/images/khameleon_1.jpg" alt="Khameleon Robotics 1" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-  <img src="/images/khameleon_2.jpg" alt="Khameleon Robotics 2" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-  <img src="/images/khameleon_3.jpg" alt="Khameleon Robotics 3" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-</div> -->
 
 ### Project Videos
 
@@ -103,10 +94,7 @@ As a Controls & Simulation Intern at Khameleon Robotics, my responsibility was o
   </div>
   <div style="background: #fff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
     <strong>Screen 4 — Results & Metrics</strong>
-    <p style="margin-top:8px;"> Customized 4 camera angle view , and deployed unit in Isaac Lab environment to create collision avoidance test / Training</p>
+    <p style="margin-top:8px;">Customized 4 camera angle view, and deployed unit in Isaac Lab environment to create collision avoidance test/training</p>
   </div>
 </div>
-
-
-
 

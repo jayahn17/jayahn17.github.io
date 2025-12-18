@@ -1,6 +1,6 @@
 ---
 title: "Root Applied Sciences"
-excerpt: " Pathogen Monitoring Device - microfluid door design <br/><img src='/images/root_deployment.jpg'>"
+excerpt: "Pathogen Monitoring Device - microfluid door design <br/><img src='/images/root_deployment.jpg'>"
 collection: portfolio
 category: work
 date: 2024-11-01
@@ -52,5 +52,4 @@ Working at Root Applied Sciences on developing a pathogen monitoring device with
     <img src="/images/root_deployment.jpg" alt="Root Deployment" style="width: 100%; max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); object-fit: contain;">
     <p style="margin-top: 8px; font-size: 0.9em; color: #666;"><strong>Field Deployment:</strong> Device installed in monitoring location</p>
   </div>
-</div> 
-
+</div>
