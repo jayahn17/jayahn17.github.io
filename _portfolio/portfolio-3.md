@@ -14,9 +14,51 @@ date: 2025-12-01
   <img src="/images/caliber_front.png" alt="Caliber Front" style="width: 100%; max-width: 800px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); object-fit: contain;">
 </div>
 
-Caliber is a platform featuring 500+ open source projects from UC Berkeley, showcasing the innovative work and contributions from the Berkeley community.
+Caliber is a platform featuring 500+ open source projects from UC Berkeley, showcasing the innovative work and contributions from the UC Berkeley community. Currently in the development phase, we are conducting use case research and expanding to include file management features. This project originated from ENGIN 283 - AI Startup Course.
 
-### My Contributions
+
+### Demo Video
+
+<p><em>Note: Due to 50MB file size limit, the demo video has been divided into two sections.</em></p>
+
+<div style="display: flex; justify-content: center; gap: 20px; margin: 20px 0; flex-wrap: wrap;">
+  <video width="100%" controls muted playsinline style="max-width: 500px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" onloadedmetadata="this.currentTime=0">
+    <source src="/images/caliber_demo_part1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <video width="100%" controls muted playsinline style="max-width: 500px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" onloadedmetadata="this.currentTime=18">
+    <source src="/images/caliber_demo_part2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<script>
+  // Auto-play videos when they come into view
+  document.addEventListener('DOMContentLoaded', function() {
+    const videos = document.querySelectorAll('video[controls]');
+    
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.play().catch(e => {
+            // Autoplay was prevented, user interaction required
+            console.log('Autoplay prevented:', e);
+          });
+        } else {
+          entry.target.pause();
+        }
+      });
+    }, {
+      threshold: 0.5 // Play when 50% of video is visible
+    });
+    
+    videos.forEach(video => {
+      observer.observe(video);
+    });
+  });
+</script>
+
+### 
 
 **Frontend Development:**
 - Developed responsive web interface for browsing and searching through 500+ open source projects
@@ -32,20 +74,7 @@ Caliber is a platform featuring 500+ open source projects from UC Berkeley, show
 - Worked on data pipeline to aggregate and organize project information from various sources
 - Ensured consistent data formatting and presentation across all project entries
 
-### Demo Video
 
-<p><em>Note: Due to 50MB file size limit, the demo video has been divided into two sections.</em></p>
-
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 20px; margin: 20px 0;">
-  <video width="100%" controls style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-    <source src="/images/caliber_demo_part1.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <video width="100%" controls style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-    <source src="/images/caliber_demo_part2.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
 
 ### Key Features
 
