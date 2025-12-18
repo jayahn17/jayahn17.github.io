@@ -13,38 +13,37 @@ redirect_from:
   margin: 0 auto;
   padding: 40px 20px;
   line-height: 1.8;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .professional-header {
   text-align: center;
-  margin-bottom: 50px;
-  padding-bottom: 30px;
-  border-bottom: 2px solid #e0e0e0;
+  margin-bottom: 40px;
 }
 
 .professional-header h1 {
-  font-size: 2.5em;
-  margin: 0 0 10px 0;
+  font-size: 2.2em;
+  margin: 0 0 8px 0;
   color: #2c3e50;
   font-weight: 600;
 }
 
 .professional-header .title {
-  font-size: 1.2em;
+  font-size: 1.1em;
   color: #7a8288;
-  margin: 5px 0;
+  margin: 4px 0;
 }
 
 .professional-header .affiliation {
   font-size: 1.1em;
   color: #7a8288;
-  margin: 5px 0;
+  margin: 4px 0;
 }
 
 .professional-header .contact {
   font-size: 1em;
   color: #7a8288;
-  margin: 10px 0;
+  margin: 8px 0;
 }
 
 .professional-header .contact a {
@@ -57,72 +56,175 @@ redirect_from:
 }
 
 .section {
-  margin: 50px 0;
+  margin: 40px 0;
 }
 
 .section h2 {
-  font-size: 1.8em;
+  font-size: 1.6em;
   color: #2c3e50;
-  margin-bottom: 20px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #e0e0e0;
+  margin: 30px 0 15px 0;
   font-weight: 600;
 }
 
 .section p {
   color: #4a4a4a;
-  margin: 15px 0;
+  margin: 12px 0;
+  line-height: 1.7;
 }
 
 .section ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .section ul li {
-  margin: 15px 0;
+  margin: 12px 0;
   padding-left: 0;
   color: #4a4a4a;
+  line-height: 1.7;
 }
 
 .section ul li strong {
   color: #2c3e50;
+  font-weight: 600;
 }
 
-.section ul li:before {
+/* Numbered list for publications/projects */
+.publication-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.publication-item {
+  display: flex;
+  gap: 20px;
+  margin: 25px 0;
+  align-items: flex-start;
+}
+
+.publication-number {
+  flex-shrink: 0;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-top: 2px;
+}
+
+.publication-thumbnail {
+  flex-shrink: 0;
+  width: 180px;
+  height: 100px;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  background: #f5f5f5;
+}
+
+.publication-thumbnail video,
+.publication-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.publication-tag {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background: rgba(0, 102, 204, 0.9);
+  color: white;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 0.7em;
+  font-weight: 600;
+  z-index: 1;
+}
+
+.publication-content {
+  flex: 1;
+}
+
+.publication-title {
+  font-size: 1.05em;
+  font-weight: 600;
+  color: #2c3e50;
+  margin: 0 0 4px 0;
+  line-height: 1.4;
+}
+
+.publication-authors {
+  color: #4a4a4a;
+  margin: 4px 0;
+  font-size: 0.95em;
+}
+
+.publication-venue {
+  color: #7a8288;
+  font-style: italic;
+  margin: 4px 0;
+  font-size: 0.9em;
+}
+
+.publication-links {
+  margin-top: 8px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.publication-link {
+  color: #0066cc;
+  text-decoration: none;
+  font-size: 0.9em;
+  border: 1px solid #0066cc;
+  padding: 4px 10px;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.publication-link:hover {
+  background: #0066cc;
+  color: white;
+}
+
+.news-item {
+  margin: 12px 0;
+  color: #4a4a4a;
+  line-height: 1.7;
+}
+
+.news-item strong {
+  color: #2c3e50;
+}
+
+.subsection {
+  margin: 20px 0;
+}
+
+.subsection h4 {
+  font-size: 1.1em;
+  color: #2c3e50;
+  margin: 20px 0 10px 0;
+  font-weight: 600;
+}
+
+.subsection ul {
+  list-style: none;
+  padding: 0;
+}
+
+.subsection ul li {
+  margin: 8px 0;
+  padding-left: 0;
+  color: #4a4a4a;
+}
+
+.subsection ul li:before {
   content: "• ";
   color: #0066cc;
   font-weight: bold;
   margin-right: 8px;
-}
-
-.skills-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin: 20px 0;
-}
-
-.skill-tag {
-  background: #f1f5f9;
-  color: #2c3e50;
-  padding: 6px 14px;
-  border-radius: 4px;
-  font-size: 0.9em;
-  border: 1px solid #e2e8f0;
-}
-
-.news-item {
-  margin: 15px 0;
-  padding-left: 20px;
-  color: #4a4a4a;
-}
-
-.news-item:before {
-  content: "• ";
-  color: #0066cc;
-  font-weight: bold;
-  margin-left: -20px;
 }
 
 @media (max-width: 768px) {
@@ -131,11 +233,20 @@ redirect_from:
   }
   
   .professional-header h1 {
-    font-size: 2em;
+    font-size: 1.8em;
   }
   
   .section h2 {
-    font-size: 1.5em;
+    font-size: 1.4em;
+  }
+  
+  .publication-item {
+    flex-direction: column;
+  }
+  
+  .publication-thumbnail {
+    width: 100%;
+    height: 180px;
   }
 }
 </style>
@@ -147,17 +258,15 @@ redirect_from:
   <div class="title">M.S. Student in Mechanical Engineering</div>
   <div class="affiliation">University of California, Berkeley</div>
   <div class="contact">
-    <a href="mailto:jayahn@berkeley.edu">jayahn@berkeley.edu</a> • 
-    <a href="https://github.com/jayahn17" target="_blank" rel="noopener">GitHub</a> • 
-    <a href="https://www.linkedin.com/in/seongjae-ahn-126838244/" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="mailto:jayahn@berkeley.edu">jayahn@berkeley.edu</a>
   </div>
 </div>
 
 ## About Me
 
-M.S. Mechanical Engineering student focusing on Controls and Robotics at UC Berkeley. I'm fascinated by how everyday technological developments shape people's lives, and I want to be part of the breakthroughs.
+Hi! I am an M.S. student in Mechanical Engineering at the University of California, Berkeley. I am part of the ICON lab where I am advised by Prof. Negar Mehr. My research interest lies in robot learning, with a particular focus on reinforcement learning, control systems, and simulation for robotic applications.
 
-I recognize my desire not only to follow these innovations, but also to be part of the teams that create them and lead their continued development around the world. My goal is to keep learning—1% at a time, today and tomorrow.
+During my studies, I worked at Khameleon Robotics as a Control & Simulation Engineer Intern, where I developed hardware-in-the-loop teleoperation systems for humanoid robots. I also worked at Root Applied Sciences as a Junior Engineer, developing hardware solutions for pathogen monitoring systems. Before joining UC Berkeley, I received my B.S. in Mechanical Engineering from UC Berkeley and completed my associate degree at Diablo Valley College.
 
 ## Research Interests
 
@@ -165,6 +274,94 @@ I recognize my desire not only to follow these innovations, but also to be part 
 * **Control Systems:** Advanced control theory and implementation for robotic systems
 * **Simulation & Hardware-in-the-Loop:** NVIDIA Isaac Sim/Lab, Mujoco, and real-time control systems
 * **Multi-Agent Systems:** Coordination and control of multi-robot systems
+
+## Projects
+
+<ol class="publication-list">
+  <li class="publication-item">
+    <span class="publication-number">1.</span>
+    <div class="publication-thumbnail">
+      <div class="publication-tag">ME239</div>
+      <video muted>
+        <source src="/images/me239_1.mov" type="video/quicktime">
+      </video>
+    </div>
+    <div class="publication-content">
+      <div class="publication-title">Spider Robot - Robotic Locomotion</div>
+      <div class="publication-authors">S. Ahn</div>
+      <div class="publication-venue">ME239 - Robotic Locomotion, UC Berkeley, 2025.</div>
+      <div class="publication-links">
+        <a href="/portfolio/portfolio-6/" class="publication-link">Project Page</a>
+      </div>
+    </div>
+  </li>
+
+  <li class="publication-item">
+    <span class="publication-number">2.</span>
+    <div class="publication-thumbnail">
+      <div class="publication-tag">ME102B</div>
+      <img src="/images/me102b_robotic fish.jpeg" alt="Robotic Fish">
+    </div>
+    <div class="publication-content">
+      <div class="publication-title">Robotic Fish - Mechatronics</div>
+      <div class="publication-authors">S. Ahn</div>
+      <div class="publication-venue">ME102B - Mechatronics, UC Berkeley, 2024.</div>
+      <div class="publication-links">
+        <a href="/portfolio/portfolio-7/" class="publication-link">Project Page</a>
+      </div>
+    </div>
+  </li>
+
+  <li class="publication-item">
+    <span class="publication-number">3.</span>
+    <div class="publication-thumbnail">
+      <div class="publication-tag">Class</div>
+      <video muted>
+        <source src="/images/caliber_demo_part1.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="publication-content">
+      <div class="publication-title">Caliber - Open Source Platform</div>
+      <div class="publication-authors">S. Ahn</div>
+      <div class="publication-venue">Open Source Platform, UC Berkeley, 2025.</div>
+      <div class="publication-links">
+        <a href="/portfolio/portfolio-3/" class="publication-link">Project Page</a>
+      </div>
+    </div>
+  </li>
+
+  <li class="publication-item">
+    <span class="publication-number">4.</span>
+    <div class="publication-thumbnail">
+      <div class="publication-tag">CalSol</div>
+      <img src="/images/CalSol_suspension.png" alt="CalSol">
+    </div>
+    <div class="publication-content">
+      <div class="publication-title">CalSol - Solar Vehicle Team</div>
+      <div class="publication-authors">S. Ahn</div>
+      <div class="publication-venue">UC Berkeley Solar Vehicle Team, 2022-2024.</div>
+      <div class="publication-links">
+        <a href="/portfolio/portfolio-4/" class="publication-link">Project Page</a>
+      </div>
+    </div>
+  </li>
+</ol>
+
+## Work & Teaching Experiences
+
+#### Work Experience
+
+* **Khameleon Robotics, Control & Simulation Engineer Intern:** Built hardware-in-the-loop teleoperation control system in NVIDIA Isaac Sim/Lab for a 13-DOF dual-arm humanoid, streaming real-time joint states from Dynamixel servo controllers. Designed modular control stack supporting collision-aware joint-space and task-space control modes.
+
+* **Root Applied Sciences, Junior Engineer / Mechanical / Hardware Engineering Intern:** Managed preparation and maintenance of 80+ devices, ensuring firmware reliability. Designed and 3D-printed insect-resistant housings, reducing damage by 100% and increasing QC efficiency by 50%. Designed micro-fluid door system using electromagnetic fields with SLA printing.
+
+* **TAF Lab (Theoretical & Applied Fluid Dynamics Laboratory) - Prof. M. Reza Alam, UC Berkeley, Undergraduate Research Assistant:** Ranked Top 20 / 3400 in U.S. DOE "Power at the Sea Prize" competition. Led electronics implementation with 7+ sensors and established wireless communication using XBee protocol. Developed autonomous up/downwind sail motion control and conducted 50+ ocean tests. Listed as inventor on patent application for "A Multimodal Mobile Sea-based Power Generation and Delivery."
+
+* **UC Berkeley Solar Vehicle Team, CalSol – Battery & Suspension Team Member:** Consolidated two front suspension brackets, reducing weight by 10% while ensuring safety via FEA. Reconfigured circuit wiring to optimize battery efficiency, achieving 5% power savings.
+
+#### Teaching Experience
+
+* **Diablo Valley College, Physics Tutor:** Tutored students in Engineering Mechanics, Electromagnetics, and Quantum Mechanics.
 
 ## Education
 
@@ -184,68 +381,39 @@ I recognize my desire not only to follow these innovations, but also to be part 
   Squad Leader  
   *August 2017 – April 2019*
 
-## Work Experience
+## Honors & Awards
 
-* **Control & Simulation Engineer Intern**  
-  *Khameleon Robotics, Mountain View, CA*  
-  *July 2025 – Present*  
-  Built hardware-in-the-loop teleoperation control system in NVIDIA Isaac Sim/Lab for a 13-DOF dual-arm humanoid, streaming real-time joint states from Dynamixel servo controllers. Designed modular control stack supporting collision-aware joint-space and task-space control modes.
+#### Honors
 
-* **Graduate Research Assistant**  
-  *Prof. Negar Mehr - Intelligent Control (ICON) Lab, UC Berkeley*  
-  *May 2025 – Present*  
-  Designed and implemented hierarchical PolicyPlayer architecture for bimanual and single arm tasks in robosuite/Mujoco environments. Implemented RL policy in multiagent-quadruped environment using Isaac Gym. Validated dual Kinova3 manipulation setup for two-arm handover tasks using Diffusion Transformer Policy.
+* **Top 20 / 3400 in U.S. DOE "Power at the Sea Prize" competition**, U.S. Department of Energy, 2025
 
-* **Junior Engineer (Contractor) / Mechanical / Hardware Engineering Intern**  
-  *Root Applied Sciences, Emeryville, CA*  
-  *November 2024 – May 2025*  
-  Managed preparation and maintenance of 80+ devices, ensuring firmware reliability. Designed and 3D-printed insect-resistant housings, reducing damage by 100% and increasing QC efficiency by 50%. Designed micro-fluid door system using electromagnetic fields with SLA printing.
+* **Second Place at Design Showcase**, ME102B Mechatronics, UC Berkeley, 2024
 
-* **Undergraduate Research Assistant**  
-  *TAF Lab (Theoretical & Applied Fluid Dynamics Laboratory) - Prof. M. Reza Alam, UC Berkeley*  
-  *May 2024 – November 2025*  
-  Ranked Top 20 / 3400 in U.S. DOE "Power at the Sea Prize" competition. Led electronics implementation with 7+ sensors and established wireless communication using XBee protocol. Developed autonomous up/downwind sail motion control and conducted 50+ ocean tests. Listed as inventor on patent application for "A Multimodal Mobile Sea-based Power Generation and Delivery."
-
-* **UC Berkeley Solar Vehicle Team, CalSol – Battery & Suspension Team Member**  
-  *UC Berkeley*  
-  *August 2022 – May 2024*  
-  Consolidated two front suspension brackets, reducing weight by 10% while ensuring safety via FEA. Reconfigured circuit wiring to optimize battery efficiency, achieving 5% power savings.
-
-## Projects
-
-* **ME239 (Robotic Locomotion): Spider Robot**  
-  Developed robotic locomotion control algorithm based on open source spider robot CAD hardware model. Analyzed Jacobian in 4-legged robot locomotion and developed forward jump controls.
-
-* **ME102B (Mechatronics): Robotic Fish**  
-  Designed unique tail mechanism for robotic fish, earning second place at design showcase.
-
-* **Caliber - Open Source Platform**  
-  Platform featuring 400+ open source projects from UC Berkeley, showcasing innovative work from the Berkeley community.
-
-* **ME134 (Feedback Control): Magnetic Levitation & Inverted Pendulum**  
-  Developed analog controller using Simulink and MATLAB to determine parameters for linearized plant.
-
-* **ME136 (Control of UAVs): Hover Control**  
-  Achieved autonomous control with optimized algorithms on NuttX Virtual Machine. Performed flight dynamics analysis, placing in top 30% of class.
-
-## Skills
-
-<div class="skills-list">
-  <span class="skill-tag">Python</span>
-  <span class="skill-tag">C++</span>
-  <span class="skill-tag">MATLAB</span>
-  <span class="skill-tag">Simulink</span>
-  <span class="skill-tag">Linux</span>
-  <span class="skill-tag">NVIDIA Isaac Sim/Lab</span>
-  <span class="skill-tag">Mujoco</span>
-  <span class="skill-tag">PyTorch</span>
-  <span class="skill-tag">Docker</span>
-  <span class="skill-tag">SolidWorks</span>
-  <span class="skill-tag">3D Printing</span>
-  <span class="skill-tag">Control Systems</span>
-  <span class="skill-tag">Control Theory</span>
-  <span class="skill-tag">ROS</span>
-  <span class="skill-tag">Robosuite</span>
-</div>
+* **Best Warrior Competition Recognition**, Republic of Korea Army, 2018
 
 </div>
+
+<script>
+// Make project videos play on hover
+document.addEventListener('DOMContentLoaded', function() {
+  const projectVideos = document.querySelectorAll('.publication-thumbnail video');
+  
+  projectVideos.forEach(video => {
+    const thumbnail = video.closest('.publication-thumbnail');
+    
+    thumbnail.addEventListener('mouseenter', function() {
+      video.play();
+    });
+    
+    thumbnail.addEventListener('mouseleave', function() {
+      video.pause();
+      video.currentTime = 0;
+    });
+    
+    // Set video to show first frame
+    video.addEventListener('loadedmetadata', function() {
+      video.currentTime = 0.1;
+    });
+  });
+});
+</script>
