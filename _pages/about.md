@@ -310,6 +310,8 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
 
 * **\[Fall, 2024\]** Earned second place at design showcase for ME102B Mechatronics project - Robotic Fish with unique tail mechanism design. -->
 
+</div>
+
 ## Projects
 
 <ol class="publication-list">
@@ -370,7 +372,7 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
   </li>
 </ol>
 
-
+<div markdown="1">
 
 ## Work/Research Experiences
 
