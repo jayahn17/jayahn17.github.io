@@ -1,6 +1,6 @@
 ---
 title: "Spider Robot - Robotic Locomotion"
-excerpt: "ME239 - Robotic Locomotion coursework project. Analysis on Jacobian in 4-legged robot locomotion with forward jump controls."
+excerpt: "ME239 - Robotic Locomotion coursework project. Analysis on Jacobian in 4-legged robot locomotion with forward jump controls. <br/><img src='/images/ME239_video_1.mov'>"
 collection: portfolio
 category: class
 date: 2025-12-02
