@@ -368,9 +368,9 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
 
   <li class="publication-item">
     <span class="publication-number">2.</span>
-    <div class="publication-thumbnail">
-      <div class="publication-tag">ME102B</div>
+    <div class="publication-thumbnail" style="position: relative;">
       <img src="/images/me102b_robotic fish.jpeg" alt="Robotic Fish">
+      <div class="publication-tag" style="position: absolute; bottom: 0; right: 0;">ME102B</div>
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-7/">Robotic Fish - Mechatronics</a></div>
@@ -381,9 +381,11 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
 
   <li class="publication-item">
     <span class="publication-number">3.</span>
-    <div class="publication-thumbnail">
-      <div class="publication-tag">Class</div>
-      <img src="/images/caliber_pg1.png" alt="Caliber Platform">
+    <div class="publication-thumbnail" style="position: relative;">
+      <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;" onloadedmetadata="this.currentTime=16">
+        <source src="/images/caliber_demo_part2.mp4" type="video/mp4">
+      </video>
+      <div class="publication-tag" style="position: absolute; bottom: 0; right: 0;">Class</div>
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-3/">Caliber - Student Projects ssOpen Source Platform</a></div>
