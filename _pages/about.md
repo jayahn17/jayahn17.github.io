@@ -361,7 +361,7 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-6/">Spider Robot - Robotic Locomotion</a></div>
-      <div class="publication-authors">S. Ahn</div>
+      <div class="publication-authors">Elliot. Hong, Seongjae Ahn, Nilesh Kothari</div>      
       <div class="publication-venue">ME239 - Robotic Locomotion, UC Berkeley, 2025.</div>
     </div>
   </li>
@@ -421,7 +421,6 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-5/">Khameleon Robotics (Humanoid Robot Cleaning Startup) : Control & Simulation Engineer Intern</a></div>
-      <div class="publication-authors">Elliot. Hong, Seongjae Ahn, Nilesh Kothari</div>
       <div class="publication-venue">Built hardware-in-the-loop teleoperation control system in NVIDIA Isaac Sim/Lab for a 13-DOF dual-arm humanoid, streaming real-time joint states from Dynamixel servo controllers. Designed modular control stack supporting collision-aware joint-space and task-space control modes.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-5/" class="publication-link">Project Page</a>
@@ -450,9 +449,9 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
 <ol class="publication-list">
   <li class="publication-item">
     <span class="publication-number">1.</span>
-    <div class="publication-thumbnail">
-      <div class="publication-tag">Research</div>
+    <div class="publication-thumbnail" style="position: relative;">
       <img src="/images/TAFlab_lolus.jpeg" alt="TAF Lab">
+      <div class="publication-tag" style="position: absolute; bottom: 0; right: 0;">Research</div>
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-1/">TAF Lab (Theoretical & Applied Fluid Dynamics Laboratory) - Prof. M. Reza Alam, UC Berkeley, Undergraduate Research Assistant</a></div>
