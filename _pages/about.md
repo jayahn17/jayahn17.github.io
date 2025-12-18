@@ -14,6 +14,15 @@ redirect_from:
   padding: 40px 20px;
   line-height: 1.8;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #e0e0e0;
+  background: transparent;
+}
+
+#main {
+  background: transparent !important;
+  box-shadow: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .professional-header {
@@ -24,30 +33,30 @@ redirect_from:
 .professional-header h1 {
   font-size: 2.2em;
   margin: 0 0 8px 0;
-  color: #2c3e50;
+  color: #ffffff;
   font-weight: 600;
 }
 
 .professional-header .title {
   font-size: 1.1em;
-  color: #7a8288;
+  color: #b0b0b0;
   margin: 4px 0;
 }
 
 .professional-header .affiliation {
   font-size: 1.1em;
-  color: #7a8288;
+  color: #b0b0b0;
   margin: 4px 0;
 }
 
 .professional-header .contact {
   font-size: 1em;
-  color: #7a8288;
+  color: #b0b0b0;
   margin: 8px 0;
 }
 
 .professional-header .contact a {
-  color: #0066cc;
+  color: #4a9eff;
   text-decoration: none;
 }
 
@@ -61,13 +70,13 @@ redirect_from:
 
 .section h2 {
   font-size: 1.6em;
-  color: #2c3e50;
+  color: #4a9eff;
   margin: 30px 0 15px 0;
   font-weight: 600;
 }
 
 .section p {
-  color: #4a4a4a;
+  color: #e0e0e0;
   margin: 12px 0;
   line-height: 1.7;
 }
@@ -81,12 +90,12 @@ redirect_from:
 .section ul li {
   margin: 12px 0;
   padding-left: 0;
-  color: #4a4a4a;
+  color: #e0e0e0;
   line-height: 1.7;
 }
 
 .section ul li strong {
-  color: #2c3e50;
+  color: #4a9eff;
   font-weight: 600;
 }
 
@@ -107,7 +116,7 @@ redirect_from:
 .publication-number {
   flex-shrink: 0;
   font-weight: 600;
-  color: #2c3e50;
+  color: #ffffff;
   margin-top: 2px;
 }
 
@@ -132,7 +141,7 @@ redirect_from:
   position: absolute;
   top: 6px;
   left: 6px;
-  background: rgba(0, 102, 204, 0.9);
+  background: rgba(74, 158, 255, 0.9);
   color: white;
   padding: 3px 8px;
   border-radius: 4px;
@@ -148,19 +157,19 @@ redirect_from:
 .publication-title {
   font-size: 1.05em;
   font-weight: 600;
-  color: #2c3e50;
+  color: #ffffff;
   margin: 0 0 4px 0;
   line-height: 1.4;
 }
 
 .publication-authors {
-  color: #4a4a4a;
+  color: #e0e0e0;
   margin: 4px 0;
   font-size: 0.95em;
 }
 
 .publication-venue {
-  color: #7a8288;
+  color: #b0b0b0;
   font-style: italic;
   margin: 4px 0;
   font-size: 0.9em;
@@ -174,7 +183,7 @@ redirect_from:
 }
 
 .publication-link {
-  color: #0066cc;
+  color: #4a9eff;
   text-decoration: none;
   font-size: 0.9em;
   margin-right: 8px;
@@ -186,12 +195,12 @@ redirect_from:
 
 .news-item {
   margin: 12px 0;
-  color: #4a4a4a;
+  color: #e0e0e0;
   line-height: 1.7;
 }
 
 .news-item strong {
-  color: #2c3e50;
+  color: #4a9eff;
 }
 
 .subsection {
@@ -200,7 +209,7 @@ redirect_from:
 
 .subsection h4 {
   font-size: 1.1em;
-  color: #2c3e50;
+  color: #4a9eff;
   margin: 20px 0 10px 0;
   font-weight: 600;
 }
@@ -213,12 +222,12 @@ redirect_from:
 .subsection ul li {
   margin: 8px 0;
   padding-left: 0;
-  color: #4a4a4a;
+  color: #e0e0e0;
 }
 
 .subsection ul li:before {
   content: "• ";
-  color: #0066cc;
+  color: #4a9eff;
   font-weight: bold;
   margin-right: 8px;
 }
@@ -260,7 +269,7 @@ redirect_from:
   
 ## About Me
 
-Hi! I am an M.S. student in Mechanical Engineering at the University of California, Berkeley. I am part of the **ICON lab** where I am advised by **Prof. Negar Mehr**. My research interest lies in robot learning, with a particular focus on reinforcement learning, control systems, and simulation for robotic applications.
+Hi! I am an M.S. student in Mechanical Engineering at the University of California, Berkeley. My research interest lies in robot learning, with a particular focus on LVcontrol systems, and simulation for robotic applications
 
 During my studies, I worked at **Khameleon Robotics** as a Control & Simulation Engineer Intern, where I developed hardware-in-the-loop teleoperation systems for humanoid robots. I also worked at **Root Applied Sciences** as a Junior Engineer, developing hardware solutions for pathogen monitoring systems. Before joining UC Berkeley, I received my B.S. in Mechanical Engineering from UC Berkeley and completed my associate degree at Diablo Valley College.
 
