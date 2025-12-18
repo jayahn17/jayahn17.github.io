@@ -302,13 +302,13 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
 * **Multi-Agent Systems:** Coordination and control of multi-robot systems
 * **Reconstruction:** Worldlab, 3Dgrut 3D assest generation
 
-## News
+<!-- ## News
 
 * **\[Dec, 2025\]** Working on hardware-in-the-loop teleoperation control system for dual-arm humanoid robot at Khameleon Robotics using NVIDIA Isaac Sim/Lab.
 
 * **\[Nov, 2025\]** Ranked Top 20 / 3400 in U.S. DOE "Power at the Sea Prize" competition with TAF Lab team. Listed as inventor on patent application for "A Multimodal Mobile Sea-based Power Generation and Delivery."
 
-* **\[Fall, 2024\]** Earned second place at design showcase for ME102B Mechatronics project - Robotic Fish with unique tail mechanism design.
+* **\[Fall, 2024\]** Earned second place at design showcase for ME102B Mechatronics project - Robotic Fish with unique tail mechanism design. -->
 
 ## Projects
 
@@ -370,23 +370,7 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
   </li>
 </ol>
 
-## Education
 
-* **Master of Science in Mechanical Engineering**  
-  University of California, Berkeley  
-  *August 2025 – May 2026 (Expected)*
-
-* **Bachelor of Science in Mechanical Engineering**  
-  University of California, Berkeley  
-  *December 2024*
-
-* **Mechanical Engineering**  
-  Diablo Valley College  
-  *May 2022*
-
-* **Republic of Korea Army, Signal Corps**  
-  Squad Leader  
-  *August 2017 – April 2019*
 
 ## Work/Research Experiences
 
@@ -470,6 +454,25 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
 
 * **Diablo Valley College, Physics Tutor**
 Tutored students in Intro to Engineering Mechanics, Electromagnetics, and Quantum Mechanics.
+
+## Education
+
+* **Master of Science in Mechanical Engineering**  
+  University of California, Berkeley  
+  *August 2025 – May 2026 (Expected)*
+
+* **Bachelor of Science in Mechanical Engineering**  
+  University of California, Berkeley  
+  *December 2024*
+
+* **Mechanical Engineering**  
+  Diablo Valley College  
+  *May 2022*
+
+* **Republic of Korea Army, Signal Corps**  
+  Squad Leader  
+  *August 2017 – April 2019*
+
 
 </div>
 
