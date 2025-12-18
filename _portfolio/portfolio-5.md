@@ -10,20 +10,47 @@ date: 2024-12-01
 
 ### Project Overview
 
-As a Controls & Simulation Intern at Khameleon Robotics, my responsibility was on setting up realiale simulation in Nvidia Isaac Sim/Lab and create lead/follower environment.
+As a Controls & Simulation Intern at Khameleon Robotics, my responsibility was on setting up reliable simulation in Nvidia Isaac Sim/Lab and create lead/follower environment for humanoid robot control and training.
+
+### My Contributions
+
+**Simulation Pipeline Development:**
+- Set up complete Nvidia Isaac Sim/Lab pipeline for 13DOF humanoid arm system based on research white papers
+- Configured physics simulation environment with accurate robot dynamics and collision detection
+- Implemented real-time simulation capabilities for testing and validation of control algorithms
+
+**Control System Integration:**
+- Synchronized 12DOF puppet controller with bimanual arm system for coordinated manipulation
+- Developed lead/follower control architecture where one arm follows the other's motion
+- Integrated Dynamixel XC-330 servo motor controllers (12 motors) with simulation environment
+- Implemented control algorithms for smooth and precise bimanual coordination
+
+**Multi-Camera System:**
+- Generated and configured multiple camera views (front, back, left, right, chest angles) for comprehensive visual feedback
+- Set up camera calibration and rendering pipeline for training data collection
+- Integrated camera feeds into simulation environment for vision-based control and learning
+
+**Training Environment:**
+- Created collision avoidance test environments in Isaac Lab for training reinforcement learning models
+- Developed custom training scenarios for bimanual manipulation tasks
+- Optimized simulation performance for efficient data collection and model training
 
 ### Key Achievements
-- Set up Nvidia Isaac Sim/Lab pipeline for 13DOF Humanoid arm from white paper.
-- Synchronized 12DOF puppet controller syncing with bimanual arm.
-- Generated camera views in front/back/left/right/chest angles.
+- Set up Nvidia Isaac Sim/Lab pipeline for 13DOF Humanoid arm from white paper
+- Synchronized 12DOF puppet controller syncing with bimanual arm
+- Generated camera views in front/back/left/right/chest angles
+- Deployed training environments for collision avoidance and manipulation tasks
 
+<div style="display: flex; justify-content: center; margin: 20px 0;">
+  <img src="/images/kha_top_cam.png" alt="Khameleon Top Camera" style="width: 100%; max-width: 800px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); object-fit: contain;">
+</div>
 
-<img src="/images/kha_top_cam.png" alt="Khameleon Top Camera" style="max-width: 60%; margin: 20px 0; display: block; border-radius: 8px;">
-
-<video width="60%" controls style="margin: 20px 0; display: block; border-radius: 8px;">
-  <source src="/images/kha_grab_little.mov" type="video/quicktime">
-  Your browser does not support the video tag.
-</video>
+<div style="display: flex; justify-content: center; margin: 20px 0;">
+  <video width="100%" controls style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <source src="/images/kha_grab_little.mov" type="video/quicktime">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 
 <!-- ### Project Photos
@@ -34,7 +61,7 @@ As a Controls & Simulation Intern at Khameleon Robotics, my responsibility was o
   <img src="/images/khameleon_3.jpg" alt="Khameleon Robotics 3" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
 </div> -->
 
-### Project Video (Featured)
+### Project Videos
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 20px 0; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 8px;" 
@@ -45,17 +72,19 @@ As a Controls & Simulation Intern at Khameleon Robotics, my responsibility was o
   </iframe>
 </div>
 
-### Project Video
+<div style="display: flex; justify-content: center; margin: 20px 0;">
+  <video width="100%" controls style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <source src="/images/khameleon_video.mov" type="video/quicktime">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
-<video width="60%" controls style="margin: 20px 0; display: block; border-radius: 8px;">
-  <source src="/images/khameleon_video.mov" type="video/quicktime">
-  Your browser does not support the video tag.
-</video>
-
-<video width="60%" controls style="margin: 20px 0; display: block; border-radius: 8px;">
-  <source src="/images/kha_khaleisaac_top.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
+<div style="display: flex; justify-content: center; margin: 20px 0;">
+  <video width="100%" controls style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <source src="/images/kha_khaleisaac_top.webm" type="video/webm">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 ### Walkthrough / Section Explanations
 

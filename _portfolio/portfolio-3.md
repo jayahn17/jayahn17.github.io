@@ -11,10 +11,26 @@ date: 2025-12-01
 ### Project Overview
 
 <div style="text-align: center; margin: 16px 0;">
-  <img src="/images/caliber_front.png" alt="Caliber Front" style="max-width: 60%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+  <img src="/images/caliber_front.png" alt="Caliber Front" style="width: 100%; max-width: 800px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); object-fit: contain;">
 </div>
 
 Caliber is a platform featuring 400+ open source projects from UC Berkeley, showcasing the innovative work and contributions from the Berkeley community.
+
+### My Contributions
+
+**Frontend Development:**
+- Developed responsive web interface for browsing and searching through 400+ open source projects
+- Implemented user-friendly navigation and filtering systems to help users discover relevant projects
+- Created visually appealing project cards and detail pages with consistent design language
+
+**Platform Features:**
+- Built search and categorization functionality to organize projects by technology stack, domain, and category
+- Integrated project metadata display including descriptions, technologies used, and links to repositories
+- Designed and implemented the main landing page and project showcase interface
+
+**Data Management:**
+- Worked on data pipeline to aggregate and organize project information from various sources
+- Ensured consistent data formatting and presentation across all project entries
 
 ### Demo Video
 
@@ -51,6 +67,6 @@ Caliber is a platform featuring 400+ open source projects from UC Berkeley, show
 ### Project Photos
 
 <div style="display: flex; justify-content: center; margin: 20px 0;">
-  <img src="/images/caliber_pg2.png" alt="Caliber Platform Screenshot" style="max-width: 80%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+  <img src="/images/caliber_pg2.png" alt="Caliber Platform Screenshot" style="width: 100%; max-width: 1000px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); object-fit: contain;">
 </div>
 

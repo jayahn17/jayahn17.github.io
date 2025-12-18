@@ -132,6 +132,8 @@ p {
   overflow: hidden;
   position: relative;
   background: #f5f5f5;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.4), 0 0 40px rgba(255, 215, 0, 0.2), 0 0 60px rgba(255, 215, 0, 0.1);
+  border: 1px solid rgba(255, 215, 0, 0.3);
 }
 
 .publication-thumbnail video,
@@ -144,6 +146,27 @@ p {
 
 .publication-thumbnail video {
   background: #1a1a1a;
+}
+
+.publication-thumbnail::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.3), rgba(255, 223, 0, 0.1), rgba(255, 215, 0, 0.3));
+  border-radius: 8px;
+  z-index: -1;
+  opacity: 0.6;
+  filter: blur(8px);
+}
+
+.publication-thumbnail:hover {
+  box-shadow: 0 0 30px rgba(255, 215, 0, 0.6), 0 0 50px rgba(255, 215, 0, 0.3), 0 0 70px rgba(255, 215, 0, 0.2);
+  border-color: rgba(255, 215, 0, 0.5);
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
 }
 
 .publication-tag {
@@ -201,15 +224,28 @@ p {
   flex-wrap: wrap;
 }
 
+.publication-links {
+  margin-top: 12px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
 .publication-link {
-  color: #4a9eff;
+  color: #ffffff;
   text-decoration: none;
   font-size: 0.9em;
-  margin-right: 8px;
+  border: 1px solid #ffffff;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: all 0.2s;
+  display: inline-block;
 }
 
 .publication-link:hover {
-  text-decoration: underline;
+  background: rgba(255, 255, 255, 0.1);
+  border-color: #4a9eff;
+  color: #4a9eff;
 }
 
 .news-item {
@@ -391,6 +427,9 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
       <div class="publication-title"><a href="/portfolio/portfolio-5/">Khameleon Robotics - Humanoid Robot Cleaning Startup, Control & Simulation Engineer Intern</a></div>
       <div class="publication-authors">Elliot. Hong, Seongjae Ahn, Nilesh Kothari</div>
       <div class="publication-venue">Built hardware-in-the-loop teleoperation control system in NVIDIA Isaac Sim/Lab for a 13-DOF dual-arm humanoid, streaming real-time joint states from Dynamixel servo controllers. Designed modular control stack supporting collision-aware joint-space and task-space control modes.</div>
+      <div class="publication-links">
+        <a href="/portfolio/portfolio-5/" class="publication-link">Project Page</a>
+      </div>
     </div>
   </li>
 
@@ -403,6 +442,9 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-2/">Root Applied Sciences, Junior Engineer / Mechanical / Hardware Engineering Intern</a></div>
       <div class="publication-venue">Managed preparation and maintenance of 80+ devices, ensuring firmware reliability. Designed and 3D-printed insect-resistant housings, reducing damage by 100% and increasing QC efficiency by 50%. Designed micro-fluid door system using electromagnetic fields with SLA printing.</div>
+      <div class="publication-links">
+        <a href="/portfolio/portfolio-2/" class="publication-link">Project Page</a>
+      </div>
     </div>
   </li>
 </ol>
@@ -420,6 +462,9 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
       <div class="publication-title"><a href="/portfolio/portfolio-1/">TAF Lab (Theoretical & Applied Fluid Dynamics Laboratory) - Prof. M. Reza Alam, UC Berkeley, Undergraduate Research Assistant</a></div>
       <div class="publication-authors">E. Kuo, S. Ahn, A. Khan</div>
       <div class="publication-venue">Ranked Top 20 / 3400 in U.S. DOE "Power at the Sea Prize" competition. Led electronics implementation with 7+ sensors and established wireless communication using XBee protocol. Developed autonomous up/downwind sail motion control and conducted 50+ ocean tests. Listed as inventor on patent application for "A Multimodal Mobile Sea-based Power Generation and Delivery."</div>
+      <div class="publication-links">
+        <a href="/portfolio/portfolio-1/" class="publication-link">Project Page</a>
+      </div>
     </div>
   </li>
 </ol>
@@ -436,6 +481,9 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-4/">UC Berkeley Solar Vehicle Team, CalSol – Battery & Suspension Team Member</a></div>
       <div class="publication-venue">Consolidated two front suspension brackets, reducing weight by 10% while ensuring safety via FEA. Reconfigured circuit wiring to optimize battery efficiency, achieving 5% power savings.</div>
+      <div class="publication-links">
+        <a href="/portfolio/portfolio-4/" class="publication-link">Project Page</a>
+      </div>
     </div>
   </li>
 </ol>
