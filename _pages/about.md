@@ -68,17 +68,21 @@ redirect_from:
   margin: 40px 0;
 }
 
-.section h2 {
+.section h2,
+h2 {
   font-size: 1.6em;
   color: #4a9eff;
   margin: 30px 0 15px 0;
   font-weight: 600;
+  display: block;
 }
 
-.section p {
+.section p,
+p {
   color: #e0e0e0;
-  margin: 12px 0;
+  margin: 12px 0 20px 0;
   line-height: 1.7;
+  display: block;
 }
 
 .section ul {
@@ -265,11 +269,13 @@ redirect_from:
   <div class="contact">
     <a href="mailto:jayahn@berkeley.edu">jayahn@berkeley.edu</a>
   </div>
-  </div>
-  
+</div>
+
+<div markdown="1">
+
 ## About Me
 
-Hi! I am an M.S. student in Mechanical Engineering at the University of California, Berkeley. My research interest lies in robot learning, with a particular focus on LVcontrol systems, and simulation for robotic applications
+Hi! I am an M.S. student in Mechanical Engineering at the University of California, Berkeley. I am part of the **ICON lab** where I am advised by **Prof. Negar Mehr**. My research interest lies in robot learning, with a particular focus on reinforcement learning, control systems, and simulation for robotic applications.
 
 During my studies, I worked at **Khameleon Robotics** as a Control & Simulation Engineer Intern, where I developed hardware-in-the-loop teleoperation systems for humanoid robots. I also worked at **Root Applied Sciences** as a Junior Engineer, developing hardware solutions for pathogen monitoring systems. Before joining UC Berkeley, I received my B.S. in Mechanical Engineering from UC Berkeley and completed my associate degree at Diablo Valley College.
 
@@ -404,6 +410,8 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
 * **Second Place at Design Showcase**, ME102B Mechatronics, UC Berkeley, 2024
 
 * **Best Warrior Competition Recognition**, Republic of Korea Army, 2018
+
+</div>
 
 </div>
 
