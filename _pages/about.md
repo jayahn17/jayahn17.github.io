@@ -177,15 +177,11 @@ redirect_from:
   color: #0066cc;
   text-decoration: none;
   font-size: 0.9em;
-  border: 1px solid #0066cc;
-  padding: 4px 10px;
-  border-radius: 4px;
-  transition: all 0.2s;
+  margin-right: 8px;
 }
 
 .publication-link:hover {
-  background: #0066cc;
-  color: white;
+  text-decoration: underline;
 }
 
 .news-item {
@@ -260,13 +256,13 @@ redirect_from:
   <div class="contact">
     <a href="mailto:jayahn@berkeley.edu">jayahn@berkeley.edu</a>
   </div>
-</div>
-
+  </div>
+  
 ## About Me
 
-Hi! I am an M.S. student in Mechanical Engineering at the University of California, Berkeley. I am part of the ICON lab where I am advised by Prof. Negar Mehr. My research interest lies in robot learning, with a particular focus on reinforcement learning, control systems, and simulation for robotic applications.
+Hi! I am an M.S. student in Mechanical Engineering at the University of California, Berkeley. I am part of the **ICON lab** where I am advised by **Prof. Negar Mehr**. My research interest lies in robot learning, with a particular focus on reinforcement learning, control systems, and simulation for robotic applications.
 
-During my studies, I worked at Khameleon Robotics as a Control & Simulation Engineer Intern, where I developed hardware-in-the-loop teleoperation systems for humanoid robots. I also worked at Root Applied Sciences as a Junior Engineer, developing hardware solutions for pathogen monitoring systems. Before joining UC Berkeley, I received my B.S. in Mechanical Engineering from UC Berkeley and completed my associate degree at Diablo Valley College.
+During my studies, I worked at **Khameleon Robotics** as a Control & Simulation Engineer Intern, where I developed hardware-in-the-loop teleoperation systems for humanoid robots. I also worked at **Root Applied Sciences** as a Junior Engineer, developing hardware solutions for pathogen monitoring systems. Before joining UC Berkeley, I received my B.S. in Mechanical Engineering from UC Berkeley and completed my associate degree at Diablo Valley College.
 
 ## Research Interests
 
@@ -274,6 +270,14 @@ During my studies, I worked at Khameleon Robotics as a Control & Simulation Engi
 * **Control Systems:** Advanced control theory and implementation for robotic systems
 * **Simulation & Hardware-in-the-Loop:** NVIDIA Isaac Sim/Lab, Mujoco, and real-time control systems
 * **Multi-Agent Systems:** Coordination and control of multi-robot systems
+
+## News
+
+* **\[Dec, 2025\]** Working on hardware-in-the-loop teleoperation control system for dual-arm humanoid robot at Khameleon Robotics using NVIDIA Isaac Sim/Lab.
+
+* **\[Nov, 2025\]** Ranked Top 20 / 3400 in U.S. DOE "Power at the Sea Prize" competition with TAF Lab team. Listed as inventor on patent application for "A Multimodal Mobile Sea-based Power Generation and Delivery."
+
+* **\[Fall, 2024\]** Earned second place at design showcase for ME102B Mechatronics project - Robotic Fish with unique tail mechanism design.
 
 ## Projects
 
@@ -327,7 +331,7 @@ During my studies, I worked at Khameleon Robotics as a Control & Simulation Engi
       <div class="publication-links">
         <a href="/portfolio/portfolio-3/" class="publication-link">Project Page</a>
       </div>
-    </div>
+  </div>
   </li>
 
   <li class="publication-item">
@@ -343,25 +347,9 @@ During my studies, I worked at Khameleon Robotics as a Control & Simulation Engi
       <div class="publication-links">
         <a href="/portfolio/portfolio-4/" class="publication-link">Project Page</a>
       </div>
-    </div>
+  </div>
   </li>
 </ol>
-
-## Work & Teaching Experiences
-
-#### Work Experience
-
-* **Khameleon Robotics, Control & Simulation Engineer Intern:** Built hardware-in-the-loop teleoperation control system in NVIDIA Isaac Sim/Lab for a 13-DOF dual-arm humanoid, streaming real-time joint states from Dynamixel servo controllers. Designed modular control stack supporting collision-aware joint-space and task-space control modes.
-
-* **Root Applied Sciences, Junior Engineer / Mechanical / Hardware Engineering Intern:** Managed preparation and maintenance of 80+ devices, ensuring firmware reliability. Designed and 3D-printed insect-resistant housings, reducing damage by 100% and increasing QC efficiency by 50%. Designed micro-fluid door system using electromagnetic fields with SLA printing.
-
-* **TAF Lab (Theoretical & Applied Fluid Dynamics Laboratory) - Prof. M. Reza Alam, UC Berkeley, Undergraduate Research Assistant:** Ranked Top 20 / 3400 in U.S. DOE "Power at the Sea Prize" competition. Led electronics implementation with 7+ sensors and established wireless communication using XBee protocol. Developed autonomous up/downwind sail motion control and conducted 50+ ocean tests. Listed as inventor on patent application for "A Multimodal Mobile Sea-based Power Generation and Delivery."
-
-* **UC Berkeley Solar Vehicle Team, CalSol – Battery & Suspension Team Member:** Consolidated two front suspension brackets, reducing weight by 10% while ensuring safety via FEA. Reconfigured circuit wiring to optimize battery efficiency, achieving 5% power savings.
-
-#### Teaching Experience
-
-* **Diablo Valley College, Physics Tutor:** Tutored students in Engineering Mechanics, Electromagnetics, and Quantum Mechanics.
 
 ## Education
 
@@ -380,6 +368,22 @@ During my studies, I worked at Khameleon Robotics as a Control & Simulation Engi
 * **Republic of Korea Army, Signal Corps**  
   Squad Leader  
   *August 2017 – April 2019*
+
+## Work & Teaching Experiences
+
+#### Work Experience
+
+* **Khameleon Robotics, Control & Simulation Engineer Intern:** Built hardware-in-the-loop teleoperation control system in NVIDIA Isaac Sim/Lab for a 13-DOF dual-arm humanoid, streaming real-time joint states from Dynamixel servo controllers. Designed modular control stack supporting collision-aware joint-space and task-space control modes.
+
+* **Root Applied Sciences, Junior Engineer / Mechanical / Hardware Engineering Intern:** Managed preparation and maintenance of 80+ devices, ensuring firmware reliability. Designed and 3D-printed insect-resistant housings, reducing damage by 100% and increasing QC efficiency by 50%. Designed micro-fluid door system using electromagnetic fields with SLA printing.
+
+* **TAF Lab (Theoretical & Applied Fluid Dynamics Laboratory) - Prof. M. Reza Alam, UC Berkeley, Undergraduate Research Assistant:** Ranked Top 20 / 3400 in U.S. DOE "Power at the Sea Prize" competition. Led electronics implementation with 7+ sensors and established wireless communication using XBee protocol. Developed autonomous up/downwind sail motion control and conducted 50+ ocean tests. Listed as inventor on patent application for "A Multimodal Mobile Sea-based Power Generation and Delivery."
+
+* **UC Berkeley Solar Vehicle Team, CalSol – Battery & Suspension Team Member:** Consolidated two front suspension brackets, reducing weight by 10% while ensuring safety via FEA. Reconfigured circuit wiring to optimize battery efficiency, achieving 5% power savings.
+
+#### Teaching Experience
+
+* **Diablo Valley College, Physics Tutor:** Tutored students in Engineering Mechanics, Electromagnetics, and Quantum Mechanics.
 
 ## Honors & Awards
 
