@@ -35,7 +35,7 @@ As an Undergraduate Research Assistant at the Theoretical & Applied Fluid Dynami
 <!-- Replace VIDEO_ID with your YouTube video ID -->
 <!-- Khameleon robotics video removed from this TAF Lab page and moved to Khameleon project page. -->
 
-### My Contributions
+### Responsibility
 
 **Electronics Integration & Sensor Systems:**
 - Integrated 7+ sensors including GPS, magnetometer, wind vanes, and IMU sensors for autonomous navigation
@@ -56,4 +56,5 @@ As an Undergraduate Research Assistant at the Theoretical & Applied Fluid Dynami
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
   <img src="/images/TAF_Lab_1.jpeg" alt="TAF Lab Team Photo 1" style="width: 100%; max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); object-fit: contain;">
+  <img src="/images/TAFlab_lolus.jpeg" alt="TAF Lab Lolus" style="width: 100%; max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); object-fit: contain;">
 </div>

@@ -355,7 +355,9 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
     <span class="publication-number">1.</span>
     <div class="publication-thumbnail">
       <!-- <div class="publication-tag">ME239</div> -->
-      <img src="/images/me239_front_pg.png" alt="Spider Robot">
+      <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;">
+        <source src="/images/me239_spider_jump_1.mov" type="video/quicktime">
+      </video>
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-6/">Spider Robot - Robotic Locomotion</a></div>
