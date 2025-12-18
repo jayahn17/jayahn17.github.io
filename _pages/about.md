@@ -166,9 +166,18 @@ p {
 .publication-title {
   font-size: 1.05em;
   font-weight: 600;
-  color: #ffffff;
   margin: 0 0 4px 0;
   line-height: 1.4;
+}
+
+.publication-title a {
+  color: #4a9eff;
+  text-decoration: none;
+}
+
+.publication-title a:hover {
+  text-decoration: underline;
+  color: #6bb3ff;
 }
 
 .publication-authors {
@@ -313,12 +322,9 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
       </video>
     </div>
     <div class="publication-content">
-      <div class="publication-title">Spider Robot - Robotic Locomotion</div>
+      <div class="publication-title"><a href="/portfolio/portfolio-6/">Spider Robot - Robotic Locomotion</a></div>
       <div class="publication-authors">S. Ahn</div>
       <div class="publication-venue">ME239 - Robotic Locomotion, UC Berkeley, 2025.</div>
-      <div class="publication-links">
-        <a href="/portfolio/portfolio-6/" class="publication-link">Project Page</a>
-      </div>
     </div>
   </li>
 
@@ -329,12 +335,9 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
       <img src="/images/me102b_robotic fish.jpeg" alt="Robotic Fish">
     </div>
     <div class="publication-content">
-      <div class="publication-title">Robotic Fish - Mechatronics</div>
+      <div class="publication-title"><a href="/portfolio/portfolio-7/">Robotic Fish - Mechatronics</a></div>
       <div class="publication-authors">S. Ahn</div>
       <div class="publication-venue">ME102B - Mechatronics, UC Berkeley, 2024.</div>
-      <div class="publication-links">
-        <a href="/portfolio/portfolio-7/" class="publication-link">Project Page</a>
-      </div>
     </div>
   </li>
 
@@ -347,13 +350,10 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
       </video>
     </div>
     <div class="publication-content">
-      <div class="publication-title">Caliber - Open Source Platform</div>
+      <div class="publication-title"><a href="/portfolio/portfolio-3/">Caliber - Open Source Platform</a></div>
       <div class="publication-authors">S. Ahn</div>
       <div class="publication-venue">Open Source Platform, UC Berkeley, 2025.</div>
-      <div class="publication-links">
-        <a href="/portfolio/portfolio-3/" class="publication-link">Project Page</a>
-      </div>
-  </div>
+    </div>
   </li>
 
   <li class="publication-item">
@@ -363,13 +363,10 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
       <img src="/images/CalSol_suspension.png" alt="CalSol">
     </div>
     <div class="publication-content">
-      <div class="publication-title">CalSol - Solar Vehicle Team</div>
+      <div class="publication-title"><a href="/portfolio/portfolio-4/">CalSol - Solar Vehicle Team</a></div>
       <div class="publication-authors">S. Ahn</div>
       <div class="publication-venue">UC Berkeley Solar Vehicle Team, 2022-2024.</div>
-      <div class="publication-links">
-        <a href="/portfolio/portfolio-4/" class="publication-link">Project Page</a>
-      </div>
-  </div>
+    </div>
   </li>
 </ol>
 
@@ -406,7 +403,7 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
     </div>
     <div class="publication-content">
       <div class="publication-title">Khameleon Robotics - Humanoid Robot Cleaning Startup, Control & Simulation Engineer Intern</div>
-      <div class="publication-authors">S. Ahn</div>
+      <div class="publication-authors">Elliot. Hong, Seongjae Ahn, Nilesh Kothari</div>
       <div class="publication-venue">Built hardware-in-the-loop teleoperation control system in NVIDIA Isaac Sim/Lab for a 13-DOF dual-arm humanoid, streaming real-time joint states from Dynamixel servo controllers. Designed modular control stack supporting collision-aware joint-space and task-space control modes.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-5/" class="publication-link">Project Page</a>
@@ -422,7 +419,6 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
     </div>
     <div class="publication-content">
       <div class="publication-title">Root Applied Sciences, Junior Engineer / Mechanical / Hardware Engineering Intern</div>
-      <div class="publication-authors">S. Ahn</div>
       <div class="publication-venue">Managed preparation and maintenance of 80+ devices, ensuring firmware reliability. Designed and 3D-printed insect-resistant housings, reducing damage by 100% and increasing QC efficiency by 50%. Designed micro-fluid door system using electromagnetic fields with SLA printing.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-2/" class="publication-link">Project Page</a>
@@ -442,7 +438,7 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
     </div>
     <div class="publication-content">
       <div class="publication-title">TAF Lab (Theoretical & Applied Fluid Dynamics Laboratory) - Prof. M. Reza Alam, UC Berkeley, Undergraduate Research Assistant</div>
-      <div class="publication-authors">S. Ahn</div>
+      <div class="publication-authors">E. Kuo, S. Ahn, A. Khan</div>
       <div class="publication-venue">Ranked Top 20 / 3400 in U.S. DOE "Power at the Sea Prize" competition. Led electronics implementation with 7+ sensors and established wireless communication using XBee protocol. Developed autonomous up/downwind sail motion control and conducted 50+ ocean tests. Listed as inventor on patent application for "A Multimodal Mobile Sea-based Power Generation and Delivery."</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-1/" class="publication-link">Project Page</a>
@@ -462,7 +458,6 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
     </div>
     <div class="publication-content">
       <div class="publication-title">UC Berkeley Solar Vehicle Team, CalSol – Battery & Suspension Team Member</div>
-      <div class="publication-authors">S. Ahn</div>
       <div class="publication-venue">Consolidated two front suspension brackets, reducing weight by 10% while ensuring safety via FEA. Reconfigured circuit wiring to optimize battery efficiency, achieving 5% power savings.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-4/" class="publication-link">Project Page</a>
