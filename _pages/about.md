@@ -347,7 +347,8 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
 * **\[Fall, 2024\]** Earned second place at design showcase for ME102B Mechatronics project - Robotic Fish with unique tail mechanism design. -->
 
   </div>
-  
+  <div markdown="1">
+
 ## Projects
 
 <ol class="publication-list">
@@ -370,7 +371,7 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
     <span class="publication-number">2.</span>
     <div class="publication-thumbnail" style="position: relative;">
       <img src="/images/me102b_robotic fish.jpeg" alt="Robotic Fish">
-      <div class="publication-tag" style="position: absolute; bottom: 0; right: 0;">ME102B</div>
+      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">ME102B</div>
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-7/">Robotic Fish - Mechatronics</a></div>
@@ -381,11 +382,9 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
 
   <li class="publication-item">
     <span class="publication-number">3.</span>
-    <div class="publication-thumbnail" style="position: relative;">
-      <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;" onloadedmetadata="this.currentTime=16">
-        <source src="/images/caliber_demo_part2.mp4" type="video/mp4">
-      </video>
-      <div class="publication-tag" style="position: absolute; bottom: 0; right: 0;">Class</div>
+    <div class="publication-thumbnail">
+      <div class="publication-tag">Class</div>
+      <img src="/images/caliber_pg1.png" alt="Caliber Platform">
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-3/">Caliber - Student Projects ssOpen Source Platform</a></div>
@@ -417,9 +416,11 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
 <ol class="publication-list">
   <li class="publication-item">
     <span class="publication-number">1.</span>
-    <div class="publication-thumbnail">
-      <div class="publication-tag">Work</div>
-      <img src="/images/kha_grab_img.png" alt="Khameleon Robotics">
+    <div class="publication-thumbnail" style="position: relative;">
+      <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;">
+        <source src="/images/kha_move.mov" type="video/quicktime">
+      </video>
+      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">Work</div>
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-5/">Khameleon Robotics (Humanoid Robot Cleaning Startup) : Control & Simulation Engineer Intern</a></div>
@@ -453,7 +454,7 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
     <span class="publication-number">1.</span>
     <div class="publication-thumbnail" style="position: relative;">
       <img src="/images/TAFlab_lolus.jpeg" alt="TAF Lab">
-      <div class="publication-tag" style="position: absolute; bottom: 0; right: 0;">Research</div>
+      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">Research</div>
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-1/">TAF Lab (Theoretical & Applied Fluid Dynamics Laboratory) - Prof. M. Reza Alam, UC Berkeley, Undergraduate Research Assistant</a></div>
