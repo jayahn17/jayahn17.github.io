@@ -10,17 +10,24 @@ team_size: 4
 tech_tags: ["Python", "Sensors", "XBee", "Embedded"]
 impact: "Top 20 in U.S. DOE 'Power at the Sea' Prize; built a real-time data pipeline supporting 50+ ocean tests"
 repo_url: ""
-demo_url: "https://youtu.be/YaZquZc88fw"
+demo_url: ""
 featured: true
 teaser: "/images/TAF_Lab_1.jpeg"
 ---
 
-## CAPTAIN: Swarm of Autonomous Ocean Drone
+## CAPTAIN: Smart Steering Through Waves For A Sustainable Marine Transportation
 
 **Team Members:** Evan Kuo, Seongjae Ahn, Arsh Khan, Prof. Reza Alam
 
 ### Project Overview
 As an Undergraduate Research Assistant at the Theoretical & Applied Fluid Dynamics Laboratory (TAF Lab) at UC Berkeley, I led electronics integration and autonomy development for an autonomous ocean drone prototype focused on sustainable marine transportation. The project placed in the Top 20 of the U.S. Department of Energy "Power at the Sea Prize."
+
+### Prototype & Pitch(to Berkeley Vice Chancellor of Research)
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
+  <img src="/images/TAF_Lab_1.jpeg" alt="TAF Lab Team Photo 1" style="width: 100%; max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); object-fit: contain;">
+  <img src="/images/TAFlab_lolus.jpeg" alt="TAF Lab Lolus" style="width: 100%; max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); object-fit: contain;">
+</div>
 
 ### Key Achievements
 
@@ -29,8 +36,7 @@ As an Undergraduate Research Assistant at the Theoretical & Applied Fluid Dynami
 - Developed autonomous up/downwind control system using wind vanes, GPS, magnetometer, and motors
 - Conducted over 50+ ocean tests and built a real-time raw data acquisition pipeline linking device firmware to a Python database
 - **Pitched to Vice Chancellor in Research (VCR) at UC Berkeley** alongside our best team, presenting our innovative autonomous ocean drone solution on data collection.
-### Demo Video
-
+<!-- ### Demo Video -->
 <!-- Option 1: YouTube Embed (Recommended - easiest and best performance) -->
 <!-- Replace VIDEO_ID with your YouTube video ID -->
 <!-- Khameleon robotics video removed from this TAF Lab page and moved to Khameleon project page. -->
@@ -52,9 +58,4 @@ As an Undergraduate Research Assistant at the Theoretical & Applied Fluid Dynami
 - Conducted 50+ ocean tests to validate system performance and reliability
 - Analyzed sensor data to optimize control parameters and improve autonomous navigation accuracy
 
-### Project Photos
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
-  <img src="/images/TAF_Lab_1.jpeg" alt="TAF Lab Team Photo 1" style="width: 100%; max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); object-fit: contain;">
-  <img src="/images/TAFlab_lolus.jpeg" alt="TAF Lab Lolus" style="width: 100%; max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); object-fit: contain;">
-</div>
