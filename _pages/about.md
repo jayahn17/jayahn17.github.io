@@ -26,8 +26,25 @@ redirect_from:
 }
 
 .professional-header {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 30px;
   margin-bottom: 40px;
+  justify-content: center;
+}
+
+.professional-header .profile-image {
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #4a9eff;
+}
+
+.professional-header .header-content {
+  flex: 1;
+  text-align: left;
 }
 
 .professional-header h1 {
@@ -62,6 +79,35 @@ redirect_from:
 
 .professional-header .contact a:hover {
   text-decoration: underline;
+}
+
+.professional-header .social-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.professional-header .social-links a {
+  color: #b0b0b0;
+  text-decoration: none;
+  font-size: 0.95em;
+  transition: color 0.2s;
+}
+
+.professional-header .social-links a:hover {
+  color: #4a9eff;
+}
+
+@media (max-width: 768px) {
+  .professional-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .professional-header .header-content {
+    text-align: center;
+  }
 }
 
 .section {
@@ -314,13 +360,20 @@ p {
 <div class="professional-page">
 
 <div class="professional-header">
-  <h1>SeongJae (Jay) Ahn</h1>
-  <div class="title">B.S / M.S. Student in Mechanical Engineering</div>
-  <div class="affiliation">University of California, Berkeley</div>
-  <div class="contact">
-    <a href="mailto:jayahn@berkeley.edu">jayahn@berkeley.edu</a>
+  <img src="/images/seongjaeahn.jpeg" alt="SeongJae Ahn" class="profile-image">
+  <div class="header-content">
+    <h1>SeongJae (Jay) Ahn</h1>
+    <div class="title">B.S / M.S. Student in Mechanical Engineering</div>
+    <div class="affiliation">University of California, Berkeley</div>
+    <div class="contact">
+      <a href="mailto:jayahn@berkeley.edu">jayahn@berkeley.edu</a>
+    </div>
+    <div class="social-links">
+      <a href="https://github.com/jayahn17" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/seongjae-ahn-126838244/" target="_blank">LinkedIn</a>
+    </div>
   </div>
-  </div>
+</div>
   
 <div markdown="1">
 
@@ -475,12 +528,13 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
   <li class="publication-item">
     <span class="publication-number">1.</span>
     <div class="publication-thumbnail">
-      <div class="publication-tag">CalSol</div>
+      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">Research</div>
+    </div>
       <img src="/images/CalSol_suspension.png" alt="CalSol">
     </div>
     <div class="publication-content">
-      <div class="publication-title"><a href="/portfolio/portfolio-4/">UC Berkeley Solar Vehicle Team, CalSol – Battery & Suspension Team Member</a></div>
-      <div class="publication-venue">Consolidated two front suspension brackets, reducing weight by 10% while ensuring safety via FEA. Reconfigured circuit wiring to optimize battery efficiency, achieving 5% power savings.</div>
+      <div class="publication-title"><a href="/portfolio/portfolio-4/">UC Berkeley Solar Vehicle Team, CalSol – Suspension & Battery Team Member</a></div>
+      <div class="publication-venue">Consolidated two front suspension brackets, reducing weight by 10% while ensuring safety via SolidWorks FEA Analysis. Reconfigured circuit wiring to optimize battery efficiency, achieving 5% power savings.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-4/" class="publication-link">Project Page</a>
       </div>
