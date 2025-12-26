@@ -12,7 +12,7 @@ date: 2024-12-01
 
 As a Controls & Simulation Intern at Khameleon Robotics, I was responsible for setting up reliable simulation in Nvidia Isaac Sim/Lab and creating a lead/follower environment for humanoid robot control and training.
 
-### My Contributions
+### Contributions
 
 **Simulation Pipeline Development:**
 - Set up complete Nvidia Isaac Sim/Lab pipeline for 13DOF humanoid arm system based on research white papers
@@ -26,14 +26,14 @@ As a Controls & Simulation Intern at Khameleon Robotics, I was responsible for s
 - Implemented control algorithms for smooth and precise bimanual coordination
 
 **Multi-Camera System:**
-- Generated and configured multiple camera views (front, back, left, right, chest angles) for comprehensive visual feedback
-- Set up camera calibration and rendering pipeline for training data collection
+- Generated and configured multiple customized camera views (front, back, left, right, chest angles) for comprehensive visual feedback
+- Set up camera calibration and rendering pipeline for training data collection considerig occulsion from the top and bottom view, ( check this line again,)
 - Integrated camera feeds into simulation environment for vision-based control and learning
 
 **Training Environment:**
-- Created collision avoidance test environments in Isaac Lab for training reinforcement learning models
-- Developed custom training scenarios for bimanual manipulation tasks
-- Optimized simulation performance for efficient data collection and model training
+- Created collision avoidance test environments in Nvidia Isaac Lab for training reinforcement learning models
+- Developed custom training scenarios for bimanual manipulation tasks and optimized simulation performance for efficient data collection and model training
+
 
 ### Key Achievements
 - Set up Nvidia Isaac Sim/Lab pipeline for 13DOF Humanoid arm from white paper

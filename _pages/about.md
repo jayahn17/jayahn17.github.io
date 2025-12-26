@@ -385,9 +385,9 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
 
 ## Research Interests
 
-* **Robot Learning:** VLA / VLM for robot control and manipulation
-* **Control Systems:** Advanced control theory and implementation for robotic systems
-* **Simulation & Hardware-in-the-Loop:** NVIDIA Isaac Sim/Lab, Mujoco, and real-time control systems
+* **Robot Learning:** VLA / VLM for control and manipulation
+* **Control Systems:** Advanced control system and implementation for robotic systems
+* **Simulation & Hardware-in-the-Loop:** NVIDIA Isaac Sim/Lab, Mujoco
 * **Multi-Agent Systems:** Coordination and control of multi-robot systems
 * **Reconstruction:** Worldlab, 3Dgrut 3D assest generation
 
@@ -492,7 +492,7 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-2/">Root Applied Sciences(AgriTech Startup):  Junior Engineer Contractor, Mechanical / Hardware Engineering Intern</a></div>
-      <div class="publication-venue">Managed preparation and maintenance of 80+ devices, ensuring firmware reliability. Designed and 3D-printed insect-resistant housings, reducing damage by 100% and increasing QC efficiency by 50%. Designed micro-fluid door system using electromagnetic fields with SLA printing.</div>
+      <div class="publication-venue">Managed preparation and maintenance of 80+ devices, ensuring firmware reliability and validatio of the PCB-Solar-Battery-Data follow bridge. Designed and 3D-printed insect-resistant housings, reducing damage by 100% and increasing QC efficiency by 50%. Designed micro-fluid door system using electromagnetic fields with SLA printing.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-2/" class="publication-link">Project Page</a>
       </div>
