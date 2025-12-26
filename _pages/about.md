@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "About Me"
-author_profile: true
+author_profile: false
 redirect_from: 
   - /about/
   - /about.html
@@ -174,6 +174,8 @@ p {
   flex-shrink: 0;
   width: 180px;
   height: 100px;
+  overflow: hidden;
+  position: relative;
   border-radius: 6px;
   overflow: hidden;
   position: relative;
@@ -435,9 +437,9 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
 
   <li class="publication-item">
     <span class="publication-number">3.</span>
-    <div class="publication-thumbnail">
-      <div class="publication-tag">Class</div>
+    <div class="publication-thumbnail" style="position: relative;">
       <img src="/images/caliber_pg1.png" alt="Caliber Platform">
+      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">Class</div>
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-3/">Caliber - Student Projects ssOpen Source Platform</a></div>
@@ -448,9 +450,9 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
 
   <li class="publication-item">
     <span class="publication-number">4.</span>
-    <div class="publication-thumbnail">
-      <div class="publication-tag">CalSol</div>
+    <div class="publication-thumbnail" style="position: relative;">
       <img src="/images/CalSol_suspension.png" alt="CalSol">
+      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">CalSol</div>
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-4/">CalSol - Solar Vehicle Team</a></div>
@@ -486,9 +488,9 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
 
   <li class="publication-item">
     <span class="publication-number">2.</span>
-    <div class="publication-thumbnail">
-      <div class="publication-tag">Work</div>
+    <div class="publication-thumbnail" style="position: relative;">
       <img src="/images/root_deployment.jpg" alt="Root Applied Sciences">
+      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">Work</div>
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-2/">Root Applied Sciences(AgriTech Startup):  Junior Engineer Contractor, Mechanical / Hardware Engineering Intern</a></div>
@@ -527,10 +529,9 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
 <ol class="publication-list">
   <li class="publication-item">
     <span class="publication-number">1.</span>
-    <div class="publication-thumbnail">
-      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">Research</div>
-    </div>
+    <div class="publication-thumbnail" style="position: relative;">
       <img src="/images/CalSol_suspension.png" alt="CalSol">
+      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">Research</div>
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-4/">UC Berkeley Solar Vehicle Team, CalSol – Suspension & Battery Team Member</a></div>
