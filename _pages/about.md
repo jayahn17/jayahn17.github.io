@@ -403,66 +403,6 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
   </div>
   <div markdown="1">
 
-## Projects
-
-<ol class="publication-list">
-  <li class="publication-item">
-    <span class="publication-number">1.</span>
-    <div class="publication-thumbnail">
-      <!-- <div class="publication-tag">ME239</div> -->
-      <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;">
-        <source src="/images/me239_spider_jump_1.mov" type="video/quicktime">
-      </video>
-    </div>
-    <div class="publication-content">
-      <div class="publication-title"><a href="/portfolio/portfolio-6/">Spider Robot - Robotic Locomotion</a></div>
-      <div class="publication-authors">Elliot. Hong, Seongjae Ahn, Nilesh Kothari</div>      
-      <div class="publication-venue">ME239 - Robotic Locomotion, UC Berkeley, 2025.</div>
-    </div>
-  </li>
-
-  <li class="publication-item">
-    <span class="publication-number">2.</span>
-    <div class="publication-thumbnail" style="position: relative;">
-      <img src="/images/me102b_robotic fish.jpeg" alt="Robotic Fish">
-      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">ME102B</div>
-    </div>
-    <div class="publication-content">
-      <div class="publication-title"><a href="/portfolio/portfolio-7/">Robotic Fish - Mechatronics</a></div>
-      <div class="publication-authors">S. Ahn</div>
-      <div class="publication-venue">ME102B - Mechatronics, UC Berkeley, 2024.</div>
-    </div>
-  </li>
-
-  <li class="publication-item">
-    <span class="publication-number">3.</span>
-    <div class="publication-thumbnail" style="position: relative;">
-      <img src="/images/caliber_pg1.png" alt="Caliber Platform">
-      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">Class</div>
-    </div>
-    <div class="publication-content">
-      <div class="publication-title"><a href="/portfolio/portfolio-3/">Caliber - Student Projects ssOpen Source Platform</a></div>
-      <div class="publication-authors">S. Ahn</div>
-      <div class="publication-venue">Open Source Platform, UC Berkeley, 2025.</div>
-    </div>
-  </li>
-
-  <li class="publication-item">
-    <span class="publication-number">4.</span>
-    <div class="publication-thumbnail" style="position: relative;">
-      <img src="/images/CalSol_suspension.png" alt="CalSol">
-      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">CalSol</div>
-    </div>
-    <div class="publication-content">
-      <div class="publication-title"><a href="/portfolio/portfolio-4/">CalSol - Solar Vehicle Team</a></div>
-      <div class="publication-authors">S. Ahn</div>
-      <div class="publication-venue">UC Berkeley Solar Vehicle Team, 2022-2024.</div>
-    </div>
-  </li>
-</ol>
-
-<div markdown="1">
-
 ## Work/Research Experiences
 
 #### Work Experience
@@ -523,7 +463,69 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
   </li>
 </ol>
 
-#### Student Club
+<div markdown="1">
+
+## Projects
+
+<ol class="publication-list">
+  <li class="publication-item">
+    <span class="publication-number">1.</span>
+    <div class="publication-thumbnail">
+      <!-- <div class="publication-tag">ME239</div> -->
+      <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;">
+        <source src="/images/me239_spider_jump_1.mov" type="video/quicktime">
+      </video>
+    </div>
+    <div class="publication-content">
+      <div class="publication-title"><a href="/portfolio/portfolio-6/">Spider Robot - Robotic Locomotion</a></div>
+      <div class="publication-authors">Elliot. Hong, Seongjae Ahn, Nilesh Kothari</div>      
+      <div class="publication-venue">ME239 - Robotic Locomotion, UC Berkeley, 2025.</div>
+    </div>
+  </li>
+
+  <li class="publication-item">
+    <span class="publication-number">2.</span>
+    <div class="publication-thumbnail" style="position: relative;">
+      <img src="/images/me102b_robotic fish.jpeg" alt="Robotic Fish">
+      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">ME102B</div>
+    </div>
+    <div class="publication-content">
+      <div class="publication-title"><a href="/portfolio/portfolio-7/">Robotic Fish - Mechatronics</a></div>
+      <div class="publication-authors">S. Ahn</div>
+      <div class="publication-venue">ME102B - Mechatronics, UC Berkeley, 2024.</div>
+    </div>
+  </li>
+
+  <li class="publication-item">
+    <span class="publication-number">3.</span>
+    <div class="publication-thumbnail" style="position: relative;">
+      <img src="/images/caliber_pg1.png" alt="Caliber Platform">
+      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">Class</div>
+    </div>
+    <div class="publication-content">
+      <div class="publication-title"><a href="/portfolio/portfolio-3/">Caliber - Student Projects ssOpen Source Platform</a></div>
+      <div class="publication-authors">S. Ahn</div>
+      <div class="publication-venue">Open Source Platform, UC Berkeley, 2025.</div>
+    </div>
+  </li>
+
+  <li class="publication-item">
+    <span class="publication-number">4.</span>
+    <div class="publication-thumbnail" style="position: relative;">
+      <img src="/images/CalSol_suspension.png" alt="CalSol">
+      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">CalSol</div>
+    </div>
+    <div class="publication-content">
+      <div class="publication-title"><a href="/portfolio/portfolio-4/">CalSol - Solar Vehicle Team</a></div>
+      <div class="publication-authors">S. Ahn</div>
+      <div class="publication-venue">UC Berkeley Solar Vehicle Team, 2022-2024.</div>
+    </div>
+  </li>
+</ol>
+
+<div markdown="1">
+
+## Student Club
 
 <ol class="publication-list">
   <li class="publication-item">
