@@ -381,16 +381,15 @@ p {
 
 ## About Me
 
-Hi! I am an M.S. student in Mechanical Engineering at the University of California, Berkeley. I am part of the **ICON lab** where I am advised by **Prof. Negar Mehr**. My research interest lies in robot learning, with a particular focus on reinforcement learning, control systems, and simulation for robotic applications.
+Thank you for stopping by my portfolio! I am currently an M.S. student in Mechanical Engineering at UC Berkeley. I work in the ICON (Intelligent Control) Lab under Prof. Negar Mehr, and during my B.S. I was mainly part of the TAF (Theoretical & Applied Fluid Dynamics) Lab under Prof. Reza Alam. My interests spannd mechanical, electrical, and software engineering, with my strongest focus in robot learning, especially VLA/VLM methods, conventional control systems/theory, and simulation for robotic applications.
 
-During my studies, I worked at **Khameleon Robotics** as a Control & Simulation Engineer Intern, where I developed hardware-in-the-loop teleoperation systems for humanoid robots. I also worked at **Root Applied Sciences** as a Junior Engineer, developing hardware solutions for pathogen monitoring systems. Before joining UC Berkeley, I received my B.S. in Mechanical Engineering from UC Berkeley and completed my associate degree at Diablo Valley College.
+During my studies, I worked at **Khameleon Robotics** as a Control & Simulation Engineer Intern, where I developed hardware-in-the-loop lead/follower teleoperation systems for humanoid robots using Nvidia Isaac Sim/Lab. I also worked at **Root Applied Sciences** as a Junior Engineer(Contractor), developing mechanical/hardware solutions for pathogen monitoring systems in Napa Valley. I received my B.S. in Mechanical Engineering from UC Berkeley and completed 2yr coursework at Diablo Valley College.
 
-## Research Interests
+## Interests
 
-* **Robot Learning:** VLA / VLM for control and manipulation
+* **Robot Learning:** VLA / VLM for control and dual arm manipulation
 * **Control Systems:** Advanced control system and implementation for robotic systems
-* **Simulation & Hardware-in-the-Loop:** NVIDIA Isaac Sim/Lab, Mujoco
-* **Multi-Agent Systems:** Coordination and control of multi-robot systems
+* **Simulation** NVIDIA Isaac Sim/Lab, Mujoco
 * **Reconstruction:** Worldlab, 3Dgrut 3D assest generation
 
 <!-- ## News
@@ -490,7 +489,7 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
     <span class="publication-number">2.</span>
     <div class="publication-thumbnail" style="position: relative;">
       <img src="/images/root_deployment.jpg" alt="Root Applied Sciences">
-      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">Work</div>
+      <div class="publication-tag" style="position: absolute; top: 6px; right: 6px; bottom: auto; left: auto;">Work</div>
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-2/">Root Applied Sciences(AgriTech Startup):  Junior Engineer Contractor, Mechanical / Hardware Engineering Intern</a></div>
