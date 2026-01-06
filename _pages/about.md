@@ -439,6 +439,21 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
       </div>
     </div>
   </li>
+
+  <li class="publication-item">
+    <span class="publication-number">3.</span>
+    <div class="publication-thumbnail" style="position: relative;">
+      <img src="/images/placeholder.png" alt="MSC 3D Reconstruction">
+      <div class="publication-tag" style="position: absolute; top: 6px; right: 6px; bottom: auto; left: auto;">Work</div>
+    </div>
+    <div class="publication-content">
+      <div class="publication-title"><a href="/portfolio/portfolio-6/">MSC - 3D Reconstruction</a></div>
+      <div class="publication-venue">Implemented Worldlab.ai, Nvidia 3Dgrut, and Isaac Lab to create 3D assets from render-to-sim-to-asset pipeline. Developed comprehensive 3D reconstruction workflow for generating simulation-ready assets.</div>
+      <div class="publication-links">
+        <a href="/portfolio/portfolio-6/" class="publication-link">Project Page</a>
+      </div>
+    </div>
+  </li>
 </ol>
 
 #### Research Experience
@@ -470,57 +485,45 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
 <ol class="publication-list">
   <li class="publication-item">
     <span class="publication-number">1.</span>
-    <div class="publication-thumbnail">
-      <!-- <div class="publication-tag">ME239</div> -->
-      <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;">
-        <source src="/images/me239_spider_jump_1.mov" type="video/quicktime">
-      </video>
+    <div class="publication-thumbnail" style="position: relative;">
+      <img src="/images/me110-0.png" alt="AutomaticSnow Goggles">
+      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">ME110</div>
     </div>
     <div class="publication-content">
-      <div class="publication-title"><a href="/portfolio/portfolio-6/">Spider Robot - Robotic Locomotion</a></div>
-      <div class="publication-authors">Elliot. Hong, Seongjae Ahn, Nilesh Kothari</div>      
-      <div class="publication-venue">ME239 - Robotic Locomotion, UC Berkeley, 2025.</div>
+      <div class="publication-title"><a href="/portfolio/portfolio-7/">AutomaticSnow Goggles - Bioinspired Design</a></div>
+      <div class="publication-authors">S. Ahn</div>
+      <div class="publication-venue">ME110 - Undergrad Project 4, UC Berkeley. Bioinspired snow goggles with automatic lens cleaning mechanism based on bird nictitating membrane.</div>
+      <div class="publication-links">
+        <a href="/portfolio/portfolio-7/" class="publication-link">Project Page</a>
+      </div>
     </div>
   </li>
 
   <li class="publication-item">
     <span class="publication-number">2.</span>
     <div class="publication-thumbnail" style="position: relative;">
-      <img src="/images/me102b_robotic fish.jpeg" alt="Robotic Fish">
-      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">ME102B</div>
-    </div>
-    <div class="publication-content">
-      <div class="publication-title"><a href="/portfolio/portfolio-7/">Robotic Fish - Mechatronics</a></div>
-      <div class="publication-authors">S. Ahn</div>
-      <div class="publication-venue">ME102B - Mechatronics, UC Berkeley, 2024.</div>
-    </div>
-  </li>
-
-  <li class="publication-item">
-    <span class="publication-number">3.</span>
-    <div class="publication-thumbnail" style="position: relative;">
       <img src="/images/caliber_pg1.png" alt="Caliber Platform">
       <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">Class</div>
     </div>
     <div class="publication-content">
-      <div class="publication-title"><a href="/portfolio/portfolio-3/">Caliber - Student Projects ssOpen Source Platform</a></div>
+      <div class="publication-title"><a href="/portfolio/portfolio-3/">Caliber - Student Projects Open Source Platform</a></div>
       <div class="publication-authors">S. Ahn</div>
       <div class="publication-venue">Open Source Platform, UC Berkeley, 2025.</div>
     </div>
   </li>
 
-  <li class="publication-item">
+  <!-- <li class="publication-item">
     <span class="publication-number">4.</span>
     <div class="publication-thumbnail" style="position: relative;">
       <img src="/images/CalSol_suspension.png" alt="CalSol">
-      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">CalSol</div>
+      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">Student Club</div>
     </div>
     <div class="publication-content">
-      <div class="publication-title"><a href="/portfolio/portfolio-4/">CalSol - Solar Vehicle Team</a></div>
+      <div class="publication-title"><a href="/portfolio/portfolio-4/">UC Berkeley Solar Vehicle Team</a></div>
       <div class="publication-authors">S. Ahn</div>
-      <div class="publication-venue">UC Berkeley Solar Vehicle Team, 2022-2024.</div>
+      <div class="publication-venue">UCB Solar Vehicle Team.</div>
     </div>
-  </li>
+  </li> -->
 </ol>
 
 <div markdown="1">
