@@ -381,7 +381,7 @@ p {
 
 ## About Me
 
-Thank you for stopping by my portfolio! I am currently an M.S. student in Mechanical Engineering at UC Berkeley. I work in the ICON (Intelligent Control) Lab under Prof. Negar Mehr, and during my B.S. I was mainly part of the TAF (Theoretical & Applied Fluid Dynamics) Lab under Prof. Reza Alam. My interests spannd mechanical, electrical, and software engineering, with my strongest focus in robot learning, especially VLA/VLM methods, conventional control systems/theory, and simulation for robotic applications.
+Thank you for stopping by my portfolio! I am currently an M.S. student in Mechanical Engineering at UC Berkeley. I work in the [ICON (Intelligent Control) Lab](https://iconlab.negarmehr.com) under Prof. Negar Mehr, and during my B.S. I was mainly part of the [TAF (Theoretical & Applied Fluid Dynamics) Lab](https://taflab.berkeley.edu) under Prof. Reza Alam. My interests spannd mechanical, electrical, and software engineering, with my strongest focus in robot learning, especially VLA/VLM methods, conventional control systems/theory, and simulation for robotic applications.
 
 During my studies, I worked at **Khameleon Robotics** as a Control & Simulation Engineer Intern, where I developed hardware-in-the-loop lead/follower teleoperation systems for humanoid robots using Nvidia Isaac Sim/Lab. I also worked at **Root Applied Sciences** as a Junior Engineer(Contractor), developing mechanical/hardware solutions for pathogen monitoring systems in Napa Valley. I received my B.S. in Mechanical Engineering from UC Berkeley and completed 2yr coursework at Diablo Valley College.
 
@@ -440,13 +440,18 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
     </div>
   </li>
 
+</ol>
+
+#### Research Experience
+
+<ol class="publication-list">
   <li class="publication-item">
-    <span class="publication-number">3.</span>
+    <span class="publication-number">1.</span>
     <div class="publication-thumbnail" style="position: relative;">
       <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;">
         <source src="/images/MSC_WL2Isaac.webm" type="video/webm">
       </video>
-      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">Work</div>
+      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">Research</div>
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-6/">MSC - 3D Reconstruction</a></div>
@@ -456,19 +461,15 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
       </div>
     </div>
   </li>
-</ol>
 
-#### Research Experience
-
-<ol class="publication-list">
   <li class="publication-item">
-    <span class="publication-number">1.</span>
+    <span class="publication-number">2.</span>
     <div class="publication-thumbnail" style="position: relative;">
       <img src="/images/TAFlab_lolus.jpeg" alt="TAF Lab">
       <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">Research</div>
     </div>
     <div class="publication-content">
-      <div class="publication-title"><a href="/portfolio/portfolio-1/">TAF Lab (Theoretical & Applied Fluid Dynamics Laboratory) - Prof. M. Reza Alam, UC Berkeley, Undergraduate Research Assistant</a></div>
+      <div class="publication-title"><a href="https://taflab.berkeley.edu" target="_blank">TAF Lab</a> <a href="/portfolio/portfolio-1/">(Theoretical & Applied Fluid Dynamics Laboratory) - Prof. M. Reza Alam, UC Berkeley, Undergraduate Research Assistant</a></div>
       <div class="publication-authors">E. Kuo, S. Ahn, A. Khan</div>
       <div class="publication-venue">Ranked Top 20 / 3400 in U.S. DOE "Power at the Sea Prize" competition. 
       Led electronics implementation with 7+ sensors and established wireless communication using XBee protocol. 
@@ -480,6 +481,7 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
   </li>
 </ol>
 
+  </div>
 <div markdown="1">
 
 ## Projects
@@ -528,6 +530,7 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
   </li> -->
 </ol>
 
+  </div>
 <div markdown="1">
 
 ## Student Club
