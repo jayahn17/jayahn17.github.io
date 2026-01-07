@@ -471,7 +471,7 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-6/">MSC - 3D Reconstruction</a></div>
-      <div class="publication-venue">Implemented Worldlab.ai, Nvidia 3Dgrut, and Isaac Lab to create 3D assets from render-to-sim-to-asset pipeline. Developed comprehensive 3D reconstruction workflow for generating simulation-ready assets.</div>
+      <div class="publication-venue">Implemented Worldlab.ai, Nvidia 3Dgrut, and Isaac Lab to create 3D assets from render-to-sim-to-asset pipeline.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-6/" class="publication-link">Project Page</a>
       </div>
@@ -610,5 +610,3 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 </script>
-
-</div>
