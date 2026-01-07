@@ -12,6 +12,13 @@ date: 2025-01-01
 
 Implemented a comprehensive 3D reconstruction pipeline using Worldlab.ai, Nvidia 3Dgrut, and Isaac Lab to create 3D assets from render-to-sim-to-asset workflow. This project focuses on generating high-quality 3D assets that can be used in simulation environments and real-world applications.
 
+<div style="display: flex; justify-content: center; margin: 20px 0;">
+  <video width="100%" controls style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <source src="/images/MSC_WL2Isaac.webm" type="video/webm">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
 ### Key Technologies
 
 **Worldlab.ai Integration:**

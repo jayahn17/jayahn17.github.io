@@ -443,8 +443,10 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
   <li class="publication-item">
     <span class="publication-number">3.</span>
     <div class="publication-thumbnail" style="position: relative;">
-      <img src="/images/placeholder.png" alt="MSC 3D Reconstruction">
-      <div class="publication-tag" style="position: absolute; top: 6px; right: 6px; bottom: auto; left: auto;">Work</div>
+      <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;">
+        <source src="/images/MSC_WL2Isaac.webm" type="video/webm">
+      </video>
+      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">Work</div>
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-6/">MSC - 3D Reconstruction</a></div>
