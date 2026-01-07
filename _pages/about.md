@@ -417,7 +417,7 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
       <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">Work</div>
     </div>
     <div class="publication-content">
-      <div class="publication-title"><a href="/portfolio/portfolio-5/">Khameleon Robotics (Humanoid Robot Cleaning Startup) : Control & Simulation Engineer Intern</a></div>
+      <div class="publication-title"><a href="/portfolio/portfolio-5/">Khameleon Robotics (Robotics Startup) : Control & Simulation Engineer Intern</a></div>
       <div class="publication-venue">Built hardware-in-the-loop teleoperation control system in NVIDIA Isaac Sim/Lab for a 13-DOF dual-arm humanoid, streaming real-time joint states from Dynamixel servo controllers. Designed modular control stack supporting collision-aware joint-space and task-space control modes.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-5/" class="publication-link">Project Page</a>
@@ -432,7 +432,7 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
       <div class="publication-tag" style="position: absolute; top: 6px; right: 6px; bottom: auto; left: auto;">Work</div>
     </div>
     <div class="publication-content">
-      <div class="publication-title"><a href="/portfolio/portfolio-2/">Root Applied Sciences(AgriTech Startup):  Junior Engineer Contractor, Mechanical / Hardware Engineering Intern</a></div>
+      <div class="publication-title"><a href="/portfolio/portfolio-2/">Root Applied Sciences(BioTech Startup): Junior Engineer Contractor, Mechanical / Hardware Engineering Intern</a></div>
       <div class="publication-venue">Managed preparation and maintenance of 80+ devices, ensuring firmware reliability and validatio of the PCB-Solar-Battery-Data follow bridge. Designed and 3D-printed insect-resistant housings, reducing damage by 100% and increasing QC efficiency by 50%. Designed micro-fluid door system using electromagnetic fields with SLA printing.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-2/" class="publication-link">Project Page</a>
@@ -469,7 +469,7 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
       <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">Research</div>
     </div>
     <div class="publication-content">
-      <div class="publication-title"><a href="https://taflab.berkeley.edu" target="_blank">TAF Lab</a> <a href="/portfolio/portfolio-1/">(Theoretical & Applied Fluid Dynamics Laboratory) - Prof. M. Reza Alam, UC Berkeley, Undergraduate Research Assistant</a></div>
+      <div class="publication-title"> <a href="/portfolio/portfolio-1/">TAF Lab (Theoretical & Applied Fluid Dynamics Laboratory) : Undergraduate Research Assistant</a></div>
       <div class="publication-authors">E. Kuo, S. Ahn, A. Khan</div>
       <div class="publication-venue">Ranked Top 20 / 3400 in U.S. DOE "Power at the Sea Prize" competition. 
       Led electronics implementation with 7+ sensors and established wireless communication using XBee protocol. 
