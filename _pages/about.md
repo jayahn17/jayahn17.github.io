@@ -418,7 +418,7 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-5/">Khameleon Robotics (Robotics Startup) : Control & Simulation Engineer Intern</a></div>
-      <div class="publication-venue">Built hardware-in-the-loop teleoperation control system in NVIDIA Isaac Sim/Lab for a 13-DOF dual-arm humanoid, streaming real-time joint states from Dynamixel servo controllers. Designed modular control stack supporting collision-aware joint-space and task-space control modes.</div>
+      <div class="publication-venue">Built hardware-in-the-loop teleoperation control system in NVIDIA Isaac Sim/Lab for a 13-DOF dual-arm humanoid, streaming real-time joint states from Dynamixel servo controllers.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-5/" class="publication-link">Project Page</a>
       </div>
@@ -433,7 +433,7 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-2/">Root Applied Sciences(BioTech Startup): Junior Engineer Contractor, Mechanical / Hardware Engineering Intern</a></div>
-      <div class="publication-venue">Managed preparation and maintenance of 80+ devices, ensuring firmware reliability and validatio of the PCB-Solar-Battery-Data follow bridge. Designed and 3D-printed insect-resistant housings, reducing damage by 100% and increasing QC efficiency by 50%. Designed micro-fluid door system using electromagnetic fields with SLA printing.</div>
+      <div class="publication-venue">Managed preparation and maintenance of 80+ devices, ensuring firmware reliability and validation of the PCB-Solar-Battery-Data follow bridge. Designed and 3D-printed insect-resistant housings, reducing damage by 100% and increasing QC efficiency by 50%.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-2/" class="publication-link">Project Page</a>
       </div>
@@ -448,6 +448,22 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
   <li class="publication-item">
     <span class="publication-number">1.</span>
     <div class="publication-thumbnail" style="position: relative;">
+      <img src="/images/TAFlab_lolus.jpeg" alt="TAF Lab">
+      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">Research</div>
+    </div>
+    <div class="publication-content">
+      <div class="publication-title"> <a href="/portfolio/portfolio-1/">TAF Lab (Theoretical & Applied Fluid Dynamics Laboratory) : Undergraduate Research Assistant</a></div>
+      <div class="publication-authors">E. Kuo, S. Ahn, A. Khan</div>
+      <div class="publication-venue">Ranked Top 20 / 3400 in U.S. DOE "Power at the Sea Prize" competition. Led electronics implementation with 7+ sensors, established wireless communication using XBee protocol, and developed autonomous up/downwind sail motion control with 50+ ocean tests.</div>
+      <div class="publication-links">
+        <a href="/portfolio/portfolio-1/" class="publication-link">Project Page</a>
+      </div>
+    </div>
+  </li>
+
+  <li class="publication-item">
+    <span class="publication-number">2.</span>
+    <div class="publication-thumbnail" style="position: relative;">
       <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;">
         <source src="/images/MSC_WL2Isaac.webm" type="video/webm">
       </video>
@@ -458,24 +474,6 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
       <div class="publication-venue">Implemented Worldlab.ai, Nvidia 3Dgrut, and Isaac Lab to create 3D assets from render-to-sim-to-asset pipeline. Developed comprehensive 3D reconstruction workflow for generating simulation-ready assets.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-6/" class="publication-link">Project Page</a>
-      </div>
-    </div>
-  </li>
-
-  <li class="publication-item">
-    <span class="publication-number">2.</span>
-    <div class="publication-thumbnail" style="position: relative;">
-      <img src="/images/TAFlab_lolus.jpeg" alt="TAF Lab">
-      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">Research</div>
-    </div>
-    <div class="publication-content">
-      <div class="publication-title"> <a href="/portfolio/portfolio-1/">TAF Lab (Theoretical & Applied Fluid Dynamics Laboratory) : Undergraduate Research Assistant</a></div>
-      <div class="publication-authors">E. Kuo, S. Ahn, A. Khan</div>
-      <div class="publication-venue">Ranked Top 20 / 3400 in U.S. DOE "Power at the Sea Prize" competition. 
-      Led electronics implementation with 7+ sensors and established wireless communication using XBee protocol. 
-      Developed autonomous up/downwind sail motion control and conducted 50+ ocean tests. Listed as inventor on patent application for "A Multimodal Mobile Sea-based Power Generation and Delivery."</div>
-      <div class="publication-links">
-        <a href="/portfolio/portfolio-1/" class="publication-link">Project Page</a>
       </div>
     </div>
   </li>
@@ -544,7 +542,7 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-4/">UC Berkeley Solar Vehicle Team, CalSol – Suspension & Battery Team Member</a></div>
-      <div class="publication-venue">Consolidated two front suspension brackets, reducing weight by 10% while ensuring safety via SolidWorks FEA Analysis. Reconfigured circuit wiring to optimize battery efficiency, achieving 5% power savings.</div>
+      <div class="publication-venue">Consolidated two front suspension brackets, reducing weight by 10% while ensuring safety via SolidWorks FEA Analysis.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-4/" class="publication-link">Project Page</a>
       </div>
@@ -577,8 +575,6 @@ Tutored students in Intro to Engineering Mechanics, Electromagnetics, and Quantu
 
 
   </div>
-
-</div>
 
 <script>
 // Make project videos play on hover
