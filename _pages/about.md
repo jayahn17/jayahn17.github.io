@@ -454,7 +454,7 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
     <div class="publication-content">
       <div class="publication-title"> <a href="/portfolio/portfolio-1/">TAF Lab (Theoretical & Applied Fluid Dynamics Laboratory) : Undergraduate Research Assistant</a></div>
       <div class="publication-authors">E. Kuo, S. Ahn, A. Khan</div>
-      <div class="publication-venue">Ranked Top 20 / 3400 in U.S. DOE "Power at the Sea Prize" competition. Led electronics implementation with 7+ sensors, established wireless communication using XBee protocol, and developed autonomous up/downwind sail motion control with 50+ ocean tests.</div>
+      <div class="publication-venue">Led electronics implementation with 7+ sensors, established Real-time data collection between 4 units, and developed autonomous up/downwind sail autonomous sail control with 50+ Marina ocean tests.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-1/" class="publication-link">Project Page</a>
       </div>
@@ -471,7 +471,7 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-6/">Mechanical Systems Control Lab</a></div>
-      <div class="publication-venue">Developed 3D reconstruction asset using Worldlab.ai, Nvidia 3Dgrut, and Isaac Lab to create 3D assets from render-to-sim-to-asset pipeline.</div>
+      <div class="publication-venue">Developed 3D reconstruction asset using Worldlabs.ai, Nvidia 3Dgrut, and Isaac Lab to create 3D assets from render2sim2asset pipeline.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-6/" class="publication-link">Project Page</a>
       </div>
@@ -511,6 +511,24 @@ During my studies, I worked at **Khameleon Robotics** as a Control & Simulation 
       <div class="publication-title"><a href="/portfolio/portfolio-3/">Caliber - Student Projects Open Source Platform</a></div>
       <div class="publication-authors">S. Ahn</div>
       <div class="publication-venue">Open Source Platform, UC Berkeley, 2025.</div>
+    </div>
+  </li>
+
+  <li class="publication-item">
+    <span class="publication-number">3.</span>
+    <div class="publication-thumbnail" style="position: relative;">
+      <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;">
+        <source src="/images/me231_result_1.mov" type="video/quicktime">
+      </video>
+      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">ME231</div>
+    </div>
+    <div class="publication-content">
+      <div class="publication-title"><a href="/portfolio/portfolio-8/">MPC for Truck-Trailer System with Obstacle Avoidance</a></div>
+      <div class="publication-authors">S. Ahn</div>
+      <div class="publication-venue">ME231 - Model Predictive Control implementation for truck-trailer navigation with obstacle avoidance in forward and reverse motion.</div>
+      <div class="publication-links">
+        <a href="/portfolio/portfolio-8/" class="publication-link">Project Page</a>
+      </div>
     </div>
   </li>
 
@@ -573,8 +591,6 @@ Tutored students in Intro to Engineering Mechanics, Electromagnetics, and Quantu
   Squad Leader  
   *August 2017 – April 2019*
 
-
-  </div>
 
 <script>
 // Make project videos play on hover
