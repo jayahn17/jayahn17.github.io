@@ -381,9 +381,11 @@ p {
 
 ## About Me
 
-Thank you for stopping by my portfolio! I am currently an M.S. student in Mechanical Engineering at UC Berkeley. I work in the [ICON (Intelligent Control) Lab](https://iconlab.negarmehr.com) under Prof. Negar Mehr, and during my B.S. I was mainly part of the [TAF (Theoretical & Applied Fluid Dynamics) Lab](https://taflab.berkeley.edu) under Prof. Reza Alam. My interests spannd mechanical, electrical, and software engineering, with my strongest focus in robot learning, especially VLA/VLM methods, conventional control systems/theory, and simulation for robotic applications.
+Thank you for stopping by my portfolio! I am currently an M.S. student in Mechanical Engineering at UC Berkeley. I work in the [ICON (Intelligent Control) Lab](https://iconlab.negarmehr.com) under Prof. Negar Mehr, and during my B.S. I was mainly part of the [TAF (Theoretical & Applied Fluid Dynamics) Lab](https://taflab.berkeley.edu) under Prof. Reza Alam. 
 
-During my studies, I worked at **Khameleon Robotics** as a Control & Simulation Engineer Intern, where I developed hardware-in-the-loop lead/follower teleoperation systems for humanoid robots using Nvidia Isaac Sim/Lab. I also worked at **Root Applied Sciences** as a Junior Engineer(Contractor), developing mechanical/hardware solutions for pathogen monitoring systems in Napa Valley. I received my B.S. in Mechanical Engineering from UC Berkeley and completed 2yr coursework at Diablo Valley College.
+My interests spannd mechanical, electrical, and software engineering, with my strongest focus in robot learning, especially VLA/VLM methods, conventional control systems/theory, and simulation for robotic applications.
+
+I enjoy to se the application of my studies in the real world. I worked at **[Khameleon Robotics](https://www.khameleonrobotics.com)** as a Control & Simulation Engineer Intern, where I developed hardware-in-the-loop lead/follower teleoperation systems for humanoid robots using Nvidia Isaac Sim/Lab. I was with **[Root Applied Sciences](https://rootappliedsciences.com)** as a Junior Engineer(Contractor), developing mechanical/hardware solutions for pathogen monitoring systems in Napa Valley. I received my B.S. in Mechanical Engineering from UC Berkeley and completed 2yr coursework at Diablo Valley College.
 
 ## Interests
 
