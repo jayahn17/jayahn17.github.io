@@ -27,7 +27,7 @@ As a Controls & Simulation Intern at Khameleon Robotics, I was responsible for s
 
 **Multi-Camera System:**
 - Generated and configured multiple customized camera views (front, back, left, right, chest angles) for comprehensive visual feedback
-- Set up camera calibration and rendering pipeline for training data collection considerig occulsion from the top and bottom view, ( check this line again,)
+- Set up camera calibration and rendering pipeline for training data collection, considering occlusion from top and bottom views
 - Integrated camera feeds into simulation environment for vision-based control and learning
 
 **Training Environment:**

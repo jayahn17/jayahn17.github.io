@@ -177,11 +177,9 @@ p {
   overflow: hidden;
   position: relative;
   border-radius: 6px;
-  overflow: hidden;
-  position: relative;
-  background: #f5f5f5;
-  box-shadow: 0 0 20px rgba(255, 215, 0, 0.4), 0 0 40px rgba(255, 215, 0, 0.2), 0 0 60px rgba(255, 215, 0, 0.1);
-  border: 1px solid rgba(255, 215, 0, 0.3);
+  background: #1a1a1a;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: border-color 0.2s ease;
 }
 
 .publication-thumbnail video,
@@ -196,31 +194,14 @@ p {
   background: #1a1a1a;
 }
 
-.publication-thumbnail::before {
-  content: '';
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  right: -2px;
-  bottom: -2px;
-  background: linear-gradient(135deg, rgba(255, 215, 0, 0.3), rgba(255, 223, 0, 0.1), rgba(255, 215, 0, 0.3));
-  border-radius: 8px;
-  z-index: -1;
-  opacity: 0.6;
-  filter: blur(8px);
-}
-
 .publication-thumbnail:hover {
-  box-shadow: 0 0 30px rgba(255, 215, 0, 0.6), 0 0 50px rgba(255, 215, 0, 0.3), 0 0 70px rgba(255, 215, 0, 0.2);
-  border-color: rgba(255, 215, 0, 0.5);
-  transform: translateY(-2px);
-  transition: all 0.3s ease;
+  border-color: rgba(74, 158, 255, 0.5);
 }
 
 .publication-tag {
   position: absolute;
   top: 6px;
-  left: 6px;
+  right: 6px;
   background: rgba(74, 158, 255, 0.9);
   color: white;
   padding: 3px 8px;
@@ -263,13 +244,6 @@ p {
   margin: 8px 0;
   font-size: 0.95em;
   line-height: 1.6;
-}
-
-.publication-links {
-  margin-top: 8px;
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
 }
 
 .publication-links {
@@ -381,18 +355,16 @@ p {
 
 ## About Me
 
-Thank you for stopping by my portfolio! I am currently an M.S. student in Mechanical Engineering at UC Berkeley. I work in the [ICON (Intelligent Control) Lab](https://iconlab.negarmehr.com) under Prof. Negar Mehr, and during my B.S. I was mainly part of the [TAF (Theoretical & Applied Fluid Dynamics) Lab](https://taflab.berkeley.edu) under Prof. Reza Alam. 
+I am an M.S. student in Mechanical Engineering at UC Berkeley, working in the [ICON (Intelligent Control) Lab](https://iconlab.negarmehr.com) under Prof. Negar Mehr. My research focuses on robot learning, particularly VLA/VLM methods, control systems, and simulation for robotic applications.
 
-My interests spannd mechanical, electrical, and software engineering, with my strongest focus in robot learning, especially VLA/VLM methods, conventional control systems/theory, and simulation for robotic applications.
+Previously, I worked at **[Khameleon Robotics](https://www.khameleonrobotics.com)** as a Control & Simulation Engineer Intern and at **[Root Applied Sciences](https://rootappliedsciences.com)** as a Junior Engineer, developing robotics and hardware solutions. During my B.S., I was part of the [TAF (Theoretical & Applied Fluid Dynamics) Lab](https://taflab.berkeley.edu) under Prof. Reza Alam. 
 
-I enjoy to se the application of my studies in the real world. I worked at **[Khameleon Robotics](https://www.khameleonrobotics.com)** as a Control & Simulation Engineer Intern, where I developed hardware-in-the-loop lead/follower teleoperation systems for humanoid robots using Nvidia Isaac Sim/Lab. I was with **[Root Applied Sciences](https://rootappliedsciences.com)** as a Junior Engineer(Contractor), developing mechanical/hardware solutions for pathogen monitoring systems in Napa Valley. I received my B.S. in Mechanical Engineering from UC Berkeley and completed 2yr coursework at Diablo Valley College.
+## Research Interests
 
-## Interests
-
-* **Robot Learning:** VLA / VLM for control and dual arm manipulation
-* **Control Systems:** Advanced control system and implementation for robotic systems
-* **Simulation** NVIDIA Isaac Sim/Lab, Mujoco
-* **Reconstruction:** Worldlab, 3Dgrut 3D assest generation
+* **Robot Learning:** VLA/VLM methods for control and dual-arm manipulation
+* **Control Systems:** Advanced control theory and implementation for robotic systems
+* **Simulation:** NVIDIA Isaac Sim/Lab, MuJoCo
+* **3D Reconstruction:** Worldlab, 3Dgrut for 3D asset generation
 
 <!-- ## News
 
@@ -412,15 +384,15 @@ I enjoy to se the application of my studies in the real world. I worked at **[Kh
 <ol class="publication-list">
   <li class="publication-item">
     <span class="publication-number">1.</span>
-    <div class="publication-thumbnail" style="position: relative;">
+    <div class="publication-thumbnail">
       <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;">
         <source src="/images/kha_move.mov" type="video/quicktime">
       </video>
-      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">Work</div>
+      <div class="publication-tag">Work</div>
     </div>
     <div class="publication-content">
-      <div class="publication-title"><a href="/portfolio/portfolio-5/">Khameleon Robotics (Robotics Startup) : Control & Simulation Engineer Intern</a></div>
-      <div class="publication-venue">Built hardware-in-the-loop teleoperation control system in NVIDIA Isaac Sim/Lab for a 13-DOF dual-arm humanoid, streaming real-time joint states from Dynamixel servo controllers.</div>
+      <div class="publication-title"><a href="/portfolio/portfolio-5/">Khameleon Robotics: Control & Simulation Engineer Intern</a></div>
+      <div class="publication-venue">Hardware-in-the-loop teleoperation system for dual-arm humanoid robot using NVIDIA Isaac Sim/Lab.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-5/" class="publication-link">Project Page</a>
       </div>
@@ -429,13 +401,13 @@ I enjoy to se the application of my studies in the real world. I worked at **[Kh
 
   <li class="publication-item">
     <span class="publication-number">2.</span>
-    <div class="publication-thumbnail" style="position: relative;">
+    <div class="publication-thumbnail">
       <img src="/images/root_deployment.jpg" alt="Root Applied Sciences">
-      <div class="publication-tag" style="position: absolute; top: 6px; right: 6px; bottom: auto; left: auto;">Work</div>
+      <div class="publication-tag">Work</div>
     </div>
     <div class="publication-content">
-      <div class="publication-title"><a href="/portfolio/portfolio-2/">Root Applied Sciences(BioTech Startup): Junior Engineer Contractor, Mechanical / Hardware Engineering Intern</a></div>
-      <div class="publication-venue">Managed preparation and maintenance of 80+ devices, ensuring firmware reliability and validation of the PCB-Solar-Battery-Data follow bridge. Designed and 3D-printed insect-resistant housings, reducing damage by 100% and increasing QC efficiency by 50%.</div>
+      <div class="publication-title"><a href="/portfolio/portfolio-2/">Root Applied Sciences: Junior Engineer Contractor</a></div>
+      <div class="publication-venue">Mechanical/hardware solutions for pathogen monitoring systems. Designed 3D-printed housings and managed 80+ field-deployed devices.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-2/" class="publication-link">Project Page</a>
       </div>
@@ -449,14 +421,14 @@ I enjoy to se the application of my studies in the real world. I worked at **[Kh
 <ol class="publication-list">
   <li class="publication-item">
     <span class="publication-number">1.</span>
-    <div class="publication-thumbnail" style="position: relative;">
+    <div class="publication-thumbnail">
       <img src="/images/TAFlab_lolus.jpeg" alt="TAF Lab">
-      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">Research</div>
+      <div class="publication-tag">Research</div>
     </div>
     <div class="publication-content">
-      <div class="publication-title"> <a href="/portfolio/portfolio-1/">TAF Lab (Theoretical & Applied Fluid Dynamics Laboratory) : Undergraduate Research Assistant</a></div>
+      <div class="publication-title"><a href="/portfolio/portfolio-1/">TAF Lab: Undergraduate Research Assistant</a></div>
       <div class="publication-authors">E. Kuo, S. Ahn, A. Khan</div>
-      <div class="publication-venue">Led electronics implementation with 7+ sensors, established Real-time data collection between 4 units, and developed autonomous up/downwind sail autonomous sail control with 50+ Marina ocean tests.</div>
+      <div class="publication-venue">Autonomous ocean drone for sustainable marine transportation. Led electronics integration and autonomous control system development. Top 20 in U.S. DOE "Power at the Sea Prize."</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-1/" class="publication-link">Project Page</a>
       </div>
@@ -465,15 +437,15 @@ I enjoy to se the application of my studies in the real world. I worked at **[Kh
 
   <li class="publication-item">
     <span class="publication-number">2.</span>
-    <div class="publication-thumbnail" style="position: relative;">
+    <div class="publication-thumbnail">
       <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;">
         <source src="/images/MSC_WL2Isaac.webm" type="video/webm">
       </video>
-      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">Research</div>
+      <div class="publication-tag">Research</div>
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-6/">Mechanical Systems Control Lab</a></div>
-      <div class="publication-venue">Developed 3D reconstruction asset using Worldlabs.ai, Nvidia 3Dgrut, and Isaac Lab to create 3D assets from render2sim2asset pipeline.</div>
+      <div class="publication-venue">3D reconstruction pipeline using Worldlab.ai, Nvidia 3Dgrut, and Isaac Lab for render-to-sim-to-asset workflow.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-6/" class="publication-link">Project Page</a>
       </div>
@@ -489,14 +461,14 @@ I enjoy to se the application of my studies in the real world. I worked at **[Kh
 <ol class="publication-list">
   <li class="publication-item">
     <span class="publication-number">1.</span>
-    <div class="publication-thumbnail" style="position: relative;">
+    <div class="publication-thumbnail">
       <img src="/images/me110-0.png" alt="AutomaticSnow Goggles">
-      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">ME110</div>
+      <div class="publication-tag">ME110</div>
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-7/">AutomaticSnow Goggles - Bioinspired Design</a></div>
       <div class="publication-authors">S. Ahn</div>
-      <div class="publication-venue">ME110 - Undergrad Project 4, UC Berkeley. Bioinspired snow goggles with automatic lens cleaning mechanism based on bird nictitating membrane.</div>
+      <div class="publication-venue">ME110 - Bioinspired snow goggles with automatic lens cleaning mechanism based on bird nictitating membrane.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-7/" class="publication-link">Project Page</a>
       </div>
@@ -505,29 +477,32 @@ I enjoy to se the application of my studies in the real world. I worked at **[Kh
 
   <li class="publication-item">
     <span class="publication-number">2.</span>
-    <div class="publication-thumbnail" style="position: relative;">
+    <div class="publication-thumbnail">
       <img src="/images/caliber_pg1.png" alt="Caliber Platform">
-      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">Class</div>
+      <div class="publication-tag">Class</div>
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-3/">Caliber - Student Projects Open Source Platform</a></div>
       <div class="publication-authors">S. Ahn</div>
-      <div class="publication-venue">Open Source Platform, UC Berkeley, 2025.</div>
+      <div class="publication-venue">Open source platform featuring 500+ UC Berkeley student projects. Currently in development with use case research and file management features.</div>
+      <div class="publication-links">
+        <a href="/portfolio/portfolio-3/" class="publication-link">Project Page</a>
+      </div>
     </div>
   </li>
 
   <li class="publication-item">
     <span class="publication-number">3.</span>
-    <div class="publication-thumbnail" style="position: relative;">
+    <div class="publication-thumbnail">
       <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;">
         <source src="/images/me231_result_1.mov" type="video/quicktime">
       </video>
-      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">ME231</div>
+      <div class="publication-tag">ME231</div>
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-8/">MPC for Truck-Trailer System with Obstacle Avoidance</a></div>
       <div class="publication-authors">S. Ahn</div>
-      <div class="publication-venue">ME231 - Model Predictive Control implementation for truck-trailer navigation with obstacle avoidance in forward and reverse motion.</div>
+      <div class="publication-venue">ME231 - Model Predictive Control for autonomous truck-trailer navigation with dynamic obstacle avoidance in forward and reverse motion.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-8/" class="publication-link">Project Page</a>
       </div>
@@ -536,7 +511,7 @@ I enjoy to se the application of my studies in the real world. I worked at **[Kh
 
   <!-- <li class="publication-item">
     <span class="publication-number">4.</span>
-    <div class="publication-thumbnail" style="position: relative;">
+    <div class="publication-thumbnail">
       <img src="/images/CalSol_suspension.png" alt="CalSol">
       <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">Student Club</div>
     </div>
@@ -556,13 +531,13 @@ I enjoy to se the application of my studies in the real world. I worked at **[Kh
 <ol class="publication-list">
   <li class="publication-item">
     <span class="publication-number">1.</span>
-    <div class="publication-thumbnail" style="position: relative;">
+    <div class="publication-thumbnail">
       <img src="/images/CalSol_suspension.png" alt="CalSol">
-      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">Research</div>
+      <div class="publication-tag">Club</div>
     </div>
     <div class="publication-content">
-      <div class="publication-title"><a href="/portfolio/portfolio-4/">UC Berkeley Solar Vehicle Team, CalSol – Suspension & Battery Team Member</a></div>
-      <div class="publication-venue">Consolidated two front suspension brackets, reducing weight by 10% while ensuring safety via SolidWorks FEA Analysis.</div>
+      <div class="publication-title"><a href="/portfolio/portfolio-4/">UC Berkeley Solar Vehicle Team, CalSol</a></div>
+      <div class="publication-venue">Suspension & Battery Team Member. Consolidated front suspension brackets, reducing weight by 10% with FEA validation.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-4/" class="publication-link">Project Page</a>
       </div>
@@ -572,8 +547,8 @@ I enjoy to se the application of my studies in the real world. I worked at **[Kh
 
 #### Teaching Experience
 
-* **Diablo Valley College, Physics Tutor**
-Tutored students in Intro to Engineering Mechanics, Electromagnetics, and Quantum Mechanics.
+* **Diablo Valley College, Physics Tutor**  
+  Tutored students in Intro to Engineering Mechanics, Electromagnetics, and Quantum Mechanics.
 
 ## Education
 
