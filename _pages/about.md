@@ -355,14 +355,14 @@ p {
 
 ## About Me
 
-I am an M.S. student in Mechanical Engineering at UC Berkeley, working in the [ICON (Intelligent Control) Lab](https://iconlab.negarmehr.com) under Prof. Negar Mehr. My research focuses on robot learning, particularly VLA/VLM methods, control systems, and simulation for robotic applications.
+I am M.S. student in Mechanical Engineering at UC Berkeley, working in the [ICON (Intelligent Control) Lab](https://iconlab.negarmehr.com) under Prof. Negar Mehr. My research focuses on robot learning, particularly VLA/VLM, Control Systems, and Simulation.
 
-Previously, I worked at **[Khameleon Robotics](https://www.khameleonrobotics.com)** as a Control & Simulation Engineer Intern and at **[Root Applied Sciences](https://rootappliedsciences.com)** as a Junior Engineer, developing robotics and hardware solutions. During my B.S., I was part of the [TAF (Theoretical & Applied Fluid Dynamics) Lab](https://taflab.berkeley.edu) under Prof. Reza Alam. 
+Previously, I worked at **[Khameleon Robotics](https://www.khameleonrobotics.com)** as a Control & Simulation Intern and at **[Root Applied Sciences](https://rootappliedsciences.com)** as a Junior Engineer, developing QA automation, and deployment solutions. During my Bachelor at UC Berkeley, I was part of the [TAF (Theoretical & Applied Fluid Dynamics) Lab](https://taflab.berkeley.edu) under Prof. Reza Alam. 
 
 ## Research Interests
 
-* **Robot Learning:** VLA/VLM methods for control and dual-arm manipulation
-* **Control Systems:** Advanced control theory and implementation for robotic systems
+* **Robot Learning:** VLA/VLM for Control and dual-arm manipulation
+* **Control Systems:** Advanced Control Theory and implementation in robotic systems
 * **Simulation:** NVIDIA Isaac Sim/Lab, MuJoCo
 * **3D Reconstruction:** Worldlab, 3Dgrut for 3D asset generation
 

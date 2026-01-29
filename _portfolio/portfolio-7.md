@@ -4,6 +4,7 @@ excerpt: "ME110 Undergrad Project 4 - Bioinspired snow goggles with nictitating 
 collection: portfolio
 category: class
 date: 2024-12-01
+share: false
 ---
 
 ## AutomaticSnow Goggles - Bioinspired by Nictitating Membrane

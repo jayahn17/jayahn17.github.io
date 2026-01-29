@@ -4,6 +4,7 @@ excerpt: "Model Predictive Control implementation for truck-trailer navigation w
 collection: portfolio
 category: class
 date: 2024-12-01
+share: false
 ---
 
 ## MPC (Model Predictive Control) for Truck-Trailer System

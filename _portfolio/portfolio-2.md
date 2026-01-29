@@ -4,6 +4,7 @@ excerpt: "Pathogen Monitoring Device - microfluid door design <br/><img src='/im
 collection: portfolio
 category: work
 date: 2024-11-01
+share: false
 ---
 
 ## Root Applied Sciences - Pathogen Monitoring Device

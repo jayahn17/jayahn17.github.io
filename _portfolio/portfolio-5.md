@@ -4,6 +4,7 @@ excerpt: "Controls & Simulation Intern - Advanced robotics controls and simulati
 collection: portfolio
 category: work
 date: 2024-12-01
+share: false
 ---
 
 ## Khameleon Robotics - Controls & Simulation Intern

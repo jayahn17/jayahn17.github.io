@@ -4,6 +4,7 @@ excerpt: "CalSol Solar Vehicle Team - Battery and Suspension Systems <br/><img s
 collection: portfolio
 category: class
 date: 2025-12-02
+share: false
 ---
 
 ## CalSol - Solar Vehicle Team

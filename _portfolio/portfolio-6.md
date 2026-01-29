@@ -4,6 +4,7 @@ excerpt: "3D asset creation from render-to-sim-to-asset pipeline"
 collection: portfolio
 category: work
 date: 2025-01-01
+share: false
 ---
 
 ## MSC - 3D Reconstruction

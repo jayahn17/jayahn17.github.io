@@ -13,6 +13,7 @@ repo_url: ""
 demo_url: ""
 featured: true
 teaser: "/images/TAF_Lab_1.jpeg"
+share: false
 ---
 
 ## CAPTAIN: Smart Steering Through Waves For A Sustainable Marine Transportation
@@ -31,9 +32,9 @@ As an Undergraduate Research Assistant at the Theoretical & Applied Fluid Dynami
 
 ### Key Achievements
 
-- **Licensed IP** for "PowerCab: A Multimodal Mobile Sea-based Power Generation and Delivery"
+- **Submitted Licensed IP** for "PowerCab: A Multimodal Mobile Sea-based Power Generation and Delivery"
 - Led electronics implementation with 7+ sensors and established wireless communication using the Xbee protocol
-- Developed autonomous up/downwind control system using wind vanes, GPS, magnetometer, and motors
+- Developed autonomous up/downwind control system using windvanes, GPS, magnetometer, and servo/stepper motors
 - Conducted over 50+ ocean tests and built a real-time raw data acquisition pipeline linking device firmware to a Python database
 - **Pitched to Vice Chancellor in Research (VCR) at UC Berkeley** alongside our best team, presenting our innovative autonomous ocean drone solution on data collection.
 <!-- ### Demo Video -->
@@ -44,7 +45,7 @@ As an Undergraduate Research Assistant at the Theoretical & Applied Fluid Dynami
 ### Responsibility
 
 **Electronics Integration & Sensor Systems:**
-- Integrated 7+ sensors including GPS, magnetometer, wind vanes, and IMU sensors for autonomous navigation
+- Integrated 7+ sensors including GPS, magnetometer, windvanes, and IMU sensors for autonomous navigation
 - Established wireless communication network using XBee protocol for real-time data transmission between drone and base station
 - Designed and implemented sensor fusion algorithms to combine data from multiple sensors for accurate positioning and orientation
 

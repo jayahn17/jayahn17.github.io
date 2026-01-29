@@ -4,6 +4,7 @@ excerpt: "Open source projects in UC Berkeley <br/><img src='/images/caliber_pg1
 collection: portfolio
 category: class
 date: 2025-12-01
+share: false
 ---
 
 ## Caliber - Open Source Projects at UC Berkeley
