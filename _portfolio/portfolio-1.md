@@ -23,7 +23,7 @@ share: false
 ### Project Overview
 As an Undergraduate Research Assistant at the Theoretical & Applied Fluid Dynamics Laboratory (TAF Lab) at UC Berkeley, I led electronics integration and autonomy development for an autonomous ocean drone prototype focused on sustainable marine transportation. The project placed in the Top 20 of the U.S. Department of Energy "Power at the Sea Prize."
 
-### Prototype & Pitch(to Berkeley Vice Chancellor of Research)
+### Prototype & Pitch (to the Berkeley Vice Chancellor for Research)
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
   <img src="/images/TAF_Lab_1.jpeg" alt="TAF Lab Team Photo 1" style="width: 100%; max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); object-fit: contain;">
@@ -32,17 +32,17 @@ As an Undergraduate Research Assistant at the Theoretical & Applied Fluid Dynami
 
 ### Key Achievements
 
-- **Submitted Licensed IP** for "PowerCab: A Multimodal Mobile Sea-based Power Generation and Delivery"
-- Led electronics implementation with 7+ sensors and established wireless communication using the Xbee protocol
+- **Submitted licensed IP** for "PowerCab: A Multimodal Mobile Sea-based Power Generation and Delivery"
+- Led electronics implementation with 7+ sensors and established wireless communication using the XBee protocol
 - Developed autonomous up/downwind control system using windvanes, GPS, magnetometer, and servo/stepper motors
-- Conducted over 50+ ocean tests and built a real-time raw data acquisition pipeline linking device firmware to a Python database
-- **Pitched to Vice Chancellor in Research (VCR) at UC Berkeley** alongside our best team, presenting our innovative autonomous ocean drone solution on data collection.
+- Conducted 50+ ocean tests and built a real-time raw data acquisition pipeline linking device firmware to a Python database
+- **Pitched to the Vice Chancellor for Research (VCR) at UC Berkeley** with our team, presenting our autonomous ocean drone solution for data collection.
 <!-- ### Demo Video -->
 <!-- Option 1: YouTube Embed (Recommended - easiest and best performance) -->
 <!-- Replace VIDEO_ID with your YouTube video ID -->
 <!-- Khameleon robotics video removed from this TAF Lab page and moved to Khameleon project page. -->
 
-### Responsibility
+### Responsibilities
 
 **Electronics Integration & Sensor Systems:**
 - Integrated 7+ sensors including GPS, magnetometer, windvanes, and IMU sensors for autonomous navigation
@@ -50,8 +50,8 @@ As an Undergraduate Research Assistant at the Theoretical & Applied Fluid Dynami
 - Designed and implemented sensor fusion algorithms to combine data from multiple sensors for accurate positioning and orientation
 
 **Autonomous Control System:**
-- Developed up/downwind control system that enables the drone to autonomously navigate based on wind conditions
-- Implemented control algorithms using wind vane data, GPS coordinates, and magnetometer readings
+- Developed an up/downwind control system that enables the drone to autonomously navigate based on wind conditions
+- Implemented control algorithms using windvane data, GPS coordinates, and magnetometer readings
 - Programmed motor control systems for precise maneuvering and station-keeping in ocean environments
 
 **Data Pipeline & Testing:**

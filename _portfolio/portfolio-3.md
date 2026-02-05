@@ -15,7 +15,7 @@ share: false
   <img src="/images/caliber_front.png" alt="Caliber Front" style="width: 100%; max-width: 800px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); object-fit: contain;">
 </div>
 
-Caliber is a platform featuring 500+ open source projects from UC Berkeley, showcasing the innovative work and contributions from the UC Berkeley community. Currently in the development phase, we are conducting use case research and expanding to include file management features. This project originated from ENGIN 283 - AI Startup Course.
+Caliber is a platform featuring 500+ open source projects from UC Berkeley, showcasing the innovative work and contributions from the UC Berkeley community. Currently in the development phase, we are conducting use-case research and expanding to include file management features. This project originated from ENGIN 283 - AI Startup Course.
 
 
 ### Demo Video
@@ -59,8 +59,6 @@ Caliber is a platform featuring 500+ open source projects from UC Berkeley, show
   });
 </script>
 
-### 
-
 **Frontend Development:**
 - Developed responsive web interface for browsing and searching through 500+ open source projects
 - Implemented user-friendly navigation and filtering systems to help users discover relevant projects
@@ -80,7 +78,7 @@ Caliber is a platform featuring 500+ open source projects from UC Berkeley, show
 ### Key Features
 
 - Comprehensive collection of currently 500+ open source projects
-- Community-driven platform for UC Berkeley
+- Community-driven platform for the UC Berkeley community
 - Showcasing innovative work from UC Berkeley students and researchers
 
 <!-- ### Presentation

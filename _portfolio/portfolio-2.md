@@ -21,7 +21,7 @@ Working at Root Applied Sciences on developing a pathogen monitoring device with
 - Prototyped and tested microfluidic channels to ensure proper fluid flow and mixing characteristics
 
 **Device Development:**
-- Worked on the protector housing design to ensure device durability and protection in field deployment conditions
+- Worked on the protective housing design to ensure device durability and protection in field deployment conditions
 - Integrated microfluidic systems with sensor arrays for automated pathogen detection
 - Developed maintenance protocols and procedures for field-deployed devices
 
