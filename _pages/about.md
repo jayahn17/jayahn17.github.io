@@ -361,7 +361,7 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
 
 ## Research Interests
 
-* **Robot Learning:** VLA/VLM for control and dual-arm manipulation
+* **Robot Learning:** ML (VLA, VLM, RL, DeepRL) for dual-arm manipulation
 * **Control Systems:** Advanced control theory and implementation in robotic systems
 * **Simulation:** NVIDIA Isaac Sim/Lab, MuJoCo
 * **3D Reconstruction:** Worldlab, 3Dgrut for 3D asset generation
