@@ -77,20 +77,9 @@ Caliber is a platform featuring 500+ open source projects from UC Berkeley, show
 
 ### Key Features
 
-- Comprehensive collection of currently 500+ open source projects
+- Comprehensive collection of 500+ open source projects
 - Community-driven platform for the UC Berkeley community
-- Showcasing innovative work from UC Berkeley students and researchers
-
-<!-- ### Presentation
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 60%; margin: 20px 0;">
-  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-          src="https://docs.google.com/presentation/d/1O-A3STddmSCpnOkwsQuVuAJRZFTy298NqqmlJJ5ldtg/preview" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowfullscreen>
-  </iframe>
-</div> -->
+- Showcases innovative work from UC Berkeley students and researchers
 
 ### Project Photos
 

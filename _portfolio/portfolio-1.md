@@ -9,8 +9,6 @@ duration: "Jan 2024 – Dec 2024"
 team_size: 4
 tech_tags: ["Python", "Sensors", "XBee", "Embedded"]
 impact: "Top 20 in U.S. DOE 'Power at the Sea' Prize; built a real-time data pipeline supporting 50+ ocean tests"
-repo_url: ""
-demo_url: ""
 featured: true
 teaser: "/images/TAF_Lab_1.jpeg"
 share: false
@@ -37,10 +35,6 @@ As an Undergraduate Research Assistant at the Theoretical & Applied Fluid Dynami
 - Developed autonomous up/downwind control system using windvanes, GPS, magnetometer, and servo/stepper motors
 - Conducted 50+ ocean tests and built a real-time raw data acquisition pipeline linking device firmware to a Python database
 - **Pitched to the Vice Chancellor for Research (VCR) at UC Berkeley** with our team, presenting our autonomous ocean drone solution for data collection.
-<!-- ### Demo Video -->
-<!-- Option 1: YouTube Embed (Recommended - easiest and best performance) -->
-<!-- Replace VIDEO_ID with your YouTube video ID -->
-<!-- Khameleon robotics video removed from this TAF Lab page and moved to Khameleon project page. -->
 
 ### Responsibilities
 
@@ -58,5 +52,3 @@ As an Undergraduate Research Assistant at the Theoretical & Applied Fluid Dynami
 - Built real-time raw data acquisition pipeline connecting device firmware to Python-based database system
 - Conducted 50+ ocean tests to validate system performance and reliability
 - Analyzed sensor data to optimize control parameters and improve autonomous navigation accuracy
-
-

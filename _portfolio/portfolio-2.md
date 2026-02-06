@@ -11,7 +11,7 @@ share: false
 
 ### Project Overview
 
-Working at Root Applied Sciences on developing a pathogen monitoring device with advanced microfluidics design and deployment capabilities for environmental pathogen detection and monitoring.
+At Root Applied Sciences I worked on a pathogen monitoring device with advanced microfluidics design and deployment for environmental pathogen detection and monitoring.
 
 ### My Contributions
 

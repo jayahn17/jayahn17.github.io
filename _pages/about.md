@@ -355,24 +355,16 @@ p {
 
 ## About Me
 
-I am M.S. student in Mechanical Engineering at UC Berkeley, working in the [ICON (Intelligent Control) Lab](https://iconlab.negarmehr.com) under Prof. Negar Mehr. My research focuses on robot learning, particularly VLA/VLM, Control Systems, and Simulation.
+I am an M.S. student in Mechanical Engineering at UC Berkeley, working in the [ICON (Intelligent Control) Lab](https://iconlab.negarmehr.com) under Prof. Negar Mehr. My research focuses on robot learning—VLA/VLM for control, dual-arm manipulation—as well as control systems and simulation.
 
-Previously, I worked at **[Khameleon Robotics](https://www.khameleonrobotics.com)** as a Control & Simulation Intern and at **[Root Applied Sciences](https://rootappliedsciences.com)** as a Junior Engineer, developing QA automation, and deployment solutions. During my Bachelor at UC Berkeley, I was part of the [TAF (Theoretical & Applied Fluid Dynamics) Lab](https://taflab.berkeley.edu) under Prof. Reza Alam. 
+Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https://www.khameleonrobotics.com)** and a Junior Engineer at **[Root Applied Sciences](https://rootappliedsciences.com)**, working on QA automation and deployment. During my bachelor’s at UC Berkeley, I was part of the [TAF (Theoretical & Applied Fluid Dynamics) Lab](https://taflab.berkeley.edu) under Prof. Reza Alam.
 
 ## Research Interests
 
-* **Robot Learning:** VLA/VLM for Control and dual-arm manipulation
-* **Control Systems:** Advanced Control Theory and implementation in robotic systems
+* **Robot Learning:** VLA/VLM for control and dual-arm manipulation
+* **Control Systems:** Advanced control theory and implementation in robotic systems
 * **Simulation:** NVIDIA Isaac Sim/Lab, MuJoCo
 * **3D Reconstruction:** Worldlab, 3Dgrut for 3D asset generation
-
-<!-- ## News
-
-* **\[Dec, 2025\]** Working on hardware-in-the-loop teleoperation control system for dual-arm humanoid robot at Khameleon Robotics using NVIDIA Isaac Sim/Lab.
-
-* **\[Nov, 2025\]** Ranked Top 20 / 3400 in U.S. DOE "Power at the Sea Prize" competition with TAF Lab team. Listed as inventor on patent application for "A Multimodal Mobile Sea-based Power Generation and Delivery."
-
-* **\[Fall, 2024\]** Earned second place at design showcase for ME102B Mechatronics project - Robotic Fish with unique tail mechanism design. -->
 
   </div>
   <div markdown="1">
@@ -391,8 +383,8 @@ Previously, I worked at **[Khameleon Robotics](https://www.khameleonrobotics.com
       <div class="publication-tag">Work</div>
     </div>
     <div class="publication-content">
-      <div class="publication-title"><a href="/portfolio/portfolio-5/">Khameleon Robotics: Control & Simulation Engineer Intern</a></div>
-      <div class="publication-venue">Hardware-in-the-loop teleoperation system for dual-arm humanoid robot using NVIDIA Isaac Sim/Lab.</div>
+      <div class="publication-title"><a href="/portfolio/portfolio-5/">Khameleon Robotics: Control & Simulation Intern</a></div>
+      <div class="publication-venue">Hardware-in-the-loop teleoperation for dual-arm humanoid robot in NVIDIA Isaac Sim/Lab.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-5/" class="publication-link">Project Page</a>
       </div>
@@ -406,8 +398,8 @@ Previously, I worked at **[Khameleon Robotics](https://www.khameleonrobotics.com
       <div class="publication-tag">Work</div>
     </div>
     <div class="publication-content">
-      <div class="publication-title"><a href="/portfolio/portfolio-2/">Root Applied Sciences: Junior Engineer Contractor</a></div>
-      <div class="publication-venue">Mechanical/hardware solutions for pathogen monitoring systems. Designed 3D-printed housings and managed 80+ field-deployed devices.</div>
+      <div class="publication-title"><a href="/portfolio/portfolio-2/">Root Applied Sciences: Junior Engineer</a></div>
+      <div class="publication-venue">Microfluidics and hardware for pathogen monitoring. Designed 3D-printed housings and supported 80+ field-deployed devices.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-2/" class="publication-link">Project Page</a>
       </div>
@@ -422,13 +414,30 @@ Previously, I worked at **[Khameleon Robotics](https://www.khameleonrobotics.com
   <li class="publication-item">
     <span class="publication-number">1.</span>
     <div class="publication-thumbnail">
+      <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;">
+        <source src="/images/icon_front_video.mov" type="video/quicktime">
+      </video>
+      <div class="publication-tag">Research</div>
+    </div>
+    <div class="publication-content">
+      <div class="publication-title"><a href="/portfolio/portfolio-9/">ICON Lab: Robot Learning & Manipulation</a></div>
+      <div class="publication-venue">PolicyPlayer demos in robosuite/MuJoCo, Diffusion Policy evaluation, and quadruped RL migration (Go1→Go2) in Isaac Gym.</div>
+      <div class="publication-links">
+        <a href="/portfolio/portfolio-9/" class="publication-link">Project Page</a>
+      </div>
+    </div>
+  </li>
+
+  <li class="publication-item">
+    <span class="publication-number">2.</span>
+    <div class="publication-thumbnail">
       <img src="/images/TAFlab_lolus.jpeg" alt="TAF Lab">
       <div class="publication-tag">Research</div>
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-1/">TAF Lab: Undergraduate Research Assistant</a></div>
       <div class="publication-authors">E. Kuo, S. Ahn, A. Khan</div>
-      <div class="publication-venue">Autonomous ocean drone for sustainable marine transportation. Led electronics integration and autonomous control system development. Top 20 in U.S. DOE "Power at the Sea Prize."</div>
+      <div class="publication-venue">Autonomous ocean drone for marine transportation. Led electronics integration and autonomous control. Top 20 in U.S. DOE "Power at the Sea Prize."</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-1/" class="publication-link">Project Page</a>
       </div>
@@ -436,7 +445,7 @@ Previously, I worked at **[Khameleon Robotics](https://www.khameleonrobotics.com
   </li>
 
   <li class="publication-item">
-    <span class="publication-number">2.</span>
+    <span class="publication-number">3.</span>
     <div class="publication-thumbnail">
       <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;">
         <source src="/images/MSC_WL2Isaac.webm" type="video/webm">
@@ -445,7 +454,7 @@ Previously, I worked at **[Khameleon Robotics](https://www.khameleonrobotics.com
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-6/">Mechanical Systems Control Lab</a></div>
-      <div class="publication-venue">3D reconstruction pipeline using Worldlab.ai, Nvidia 3Dgrut, and Isaac Lab for render-to-sim-to-asset workflow.</div>
+      <div class="publication-venue">3D reconstruction pipeline with Worldlab.ai, NVIDIA 3Dgrut, and Isaac Lab (render-to-sim-to-asset).</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-6/" class="publication-link">Project Page</a>
       </div>
@@ -468,7 +477,7 @@ Previously, I worked at **[Khameleon Robotics](https://www.khameleonrobotics.com
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-7/">AutomaticSnow Goggles - Bioinspired Design</a></div>
       <div class="publication-authors">S. Ahn</div>
-      <div class="publication-venue">ME110 - Bioinspired snow goggles with automatic lens cleaning mechanism based on bird nictitating membrane.</div>
+      <div class="publication-venue">ME110 — Bioinspired snow goggles with automatic lens cleaning based on bird nictitating membrane.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-7/" class="publication-link">Project Page</a>
       </div>
@@ -484,7 +493,7 @@ Previously, I worked at **[Khameleon Robotics](https://www.khameleonrobotics.com
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-3/">Caliber - Student Projects Open Source Platform</a></div>
       <div class="publication-authors">S. Ahn</div>
-      <div class="publication-venue">Open source platform featuring 500+ UC Berkeley student projects. Currently in development with use case research and file management features.</div>
+      <div class="publication-venue">Open source platform with 500+ UC Berkeley student projects; use case research and file management in development.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-3/" class="publication-link">Project Page</a>
       </div>
@@ -502,25 +511,12 @@ Previously, I worked at **[Khameleon Robotics](https://www.khameleonrobotics.com
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-8/">MPC for Truck-Trailer System with Obstacle Avoidance</a></div>
       <div class="publication-authors">S. Ahn</div>
-      <div class="publication-venue">ME231 - Model Predictive Control for autonomous truck-trailer navigation with dynamic obstacle avoidance in forward and reverse motion.</div>
+      <div class="publication-venue">ME231 — MPC for autonomous truck-trailer navigation with dynamic obstacle avoidance (forward and reverse).</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-8/" class="publication-link">Project Page</a>
       </div>
     </div>
   </li>
-
-  <!-- <li class="publication-item">
-    <span class="publication-number">4.</span>
-    <div class="publication-thumbnail">
-      <img src="/images/CalSol_suspension.png" alt="CalSol">
-      <div class="publication-tag" style="position: absolute; bottom: 6px; right: 6px; top: auto; left: auto;">Student Club</div>
-    </div>
-    <div class="publication-content">
-      <div class="publication-title"><a href="/portfolio/portfolio-4/">UC Berkeley Solar Vehicle Team</a></div>
-      <div class="publication-authors">S. Ahn</div>
-      <div class="publication-venue">UCB Solar Vehicle Team.</div>
-    </div>
-  </li> -->
 </ol>
 
   </div>
@@ -537,7 +533,7 @@ Previously, I worked at **[Khameleon Robotics](https://www.khameleonrobotics.com
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-4/">UC Berkeley Solar Vehicle Team, CalSol</a></div>
-      <div class="publication-venue">Suspension & Battery Team Member. Consolidated front suspension brackets, reducing weight by 10% with FEA validation.</div>
+      <div class="publication-venue">Suspension & Battery Team. Consolidated front suspension brackets with 10% weight reduction and FEA validation.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-4/" class="publication-link">Project Page</a>
       </div>

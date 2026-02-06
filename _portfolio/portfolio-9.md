@@ -22,43 +22,31 @@ Research at ICON Lab on scripted demonstration generation, diffusion-based imita
 
 - **Quadruped RL migration:** Migrated a multi-agent quadruped RL environment from Unitree Go1 to Go2 using Isaac Gym, maintaining task consistency across hardware generations.
 
-### Video reels
+### Videos
 
-Short clips from PolicyPlayer demos and manipulation tasks.
+**1. Front view — PolicyPlayer / manipulation**
 
-<div class="portfolio-reels" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; margin: 24px 0;">
-  <div style="text-align: center;">
-    <video width="100%" controls playsinline style="max-width: 320px; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.12); object-fit: cover; aspect-ratio: 9/16;" preload="metadata">
-      <source src="/images/icon_front_video.mov" type="video/quicktime">
-      Your browser does not support the video tag.
-    </video>
-    <p style="margin-top: 10px; font-size: 0.9em; color: #666;"><strong>Front view</strong> – PolicyPlayer / manipulation</p>
-  </div>
-  <div style="text-align: center;">
-    <video width="100%" controls playsinline style="max-width: 320px; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.12); object-fit: cover; aspect-ratio: 9/16;" preload="metadata">
-      <source src="/images/icon_handover.mov" type="video/quicktime">
-      Your browser does not support the video tag.
-    </video>
-    <p style="margin-top: 10px; font-size: 0.9em; color: #666;"><strong>Handover</strong> – Bimanual handover task</p>
-  </div>
-  <div style="text-align: center;">
-    <video width="100%" controls playsinline style="max-width: 320px; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.12); object-fit: cover; aspect-ratio: 9/16;" preload="metadata">
-      <source src="/images/icon_can_pickandplace.mov" type="video/quicktime">
-      Your browser does not support the video tag.
-    </video>
-    <p style="margin-top: 10px; font-size: 0.9em; color: #666;"><strong>Can pick-and-place</strong> – Single-arm manipulation</p>
-  </div>
+<div style="display: flex; justify-content: center; margin: 20px 0;">
+  <video width="100%" controls playsinline style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <source src="/images/icon_front_video.mov" type="video/quicktime">
+    Your browser does not support the video tag.
+  </video>
 </div>
 
-### Screenshots & visualizations
+**2. Handover — Bimanual handover task**
 
-*Add your robosuite/MuJoCo and Isaac Gym screenshots here.* Use the same grid style as other portfolio items: upload images to `/images/` and reference them like `/images/icon_screenshot1.png`.
+<div style="display: flex; justify-content: center; margin: 20px 0;">
+  <video width="100%" controls playsinline style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <source src="/images/icon_handover.mov" type="video/quicktime">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin: 20px 0;">
-  <!-- Example: add your screenshot entries
-  <div>
-    <img src="/images/icon_robosuite_demo.png" alt="Robosuite task" style="width: 100%; max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); object-fit: contain;">
-    <p style="margin-top: 8px; font-size: 0.9em; color: #666;"><strong>Caption:</strong> Description</p>
-  </div>
-  -->
+**3. Can pick-and-place — Single-arm manipulation**
+
+<div style="display: flex; justify-content: center; margin: 20px 0;">
+  <video width="100%" controls playsinline style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <source src="/images/icon_can_pickandplace.mov" type="video/quicktime">
+    Your browser does not support the video tag.
+  </video>
 </div>
