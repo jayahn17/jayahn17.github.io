@@ -366,12 +366,12 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
 * **Simulation:** NVIDIA Isaac Sim/Lab, MuJoCo
 * **3D Reconstruction:** Worldlab, 3Dgrut for 3D asset generation
 
-  </div>
-  <div markdown="1">
+</div>
+<div markdown="1">
 
 ## Work/Research Experiences
 
-#### Work Experience
+## Work Experience
 
 <ol class="publication-list">
   <li class="publication-item">
@@ -408,7 +408,7 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
 
 </ol>
 
-#### Research Experience
+## Research Experience
 
 <ol class="publication-list">
   <li class="publication-item">
@@ -462,7 +462,7 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
   </li>
 </ol>
 
-  </div>
+</div>
 <div markdown="1">
 
 ## Projects
@@ -519,7 +519,7 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
   </li>
 </ol>
 
-  </div>
+</div>
 <div markdown="1">
 
 ## Student Club
@@ -541,7 +541,7 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
   </li>
 </ol>
 
-#### Teaching Experience
+## Teaching Experience
 
 * **Diablo Valley College, Physics Tutor**  
   Tutored students in Intro to Engineering Mechanics, Electromagnetics, and Quantum Mechanics.
