@@ -8,13 +8,13 @@ redirect_from:
 ---
 
 <style>
-/* Centered single-column layout (like Minimal Light / kh-ryu.github.io) */
+/* Centered single-column layout - wider for readability */
 #main {
   background: transparent !important;
   box-shadow: none !important;
   margin: 0 auto !important;
-  padding: 0 20px !important;
-  max-width: 900px;
+  padding: 0 24px !important;
+  max-width: 1100px;
 }
 
 #main .page {
@@ -28,9 +28,9 @@ redirect_from:
 }
 
 .professional-page {
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: 40px 24px;
   line-height: 1.8;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   color: #e0e0e0;
