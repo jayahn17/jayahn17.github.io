@@ -5,6 +5,7 @@ collection: portfolio
 category: class
 date: 2024-12-01
 share: false
+teaser: "me231_result_1.png"
 header:
   teaser: "me231_result_1.png"
 ---

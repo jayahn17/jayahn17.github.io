@@ -518,6 +518,22 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
       </div>
     </div>
   </li>
+
+  <li class="publication-item">
+    <span class="publication-number">3.</span>
+    <div class="publication-thumbnail">
+      <img src="/images/me239_front_pg.png" alt="Spider Robot - ME239">
+      <div class="publication-tag">ME239</div>
+    </div>
+    <div class="publication-content">
+      <div class="publication-title"><a href="/portfolio/portfolio-10/">Spider Robot - Robotic Locomotion</a></div>
+      <div class="publication-authors">S. Ahn</div>
+      <div class="publication-venue">ME239 — Jacobian analysis and forward jump control for 4-legged spider robot (ZaidHJaber repo).</div>
+      <div class="publication-links">
+        <a href="/portfolio/portfolio-10/" class="publication-link">Project Page</a>
+      </div>
+    </div>
+  </li>
 </ol>
 
 </div>

@@ -6,6 +6,7 @@ category: work
 date: 2024-12-02
 role: "Research Assistant"
 share: false
+teaser: "icon_front_video.png"
 header:
   teaser: "icon_front_video.png"
 ---

@@ -5,6 +5,7 @@ collection: portfolio
 category: work
 date: 2024-12-01
 share: false
+teaser: "kha_grab_img.png"
 header:
   teaser: "kha_grab_img.png"
 ---

@@ -1,7 +1,3 @@
-# Top navigation: Work Experience and Coursework tabs
-main:
-  - title: "Work Experience"
-    url: /work-projects/
-  - title: "Coursework"
-    url: /class-projects/
+# Top navigation: no Work/Coursework tabs (portfolio only on About page)
+main: []
 

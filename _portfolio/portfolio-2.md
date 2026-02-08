@@ -5,6 +5,7 @@ collection: portfolio
 category: work
 date: 2024-11-01
 share: false
+teaser: "root_deployment.jpg"
 header:
   teaser: "root_deployment.jpg"
 ---

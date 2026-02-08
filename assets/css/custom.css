@@ -397,6 +397,15 @@ body::before {
   margin-right: auto;
 }
 
+/* Work Experience & Coursework: single-column list, image at front (top) of each item */
+.archive .grid__item {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 2em;
+  float: none;
+  display: block;
+}
+
 /* Grid cards: prevent overlap and contain content */
 .grid__item,
 .archive__item {
@@ -404,17 +413,26 @@ body::before {
   min-height: 0;
 }
 
-.archive__item-teaser {
-  max-height: 200px;
+/* Force teaser image to show on Work Experience and Coursework */
+.archive .archive__item-teaser {
+  display: block !important;
+  visibility: visible !important;
+  max-height: 220px;
+  min-height: 140px;
   overflow: hidden;
-  display: block;
+  background: #eee;
+  margin-bottom: 0.75em;
+  border-radius: 8px;
 }
 
-.archive__item-teaser img {
-  width: 100%;
-  height: 100%;
+.archive .archive__item-teaser img {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 140px !important;
+  max-height: 220px !important;
   object-fit: cover;
-  display: block;
+  display: block !important;
+  vertical-align: top;
 }
 
 /* Excerpt images on Work Experience / Coursework listing pages */

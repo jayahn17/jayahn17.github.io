@@ -1,10 +1,13 @@
 ---
 title: "Caliber - Open Source Platform for Student Projects"
-excerpt: "Open source projects in UC Berkeley <br/><img src='/images/caliber_pg1.png' style='max-width: 50%;'>"
+excerpt: "Open source projects in UC Berkeley"
 collection: portfolio
 category: class
 date: 2025-12-01
 share: false
+teaser: "caliber_pg1.png"
+header:
+  teaser: "caliber_pg1.png"
 ---
 
 ## Caliber - Open Source Projects at UC Berkeley
