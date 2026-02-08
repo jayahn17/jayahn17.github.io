@@ -48,6 +48,7 @@ As a Controls & Simulation Intern at Khameleon Robotics, I was responsible for s
 
 <div style="display: flex; justify-content: center; margin: 20px 0;">
   <video width="100%" controls style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <source src="/images/kha_grab_little.mp4" type="video/mp4">
     <source src="/images/kha_grab_little.mov" type="video/quicktime">
     Your browser does not support the video tag.
   </video>
@@ -66,6 +67,7 @@ As a Controls & Simulation Intern at Khameleon Robotics, I was responsible for s
 
 <div style="display: flex; justify-content: center; margin: 20px 0;">
   <video width="100%" controls style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <source src="/images/khameleon_video.mp4" type="video/mp4">
     <source src="/images/khameleon_video.mov" type="video/quicktime">
     Your browser does not support the video tag.
   </video>
