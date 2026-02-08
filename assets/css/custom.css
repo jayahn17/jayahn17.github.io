@@ -380,12 +380,31 @@ body::before {
 .tech-tag.class { background: var(--secondary-color); }
 .tech-tag.research { background: var(--accent-color); }
 
-/* Enhanced Images */
+/* Enhanced Images - readable size on portfolio/work pages */
 .page__content img {
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
   max-width: 100% !important;
+  height: auto;
+}
+
+/* Constrain images on portfolio/single pages for readability */
+.archive .page__content img {
+  max-width: min(100%, 720px) !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Excerpt images on Work Experience / Coursework listing pages */
+.archive__item-excerpt img {
+  max-width: min(100%, 320px) !important;
+  height: auto;
+  display: block;
+  margin-top: 8px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 .page__content img:hover {
