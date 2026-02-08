@@ -8,6 +8,25 @@ redirect_from:
 ---
 
 <style>
+/* Centered single-column layout (like Minimal Light / kh-ryu.github.io) */
+#main {
+  background: transparent !important;
+  box-shadow: none !important;
+  margin: 0 auto !important;
+  padding: 0 20px !important;
+  max-width: 900px;
+}
+
+#main .page {
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#main .page__inner-wrap > header {
+  display: none;
+}
+
 .professional-page {
   max-width: 900px;
   margin: 0 auto;
@@ -18,19 +37,14 @@ redirect_from:
   background: transparent;
 }
 
-#main {
-  background: transparent !important;
-  box-shadow: none !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
 .professional-header {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 30px;
-  margin-bottom: 40px;
+  gap: 16px;
+  margin-bottom: 48px;
   justify-content: center;
+  text-align: center;
 }
 
 .professional-header .profile-image {
@@ -43,8 +57,9 @@ redirect_from:
 }
 
 .professional-header .header-content {
-  flex: 1;
-  text-align: left;
+  flex: 0 1 auto;
+  text-align: center;
+  max-width: 100%;
 }
 
 .professional-header h1 {
@@ -86,6 +101,7 @@ redirect_from:
   gap: 15px;
   margin-top: 12px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .professional-header .social-links a {
@@ -100,13 +116,11 @@ redirect_from:
 }
 
 @media (max-width: 768px) {
-  .professional-header {
-    flex-direction: column;
-    text-align: center;
+  #main {
+    padding: 0 15px !important;
   }
-  
-  .professional-header .header-content {
-    text-align: center;
+  .professional-page {
+    padding: 24px 15px;
   }
 }
 
@@ -473,22 +487,6 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
   <li class="publication-item">
     <span class="publication-number">1.</span>
     <div class="publication-thumbnail">
-      <img src="/images/me110-0.png" alt="AutomaticSnow Goggles">
-      <div class="publication-tag">ME110</div>
-    </div>
-    <div class="publication-content">
-      <div class="publication-title"><a href="/portfolio/portfolio-7/">AutomaticSnow Goggles - Bioinspired Design</a></div>
-      <div class="publication-authors">S. Ahn</div>
-      <div class="publication-venue">ME110 — Bioinspired snow goggles with automatic lens cleaning based on bird nictitating membrane.</div>
-      <div class="publication-links">
-        <a href="/portfolio/portfolio-7/" class="publication-link">Project Page</a>
-      </div>
-    </div>
-  </li>
-
-  <li class="publication-item">
-    <span class="publication-number">2.</span>
-    <div class="publication-thumbnail">
       <img src="/images/caliber_pg1.png" alt="Caliber Platform">
       <div class="publication-tag">Class</div>
     </div>
@@ -503,7 +501,7 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
   </li>
 
   <li class="publication-item">
-    <span class="publication-number">3.</span>
+    <span class="publication-number">2.</span>
     <div class="publication-thumbnail">
       <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;">
         <source src="/images/me231_result_1.mp4" type="video/mp4">

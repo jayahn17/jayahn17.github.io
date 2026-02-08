@@ -203,10 +203,13 @@
   }
 
   .visible-links {
-    display: table;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 2rem;
 
     li {
-      display: table-cell;
+      display: inline-block;
       vertical-align: middle;
 
       &:first-child {
@@ -223,6 +226,18 @@
           margin-right: 0;
         }
       }
+
+      &.masthead__menu-item--active a {
+        font-size: 1.05em;
+        font-weight: 700;
+        color: var(--global-link-color-hover, var(--global-base-color));
+
+        &:before {
+          -webkit-transform: scaleX(1);
+              -ms-transform: scaleX(1);
+                  transform: scaleX(1);
+        }
+      }
     }
 
     a {
@@ -233,8 +248,8 @@
         position: absolute;
         left: 0;
         bottom: 0;
-        height: 4px;
-        background: var(--global-border-color);
+        height: 3px;
+        background: var(--global-base-color, var(--global-border-color));
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;

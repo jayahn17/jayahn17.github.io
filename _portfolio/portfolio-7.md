@@ -2,7 +2,7 @@
 title: "AutomaticSnow Goggles - Bioinspired Design"
 excerpt: "ME110 Undergrad Project 4 - Bioinspired snow goggles with nictitating membrane mechanism <br/><img src='/images/me110-0.png' style='max-width: 50%;'>"
 collection: portfolio
-category: class
+category: archive
 date: 2024-12-01
 share: false
 ---
