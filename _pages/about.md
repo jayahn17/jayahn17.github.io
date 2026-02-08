@@ -378,6 +378,7 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
     <span class="publication-number">1.</span>
     <div class="publication-thumbnail">
       <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;">
+        <source src="/images/kha_move.mp4" type="video/mp4">
         <source src="/images/kha_move.mov" type="video/quicktime">
       </video>
       <div class="publication-tag">Work</div>
@@ -415,6 +416,7 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
     <span class="publication-number">1.</span>
     <div class="publication-thumbnail">
       <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;">
+        <source src="/images/icon_front_video.mp4" type="video/mp4">
         <source src="/images/icon_front_video.mov" type="video/quicktime">
       </video>
       <div class="publication-tag">Research</div>
@@ -504,6 +506,7 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
     <span class="publication-number">3.</span>
     <div class="publication-thumbnail">
       <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;">
+        <source src="/images/me231_result_1.mp4" type="video/mp4">
         <source src="/images/me231_result_1.mov" type="video/quicktime">
       </video>
       <div class="publication-tag">ME231</div>
