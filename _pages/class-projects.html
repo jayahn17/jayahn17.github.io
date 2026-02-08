@@ -9,6 +9,6 @@ author_profile: true
 
 {% assign class_projects = site.portfolio | where: "category", "class" %}
 {% for post in class_projects %}
-  {% include archive-single.html type="grid" %}
+  {% include archive-single.html %}
 {% endfor %}
 

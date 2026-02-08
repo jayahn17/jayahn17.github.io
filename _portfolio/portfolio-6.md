@@ -6,7 +6,7 @@ category: work
 date: 2025-01-01
 share: false
 header:
-  teaser: "/images/MSC_WL2Isaac.png"
+  teaser: "MSC_WL2Isaac.png"
 ---
 
 ## MSC - 3D Reconstruction

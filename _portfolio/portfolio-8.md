@@ -6,7 +6,7 @@ category: class
 date: 2024-12-01
 share: false
 header:
-  teaser: "/images/me231_result_1.png"
+  teaser: "me231_result_1.png"
 ---
 
 ## MPC (Model Predictive Control) for Truck-Trailer System

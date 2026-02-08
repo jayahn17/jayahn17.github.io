@@ -1,10 +1,12 @@
 ---
 title: "Root Applied Sciences"
-excerpt: "Pathogen Monitoring Device - microfluid door design <br/><img src='/images/root_deployment.jpg' style='max-width: 320px; height: auto; border-radius: 6px;'>"
+excerpt: "Pathogen Monitoring Device - microfluid door design"
 collection: portfolio
 category: work
 date: 2024-11-01
 share: false
+header:
+  teaser: "root_deployment.jpg"
 ---
 
 ## Root Applied Sciences - Pathogen Monitoring Device

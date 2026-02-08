@@ -9,6 +9,6 @@ author_profile: true
 
 {% assign work_projects = site.portfolio | where: "category", "work" %}
 {% for post in work_projects %}
-  {% include archive-single.html type="grid" %}
+  {% include archive-single.html %}
 {% endfor %}
 

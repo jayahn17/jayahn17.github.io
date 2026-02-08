@@ -10,7 +10,9 @@ team_size: 4
 tech_tags: ["Python", "Sensors", "XBee", "Embedded"]
 impact: "Top 20 in U.S. DOE 'Power at the Sea' Prize; built a real-time data pipeline supporting 50+ ocean tests"
 featured: true
-teaser: "/images/TAF_Lab_1.jpeg"
+teaser: "TAF_Lab_1.jpeg"
+header:
+  teaser: "TAF_Lab_1.jpeg"
 share: false
 ---
 

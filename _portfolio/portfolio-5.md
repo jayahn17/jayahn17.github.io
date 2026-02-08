@@ -1,10 +1,12 @@
 ---
 title: "Khameleon Robotics"
-excerpt: "Controls & Simulation Intern - Advanced robotics controls and simulation development <br/><img src='/images/kha_grab_img.png'>"
+excerpt: "Controls & Simulation Intern - Advanced robotics controls and simulation development"
 collection: portfolio
 category: work
 date: 2024-12-01
 share: false
+header:
+  teaser: "kha_grab_img.png"
 ---
 
 ## Khameleon Robotics - Controls & Simulation Intern

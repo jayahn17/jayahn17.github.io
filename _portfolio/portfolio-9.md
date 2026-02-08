@@ -7,7 +7,7 @@ date: 2024-12-02
 role: "Research Assistant"
 share: false
 header:
-  teaser: "/images/icon_front_video.png"
+  teaser: "icon_front_video.png"
 ---
 
 ## ICON Lab – Robot Learning & Manipulation
