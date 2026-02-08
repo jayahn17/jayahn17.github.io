@@ -48,23 +48,14 @@ This Robotic Locomotion Control Algorithm has been developed based on an open so
 
 ### Project Videos
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 20px; margin: 20px 0;">
-  <div>
-    <video width="100%" controls style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-      <source src="/images/me239_1.mov" type="video/quicktime">
-      Your browser does not support the video tag.
-    </video>
-    <p style="margin-top: 8px; font-size: 0.9em; color: #666;"><strong>Forward Jump Control:</strong> Demonstration of coordinated jumping motion</p>
-  </div>
-  
-  <div>
-    <video width="100%" controls style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-      <source src="/images/ME239_video_1.mov" type="video/quicktime">
-      Your browser does not support the video tag.
-    </video>
-    <p style="margin-top: 8px; font-size: 0.9em; color: #666;"><strong>Locomotion Analysis:</strong> Robot movement and control validation</p>
-  </div>
+<div style="display: flex; justify-content: center; margin: 20px 0;">
+  <video width="100%" controls style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <source src="/images/me239_jump.mp4" type="video/mp4">
+    <source src="/images/me239_jump.mov" type="video/quicktime">
+    Your browser does not support the video tag.
+  </video>
 </div>
+<p style="margin-top: 8px; font-size: 0.9em; color: #666; text-align: center;"><strong>Forward jump control:</strong> Four-legged spider robot coordinated jumping motion</p>
 
 ### Related: Transition to NVIDIA Isaac Sim / Isaac Lab Environment
 
@@ -72,7 +63,9 @@ After completing the initial implementation in MATLAB/Simulink, I also tested UR
 
 <div style="display: flex; justify-content: center; margin: 20px 0;">
   <video width="100%" controls style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <source src="/images/kha_khaleisaac_top.mp4" type="video/mp4">
     <source src="/images/kha_khaleisaac_top.webm" type="video/webm">
+    <source src="/images/me239_spider_jump_1.mp4" type="video/mp4">
     <source src="/images/me239_spider_jump_1.mov" type="video/quicktime">
     Your browser does not support the video tag.
   </video>
