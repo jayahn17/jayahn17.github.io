@@ -18,6 +18,7 @@ This project implements Model Predictive Control (MPC) for autonomous navigation
 
 <div style="display: flex; justify-content: center; margin: 20px 0;">
   <video width="100%" controls style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <source src="/images/me231_result_1.mp4" type="video/mp4">
     <source src="/images/me231_result_1.mov" type="video/quicktime">
     Your browser does not support the video tag.
   </video>

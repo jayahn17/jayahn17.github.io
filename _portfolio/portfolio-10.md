@@ -66,12 +66,13 @@ This Robotic Locomotion Control Algorithm has been developed based on an open so
   </div>
 </div>
 
-### Related: Transition to Nvidia Isaac Lab Environment
+### Related: Transition to NVIDIA Isaac Sim / Isaac Lab Environment
 
-After completing the initial implementation in MATLAB/Simulink, I transitioned the project to Nvidia Isaac Lab environment for more advanced physics simulation and potential reinforcement learning applications.
+After completing the initial implementation in MATLAB/Simulink, I also tested URDF to **NVIDIA Isaac Sim** and **Isaac Lab** for more advanced physics simulation and potential reinforcement learning applications. The video below shows the spider robot locomotion test with keyboard control in the Isaac Sim/Lab environment.
 
 <div style="display: flex; justify-content: center; margin: 20px 0;">
   <video width="100%" controls style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <source src="/images/kha_khaleisaac_top.webm" type="video/webm">
     <source src="/images/me239_spider_jump_1.mov" type="video/quicktime">
     Your browser does not support the video tag.
   </video>

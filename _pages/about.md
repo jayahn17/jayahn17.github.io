@@ -14,7 +14,7 @@ redirect_from:
   box-shadow: none !important;
   margin: 0 auto !important;
   padding: 0 24px !important;
-  max-width: 1100px;
+  max-width: 1280px;
 }
 
 #main .page {
@@ -28,7 +28,7 @@ redirect_from:
 }
 
 .professional-page {
-  max-width: 1100px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 40px 24px;
   line-height: 1.8;
