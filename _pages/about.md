@@ -364,13 +364,6 @@ p {
     </div>
   </div>
 </div>
-
-<div style="display: flex; justify-content: center; margin: 0 0 40px 0;">
-  <video width="100%" autoplay muted loop playsinline style="max-width: 800px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.2);">
-    <source src="/images/me239_spider_jump_1.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
   
 <div markdown="1">
 
@@ -529,7 +522,10 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
   <li class="publication-item">
     <span class="publication-number">3.</span>
     <div class="publication-thumbnail">
-      <img src="/images/me239_front_pg.png" alt="Spider Robot - ME239">
+      <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;">
+        <source src="/images/me239_spider_jump_1.mp4" type="video/mp4">
+        <source src="/images/me239_spider_jump_1.mov" type="video/quicktime">
+      </video>
       <div class="publication-tag">ME239</div>
     </div>
     <div class="publication-content">
