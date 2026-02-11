@@ -63,8 +63,8 @@ After completing the initial implementation in MATLAB/Simulink, I also tested UR
 
 <div style="display: flex; justify-content: center; margin: 20px 0;">
   <video width="100%" controls style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-    <source src="/images/kha_khaleisaac_top.mp4" type="video/mp4">
-    <source src="/images/kha_khaleisaac_top.webm" type="video/webm">
+    <source src="/images/me239_isaac.mp4" type="video/mp4">
+    <!-- <source src="/images/kha_khaleisaac_top.webm" type="video/webm"> -->
     <source src="/images/me239_spider_jump_1.mp4" type="video/mp4">
     <source src="/images/me239_spider_jump_1.mov" type="video/quicktime">
     Your browser does not support the video tag.

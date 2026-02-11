@@ -523,8 +523,8 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
     <span class="publication-number">3.</span>
     <div class="publication-thumbnail">
       <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;">
-        <source src="/images/me239_spider_jump_1.mp4" type="video/mp4">
-        <source src="/images/me239_spider_jump_1.mov" type="video/quicktime">
+        <source src="/images/me239_backflip.mp4" type="video/mp4">
+        <!-- <source src="/images/me239_spider_jump_1.mov" type="video/quicktime"> -->
       </video>
       <div class="publication-tag">ME239</div>
     </div>
