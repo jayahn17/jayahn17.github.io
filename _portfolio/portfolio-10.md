@@ -21,30 +21,30 @@ This Robotic Locomotion Control Algorithm has been developed based on an open so
 ### My Contributions
 
 **Kinematic Analysis:**
-- Performed detailed Jacobian analysis for 4-legged robot locomotion to understand velocity relationships between joint space and task space
-- Analyzed forward and inverse kinematics for the quadruped robot structure
+- Performed Jacobian analysis for 4-legged locomotion to relate joint and task space velocities
+- Analyzed forward and inverse kinematics for the quadruped structure
 - Computed workspace and singularity analysis to determine feasible motion ranges
 
 **Control Algorithm Development:**
 - Validated feasibility of the open source CAD model and framework for control implementation
-- Developed forward jump control algorithm that coordinates all four legs for jumping motion
-- Implemented trajectory planning for smooth takeoff, flight, and landing phases
-- Designed control sequences that synchronize leg movements for stable jumping locomotion
+- Developed a forward-jump control algorithm coordinating all four legs
+- Implemented trajectory planning for takeoff, flight, and landing phases
+- Designed synchronized leg sequences for stable jumping locomotion
 
 **Simulation & Validation:**
-- Implemented control algorithms in MATLAB/Simulink environment for initial testing
-- Validated control performance through simulation before hardware implementation
-- Transitioned simulation to Nvidia Isaac Lab environment for more advanced physics simulation and training
+- Implemented control algorithms in MATLAB/Simulink for initial testing
+- Validated control performance through simulation prior to hardware deployment
+- Transitioned the URDF into NVIDIA Isaac Sim/Isaac Lab for higher-fidelity simulation
 
 **System Integration:**
-- Integrated control algorithms with robot hardware model
-- Tested and refined control parameters for optimal jumping performance
-- Analyzed dynamic behavior during jumping motion to ensure stability
+- Integrated control algorithms with the robot hardware model
+- Tuned control parameters for stable forward jumping
+- Analyzed dynamic behavior during jumping to confirm stability margins
 
-### Key Features
+### Results (Selected)
 
-- Analysis on Jacobian in 4 legged robot locomotions
-- Check feasibility of the unit from the open source CAD and framework, and developed 'forward jump' controls
+- Established kinematic feasibility and joint-space constraints for the spider robot
+- Achieved stable forward-jump sequences in simulation with coordinated leg timing
 
 ### Project Videos
 

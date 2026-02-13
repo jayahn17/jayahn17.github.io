@@ -369,16 +369,16 @@ p {
 
 ## About Me
 
-I am an M.S. student in Mechanical Engineering at UC Berkeley, working in the [ICON (Intelligent Control) Lab](https://iconlab.negarmehr.com) under Prof. Negar Mehr. My research focuses on robot learning—VLA/VLM for control, dual-arm manipulation—as well as control systems and simulation.
+I am an M.S. student in Mechanical Engineering at UC Berkeley, working in the [ICON (Intelligent Control) Lab](https://iconlab.negarmehr.com) under Prof. Negar Mehr. My research centers on robot learning (VLA/VLM for control, dual-arm manipulation) and the control/simulation stack that enables reliable policy evaluation. I aim to build systems that move cleanly from demonstration and simulation to robust deployment.
 
 Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https://www.khameleonrobotics.com)** and a Junior Engineer at **[Root Applied Sciences](https://rootappliedsciences.com)**, working on QA automation and deployment. During my bachelor’s at UC Berkeley, I was part of the [TAF (Theoretical & Applied Fluid Dynamics) Lab](https://taflab.berkeley.edu) under Prof. Reza Alam.
 
 ## Research Interests
 
-* **Robot Learning:** ML (VLA, VLM, RL, DeepRL) for dual-arm manipulation
-* **Control Systems:** Advanced control theory and implementation in robotic systems
-* **Simulation:** NVIDIA Isaac Sim/Lab, MuJoCo
-* **3D Reconstruction:** Worldlab, 3Dgrut for 3D asset generation
+* **Robot Learning:** VLA/VLM, RL, and diffusion imitation for dual-arm manipulation
+* **Control Systems:** Model-based control and stability analysis for legged and manipulation tasks
+* **Simulation:** NVIDIA Isaac Sim/Lab and MuJoCo for policy testing and sim-to-real iteration
+* **3D Reconstruction:** Worldlab and 3Dgrut for asset generation and scene reconstruction
 
 </div>
 <div markdown="1">
@@ -399,7 +399,7 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-5/">Khameleon Robotics: Control & Simulation Intern</a></div>
-      <div class="publication-venue">Hardware-in-the-loop teleoperation for dual-arm humanoid robot in NVIDIA Isaac Sim/Lab.</div>
+      <div class="publication-venue">Industry focus: HIL teleoperation for dual-arm humanoid in NVIDIA Isaac Sim/Lab; improved sim stability and operator feedback loop.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-5/" class="publication-link">Project Page</a>
       </div>
@@ -409,12 +409,12 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
   <li class="publication-item">
     <span class="publication-number">2.</span>
     <div class="publication-thumbnail">
-      <img src="/images/root_deployment.jpg" alt="Root Applied Sciences">
+      <img src="/images/root_deployment_1.png" alt="Root Applied Sciences">
       <div class="publication-tag">Work</div>
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-2/">Root Applied Sciences: Junior Engineer</a></div>
-      <div class="publication-venue">Microfluidics and hardware for pathogen monitoring. Designed 3D-printed housings and supported 80+ field-deployed devices.</div>
+      <div class="publication-venue">Industry focus: microfluidics hardware for pathogen monitoring; designed 3D-printed housings and supported 80+ field-deployed devices.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-2/" class="publication-link">Project Page</a>
       </div>
@@ -437,7 +437,7 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-9/">ICON Lab: Robot Learning & Manipulation</a></div>
-      <div class="publication-venue">PolicyPlayer demos in robosuite/MuJoCo, Diffusion Policy evaluation, and quadruped RL migration (Go1→Go2) in Isaac Gym.</div>
+      <div class="publication-venue">Academic focus: PolicyPlayer demos in robosuite/MuJoCo, Diffusion Policy evaluation, and quadruped RL migration (Go1→Go2) in Isaac Gym.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-9/" class="publication-link">Project Page</a>
       </div>
@@ -453,7 +453,7 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-1/">TAF Lab: Undergraduate Research Assistant</a></div>
       <div class="publication-authors">E. Kuo, S. Ahn, A. Khan</div>
-      <div class="publication-venue">Autonomous ocean drone for marine transportation. Led electronics integration and autonomous control. Top 20 in U.S. DOE "Power at the Sea Prize."</div>
+      <div class="publication-venue">Academic focus: autonomous ocean drone for marine transportation. Led electronics integration and autonomous control. Top 20 in U.S. DOE "Power at the Sea Prize."</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-1/" class="publication-link">Project Page</a>
       </div>
@@ -470,7 +470,7 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-6/">Mechanical Systems Control Lab</a></div>
-      <div class="publication-venue">3D reconstruction pipeline with Worldlab.ai, NVIDIA 3Dgrut, and Isaac Lab (render-to-sim-to-asset).</div>
+      <div class="publication-venue">Academic focus: 3D reconstruction pipeline with Worldlab.ai, NVIDIA 3Dgrut, and Isaac Lab (render-to-sim-to-asset).</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-6/" class="publication-link">Project Page</a>
       </div>
@@ -493,7 +493,7 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-3/">Caliber - Student Projects Open Source Platform</a></div>
       <div class="publication-authors">S. Ahn</div>
-      <div class="publication-venue">Open source platform with 500+ UC Berkeley student projects; use case research and file management in development.</div>
+      <div class="publication-venue">Academic focus: open source platform with 500+ UC Berkeley student projects; scoped use cases and information architecture for file management.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-3/" class="publication-link">Project Page</a>
       </div>
@@ -512,7 +512,7 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-8/">MPC for Truck-Trailer System with Obstacle Avoidance</a></div>
       <div class="publication-authors">S. Ahn</div>
-      <div class="publication-venue">ME231 — MPC for autonomous truck-trailer navigation with dynamic obstacle avoidance (forward and reverse).</div>
+      <div class="publication-venue">Academic focus: ME231 — MPC for autonomous truck-trailer navigation with dynamic obstacle avoidance (forward and reverse).</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-8/" class="publication-link">Project Page</a>
       </div>
@@ -531,7 +531,7 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-10/">Spider Robot - Robotic Locomotion</a></div>
       <div class="publication-authors">S. Ahn</div>
-      <div class="publication-venue">ME239 — Jacobian analysis and forward jump control for 4-legged spider robot (ZaidHJaber repo).</div>
+      <div class="publication-venue">Academic focus: ME239 — Jacobian analysis and forward jump control for 4-legged spider robot (ZaidHJaber repo).</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-10/" class="publication-link">Project Page</a>
       </div>

@@ -19,11 +19,21 @@ Research at ICON Lab on scripted demonstration generation, diffusion-based imita
 
 - **PolicyPlayer & manipulation demos:** Developed scripted PolicyPlayer architectures for bimanual and single-arm manipulation tasks (handover, peg-in-hole, lift) in robosuite/MuJoCo, using waypoint-based control to generate high-quality demonstrations.
 
-- **Rollout datasets & DiT pipelines:** Generated and curated per-episode rollout datasets (centralized and decentralized) stored as pickle files, then converted raw demonstrations into Diffusion Transformer (DiT)-compatible datasets.
+- **Rollout datasets & DiT pipelines:** Generated and curated per-episode rollout datasets (centralized and decentralized) stored as pickle files, then converted raw demonstrations into Diffusion Transformer (DiT)-compatible datasets for training and evaluation.
 
 - **Diffusion Policy evaluation:** Evaluated Diffusion Policy training performance, analyzing learning rate schedules, loss convergence, and GPU utilization to inform efficient training configurations.
 
 - **Quadruped RL migration:** Migrated a multi-agent quadruped RL environment from Unitree Go1 to Go2 using Isaac Gym, maintaining task consistency across hardware generations.
+
+### Results (Selected)
+
+- Built multi-task demonstration datasets for manipulation benchmarks in robosuite/MuJoCo.
+- Established training/evaluation baselines for Diffusion Policy and DiT pipelines.
+- Ported a multi-agent quadruped environment to Go2 with consistent task definitions.
+
+### Tools
+
+MuJoCo, robosuite, Isaac Gym, PyTorch
 
 ### Videos
 
