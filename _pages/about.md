@@ -137,6 +137,15 @@ h2 {
   display: block;
 }
 
+.professional-page h3,
+h3 {
+  font-size: 1.3em;
+  color: #4a9eff;
+  margin: 24px 0 12px 0;
+  font-weight: 600;
+  display: block;
+}
+
 .section p,
 p {
   color: #e0e0e0;
@@ -353,7 +362,7 @@ p {
   <img src="/images/seongjaeahn.jpeg" alt="SeongJae Ahn" class="profile-image">
   <div class="header-content">
     <h1>SeongJae (Jay) Ahn</h1>
-    <div class="title">B.S / M.S. Student in Mechanical Engineering</div>
+    <div class="title">B.S. / M.S. Student in Mechanical Engineering</div>
     <div class="affiliation">University of California, Berkeley</div>
     <div class="contact">
       <a href="mailto:jayahn@berkeley.edu">jayahn@berkeley.edu</a>
@@ -369,29 +378,37 @@ p {
 
 ## About Me
 
-I am an M.S. student in Mechanical Engineering at UC Berkeley, working in the [ICON (Intelligent Control) Lab](https://iconlab.negarmehr.com) under Prof. Negar Mehr. My research centers on robot learning (VLA/VLM for control, dual-arm manipulation) and the control/simulation stack that enables reliable policy evaluation. I aim to build systems that move cleanly from demonstration and simulation to robust deployment.
+I am an M.S. student in Mechanical Engineering at UC Berkeley, working in the [ICON (Intelligent Control) Lab](https://iconlab.negarmehr.com) under Prof. Negar Mehr. My research focuses on robot learning, control synthesis, and the simulation-to-deployment pipeline for manipulation and legged systems.
 
-Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https://www.khameleonrobotics.com)** and a Junior Engineer at **[Root Applied Sciences](https://rootappliedsciences.com)**, working on QA automation and deployment. During my bachelor’s at UC Berkeley, I was part of the [TAF (Theoretical & Applied Fluid Dynamics) Lab](https://taflab.berkeley.edu) under Prof. Reza Alam.
+I have worked across both industry and research: from humanoid teleoperation and microfluidics deployment to autonomous ocean systems and 3D reconstruction. My objective is to design systems that are reproducible in simulation, measurable in experiments, and reliable in deployment.
+
+Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](https://www.khameleonrobotics.com)**, worked as a Junior Engineer at **[Root Applied Sciences](https://rootappliedsciences.com)**, and conducted undergraduate research at the [TAF (Theoretical & Applied Fluid Dynamics) Lab](https://taflab.berkeley.edu) under Prof. Reza Alam.
 
 ## Research Interests
 
-* **Robot Learning:** VLA/VLM, RL, and diffusion imitation for dual-arm manipulation
-* **Control Systems:** Model-based control and stability analysis for legged and manipulation tasks
-* **Simulation:** NVIDIA Isaac Sim/Lab and MuJoCo for policy testing and sim-to-real iteration
-* **3D Reconstruction:** Worldlab and 3Dgrut for asset generation and scene reconstruction
+* **Robot Learning:** RL and diffusion-based imitation for dual-arm manipulation.
+* **Control Systems:** Model-based and learning-augmented control for manipulation, mobility, and constrained planning (MPC, multi-agent systems).
+* **Simulation Engineering:** NVIDIA Isaac Sim/Lab and MuJoCo for robust policy evaluation and sim-to-real alignment.
+* **3D Reconstruction:** Worldlab.ai and NVIDIA 3Dgrut for geometry generation and simulation-ready asset conversion.
+
+## Professional Snapshot
+
+* Built and integrated autonomous systems spanning hardware, control, and simulation workflows.
+* Focused on measurable outcomes: stability, feasibility under constraints, and repeatable experimentation.
+* Contributed to projects reaching real-world readiness, including a Top 20 placement in the U.S. DOE Power at the Sea challenge.
 
 </div>
 <div markdown="1">
 
-## Work/Research Experiences
+## Selected Portfolio Highlights
 
-## Work Experience
+### Industry Experience
 
 <ol class="publication-list">
   <li class="publication-item">
     <span class="publication-number">1.</span>
     <div class="publication-thumbnail">
-      <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;">
+      <video muted playsinline preload="none" style="width: 100%; height: 100%; object-fit: cover;">
         <source src="/images/kha_move.mp4" type="video/mp4">
         <source src="/images/kha_move.mov" type="video/quicktime">
       </video>
@@ -399,7 +416,7 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-5/">Khameleon Robotics: Control & Simulation Intern</a></div>
-      <div class="publication-venue">Industry focus: HIL teleoperation for dual-arm humanoid in NVIDIA Isaac Sim/Lab; improved sim stability and operator feedback loop.</div>
+      <div class="publication-venue">Built Isaac Sim/Lab control and simulation infrastructure for 13-DOF dual-arm teleoperation, improving stability and responsiveness in imitation/learning workflows.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-5/" class="publication-link">Project Page</a>
       </div>
@@ -414,7 +431,7 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-2/">Root Applied Sciences: Junior Engineer</a></div>
-      <div class="publication-venue">Industry focus: microfluidics hardware for pathogen monitoring; designed 3D-printed housings and supported 80+ field-deployed devices.</div>
+      <div class="publication-venue">Developed microfluidic deployment hardware for field monitoring, including SLA-ready components and protective housing for maintainability.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-2/" class="publication-link">Project Page</a>
       </div>
@@ -423,13 +440,13 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
 
 </ol>
 
-## Research Experience
+### Research Experience
 
 <ol class="publication-list">
   <li class="publication-item">
     <span class="publication-number">1.</span>
     <div class="publication-thumbnail">
-      <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;">
+      <video muted playsinline preload="none" style="width: 100%; height: 100%; object-fit: cover;">
         <source src="/images/icon_front_video.mp4" type="video/mp4">
         <source src="/images/icon_front_video.mov" type="video/quicktime">
       </video>
@@ -437,7 +454,7 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-9/">ICON Lab: Robot Learning & Manipulation</a></div>
-      <div class="publication-venue">Academic focus: PolicyPlayer demos in robosuite/MuJoCo, Diffusion Policy evaluation, and quadruped RL migration (Go1→Go2) in Isaac Gym.</div>
+      <div class="publication-venue">Developed PolicyPlayer and diffusion-policy workflows in robosuite/MuJoCo, and migrated multi-agent quadruped tasks from Go1 to Go2 in Isaac Gym.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-9/" class="publication-link">Project Page</a>
       </div>
@@ -453,7 +470,7 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-1/">TAF Lab: Undergraduate Research Assistant</a></div>
       <div class="publication-authors">E. Kuo, S. Ahn, A. Khan</div>
-      <div class="publication-venue">Academic focus: autonomous ocean drone for marine transportation. Led electronics integration and autonomous control. Top 20 in U.S. DOE "Power at the Sea Prize."</div>
+      <div class="publication-venue">Led electronics integration and navigation-control for an autonomous ocean drone; achieved Top 20 in the U.S. DOE Power at the Sea Prize.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-1/" class="publication-link">Project Page</a>
       </div>
@@ -463,14 +480,14 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
   <li class="publication-item">
     <span class="publication-number">3.</span>
     <div class="publication-thumbnail">
-      <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;">
+      <video muted playsinline preload="none" style="width: 100%; height: 100%; object-fit: cover;">
         <source src="/images/MSC_WL2Isaac.webm" type="video/webm">
       </video>
       <div class="publication-tag">Research</div>
     </div>
     <div class="publication-content">
-      <div class="publication-title"><a href="/portfolio/portfolio-6/">Mechanical Systems Control Lab</a></div>
-      <div class="publication-venue">Academic focus: 3D reconstruction pipeline with Worldlab.ai, NVIDIA 3Dgrut, and Isaac Lab (render-to-sim-to-asset).</div>
+      <div class="publication-title"><a href="/portfolio/portfolio-6/">MSC (Mechanical Systems) Control Lab</a></div>
+      <div class="publication-venue">Created a unified render-to-sim-to-asset workflow with Worldlab.ai, NVIDIA 3Dgrut, and Isaac Lab for reusable, validated assets.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-6/" class="publication-link">Project Page</a>
       </div>
@@ -481,7 +498,7 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
 </div>
 <div markdown="1">
 
-## Projects
+### Class Projects
 
 <ol class="publication-list">
   <li class="publication-item">
@@ -493,7 +510,7 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-3/">Caliber - Student Projects Open Source Platform</a></div>
       <div class="publication-authors">S. Ahn</div>
-      <div class="publication-venue">Academic focus: open source platform with 500+ UC Berkeley student projects; scoped use cases and information architecture for file management.</div>
+      <div class="publication-venue">Designed project discovery and metadata architecture for 500+ open source UC Berkeley projects with scalable filtering and browse flow.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-3/" class="publication-link">Project Page</a>
       </div>
@@ -503,7 +520,7 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
   <li class="publication-item">
     <span class="publication-number">2.</span>
     <div class="publication-thumbnail">
-      <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;">
+      <video muted playsinline preload="none" style="width: 100%; height: 100%; object-fit: cover;">
         <source src="/images/me231_result_1.mp4" type="video/mp4">
         <source src="/images/me231_result_1.mov" type="video/quicktime">
       </video>
@@ -512,7 +529,7 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-8/">MPC for Truck-Trailer System with Obstacle Avoidance</a></div>
       <div class="publication-authors">S. Ahn</div>
-      <div class="publication-venue">Academic focus: ME231 — MPC for autonomous truck-trailer navigation with dynamic obstacle avoidance (forward and reverse).</div>
+      <div class="publication-venue">Implemented constrained MPC for forward/reverse truck-trailer navigation with dynamic obstacle prediction and feasibility recovery.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-8/" class="publication-link">Project Page</a>
       </div>
@@ -522,7 +539,7 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
   <li class="publication-item">
     <span class="publication-number">3.</span>
     <div class="publication-thumbnail">
-      <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;">
+      <video muted playsinline preload="none" style="width: 100%; height: 100%; object-fit: cover;">
         <source src="/images/me239_backflip.mp4" type="video/mp4">
         <!-- <source src="/images/me239_spider_jump_1.mov" type="video/quicktime"> -->
       </video>
@@ -531,7 +548,7 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-10/">Spider Robot - Robotic Locomotion</a></div>
       <div class="publication-authors">S. Ahn</div>
-      <div class="publication-venue">Academic focus: ME239 — Jacobian analysis and forward jump control for 4-legged spider robot (ZaidHJaber repo).</div>
+      <div class="publication-venue">Performed Jacobian-based motion analysis and implemented stable forward-jump control for a 4-legged robotic platform.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-10/" class="publication-link">Project Page</a>
       </div>
@@ -542,7 +559,7 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
 </div>
 <div markdown="1">
 
-## Student Club
+### Student Club
 
 <ol class="publication-list">
   <li class="publication-item">
@@ -553,7 +570,7 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="/portfolio/portfolio-4/">UC Berkeley Solar Vehicle Team, CalSol</a></div>
-      <div class="publication-venue">Suspension & Battery Team. Consolidated front suspension brackets with 10% weight reduction and FEA validation.</div>
+      <div class="publication-venue">Consolidated CalSol front suspension components for ~10% mass reduction with FEA validation and integration checks.</div>
       <div class="publication-links">
         <a href="/portfolio/portfolio-4/" class="publication-link">Project Page</a>
       </div>
@@ -561,7 +578,7 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
   </li>
 </ol>
 
-## Teaching Experience
+### Teaching Experience
 
 * **Diablo Valley College, Physics Tutor**  
   Tutored students in Intro to Engineering Mechanics, Electromagnetics, and Quantum Mechanics.
@@ -583,39 +600,3 @@ Previously, I was a Control & Simulation Intern at **[Khameleon Robotics](https:
 * **Republic of Korea Army, Signal Corps**  
   Squad Leader  
   *August 2017 – April 2019*
-
-
-<script>
-// Make project videos play on hover
-document.addEventListener('DOMContentLoaded', function() {
-  const projectVideos = document.querySelectorAll('.publication-thumbnail video');
-  
-  projectVideos.forEach(video => {
-    const thumbnail = video.closest('.publication-thumbnail');
-    
-    thumbnail.addEventListener('mouseenter', function() {
-      video.play();
-    });
-    
-    thumbnail.addEventListener('mouseleave', function() {
-      video.pause();
-      video.currentTime = 0;
-    });
-    
-    // Set video to show first frame as thumbnail
-    video.addEventListener('loadedmetadata', function() {
-      video.currentTime = 0.1;
-    });
-    
-    // Ensure video loads and shows first frame
-    video.load();
-    
-    // Try to show first frame immediately
-    video.addEventListener('canplay', function() {
-      if (video.readyState >= 2) {
-        video.currentTime = 0.1;
-      }
-    });
-  });
-});
-</script>

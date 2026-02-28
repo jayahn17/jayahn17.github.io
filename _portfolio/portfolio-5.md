@@ -1,6 +1,6 @@
 ---
-title: "Khameleon Robotics"
-excerpt: "Controls & Simulation Intern - Advanced robotics controls and simulation development"
+title: "Khameleon Robotics - Humanoid Control and Simulation Platform"
+excerpt: "Controls and simulation development for a 13-DOF humanoid arm with lead/follower manipulation and Isaac Sim/Lab training workflows."
 collection: portfolio
 category: work
 date: 2024-12-01
@@ -12,38 +12,42 @@ header:
 
 ## Khameleon Robotics - Controls & Simulation Intern
 
-### Project Overview
+### Context
+At Khameleon Robotics, I worked on a simulation-first pipeline for bimanual humanoid manipulation with training-ready data capture. The objective was to create a stable development baseline for coordinated control and model training before hardware-heavy iterations.
 
-As a Controls & Simulation Intern at Khameleon Robotics, I was responsible for setting up reliable simulation in NVIDIA Isaac Sim/Lab and creating a lead/follower environment for humanoid robot control and training.
+### System Scope
+- Robot model: 13-DOF humanoid arm in NVIDIA Isaac Sim/Lab.
+- Command side: 12-DOF puppet controller using Dynamixel XC-330 servos.
+- Use cases: teleoperation and manipulation tasks requiring lead/follower behavior.
+- Training: collision-avoidance tasks in Isaac Lab.
 
-### Contributions
+### Technical Contributions
+**Simulation Pipeline**
+- Set up end-to-end Isaac Sim/Lab workflow from robot import to dynamic behavior verification.
+- Configured articulation properties, collision primitives, and controller timing for stable real-time simulation.
+- Aligned simulation settings with expected training data requirements.
 
-**Simulation Pipeline Development:**
-- Set up a complete NVIDIA Isaac Sim/Lab pipeline for a 13-DOF humanoid arm system based on research white papers
-- Configured physics simulation environment with accurate robot dynamics and collision detection
-- Implemented real-time simulation capabilities for testing and validation of control algorithms
+**Control Architecture**
+- Integrated 12-DOF puppet controller with a bimanual arm model.
+- Designed lead/follower motion transfer logic for coordinated manipulation.
+- Tuned control loops for smooth transitions and low-latency behavior.
 
-**Control System Integration:**
-- Synchronized a 12-DOF puppet controller with a bimanual arm system for coordinated manipulation
-- Developed lead/follower control architecture where one arm follows the other's motion
-- Integrated Dynamixel XC-330 servo motor controllers (12 motors) with simulation environment
-- Implemented control algorithms for smooth and precise bimanual coordination
+**Multi-camera and Data Capture**
+- Positioned five camera viewpoints (front, back, left, right, chest) for full manipulation visibility.
+- Built camera calibration and rendering settings to support both teleop and learning dataset generation.
+- Reduced occlusion by validating view combinations against the interaction envelope.
 
-**Multi-Camera System:**
-- Generated and configured multiple camera views (front, back, left, right, chest angles) for comprehensive visual feedback
-- Set up camera calibration and rendering pipeline for training data collection, considering occlusion from top and bottom views
-- Integrated camera feeds into simulation environment for vision-based control and learning
+**Training Environment Design**
+- Created task scenes for collision avoidance and bimanual object handling.
+- Built simulation scenarios with tuned complexity so learning runs remained computationally efficient.
 
-**Training Environment:**
-- Created collision avoidance test environments in NVIDIA Isaac Lab for training reinforcement learning models
-- Developed custom training scenarios for bimanual manipulation tasks and optimized simulation performance for efficient data collection and model training
+### Outcomes
+- Delivered a full Isaac Sim/Lab stack for 13-DOF humanoid arm development.
+- Implemented lead/follower bimanual control with 12 servo-driven DOFs.
+- Produced five-view sensing coverage for operator control and dataset generation.
+- Enabled repeatable collision-avoidance/manipulation training deployments.
 
-
-### Key Achievements
-- Set up an NVIDIA Isaac Sim/Lab pipeline for a 13-DOF humanoid arm based on a white paper
-- Synchronized a 12-DOF puppet controller with a bimanual arm
-- Generated camera views from front/back/left/right/chest angles
-- Deployed training environments for collision avoidance and manipulation tasks
+### Visuals
 
 <div style="display: flex; justify-content: center; margin: 20px 0;">
   <img src="/images/kha_top_cam.png" alt="Khameleon Top Camera" style="width: 100%; max-width: 800px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); object-fit: contain;">
@@ -83,24 +87,23 @@ As a Controls & Simulation Intern at Khameleon Robotics, I was responsible for s
   </video>
 </div>
 
-### Walkthrough / Section Explanations
+### Walkthrough Notes
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin: 20px 0;">
   <div style="background: #fff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
-    <strong>Screen 1 — System Architecture</strong>
-    <p style="margin-top:8px;">Explains sensors, compute, and communication flow. (Editable)</p>
+    <strong>Screen 1 - System Architecture</strong>
+    <p style="margin-top:8px;">Mapping of sensors, compute, and communication paths for teleoperation and simulation.</p>
   </div>
   <div style="background: #fff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
-    <strong>Screen 2 — Control Stack</strong>
-    <p style="margin-top:8px;">12-DOF puppet controller using 12 Dynamixel XC-330 servo motors</p>
+    <strong>Screen 2 - Control Stack</strong>
+    <p style="margin-top:8px;">12-DOF puppet controller built around Dynamixel XC-330 hardware.</p>
   </div>
   <div style="background: #fff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
-    <strong>Screen 3 — Simulation & Data Pipeline</strong>
-    <p style="margin-top:8px;">Built custom pipeline using NVIDIA Isaac Sim/Lab</p>
+    <strong>Screen 3 - Simulation Pipeline</strong>
+    <p style="margin-top:8px;">Isaac Sim/Lab environment with collision and rendering configured for learning.</p>
   </div>
   <div style="background: #fff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
-    <strong>Screen 4 — Results & Metrics</strong>
-    <p style="margin-top:8px;">Created four camera-angle views and deployed units in the Isaac Lab environment for collision-avoidance testing and training</p>
+    <strong>Screen 4 - Results and Metrics</strong>
+    <p style="margin-top:8px;">Validation outputs from control quality and teleoperation coverage tests.</p>
   </div>
 </div>
-

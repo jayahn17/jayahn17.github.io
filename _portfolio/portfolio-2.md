@@ -1,6 +1,6 @@
 ---
-title: "Root Applied Sciences"
-excerpt: "Pathogen Monitoring Device - microfluid door design"
+title: "Root Applied Sciences - Pathogen Monitoring Device"
+excerpt: "Pathogen monitoring hardware development focused on SLA-ready microfluidics and field deployment reliability."
 collection: portfolio
 category: work
 date: 2024-11-01
@@ -12,26 +12,33 @@ header:
 
 ## Root Applied Sciences - Pathogen Monitoring Device
 
-### Project Overview
+### Context
+At Root Applied Sciences, I contributed to a pathogen monitoring platform intended for environmental deployments. The hardware needed to be manufacturable, maintainable, and robust to non-laboratory conditions while preserving microfluidic precision.
 
-At Root Applied Sciences I worked on a pathogen monitoring device with advanced microfluidics design and deployment for environmental pathogen detection and monitoring.
+### Problem Statement
+- Create a reliable sample-handling mechanism suitable for repeated field operation.
+- Make all fluid-control features printable in SLA materials with predictable quality.
+- Design an enclosure and mounting strategy that supports long-term deployment and easy servicing.
 
-### My Contributions
+### Engineering Contributions
+**Microfluidic Design**
+- Designed motorized microfluidic door mechanisms to improve repeatability of sample handling.
+- Built CAD geometry for channel and valve systems with SLA manufacturability constraints in mind.
+- Validated flow behavior through prototyping and iterative geometry refinement.
 
-**Microfluidics Design:**
-- Designed and developed microfluidic door mechanisms for precise fluid control and sample processing
-- Created CAD models for microfluidic components optimized for SLA (Stereolithography) 3D printing
-- Prototyped and tested microfluidic channels to ensure proper fluid flow and mixing characteristics
+**Housing and Deployment**
+- Designed protective enclosures with splash and impact tolerances suitable for external monitoring.
+- Planned maintenance-friendly access points and fixture interfaces for easier field service.
+- Integrated microfluidic modules with sensor interfaces for automated detection workflows.
 
-**Device Development:**
-- Worked on the protective housing design to ensure device durability and protection in field deployment conditions
-- Integrated microfluidic systems with sensor arrays for automated pathogen detection
-- Developed maintenance protocols and procedures for field-deployed devices
+**Field Readiness**
+- Created deployment and maintenance procedures that reduce setup ambiguity for operators.
+- Verified compatibility of mechanical tolerances with repeated installation cycles.
 
-**Field Deployment:**
-- Designed deployment mechanisms and mounting systems for various environmental conditions
-- Tested device performance in real-world deployment scenarios
-- Optimized device form factor for ease of installation and maintenance
+### Results
+- Delivered SLA-ready microfluidic components that support stable flow and closure behavior.
+- Produced protective housings optimized for transport and field servicing.
+- Improved deployment reliability through component-level design simplification and clearer maintenance flow.
 
 ### Project Photos
 

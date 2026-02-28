@@ -1,6 +1,6 @@
 ---
-title: "CalSol"
-excerpt: "CalSol Solar Vehicle Team - Battery and Suspension Systems"
+title: "CalSol - Battery and Suspension Systems"
+excerpt: "Structural optimization for a competitive solar vehicle platform, focused on reducing mass without compromising stiffness."
 collection: portfolio
 category: class
 date: 2025-12-02
@@ -12,14 +12,31 @@ header:
 
 ## CalSol - Solar Vehicle Team
 
-### Project Overview
+### Context
+For CalSol at UC Berkeley, I worked with the mechanical and battery teams to optimize key suspension components in a solar-electric vehicle platform. The challenge was to improve mass efficiency while preserving load-path integrity.
 
-Working with CalSol, UC Berkeley's solar vehicle team, on battery and suspension systems for competitive solar-powered vehicles.
+### Problem
+- Lower unsprung/front-assembly mass to improve dynamic efficiency.
+- Maintain structural stiffness and safety margins required by vehicle integration constraints.
+- Ensure design decisions remained compatible with battery packaging and assembly workflows.
 
-### Key Components
+### Engineering Work
+**Suspension Redesign**
+- Consolidated front suspension bracket structure to reduce part count and mass.
+- Preserved stiffness targets by re-routing load paths and redistributing section geometry.
 
-- **Battery System**: Advanced battery management and power distribution
-- **Suspension System**: Optimized suspension design for solar vehicle performance
+**Finite Element Validation**
+- Ran structural simulations to compare baseline and revised bracket concepts.
+- Checked displacement and stress concentration effects under representative loads.
+- Reviewed results to confirm the redesign met stiffness requirements before fabrication.
+
+**Cross-Team Coordination**
+- Synced interface assumptions with battery and mechanical leads.
+- Mapped attachment interface changes to avoid downstream integration issues.
+
+### Results
+- Achieved approximately 10% mass reduction in the front suspension bracket assembly.
+- Validated redesigned brackets through FEA prior to fabrication.
 
 ### Project Photos
 

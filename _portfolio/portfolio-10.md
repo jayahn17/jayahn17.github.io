@@ -1,6 +1,6 @@
 ---
-title: "Spider Robot - Robotic Locomotion"
-excerpt: "ME239 - Robotic Locomotion coursework project. Jacobian analysis and forward jump control for 4-legged spider robot."
+title: "ME239 - Spider Robot Locomotion"
+excerpt: "Robotic locomotion project implementing Jacobian analysis and forward-jump control for a four-legged spider robot."
 collection: portfolio
 category: class
 date: 2025-12-02
@@ -12,41 +12,36 @@ header:
 
 ## ME239 - Robotic Locomotion
 
-### Project Overview
+### Context
+As part of UC Berkeley’s ME239 coursework, I developed and validated control methods for a four-legged spider robot with a focus on jump locomotion and kinematic feasibility.
 
-This project was completed as part of ME239 (Robotic Locomotion) coursework at UC Berkeley. The project focused on developing control algorithms for a four-legged spider robot, analyzing kinematic and dynamic properties, and implementing forward jumping locomotion.
+### Technical Problem
+- Derive and validate Jacobian-based relationships for coordinated leg motion.
+- Create a stable forward-jump trajectory from takeoff to landing.
+- Verify that open-source hardware assumptions remain valid in MATLAB and NVIDIA Isaac Sim.
 
-This Robotic Locomotion Control Algorithm has been developed based on an open source spider robot CAD hardware model from [ZaidHJaber's repository](https://github.com/ZaidHJaber/Four-legged-Spider-Robot-RL-locomotion). Huge thanks to ZaidHJaber for providing the foundation model for the spider robot!
+### System Development
+**Kinematic and Dynamic Analysis**
+- Performed Jacobian analysis to connect joint rates to task-space motion.
+- Completed forward/inverse kinematics checks for joint limits and workspace bounds.
+- Ran singularity and workspace studies to confirm feasible gait targets.
 
-### My Contributions
+**Control Development**
+- Designed synchronized forward-jump trajectory profiles across all four legs.
+- Implemented phase-based coordination for takeoff, airborne control, and landing stability.
+- Tuned gains for smooth transition and reduced oscillation.
 
-**Kinematic Analysis:**
-- Performed Jacobian analysis for 4-legged locomotion to relate joint and task space velocities
-- Analyzed forward and inverse kinematics for the quadruped structure
-- Computed workspace and singularity analysis to determine feasible motion ranges
+**Validation Flow**
+- Prototyped and tested controllers in MATLAB/Simulink.
+- Migrated validated logic into URDF workflows for higher-fidelity simulation in Isaac Sim/Lab.
+- Assessed dynamic response and control stability through simulation traces and video evidence.
 
-**Control Algorithm Development:**
-- Validated feasibility of the open source CAD model and framework for control implementation
-- Developed a forward-jump control algorithm coordinating all four legs
-- Implemented trajectory planning for takeoff, flight, and landing phases
-- Designed synchronized leg sequences for stable jumping locomotion
+### Results
+- Formalized joint-space constraints and feasible kinematic envelopes.
+- Achieved stable forward jump cycles in simulation with coordinated leg timing.
+- Built a migration path from academic modeling tools to simulation-scale validation for RL-ready future work.
 
-**Simulation & Validation:**
-- Implemented control algorithms in MATLAB/Simulink for initial testing
-- Validated control performance through simulation prior to hardware deployment
-- Transitioned the URDF into NVIDIA Isaac Sim/Isaac Lab for higher-fidelity simulation
-
-**System Integration:**
-- Integrated control algorithms with the robot hardware model
-- Tuned control parameters for stable forward jumping
-- Analyzed dynamic behavior during jumping to confirm stability margins
-
-### Results (Selected)
-
-- Established kinematic feasibility and joint-space constraints for the spider robot
-- Achieved stable forward-jump sequences in simulation with coordinated leg timing
-
-### Project Videos
+### Jump Control Demonstration
 
 <div style="display: flex; justify-content: center; margin: 20px 0;">
   <video width="100%" controls style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
@@ -55,16 +50,15 @@ This Robotic Locomotion Control Algorithm has been developed based on an open so
     Your browser does not support the video tag.
   </video>
 </div>
-<p style="margin-top: 8px; font-size: 0.9em; color: #666; text-align: center;"><strong>Forward jump control:</strong> Four-legged spider robot coordinated jumping motion</p>
+<p style="margin-top: 8px; font-size: 0.9em; color: #666; text-align: center;"><strong>Forward jump control:</strong> Four-legged robot with coordinated timing</p>
 
-### Related: Transition to NVIDIA Isaac Sim / Isaac Lab Environment
+### Simulation in NVIDIA Isaac Sim / Isaac Lab
 
-After completing the initial implementation in MATLAB/Simulink, I also tested URDF to **NVIDIA Isaac Sim** and **Isaac Lab** for more advanced physics simulation and potential reinforcement learning applications. The video below shows the spider robot locomotion test with keyboard control in the Isaac Sim/Lab environment.
+After MATLAB/Simulink validation, I converted the model pipeline to Isaac Sim and Isaac Lab to evaluate dynamics under a higher-fidelity engine and assess potential reinforcement-learning integration.
 
 <div style="display: flex; justify-content: center; margin: 20px 0;">
   <video width="100%" controls style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
     <source src="/images/me239_isaac.mp4" type="video/mp4">
-    <!-- <source src="/images/kha_khaleisaac_top.webm" type="video/webm"> -->
     <source src="/images/me239_spider_jump_1.mp4" type="video/mp4">
     <source src="/images/me239_spider_jump_1.mov" type="video/quicktime">
     Your browser does not support the video tag.

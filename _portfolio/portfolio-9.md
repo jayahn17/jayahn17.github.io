@@ -1,6 +1,6 @@
 ---
-title: "ICON Lab - Robot Learning & Manipulation"
-excerpt: "PolicyPlayer demos, Diffusion Policy, and quadruped RL in robosuite/MuJoCo and Isaac Gym."
+title: "ICON Lab - Robot Learning and Manipulation Research"
+excerpt: "Research on demonstration generation, diffusion-policy pipelines, and quadruped RL migration across Isaac Gym hardware versions."
 collection: portfolio
 category: work
 date: 2024-12-02
@@ -11,33 +11,48 @@ header:
   teaser: "icon_front_video.png"
 ---
 
-## ICON Lab – Robot Learning & Manipulation
+## ICON Lab - Robot Learning & Manipulation
 
-Research at ICON Lab on scripted demonstration generation, diffusion-based imitation learning, and multi-agent quadruped reinforcement learning in simulation.
+### Context
+At ICON Lab, I contributed to building reusable data and training workflows for manipulation and locomotion research. The project focused on high-quality demonstration generation and consistent benchmarking across simulation platforms.
 
-### Key Contributions
+### Problems Addressed
+- Generate reliable manipulation trajectories for training and evaluation.
+- Convert raw rollouts into formats suitable for Diffusion Transformer pipelines.
+- Transfer a multi-agent quadruped RL environment across robot generations.
 
-- **PolicyPlayer & manipulation demos:** Developed scripted PolicyPlayer architectures for bimanual and single-arm manipulation tasks (handover, peg-in-hole, lift) in robosuite/MuJoCo, using waypoint-based control to generate high-quality demonstrations.
+### Technical Contributions
+**PolicyPlayer and Demonstrations**
+- Built scripted PolicyPlayer structures for single-arm and bimanual tasks (handover, peg-in-hole, lift).
+- Used waypoint-level control to generate clean trajectory structure before learning-based methods.
 
-- **Rollout datasets & DiT pipelines:** Generated and curated per-episode rollout datasets (centralized and decentralized) stored as pickle files, then converted raw demonstrations into Diffusion Transformer (DiT)-compatible datasets for training and evaluation.
+**Rollout and Dataset Conversion**
+- Collected centralized and decentralized rollout datasets in serialized formats.
+- Normalized and transformed raw data into Diffusion Transformer (DiT) compatible structure.
+- Implemented dataset hygiene checks to reduce training noise and formatting failures.
 
-- **Diffusion Policy evaluation:** Evaluated Diffusion Policy training performance, analyzing learning rate schedules, loss convergence, and GPU utilization to inform efficient training configurations.
+**Diffusion Policy Evaluation**
+- Ran controlled training experiments, tracking loss convergence and throughput.
+- Reviewed resource utilization (GPU and runtime behavior) to stabilize training windows.
 
-- **Quadruped RL migration:** Migrated a multi-agent quadruped RL environment from Unitree Go1 to Go2 using Isaac Gym, maintaining task consistency across hardware generations.
+**Quadruped RL Porting**
+- Migrated a multi-agent Unitree Go1 environment stack to Go2.
+- Kept task logic and evaluation conventions consistent across hardware versions.
 
-### Results (Selected)
+### Validation
+- Defined reproducible benchmarks for manipulation and locomotion tasks.
+- Compared policy quality through trajectory smoothness and task-completion consistency.
+- Used rollout analytics to tune training schedules with objective evidence.
 
-- Built multi-task demonstration datasets for manipulation benchmarks in robosuite/MuJoCo.
-- Established training/evaluation baselines for Diffusion Policy and DiT pipelines.
-- Ported a multi-agent quadruped environment to Go2 with consistent task definitions.
+### Outcomes
+- Built reusable multi-task demonstration datasets for benchmark tasks.
+- Established baseline training and evaluation pipelines for Diffusion Policy and DiT.
+- Delivered a Go2-compatible quadruped environment with preserved task semantics.
 
-### Tools
-
-MuJoCo, robosuite, Isaac Gym, PyTorch
+### Tooling
+MuJoCo, robosuite, Isaac Gym, PyTorch.
 
 ### Videos
-
-**1. Front view — PolicyPlayer / manipulation**
 
 <div style="display: flex; justify-content: center; margin: 20px 0;">
   <video width="100%" controls playsinline style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
@@ -47,8 +62,6 @@ MuJoCo, robosuite, Isaac Gym, PyTorch
   </video>
 </div>
 
-**2. Handover — Bimanual handover task**
-
 <div style="display: flex; justify-content: center; margin: 20px 0;">
   <video width="100%" controls playsinline style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
     <source src="/images/icon_handover.mp4" type="video/mp4">
@@ -56,8 +69,6 @@ MuJoCo, robosuite, Isaac Gym, PyTorch
     Your browser does not support the video tag.
   </video>
 </div>
-
-**3. Can pick-and-place — Single-arm manipulation**
 
 <div style="display: flex; justify-content: center; margin: 20px 0;">
   <video width="100%" controls playsinline style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">

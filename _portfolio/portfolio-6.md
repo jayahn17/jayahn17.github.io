@@ -1,6 +1,6 @@
 ---
-title: "MSC - 3D Reconstruction"
-excerpt: "3D asset creation from render-to-sim-to-asset pipeline"
+title: "MSC - Render-to-Sim-to-Asset 3D Reconstruction"
+excerpt: "Built a conversion pipeline using WorldLab.ai, NVIDIA 3Dgrut, and Isaac Lab to produce simulation-ready 3D assets."
 collection: portfolio
 category: work
 date: 2025-01-01
@@ -12,9 +12,43 @@ header:
 
 ## MSC - 3D Reconstruction
 
-### Project Overview
+### Context
+This project created a production-oriented pipeline from scene capture to sim-ready asset delivery. The goal was to automate repetitive conversion steps while preserving geometric quality and physical plausibility for downstream robotics simulation.
 
-Implemented a comprehensive 3D reconstruction pipeline using Worldlab.ai, NVIDIA 3Dgrut, and Isaac Lab to create 3D assets from a render-to-sim-to-asset workflow. This project focuses on generating high-quality 3D assets that can be used in simulation environments and real-world applications.
+### Problem
+- Unify outputs from multiple 3D generation tools into a single, repeatable path.
+- Reduce manual intervention in mesh cleanup and format conversion.
+- Verify compatibility of generated assets inside physics-based simulation.
+
+### Pipeline Architecture
+**Render-to-Image Preparation**
+- Standardized capture settings and preprocessing to keep image consistency for reconstruction.
+
+**Reconstruction and Conversion**
+- Integrated WorldLab.ai and NVIDIA 3Dgrut workflows into a unified graph.
+- Applied GPU-accelerated geometry reconstruction and conversion filters.
+
+**Simulation Ingestion**
+- Validated mesh/material conversions for NVIDIA Isaac Lab compatibility.
+- Performed quick physics sanity checks before dataset-scale use.
+
+### My Contributions
+- Defined integration points between WorldLab.ai, 3Dgrut, and Isaac Lab.
+- Implemented scripts and process steps to convert renders into reusable mesh assets.
+- Tuned reconstruction settings to balance visual fidelity with mesh complexity.
+- Added verification checks to catch geometry or asset-format failures before simulation.
+
+### Technical Notes
+- Ensured coordinate conventions and scale remained consistent through each conversion stage.
+- Emphasized deterministic outputs so repeated runs produced comparable asset quality.
+- Organized the process as a reusable workflow for team handoff and future expansion.
+
+### Results
+- Delivered an end-to-end render-to-sim-to-asset pipeline.
+- Produced validated, simulation-ready 3D assets for Isaac Lab environments.
+- Reduced manual post-processing by standardizing conversion and verification steps.
+
+### Pipeline Demo
 
 <div style="display: flex; justify-content: center; margin: 20px 0;">
   <video width="100%" controls style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
@@ -22,34 +56,3 @@ Implemented a comprehensive 3D reconstruction pipeline using Worldlab.ai, NVIDIA
     Your browser does not support the video tag.
   </video>
 </div>
-
-### Key Technologies
-
-**Worldlab.ai Integration:**
-- Integrated Worldlab.ai platform for 3D asset generation and processing
-- Utilized advanced rendering capabilities for high-fidelity asset creation
-
-**NVIDIA 3Dgrut:**
-- Implemented NVIDIA 3Dgrut for 3D reconstruction and geometry processing
-- Leveraged GPU-accelerated reconstruction algorithms for efficient asset generation
-
-**Isaac Lab:**
-- Deployed assets in NVIDIA Isaac Lab simulation environment
-- Validated asset quality and performance in physics-based simulations
-
-**Render-to-Sim-to-Asset Pipeline:**
-- Developed end-to-end pipeline from rendered images to simulation-ready 3D assets
-- Automated the conversion process from visual representations to usable 3D models
-
-### Technical Implementation
-
-- Set up integration between Worldlab.ai, Nvidia 3Dgrut, and Isaac Lab
-- Implemented data pipeline for converting rendered images to 3D geometry
-- Optimized asset generation process for simulation environments
-- Validated asset quality and compatibility with physics simulation requirements
-
-### Key Achievements
-
-- Successfully created 3D assets from render-to-sim-to-asset pipeline
-- Integrated multiple advanced 3D reconstruction tools into cohesive workflow
-- Generated simulation-ready assets for use in Isaac Lab environment
