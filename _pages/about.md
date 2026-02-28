@@ -359,7 +359,7 @@ p {
 <div class="professional-page">
 
 <div class="professional-header">
-  <img src="../images/seongjaeahn.jpeg" alt="SeongJae Ahn" class="profile-image">
+  <img src="{{ '/images/seongjaeahn.jpeg' | relative_url }}" alt="SeongJae Ahn" class="profile-image">
   <div class="header-content">
     <h1>SeongJae (Jay) Ahn</h1>
     <div class="title">B.S. / M.S. Student in Mechanical Engineering</div>
@@ -408,17 +408,17 @@ Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](
   <li class="publication-item">
     <span class="publication-number">1.</span>
     <div class="publication-thumbnail">
-      <video muted playsinline preload="none" style="width: 100%; height: 100%; object-fit: cover;">
-        <source src="../images/kha_move.mp4" type="video/mp4">
-        <source src="../images/kha_move.mov" type="video/quicktime">
+      <video controls muted playsinline preload="metadata" style="width: 100%; height: 100%; object-fit: cover;" poster="{{ '/images/kha_grab_img.png' | relative_url }}">
+        <source src="{{ '/images/kha_move.mp4' | relative_url }}" type="video/mp4">
+        <source src="{{ '/images/kha_move.mov' | relative_url }}" type="video/quicktime">
       </video>
       <div class="publication-tag">Work</div>
     </div>
     <div class="publication-content">
-      <div class="publication-title"><a href="/portfolio/portfolio-5/">Khameleon Robotics: Control & Simulation Intern</a></div>
+      <div class="publication-title"><a href="{{ '/portfolio/portfolio-5/' | relative_url }}">Khameleon Robotics: Control & Simulation Intern</a></div>
       <div class="publication-venue">Built Isaac Sim/Lab control and simulation infrastructure for 13-DOF dual-arm teleoperation, improving stability and responsiveness in imitation/learning workflows.</div>
       <div class="publication-links">
-        <a href="/portfolio/portfolio-5/" class="publication-link">Project Page</a>
+        <a href="{{ '/portfolio/portfolio-5/' | relative_url }}" class="publication-link">Project Page</a>
       </div>
     </div>
   </li>
@@ -426,14 +426,14 @@ Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](
   <li class="publication-item">
     <span class="publication-number">2.</span>
     <div class="publication-thumbnail">
-      <img src="../images/root_deployment_1.png" alt="Root Applied Sciences">
+      <img loading="lazy" src="{{ '/images/root_deployment_1.png' | relative_url }}" alt="Root Applied Sciences">
       <div class="publication-tag">Work</div>
     </div>
     <div class="publication-content">
-      <div class="publication-title"><a href="/portfolio/portfolio-2/">Root Applied Sciences: Junior Engineer</a></div>
+      <div class="publication-title"><a href="{{ '/portfolio/portfolio-2/' | relative_url }}">Root Applied Sciences: Junior Engineer</a></div>
       <div class="publication-venue">Developed microfluidic deployment hardware for field monitoring, including SLA-ready components and protective housing for maintainability.</div>
       <div class="publication-links">
-        <a href="/portfolio/portfolio-2/" class="publication-link">Project Page</a>
+        <a href="{{ '/portfolio/portfolio-2/' | relative_url }}" class="publication-link">Project Page</a>
       </div>
     </div>
   </li>
@@ -446,17 +446,17 @@ Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](
   <li class="publication-item">
     <span class="publication-number">1.</span>
     <div class="publication-thumbnail">
-      <video muted playsinline preload="none" style="width: 100%; height: 100%; object-fit: cover;">
-        <source src="../images/icon_front_video.mp4" type="video/mp4">
-        <source src="../images/icon_front_video.mov" type="video/quicktime">
+      <video controls muted playsinline preload="metadata" style="width: 100%; height: 100%; object-fit: cover;" poster="{{ '/images/icon_front_video.png' | relative_url }}">
+        <source src="{{ '/images/icon_front_video.mp4' | relative_url }}" type="video/mp4">
+        <source src="{{ '/images/icon_front_video.mov' | relative_url }}" type="video/quicktime">
       </video>
       <div class="publication-tag">Research</div>
     </div>
     <div class="publication-content">
-      <div class="publication-title"><a href="/portfolio/portfolio-9/">ICON Lab: Robot Learning & Manipulation</a></div>
+      <div class="publication-title"><a href="{{ '/portfolio/portfolio-9/' | relative_url }}">ICON Lab: Robot Learning & Manipulation</a></div>
       <div class="publication-venue">Developed PolicyPlayer and diffusion-policy workflows in robosuite/MuJoCo, and migrated multi-agent quadruped tasks from Go1 to Go2 in Isaac Gym.</div>
       <div class="publication-links">
-        <a href="/portfolio/portfolio-9/" class="publication-link">Project Page</a>
+        <a href="{{ '/portfolio/portfolio-9/' | relative_url }}" class="publication-link">Project Page</a>
       </div>
     </div>
   </li>
@@ -464,15 +464,15 @@ Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](
   <li class="publication-item">
     <span class="publication-number">2.</span>
     <div class="publication-thumbnail">
-      <img src="../images/TAFlab_lolus.jpeg" alt="TAF Lab">
+      <img loading="lazy" src="{{ '/images/TAFlab_lolus.jpeg' | relative_url }}" alt="TAF Lab">
       <div class="publication-tag">Research</div>
     </div>
     <div class="publication-content">
-      <div class="publication-title"><a href="/portfolio/portfolio-1/">TAF Lab: Undergraduate Research Assistant</a></div>
+      <div class="publication-title"><a href="{{ '/portfolio/portfolio-1/' | relative_url }}">TAF Lab: Undergraduate Research Assistant</a></div>
       <div class="publication-authors">E. Kuo, S. Ahn, A. Khan</div>
       <div class="publication-venue">Led electronics integration and navigation-control for an autonomous ocean drone; achieved Top 20 in the U.S. DOE Power at the Sea Prize.</div>
       <div class="publication-links">
-        <a href="/portfolio/portfolio-1/" class="publication-link">Project Page</a>
+        <a href="{{ '/portfolio/portfolio-1/' | relative_url }}" class="publication-link">Project Page</a>
       </div>
     </div>
   </li>
@@ -480,16 +480,16 @@ Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](
   <li class="publication-item">
     <span class="publication-number">3.</span>
     <div class="publication-thumbnail">
-      <video muted playsinline preload="none" style="width: 100%; height: 100%; object-fit: cover;">
-        <source src="../images/MSC_WL2Isaac.webm" type="video/webm">
+      <video controls muted playsinline preload="metadata" style="width: 100%; height: 100%; object-fit: cover;" poster="{{ '/images/MSC_WL2Isaac.png' | relative_url }}">
+        <source src="{{ '/images/MSC_WL2Isaac.webm' | relative_url }}" type="video/webm">
       </video>
       <div class="publication-tag">Research</div>
     </div>
     <div class="publication-content">
-      <div class="publication-title"><a href="/portfolio/portfolio-6/">MSC (Mechanical Systems) Control Lab</a></div>
+      <div class="publication-title"><a href="{{ '/portfolio/portfolio-6/' | relative_url }}">MSC (Mechanical Systems) Control Lab</a></div>
       <div class="publication-venue">Created a unified render-to-sim-to-asset workflow with Worldlab.ai, NVIDIA 3Dgrut, and Isaac Lab for reusable, validated assets.</div>
       <div class="publication-links">
-        <a href="/portfolio/portfolio-6/" class="publication-link">Project Page</a>
+        <a href="{{ '/portfolio/portfolio-6/' | relative_url }}" class="publication-link">Project Page</a>
       </div>
     </div>
   </li>
@@ -504,15 +504,15 @@ Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](
   <li class="publication-item">
     <span class="publication-number">1.</span>
     <div class="publication-thumbnail">
-      <img src="../images/caliber_pg1.png" alt="Caliber Platform">
+      <img loading="lazy" src="{{ '/images/caliber_pg1.png' | relative_url }}" alt="Caliber Platform">
       <div class="publication-tag">Class</div>
     </div>
     <div class="publication-content">
-      <div class="publication-title"><a href="/portfolio/portfolio-3/">Caliber - Student Projects Open Source Platform</a></div>
+      <div class="publication-title"><a href="{{ '/portfolio/portfolio-3/' | relative_url }}">Caliber - Student Projects Open Source Platform</a></div>
       <div class="publication-authors">S. Ahn</div>
       <div class="publication-venue">Designed project discovery and metadata architecture for 500+ open source UC Berkeley projects with scalable filtering and browse flow.</div>
       <div class="publication-links">
-        <a href="/portfolio/portfolio-3/" class="publication-link">Project Page</a>
+        <a href="{{ '/portfolio/portfolio-3/' | relative_url }}" class="publication-link">Project Page</a>
       </div>
     </div>
   </li>
@@ -520,18 +520,18 @@ Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](
   <li class="publication-item">
     <span class="publication-number">2.</span>
     <div class="publication-thumbnail">
-      <video muted playsinline preload="none" style="width: 100%; height: 100%; object-fit: cover;">
-        <source src="../images/me231_result_1.mp4" type="video/mp4">
-        <source src="../images/me231_result_1.mov" type="video/quicktime">
+      <video controls muted playsinline preload="metadata" style="width: 100%; height: 100%; object-fit: cover;" poster="{{ '/images/me231_result_1.png' | relative_url }}">
+        <source src="{{ '/images/me231_result_1.mp4' | relative_url }}" type="video/mp4">
+        <source src="{{ '/images/me231_result_1.mov' | relative_url }}" type="video/quicktime">
       </video>
       <div class="publication-tag">ME231</div>
     </div>
     <div class="publication-content">
-      <div class="publication-title"><a href="/portfolio/portfolio-8/">MPC for Truck-Trailer System with Obstacle Avoidance</a></div>
+      <div class="publication-title"><a href="{{ '/portfolio/portfolio-8/' | relative_url }}">MPC for Truck-Trailer System with Obstacle Avoidance</a></div>
       <div class="publication-authors">S. Ahn</div>
       <div class="publication-venue">Implemented constrained MPC for forward/reverse truck-trailer navigation with dynamic obstacle prediction and feasibility recovery.</div>
       <div class="publication-links">
-        <a href="/portfolio/portfolio-8/" class="publication-link">Project Page</a>
+        <a href="{{ '/portfolio/portfolio-8/' | relative_url }}" class="publication-link">Project Page</a>
       </div>
     </div>
   </li>
@@ -539,18 +539,18 @@ Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](
   <li class="publication-item">
     <span class="publication-number">3.</span>
     <div class="publication-thumbnail">
-      <video muted playsinline preload="none" style="width: 100%; height: 100%; object-fit: cover;">
-        <source src="../images/me239_backflip.mp4" type="video/mp4">
-        <!-- <source src="../images/me239_spider_jump_1.mov" type="video/quicktime"> -->
+      <video controls muted playsinline preload="metadata" style="width: 100%; height: 100%; object-fit: cover;" poster="{{ '/images/me239_front_pg.png' | relative_url }}">
+        <source src="{{ '/images/me239_backflip.mp4' | relative_url }}" type="video/mp4">
+        <!-- <source src="{{ '/images/me239_spider_jump_1.mov' | relative_url }}" type="video/quicktime"> -->
       </video>
       <div class="publication-tag">ME239</div>
     </div>
     <div class="publication-content">
-      <div class="publication-title"><a href="/portfolio/portfolio-10/">Spider Robot - Robotic Locomotion</a></div>
+      <div class="publication-title"><a href="{{ '/portfolio/portfolio-10/' | relative_url }}">Spider Robot - Robotic Locomotion</a></div>
       <div class="publication-authors">S. Ahn</div>
       <div class="publication-venue">Performed Jacobian-based motion analysis and implemented stable forward-jump control for a 4-legged robotic platform.</div>
       <div class="publication-links">
-        <a href="/portfolio/portfolio-10/" class="publication-link">Project Page</a>
+        <a href="{{ '/portfolio/portfolio-10/' | relative_url }}" class="publication-link">Project Page</a>
       </div>
     </div>
   </li>
@@ -565,21 +565,20 @@ Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](
   <li class="publication-item">
     <span class="publication-number">1.</span>
     <div class="publication-thumbnail">
-      <img src="../images/CalSol_suspension.png" alt="CalSol">
+      <img loading="lazy" src="{{ '/images/CalSol_suspension.png' | relative_url }}" alt="CalSol">
       <div class="publication-tag">Club</div>
     </div>
     <div class="publication-content">
-      <div class="publication-title"><a href="/portfolio/portfolio-4/">UC Berkeley Solar Vehicle Team, CalSol</a></div>
+      <div class="publication-title"><a href="{{ '/portfolio/portfolio-4/' | relative_url }}">UC Berkeley Solar Vehicle Team, CalSol</a></div>
       <div class="publication-venue">Consolidated CalSol front suspension components for ~10% mass reduction with FEA validation and integration checks.</div>
       <div class="publication-links">
-        <a href="/portfolio/portfolio-4/" class="publication-link">Project Page</a>
+        <a href="{{ '/portfolio/portfolio-4/' | relative_url }}" class="publication-link">Project Page</a>
       </div>
     </div>
   </li>
 </ol>
 
 ### Teaching Experience
-git
 * **Diablo Valley College, Physics Tutor**  
   Tutored students in Intro to Engineering Mechanics, Electromagnetics, and Quantum Mechanics.
 
