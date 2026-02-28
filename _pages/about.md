@@ -378,11 +378,11 @@ p {
 
 ## About Me
 
-I am an M.S. student in Mechanical Engineering at UC Berkeley, working in the [ICON (Intelligent Control) Lab](https://iconlab.negarmehr.com) under Prof. Negar Mehr. My research focuses on robot learning, control synthesis, and the simulation-to-deployment pipeline for manipulation and legged systems.
+I am an M.S. student in Mechanical Engineering at UC Berkeley, working in the **[ICON (Intelligent Control) Lab](https://iconlab.negarmehr.com)** under Prof. Negar Mehr. My research focuses on robot learning, control synthesis, and the simulation-to-deployment pipeline for manipulation and legged systems.
 
 I have worked across both industry and research: from humanoid teleoperation and microfluidics deployment to autonomous ocean systems and 3D reconstruction. My objective is to design systems that are reproducible in simulation, measurable in experiments, and reliable in deployment.
 
-Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](https://www.khameleonrobotics.com)**, worked as a Junior Engineer at **[Root Applied Sciences](https://rootappliedsciences.com)**, and conducted undergraduate research at the [TAF (Theoretical & Applied Fluid Dynamics) Lab](https://taflab.berkeley.edu) under Prof. Reza Alam.
+Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](https://www.khameleonrobotics.com)**, worked as a Junior Engineer at **[Root Applied Sciences](https://rootappliedsciences.com)**, and conducted undergraduate research at the **[TAF(Theoretical & Applied Fluid Dynamics) Lab](https://taflab.berkeley.edu)** under Prof. Reza Alam.
 
 ## Research Interests
 
@@ -400,7 +400,7 @@ Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](
 </div>
 <div markdown="1">
 
-## Selected Portfolio Highlights
+## Highlights
 
 ### Industry Experience
 
@@ -447,8 +447,8 @@ Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](
     <span class="publication-number">1.</span>
     <div class="publication-thumbnail">
       <video controls muted playsinline preload="metadata" style="width: 100%; height: 100%; object-fit: cover;" poster="{{ '/images/icon_front_video.png' | relative_url }}">
-        <source src="{{ '/images/icon_front_video.mp4' | relative_url }}" type="video/mp4">
-        <source src="{{ '/images/icon_front_video.mov' | relative_url }}" type="video/quicktime">
+        <source src="{{ '/images/icon_bimanual_demo.mp4' | relative_url }}" type="video/mp4">
+        <source src="{{ '/images/icon_bimanual_demo.mov' | relative_url }}" type="video/quicktime">
       </video>
       <div class="publication-tag">Research</div>
     </div>
