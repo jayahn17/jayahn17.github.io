@@ -359,7 +359,7 @@ p {
 <div class="professional-page">
 
 <div class="professional-header">
-  <img src="/images/seongjaeahn.jpeg" alt="SeongJae Ahn" class="profile-image">
+  <img src="../images/seongjaeahn.jpeg" alt="SeongJae Ahn" class="profile-image">
   <div class="header-content">
     <h1>SeongJae (Jay) Ahn</h1>
     <div class="title">B.S. / M.S. Student in Mechanical Engineering</div>
@@ -409,8 +409,8 @@ Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](
     <span class="publication-number">1.</span>
     <div class="publication-thumbnail">
       <video muted playsinline preload="none" style="width: 100%; height: 100%; object-fit: cover;">
-        <source src="/images/kha_move.mp4" type="video/mp4">
-        <source src="/images/kha_move.mov" type="video/quicktime">
+        <source src="../images/kha_move.mp4" type="video/mp4">
+        <source src="../images/kha_move.mov" type="video/quicktime">
       </video>
       <div class="publication-tag">Work</div>
     </div>
@@ -426,7 +426,7 @@ Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](
   <li class="publication-item">
     <span class="publication-number">2.</span>
     <div class="publication-thumbnail">
-      <img src="/images/root_deployment_1.png" alt="Root Applied Sciences">
+      <img src="../images/root_deployment_1.png" alt="Root Applied Sciences">
       <div class="publication-tag">Work</div>
     </div>
     <div class="publication-content">
@@ -447,8 +447,8 @@ Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](
     <span class="publication-number">1.</span>
     <div class="publication-thumbnail">
       <video muted playsinline preload="none" style="width: 100%; height: 100%; object-fit: cover;">
-        <source src="/images/icon_front_video.mp4" type="video/mp4">
-        <source src="/images/icon_front_video.mov" type="video/quicktime">
+        <source src="../images/icon_front_video.mp4" type="video/mp4">
+        <source src="../images/icon_front_video.mov" type="video/quicktime">
       </video>
       <div class="publication-tag">Research</div>
     </div>
@@ -464,7 +464,7 @@ Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](
   <li class="publication-item">
     <span class="publication-number">2.</span>
     <div class="publication-thumbnail">
-      <img src="/images/TAFlab_lolus.jpeg" alt="TAF Lab">
+      <img src="../images/TAFlab_lolus.jpeg" alt="TAF Lab">
       <div class="publication-tag">Research</div>
     </div>
     <div class="publication-content">
@@ -481,7 +481,7 @@ Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](
     <span class="publication-number">3.</span>
     <div class="publication-thumbnail">
       <video muted playsinline preload="none" style="width: 100%; height: 100%; object-fit: cover;">
-        <source src="/images/MSC_WL2Isaac.webm" type="video/webm">
+        <source src="../images/MSC_WL2Isaac.webm" type="video/webm">
       </video>
       <div class="publication-tag">Research</div>
     </div>
@@ -504,7 +504,7 @@ Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](
   <li class="publication-item">
     <span class="publication-number">1.</span>
     <div class="publication-thumbnail">
-      <img src="/images/caliber_pg1.png" alt="Caliber Platform">
+      <img src="../images/caliber_pg1.png" alt="Caliber Platform">
       <div class="publication-tag">Class</div>
     </div>
     <div class="publication-content">
@@ -521,8 +521,8 @@ Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](
     <span class="publication-number">2.</span>
     <div class="publication-thumbnail">
       <video muted playsinline preload="none" style="width: 100%; height: 100%; object-fit: cover;">
-        <source src="/images/me231_result_1.mp4" type="video/mp4">
-        <source src="/images/me231_result_1.mov" type="video/quicktime">
+        <source src="../images/me231_result_1.mp4" type="video/mp4">
+        <source src="../images/me231_result_1.mov" type="video/quicktime">
       </video>
       <div class="publication-tag">ME231</div>
     </div>
@@ -540,8 +540,8 @@ Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](
     <span class="publication-number">3.</span>
     <div class="publication-thumbnail">
       <video muted playsinline preload="none" style="width: 100%; height: 100%; object-fit: cover;">
-        <source src="/images/me239_backflip.mp4" type="video/mp4">
-        <!-- <source src="/images/me239_spider_jump_1.mov" type="video/quicktime"> -->
+        <source src="../images/me239_backflip.mp4" type="video/mp4">
+        <!-- <source src="../images/me239_spider_jump_1.mov" type="video/quicktime"> -->
       </video>
       <div class="publication-tag">ME239</div>
     </div>
@@ -565,7 +565,7 @@ Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](
   <li class="publication-item">
     <span class="publication-number">1.</span>
     <div class="publication-thumbnail">
-      <img src="/images/CalSol_suspension.png" alt="CalSol">
+      <img src="../images/CalSol_suspension.png" alt="CalSol">
       <div class="publication-tag">Club</div>
     </div>
     <div class="publication-content">
@@ -579,7 +579,7 @@ Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](
 </ol>
 
 ### Teaching Experience
-
+git
 * **Diablo Valley College, Physics Tutor**  
   Tutored students in Intro to Engineering Mechanics, Electromagnetics, and Quantum Mechanics.
 
