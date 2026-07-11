@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "SeongJae Ahn Website"
 title_separator          : "-"
 name                     : &name "SeongJae Ahn"
-description              : &description "My portfolio"
+description              : &description "Robotics engineer building diffusion policies, humanoid simulation, and field-deployed autonomy. M.S. Mechanical Engineering, UC Berkeley."
 url                      : https://jayahn17.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jayahn17.github.io"
@@ -25,9 +25,9 @@ author:
   avatar           : "seongjaeahn.jpeg"
   name             : "SeongJae(Jay) Ahn"
   # pronouns         : # example: "she/her"  
-  bio              : "M.S. ME @ UC Berkeley | Controls in Robotics"
-  location         : "Berkeley, CA"
-  employer         : "prev Khameleon Robotics | Root Applied Sciences"
+  bio              : "M.S. ME @ UC Berkeley | Robot Learning & Controls"
+  location         : "Berkeley / Santa Clara, CA"
+  employer         : "Khameleon Robotics | ICON Lab"
   uri              : # URL
   email            : "jayahn@berkeley.edu" 
 
@@ -136,7 +136,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "icon_front_video.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -273,7 +273,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comment: true
+      comments: true
   # _talks
   - scope:
       path: ""

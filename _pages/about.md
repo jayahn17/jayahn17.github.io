@@ -2,6 +2,7 @@
 permalink: /
 title: "About Me"
 author_profile: false
+description: "Robotics researcher at UC Berkeley ICON Lab — diffusion policies, humanoid simulation, and field-deployed autonomy."
 redirect_from: 
   - /about/
   - /about.html
@@ -195,8 +196,8 @@ p {
 
 .publication-thumbnail {
   flex-shrink: 0;
-  width: 180px;
-  height: 100px;
+  width: 270px;
+  height: 150px;
   overflow: hidden;
   position: relative;
   border-radius: 6px;
@@ -351,7 +352,7 @@ p {
   
   .publication-thumbnail {
     width: 100%;
-    height: 180px;
+    height: 270px;
   }
 }
 </style>
@@ -362,14 +363,16 @@ p {
   <img src="{{ '/images/seongjaeahn.jpeg' | relative_url }}" alt="SeongJae Ahn" class="profile-image">
   <div class="header-content">
     <h1>SeongJae (Jay) Ahn</h1>
-    <div class="title">B.S. / M.S. Student in Mechanical Engineering</div>
+    <div class="title">M.S. in Mechanical Engineering</div>
     <div class="affiliation">University of California, Berkeley</div>
     <div class="contact">
-      <a href="mailto:jayahn@berkeley.edu">jayahn@berkeley.edu</a>
+      <a href="mailto:jayahn@berkeley.edu">jayahn@berkeley.edu</a> · (628) 529-6598
     </div>
     <div class="social-links">
-      <a href="https://github.com/jayahn17" target="_blank">GitHub</a>
-      <a href="https://www.linkedin.com/in/seongjae-ahn-126838244/" target="_blank">LinkedIn</a>
+      <a href="{{ '/portfolio/' | relative_url }}">Portfolio</a>
+      <a href="{{ '/cv/' | relative_url }}">CV</a>
+      <a href="https://github.com/jayahn17" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/seongjae-ahn-126838244/" target="_blank" rel="noopener">LinkedIn</a>
     </div>
   </div>
 </div>
@@ -378,24 +381,11 @@ p {
 
 ## About Me
 
-I am an M.S. student in Mechanical Engineering at UC Berkeley, working in the **[ICON (Intelligent Control) Lab](https://iconlab.negarmehr.com)** under Prof. Negar Mehr. My research focuses on robot learning, control synthesis, and the simulation-to-deployment pipeline for manipulation and legged systems.
+I'm a robotics researcher in the **[ICON (Intelligent Control) Lab](https://iconlab.negarmehr.com)** at UC Berkeley, advised by Professor [Negar Mehr](https://mehr.berkeley.edu). My current work builds role-conditioned diffusion policies for multi-arm manipulation — reusing the same per-skill policies from a single arm up to a four-arm, LLM-coordinated system — alongside legged locomotion and simulation infrastructure for learning and control.
 
-I have worked across both industry and research: from humanoid teleoperation and microfluidics deployment to autonomous ocean systems and 3D reconstruction. My objective is to design systems that are reproducible in simulation, measurable in experiments, and reliable in deployment.
+I hold an M.S. in Mechanical Engineering from Berkeley (May 2026) and previously worked as a Control & Simulation Engineer Intern at **[Khameleon Robotics](https://www.khameleonrobotics.com)**, a Junior Engineer at **[Root Applied Sciences](https://rootappliedsciences.com)**, and an undergraduate researcher in the **[TAF (Theoretical & Applied Fluid Dynamics) Lab](https://taflab.berkeley.edu)**. Across these roles I've explored robot learning, control systems, simulation engineering, and field-deployed sensing hardware.
 
-Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](https://www.khameleonrobotics.com)**, worked as a Junior Engineer at **[Root Applied Sciences](https://rootappliedsciences.com)**, and conducted undergraduate research at the **[TAF(Theoretical & Applied Fluid Dynamics) Lab](https://taflab.berkeley.edu)** under Prof. Reza Alam.
-
-## Research Interests
-
-* **Robot Learning:** RL and diffusion-based imitation for dual-arm manipulation.
-* **Control Systems:** Model-based and learning-augmented control for manipulation, mobility, and constrained planning (MPC, multi-agent systems).
-* **Simulation Engineering:** NVIDIA Isaac Sim/Lab and MuJoCo for robust policy evaluation and sim-to-real alignment.
-* **3D Reconstruction:** Worldlab.ai and NVIDIA 3Dgrut for geometry generation and simulation-ready asset conversion.
-
-## Professional Snapshot
-
-* Built and integrated autonomous systems spanning hardware, control, and simulation workflows.
-* Focused on measurable outcomes: stability, feasibility under constraints, and repeatable experimentation.
-* Contributed to projects reaching real-world readiness, including a Top 20 placement in the U.S. DOE Power at the Sea challenge.
+I have always been fascinated by the interaction between computers and the physical world. Learning random things has been the greatest source of pleasure for me, and I hope this will never stop. Recently, I have been studying the science of cooking in my free time.
 
 </div>
 <div markdown="1">
@@ -415,8 +405,8 @@ Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](
       <div class="publication-tag">Work</div>
     </div>
     <div class="publication-content">
-      <div class="publication-title"><a href="{{ '/portfolio/portfolio-5/' | relative_url }}">Khameleon Robotics: Control & Simulation Intern</a></div>
-      <div class="publication-venue">Built Isaac Sim/Lab control and simulation infrastructure for 13-DOF dual-arm teleoperation, improving stability and responsiveness in imitation/learning workflows.</div>
+      <div class="publication-title"><a href="{{ '/portfolio/portfolio-5/' | relative_url }}">Khameleon Robotics: Control & Simulation Engineer</a></div>
+      <div class="publication-venue">Built Isaac Sim and Isaac Lab control and simulation infrastructure for 13-DOF dual-arm teleoperation, improving stability and responsiveness in imitation/learning workflows.</div>
       <div class="publication-links">
         <a href="{{ '/portfolio/portfolio-5/' | relative_url }}" class="publication-link">Project Page</a>
       </div>
@@ -431,7 +421,7 @@ Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="{{ '/portfolio/portfolio-2/' | relative_url }}">Root Applied Sciences: Junior Engineer</a></div>
-      <div class="publication-venue">Developed microfluidic deployment hardware for field monitoring, including SLA-ready components and protective housing for maintainability.</div>
+      <div class="publication-venue">Designed field-ready microfluidic hardware, including SLA-manufacturable components and protective housings for reliable deployment and maintenance.</div>
       <div class="publication-links">
         <a href="{{ '/portfolio/portfolio-2/' | relative_url }}" class="publication-link">Project Page</a>
       </div>
@@ -453,8 +443,8 @@ Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](
       <div class="publication-tag">Research</div>
     </div>
     <div class="publication-content">
-      <div class="publication-title"><a href="{{ '/portfolio/portfolio-9/' | relative_url }}">ICON Lab: Robot Learning & Manipulation</a></div>
-      <div class="publication-venue">Developed PolicyPlayer and diffusion-policy workflows in robosuite/MuJoCo, and migrated multi-agent quadruped tasks from Go1 to Go2 in Isaac Gym.</div>
+      <div class="publication-title"><a href="{{ '/portfolio/portfolio-9/' | relative_url }}">ICON Lab: Role-Conditioned Robot Manipulation</a></div>
+      <div class="publication-venue">Built skill-decomposed diffusion policies (pick / place / retreat) verified ≥95% on a single arm, then reused them unchanged on two arms and a four-arm system governed by an LLM coordinator. Also ported multi-agent quadruped RL from Go1 to Go2 in Isaac Gym.</div>
       <div class="publication-links">
         <a href="{{ '/portfolio/portfolio-9/' | relative_url }}" class="publication-link">Project Page</a>
       </div>
@@ -470,7 +460,7 @@ Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](
     <div class="publication-content">
       <div class="publication-title"><a href="{{ '/portfolio/portfolio-1/' | relative_url }}">TAF Lab: Undergraduate Research Assistant</a></div>
       <div class="publication-authors">E. Kuo, S. Ahn, A. Khan</div>
-      <div class="publication-venue">Led electronics integration and navigation-control for an autonomous ocean drone; achieved Top 20 in the U.S. DOE Power at the Sea Prize.</div>
+      <div class="publication-venue">Led electronics integration and navigation-control for an autonomous ocean drone; achieved Top 20 in the U.S. DOE Power at Sea Prize.</div>
       <div class="publication-links">
         <a href="{{ '/portfolio/portfolio-1/' | relative_url }}" class="publication-link">Project Page</a>
       </div>
@@ -487,7 +477,7 @@ Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="{{ '/portfolio/portfolio-6/' | relative_url }}">MSC (Mechanical Systems) Control Lab</a></div>
-      <div class="publication-venue">Created a unified render-to-sim-to-asset workflow with Worldlab.ai, NVIDIA 3Dgrut, and Isaac Lab for reusable, validated assets.</div>
+      <div class="publication-venue">Created a unified render-to-sim-to-asset workflow with Worldlab.ai, NVIDIA 3DGRUT, and Isaac Lab for reusable, validated assets.</div>
       <div class="publication-links">
         <a href="{{ '/portfolio/portfolio-6/' | relative_url }}" class="publication-link">Project Page</a>
       </div>
@@ -510,7 +500,7 @@ Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](
     <div class="publication-content">
       <div class="publication-title"><a href="{{ '/portfolio/portfolio-3/' | relative_url }}">Caliber - Student Projects Open Source Platform</a></div>
       <div class="publication-authors">S. Ahn</div>
-      <div class="publication-venue">Designed project discovery and metadata architecture for 500+ open source UC Berkeley projects with scalable filtering and browse flow.</div>
+      <div class="publication-venue">Designed the discovery and metadata architecture for 500+ UC Berkeley open source projects, making them easier to browse, filter, and reuse.</div>
       <div class="publication-links">
         <a href="{{ '/portfolio/portfolio-3/' | relative_url }}" class="publication-link">Project Page</a>
       </div>
@@ -529,7 +519,7 @@ Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](
     <div class="publication-content">
       <div class="publication-title"><a href="{{ '/portfolio/portfolio-8/' | relative_url }}">MPC for Truck-Trailer System with Obstacle Avoidance</a></div>
       <div class="publication-authors">S. Ahn</div>
-      <div class="publication-venue">Implemented constrained MPC for forward/reverse truck-trailer navigation with dynamic obstacle prediction and feasibility recovery.</div>
+      <div class="publication-venue">Implemented constrained MPC for forward and reverse truck-trailer navigation with dynamic obstacle prediction and feasibility recovery.</div>
       <div class="publication-links">
         <a href="{{ '/portfolio/portfolio-8/' | relative_url }}" class="publication-link">Project Page</a>
       </div>
@@ -548,7 +538,7 @@ Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](
     <div class="publication-content">
       <div class="publication-title"><a href="{{ '/portfolio/portfolio-10/' | relative_url }}">Spider Robot - Robotic Locomotion</a></div>
       <div class="publication-authors">S. Ahn</div>
-      <div class="publication-venue">Performed Jacobian-based motion analysis and implemented stable forward-jump control for a 4-legged robotic platform.</div>
+      <div class="publication-venue">Derived Jacobian-based motion relationships and implemented stable forward-jump control for a four-legged robotic platform.</div>
       <div class="publication-links">
         <a href="{{ '/portfolio/portfolio-10/' | relative_url }}" class="publication-link">Project Page</a>
       </div>
@@ -559,7 +549,7 @@ Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](
 </div>
 <div markdown="1">
 
-### Student Club
+### Student Team Experience
 
 <ol class="publication-list">
   <li class="publication-item">
@@ -570,7 +560,7 @@ Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="{{ '/portfolio/portfolio-4/' | relative_url }}">UC Berkeley Solar Vehicle Team, CalSol</a></div>
-      <div class="publication-venue">Consolidated CalSol front suspension components for ~10% mass reduction with FEA validation and integration checks.</div>
+      <div class="publication-venue">Redesigned CalSol front suspension components for about 10% lower mass while preserving stiffness through FEA-backed iteration.</div>
       <div class="publication-links">
         <a href="{{ '/portfolio/portfolio-4/' | relative_url }}" class="publication-link">Project Page</a>
       </div>
@@ -580,13 +570,13 @@ Previously, I served as a Control & Simulation Intern at **[Khameleon Robotics](
 
 ### Teaching Experience
 * **Diablo Valley College, Physics Tutor**  
-  Tutored students in Intro to Engineering Mechanics, Electromagnetics, and Quantum Mechanics.
+  Tutored students in introductory engineering mechanics, electromagnetics, and quantum mechanics.
 
 ## Education
 
 * **Master of Science in Mechanical Engineering**  
   University of California, Berkeley  
-  *August 2025 – May 2026 (Expected)*
+  *May 2026*
 
 * **Bachelor of Science in Mechanical Engineering**  
   University of California, Berkeley  

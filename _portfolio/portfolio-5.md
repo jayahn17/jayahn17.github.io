@@ -1,9 +1,12 @@
 ---
 title: "Khameleon Robotics - Humanoid Control and Simulation Platform"
-excerpt: "Controls and simulation development for a 13-DOF humanoid arm with lead/follower manipulation and Isaac Sim/Lab training workflows."
+excerpt: "Controls and simulation development for a 13-DOF humanoid arm with leader/follower teleoperation, multi-camera capture, and Isaac Sim / Isaac Lab training workflows."
 collection: portfolio
 category: work
-date: 2024-12-01
+date: 2025-07-01
+role: "Control & Simulation Engineer Intern"
+duration: "July 2025 – Present"
+tech_tags: ["Isaac Sim", "Isaac Lab", "Dynamixel", "Teleoperation"]
 share: false
 teaser: "kha_grab_img.png"
 header:
@@ -13,39 +16,39 @@ header:
 ## Khameleon Robotics - Controls & Simulation Intern
 
 ### Context
-At Khameleon Robotics, I worked on a simulation-first pipeline for bimanual humanoid manipulation with training-ready data capture. The objective was to create a stable development baseline for coordinated control and model training before hardware-heavy iterations.
+At Khameleon Robotics, I worked on a simulation-first pipeline for bimanual humanoid manipulation with training-ready data capture. The objective was to create a stable development baseline for coordinated control and learning workflows before more hardware-heavy iterations.
 
 ### System Scope
-- Robot model: 13-DOF humanoid arm in NVIDIA Isaac Sim/Lab.
+- Robot model: 13-DOF humanoid arm in NVIDIA Isaac Sim and Isaac Lab.
 - Command side: 12-DOF puppet controller using Dynamixel XC-330 servos.
-- Use cases: teleoperation and manipulation tasks requiring lead/follower behavior.
-- Training: collision-avoidance tasks in Isaac Lab.
+- Use cases: teleoperation and manipulation tasks requiring leader/follower behavior.
+- Training target: collision-avoidance and bimanual interaction tasks in Isaac Lab.
 
 ### Technical Contributions
 **Simulation Pipeline**
-- Set up end-to-end Isaac Sim/Lab workflow from robot import to dynamic behavior verification.
+- Set up an end-to-end Isaac Sim and Isaac Lab workflow, from robot import to dynamic behavior verification.
 - Configured articulation properties, collision primitives, and controller timing for stable real-time simulation.
-- Aligned simulation settings with expected training data requirements.
+- Aligned simulation settings with expected training-data requirements.
 
 **Control Architecture**
-- Integrated 12-DOF puppet controller with a bimanual arm model.
-- Designed lead/follower motion transfer logic for coordinated manipulation.
+- Integrated a 12-DOF puppet controller with a bimanual arm model.
+- Designed leader/follower motion-transfer logic for coordinated manipulation.
 - Tuned control loops for smooth transitions and low-latency behavior.
 
-**Multi-camera and Data Capture**
+**Multi-Camera and Data Capture**
 - Positioned five camera viewpoints (front, back, left, right, chest) for full manipulation visibility.
 - Built camera calibration and rendering settings to support both teleop and learning dataset generation.
-- Reduced occlusion by validating view combinations against the interaction envelope.
+- Reduced occlusion by validating viewpoint combinations against the interaction envelope.
 
 **Training Environment Design**
 - Created task scenes for collision avoidance and bimanual object handling.
-- Built simulation scenarios with tuned complexity so learning runs remained computationally efficient.
+- Built simulation scenarios with tuned complexity so learning runs stayed computationally efficient.
 
 ### Outcomes
-- Delivered a full Isaac Sim/Lab stack for 13-DOF humanoid arm development.
-- Implemented lead/follower bimanual control with 12 servo-driven DOFs.
+- Delivered a full Isaac Sim and Isaac Lab stack for 13-DOF humanoid arm development.
+- Implemented leader/follower bimanual control with 12 servo-driven DOFs.
 - Produced five-view sensing coverage for operator control and dataset generation.
-- Enabled repeatable collision-avoidance/manipulation training deployments.
+- Enabled repeatable collision-avoidance and manipulation training deployments.
 
 ### Visuals
 
@@ -80,23 +83,25 @@ At Khameleon Robotics, I worked on a simulation-first pipeline for bimanual huma
   </video>
 </div>
 
-### Walkthrough Notes
+### Walkthrough Highlights
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin: 20px 0;">
   <div style="background: #fff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
-    <strong>Screen 1 - System Architecture</strong>
-    <p style="margin-top:8px;">Mapping of sensors, compute, and communication paths for teleoperation and simulation.</p>
+    <img src="/images/kha_top_cam.png" alt="Multi-camera sensing layout" style="width: 100%; border-radius: 6px; margin-bottom: 10px;">
+    <strong>Multi-camera sensing</strong>
+    <p style="margin-top:8px;">Five viewpoints (front, back, left, right, chest) for teleoperation and dataset capture.</p>
   </div>
   <div style="background: #fff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
-    <strong>Screen 2 - Control Stack</strong>
+    <img src="/images/kha_grab_img.png" alt="Leader/follower teleoperation" style="width: 100%; border-radius: 6px; margin-bottom: 10px;">
+    <strong>Leader/follower control</strong>
     <p style="margin-top:8px;">12-DOF puppet controller built around Dynamixel XC-330 hardware.</p>
   </div>
   <div style="background: #fff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
-    <strong>Screen 3 - Simulation Pipeline</strong>
-    <p style="margin-top:8px;">Isaac Sim/Lab environment with collision and rendering configured for learning.</p>
+    <strong>Isaac Sim / Isaac Lab pipeline</strong>
+    <p style="margin-top:8px;">13-DOF humanoid arm with collision primitives, articulation tuning, and training-ready scenes.</p>
   </div>
   <div style="background: #fff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
-    <strong>Screen 4 - Results and Metrics</strong>
-    <p style="margin-top:8px;">Validation outputs from control quality and teleoperation coverage tests.</p>
+    <strong>LeIsaac data workflow</strong>
+    <p style="margin-top:8px;">Camera sync, URDF-to-USD conversion, and validation for imitation-learning datasets.</p>
   </div>
 </div>

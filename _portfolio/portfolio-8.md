@@ -1,24 +1,27 @@
 ---
 title: "MPC for Truck-Trailer System with Obstacle Avoidance"
-excerpt: "Model Predictive Control implementation for truck-trailer navigation with forward and reverse obstacle avoidance."
+excerpt: "Model Predictive Control for truck-trailer navigation with forward and reverse obstacle avoidance under dynamic constraints."
 collection: portfolio
 category: class
 date: 2024-12-01
+role: "ME231 — Advanced Controls"
+duration: "Fall 2024"
+tech_tags: ["MPC", "MATLAB", "Obstacle Avoidance"]
 share: false
 teaser: "me231_result_1.png"
 header:
   teaser: "me231_result_1.png"
 ---
 
-## MPC (Model Predictive Control) for Truck-Trailer Systems
+## MPC (Model Predictive Control) for Truck-Trailer System
 
 ### Context
-As a class project, I implemented obstacle-aware trajectory planning for a truck-trailer system in both forward and reverse driving regimes. The core objective was stable real-time autonomy under dynamic environments.
+As a class project, I implemented obstacle-aware trajectory planning for a truck-trailer system in both forward and reverse driving regimes. The core objective was to maintain stable real-time autonomy in dynamic environments.
 
 ### Control Problem
 - Solve a constrained optimization problem every control step.
-- Guarantee safe motion for trailers with large turning radii and articulation dynamics.
-- Handle moving obstacles where feasible paths may not exist at first pass.
+- Guarantee safe motion for a vehicle with large turning radii and trailer articulation dynamics.
+- Handle moving obstacles even when feasible paths may not exist on the first pass.
 
 ### Approach
 **MPC Formulation**
@@ -27,23 +30,23 @@ As a class project, I implemented obstacle-aware trajectory planning for a truck
 - Included adaptive constraint relaxation to preserve feasibility in tight scenarios.
 
 **Forward and Reverse Modes**
-- Built mode-specific transition conditions for geometry- and dynamic-dependent limitations.
+- Built mode-specific transition conditions around geometry- and dynamics-dependent limitations.
 - Applied different planning bounds to accommodate reverse-motion instability.
 - Implemented prediction-aware margin updates for relative velocity and uncertainty.
 
 **Performance Design**
 - Tuned horizon and penalty terms for stable responsiveness.
-- Prioritized stability and feasibility before aggressive path optimality in challenging obstacle layouts.
+- Prioritized stability and feasibility ahead of aggressive path optimality in challenging obstacle layouts.
 
 ### Implementation Highlights
 - Embedded dynamic obstacle prediction into the quadratic program at runtime.
 - Added multi-obstacle support (validated with 3+ moving obstacles).
-- Evaluated trajectory quality for obstacle clearance and convergence under both motion directions.
+- Evaluated trajectory quality for obstacle clearance and convergence in both motion directions.
 
 ### Results
 - Demonstrated obstacle-avoiding navigation in complex forward and reverse scenarios.
 - Maintained real-time execution on dynamic scenes with moving obstacles.
-- Preserved constraint satisfaction and system stability in stress cases through relaxation logic.
+- Preserved constraint satisfaction and system stability in stress cases through adaptive relaxation logic.
 
 ### Demonstrations
 

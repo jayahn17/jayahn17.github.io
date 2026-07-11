@@ -1,3 +1,7 @@
-# Top navigation: no Work/Coursework tabs (portfolio only on About page)
-main: []
-
+main:
+  - title: "About"
+    url: /
+  - title: "Portfolio"
+    url: /portfolio/
+  - title: "CV"
+    url: /cv/

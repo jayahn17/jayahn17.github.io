@@ -17,7 +17,13 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser != nil and teaser != "" %}
+    {% assign show_teaser = false %}
+    {% if teaser != nil and teaser != "" %}
+      {% if include.type == "grid" or post.collection == 'portfolio' %}
+        {% assign show_teaser = true %}
+      {% endif %}
+    {% endif %}
+    {% if show_teaser %}
       <div class="archive__item-teaser">
         {% if teaser contains "://" %}
           <img src="{{ teaser }}" alt="{{ title | escape }}">
@@ -46,7 +52,26 @@
         {% elsif post.collection == 'publications' %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'portfolio' %}
-          {% comment %}Don't show date for portfolio items{% endcomment %}
+          <p class="portfolio__meta page__meta">
+            {% if post.role %}<span class="portfolio__role">{{ post.role }}</span>{% endif %}
+            {% if post.duration %}<span class="portfolio__duration">{% if post.role %} · {% endif %}{{ post.duration }}</span>{% endif %}
+          </p>
+          {% if post.category or post.featured %}
+          <p class="portfolio__badges">
+            {% if post.featured %}<span class="portfolio__badge portfolio__badge--featured">Featured</span>{% endif %}
+            {% if post.category %}<span class="portfolio__badge portfolio__badge--{{ post.category }}">{{ post.category | capitalize }}</span>{% endif %}
+          </p>
+          {% endif %}
+          {% if post.tech_tags %}
+          <div class="tech-tags">
+            {% for tag in post.tech_tags %}
+              <span class="tech-tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+          {% endif %}
+          {% if post.impact %}
+          <p class="portfolio__impact"><strong>Impact:</strong> {{ post.impact }}</p>
+          {% endif %}
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}

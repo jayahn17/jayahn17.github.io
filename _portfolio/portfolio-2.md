@@ -1,9 +1,12 @@
 ---
 title: "Root Applied Sciences - Pathogen Monitoring Device"
-excerpt: "Pathogen monitoring hardware development focused on SLA-ready microfluidics and field deployment reliability."
+excerpt: "Field-deployed pathogen monitoring hardware with SLA-manufacturable microfluidics, serviceable enclosures, and deployment-ready mechanical design."
 collection: portfolio
 category: work
 date: 2024-11-01
+role: "Junior Engineer (Contractor)"
+duration: "November 2024 – May 2025"
+tech_tags: ["CAD", "SLA 3D Printing", "Microfluidics", "Field Hardware"]
 share: false
 teaser: "root_deployment.jpg"
 header:
@@ -13,32 +16,32 @@ header:
 ## Root Applied Sciences - Pathogen Monitoring Device
 
 ### Context
-At Root Applied Sciences, I contributed to a pathogen monitoring platform intended for environmental deployments. The hardware needed to be manufacturable, maintainable, and robust to non-laboratory conditions while preserving microfluidic precision.
+At Root Applied Sciences, I contributed to a pathogen monitoring platform designed for environmental deployment. The hardware needed to be manufacturable, easy to service, and robust outside the lab while still preserving microfluidic precision.
 
 ### Problem Statement
-- Create a reliable sample-handling mechanism suitable for repeated field operation.
-- Make all fluid-control features printable in SLA materials with predictable quality.
-- Design an enclosure and mounting strategy that supports long-term deployment and easy servicing.
+- Build a reliable sample-handling mechanism for repeated field operation.
+- Make fluid-control features printable in SLA materials with predictable quality.
+- Design an enclosure and mounting strategy that support long-term deployment and easy servicing.
 
 ### Engineering Contributions
 **Microfluidic Design**
-- Designed motorized microfluidic door mechanisms to improve repeatability of sample handling.
-- Built CAD geometry for channel and valve systems with SLA manufacturability constraints in mind.
+- Designed motorized microfluidic door mechanisms to improve sample-handling repeatability.
+- Built CAD geometry for channel and valve systems with SLA manufacturing constraints in mind.
 - Validated flow behavior through prototyping and iterative geometry refinement.
 
 **Housing and Deployment**
-- Designed protective enclosures with splash and impact tolerances suitable for external monitoring.
-- Planned maintenance-friendly access points and fixture interfaces for easier field service.
+- Designed protective enclosures with splash resistance and impact tolerance for outdoor monitoring.
+- Planned maintenance-friendly access points and fixture interfaces to simplify field service.
 - Integrated microfluidic modules with sensor interfaces for automated detection workflows.
 
 **Field Readiness**
-- Created deployment and maintenance procedures that reduce setup ambiguity for operators.
-- Verified compatibility of mechanical tolerances with repeated installation cycles.
+- Created deployment and maintenance procedures that reduced setup ambiguity for operators.
+- Verified that key mechanical tolerances held up across repeated installation cycles.
 
 ### Results
-- Delivered SLA-ready microfluidic components that support stable flow and closure behavior.
-- Produced protective housings optimized for transport and field servicing.
-- Improved deployment reliability through component-level design simplification and clearer maintenance flow.
+- Delivered SLA-ready microfluidic components that supported stable flow and repeatable closure behavior.
+- Produced protective housings optimized for transport, deployment, and field servicing.
+- Improved deployment reliability through component-level simplification and a clearer maintenance workflow.
 
 ### Project Photos
 

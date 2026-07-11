@@ -3,12 +3,39 @@ layout: archive
 title: "Portfolio"
 permalink: /portfolio/
 author_profile: true
+excerpt: "Robotics portfolio — role-conditioned diffusion policies, humanoid simulation, field autonomy, and control systems. Shipped prototypes and video-backed demos."
+header:
+  overlay_color: "#1a1a2e"
 ---
 
 {% include base_path %}
 
+<div class="portfolio-intro">
+  <h2>Builder Portfolio</h2>
+  <p>I am a UC Berkeley M.S. in Mechanical Engineering building robotics systems across controls, robot learning, embedded sensing, simulation, and deployable hardware. This portfolio is organized around shipped prototypes and tested demos rather than coursework alone: role-conditioned diffusion policies that scale from one arm to a four-arm LLM coordinator, humanoid teleoperation infrastructure, autonomous ocean-drone trials, microfluidic field hardware, MPC planners, and legged-robot locomotion.</p>
+  <p><strong>Quick links:</strong> <a href="https://github.com/jayahn17" target="_blank" rel="noopener">GitHub</a> · <a href="{{ '/cv/' | relative_url }}">CV</a> · <a href="{{ '/' | relative_url }}">About</a> · <a href="#project-demos">Project videos below</a></p>
+
+  <h2>Builder Fit</h2>
+  <ul>
+    <li><strong>Full-stack tinkering:</strong> Python for data pipelines, robot-learning workflows, and automation; comfort diving into C++/ROS robotics interfaces when the prototype demands it; MATLAB/Simulink for control validation; hands-on embedded sensing, XBee telemetry, Dynamixel servos, microcontroller hardware, and NVIDIA Isaac/MuJoCo simulation stacks.</li>
+    <li><strong>Bias for action:</strong> I build the smallest testable prototype, instrument it, run the demo, inspect the logs, and revise quickly when sensors, drivers, geometry, or constraints fail.</li>
+    <li><strong>Location:</strong> Bay Area based (Berkeley / Santa Clara), open to robotics roles and internships.</li>
+  </ul>
+
+  <h2>What to Review First</h2>
+  <ul>
+    <li><strong>Robot learning (flagship):</strong> <a href="{{ '/portfolio/portfolio-9/' | relative_url }}">ICON Lab role-conditioned manipulation</a> — skill-decomposed diffusion policies verified ≥95% on one arm, then reused unchanged on two arms and a four-arm, LLM-coordinated pick-and-place.</li>
+    <li><strong>Simulation infrastructure:</strong> <a href="{{ '/portfolio/portfolio-5/' | relative_url }}">Khameleon humanoid control</a> — 13-DOF dual-arm teleoperation and Isaac Sim/Lab training workflows.</li>
+    <li><strong>Autonomous systems:</strong> <a href="{{ '/portfolio/portfolio-1/' | relative_url }}">CAPTAIN ocean drone</a> — 50+ field trials with telemetry, sensors, and navigation-control iteration.</li>
+    <li><strong>Render-to-sim pipeline:</strong> <a href="{{ '/portfolio/portfolio-6/' | relative_url }}">MSC 3D reconstruction</a> — WorldLab.ai, NVIDIA 3DGRUT, and Isaac Lab asset validation.</li>
+    <li><strong>Algorithms to demos:</strong> <a href="{{ '/portfolio/portfolio-8/' | relative_url }}">MPC truck-trailer planner</a> and <a href="{{ '/portfolio/portfolio-10/' | relative_url }}">spider robot locomotion</a> — constrained planning, kinematics, and video-backed validation.</li>
+  </ul>
+  <a id="project-demos"></a>
+</div>
+
+<div class="portfolio-grid">
 {% assign portfolio_sorted = site.portfolio | sort: "date" | reverse %}
 {% for post in portfolio_sorted %}
-  {% include archive-single.html %}
+  {% include archive-single.html type="grid" %}
 {% endfor %}
-
+</div>

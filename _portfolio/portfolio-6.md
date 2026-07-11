@@ -1,9 +1,12 @@
 ---
 title: "MSC - Render-to-Sim-to-Asset 3D Reconstruction"
-excerpt: "Built a conversion pipeline using WorldLab.ai, NVIDIA 3Dgrut, and Isaac Lab to produce simulation-ready 3D assets."
+excerpt: "A render-to-sim asset pipeline built with WorldLab.ai, NVIDIA 3DGRUT, and Isaac Lab to produce validated, simulation-ready 3D assets."
 collection: portfolio
 category: work
 date: 2025-01-01
+role: "Research Project — MSC Control Lab"
+duration: "Fall 2024"
+tech_tags: ["Isaac Lab", "3DGRUT", "WorldLab.ai", "Asset Pipeline"]
 share: false
 teaser: "MSC_WL2Isaac.png"
 header:
@@ -13,19 +16,19 @@ header:
 ## MSC - 3D Reconstruction
 
 ### Context
-This project created a production-oriented pipeline from scene capture to sim-ready asset delivery. The goal was to automate repetitive conversion steps while preserving geometric quality and physical plausibility for downstream robotics simulation.
+This project focused on building a production-oriented pipeline from scene capture to simulation-ready asset delivery. The goal was to automate repetitive conversion steps while preserving geometric quality and physical plausibility for downstream robotics simulation.
 
 ### Problem
-- Unify outputs from multiple 3D generation tools into a single, repeatable path.
+- Unify outputs from multiple 3D generation tools into one repeatable pipeline.
 - Reduce manual intervention in mesh cleanup and format conversion.
 - Verify compatibility of generated assets inside physics-based simulation.
 
 ### Pipeline Architecture
 **Render-to-Image Preparation**
-- Standardized capture settings and preprocessing to keep image consistency for reconstruction.
+- Standardized capture settings and preprocessing to keep reconstruction inputs consistent.
 
 **Reconstruction and Conversion**
-- Integrated WorldLab.ai and NVIDIA 3Dgrut workflows into a unified graph.
+- Integrated WorldLab.ai and NVIDIA 3DGRUT workflows into a unified processing graph.
 - Applied GPU-accelerated geometry reconstruction and conversion filters.
 
 **Simulation Ingestion**
@@ -33,18 +36,18 @@ This project created a production-oriented pipeline from scene capture to sim-re
 - Performed quick physics sanity checks before dataset-scale use.
 
 ### My Contributions
-- Defined integration points between WorldLab.ai, 3Dgrut, and Isaac Lab.
+- Defined integration points between WorldLab.ai, NVIDIA 3DGRUT, and Isaac Lab.
 - Implemented scripts and process steps to convert renders into reusable mesh assets.
 - Tuned reconstruction settings to balance visual fidelity with mesh complexity.
-- Added verification checks to catch geometry or asset-format failures before simulation.
+- Added verification checks to catch geometry and asset-format failures before simulation.
 
 ### Technical Notes
-- Ensured coordinate conventions and scale remained consistent through each conversion stage.
+- Ensured coordinate conventions and scale stayed consistent through each conversion stage.
 - Emphasized deterministic outputs so repeated runs produced comparable asset quality.
 - Organized the process as a reusable workflow for team handoff and future expansion.
 
 ### Results
-- Delivered an end-to-end render-to-sim-to-asset pipeline.
+- Delivered an end-to-end render-to-sim asset pipeline.
 - Produced validated, simulation-ready 3D assets for Isaac Lab environments.
 - Reduced manual post-processing by standardizing conversion and verification steps.
 

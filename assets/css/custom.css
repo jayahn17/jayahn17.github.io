@@ -533,8 +533,125 @@ video {
   }
 }
 
-/* Dark Mode Support (Future Enhancement) */
-@media (prefers-color-scheme: dark) {
-  /* Can be implemented later */
+/* Portfolio intro block on /portfolio/ */
+.portfolio-intro {
+  margin-bottom: 2.5rem;
+  padding: 1.75rem 2rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  line-height: 1.75;
 }
+
+.portfolio-intro h2 {
+  color: #4a9eff;
+  font-size: 1.4rem;
+  margin: 1.5rem 0 0.75rem;
+}
+
+.portfolio-intro h2:first-child {
+  margin-top: 0;
+}
+
+.portfolio-intro p,
+.portfolio-intro li {
+  color: #e0e0e0;
+}
+
+.portfolio-intro a {
+  color: #4a9eff;
+}
+
+.portfolio-intro ul {
+  padding-left: 1.25rem;
+}
+
+.portfolio-intro li {
+  margin: 0.5rem 0;
+}
+
+/* Portfolio listing grid */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
+.portfolio-grid .grid__item {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 0;
+}
+
+.portfolio__meta {
+  margin: 0.25rem 0 0.5rem;
+  font-size: 0.9rem;
+  color: #7a8288;
+}
+
+.portfolio__badges {
+  margin: 0.35rem 0 0.5rem;
+}
+
+.portfolio__badge {
+  display: inline-block;
+  padding: 3px 10px;
+  margin-right: 6px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.portfolio__badge--featured {
+  background: #ff6b35;
+  color: #fff;
+}
+
+.portfolio__badge--work {
+  background: #0066cc;
+  color: #fff;
+}
+
+.portfolio__badge--class {
+  background: #00cc66;
+  color: #fff;
+}
+
+.portfolio__badge--archive {
+  background: #7a8288;
+  color: #fff;
+}
+
+.portfolio__impact {
+  margin: 0.5rem 0 0;
+  font-size: 0.9rem;
+  color: #475569;
+  line-height: 1.5;
+}
+
+.portfolio__impact strong {
+  color: #2c3e50;
+}
+
+/* Dark archive pages: improve card contrast */
+.archive .archive__item {
+  background: rgba(255, 255, 255, 0.97);
+}
+
+.archive .archive__item-excerpt {
+  color: #475569;
+}
+
+@media (max-width: 768px) {
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-intro {
+    padding: 1.25rem 1rem;
+  }
+}
+
 
