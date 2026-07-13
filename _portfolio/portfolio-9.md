@@ -111,11 +111,20 @@ robosuite, MuJoCo, PyTorch, Diffusion Transformer (DiT) diffusion policy, Anthro
 
 <div style="display: flex; justify-content: center; margin: 20px 0;">
   <video width="100%" controls playsinline style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <source src="/images/icon_fourarm.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+<p style="margin-top: 8px; font-size: 0.9em; color: #666; text-align: center;">Stage 3: four-arm pick-and-place with LLM coordinator assigning objects, order, and retry budgets.</p>
+
+<div style="display: flex; justify-content: center; margin: 20px 0;">
+  <video width="100%" controls playsinline style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
     <source src="/images/icon_handover.mp4" type="video/mp4">
     <source src="/images/icon_handover.mov" type="video/quicktime">
     Your browser does not support the video tag.
   </video>
 </div>
+<p style="margin-top: 8px; font-size: 0.9em; color: #666; text-align: center;">Bimanual handover using the same per-skill policies.</p>
 
 <div style="display: flex; justify-content: center; margin: 20px 0;">
   <video width="100%" controls playsinline style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
@@ -124,4 +133,4 @@ robosuite, MuJoCo, PyTorch, Diffusion Transformer (DiT) diffusion policy, Anthro
     Your browser does not support the video tag.
   </video>
 </div>
-<p style="margin-top: 8px; font-size: 0.9em; color: #666; text-align: center;">Stage 3: four-arm pick-and-place with LLM coordinator assigning objects, order, and retry budgets.</p>
+<p style="margin-top: 8px; font-size: 0.9em; color: #666; text-align: center;">Pick-and-place with shared object-type policy sets.</p>

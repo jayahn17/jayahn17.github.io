@@ -437,8 +437,7 @@ I have always been fascinated by the interaction between computers and the physi
     <span class="publication-number">1.</span>
     <div class="publication-thumbnail">
       <video controls muted playsinline preload="metadata" style="width: 100%; height: 100%; object-fit: cover;" poster="{{ '/images/icon_front_video.png' | relative_url }}">
-        <source src="{{ '/images/icon_bimanual_demo.mp4' | relative_url }}" type="video/mp4">
-        <source src="{{ '/images/icon_bimanual_demo.mov' | relative_url }}" type="video/quicktime">
+        <source src="{{ '/images/icon_fourarm.mp4' | relative_url }}" type="video/mp4">
       </video>
       <div class="publication-tag">Research</div>
     </div>
