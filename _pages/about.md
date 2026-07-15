@@ -182,8 +182,8 @@ p {
 
 .publication-item {
   display: flex;
-  gap: 20px;
-  margin: 25px 0;
+  gap: 24px;
+  margin: 36px 0;
   align-items: flex-start;
 }
 
@@ -196,14 +196,15 @@ p {
 
 .publication-thumbnail {
   flex-shrink: 0;
-  width: 270px;
-  height: 150px;
+  width: 420px;
+  height: 260px;
   overflow: hidden;
   position: relative;
-  border-radius: 6px;
+  border-radius: 10px;
   background: #1a1a1a;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  transition: border-color 0.2s ease;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
 }
 
 .publication-thumbnail video,
@@ -219,7 +220,9 @@ p {
 }
 
 .publication-thumbnail:hover {
-  border-color: rgba(74, 158, 255, 0.5);
+  border-color: rgba(74, 158, 255, 0.65);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45);
 }
 
 .publication-tag {
@@ -352,7 +355,8 @@ p {
   
   .publication-thumbnail {
     width: 100%;
-    height: 270px;
+    height: 280px;
+    max-height: 50vw;
   }
 }
 </style>
@@ -383,7 +387,7 @@ p {
 
 I'm a robotics researcher in the **[ICON (Intelligent Control) Lab](https://iconlab.negarmehr.com)** at UC Berkeley, advised by Professor [Negar Mehr](https://mehr.berkeley.edu). My current work builds role-conditioned diffusion policies for multi-arm manipulation — reusing the same per-skill policies from a single arm up to a four-arm, LLM-coordinated system — alongside legged locomotion and simulation infrastructure for learning and control.
 
-I hold an M.S. in Mechanical Engineering from Berkeley (May 2026) and previously worked as a Control & Simulation Engineer Intern at **[Khameleon Robotics](https://www.khameleonrobotics.com)**, a Junior Engineer at **[Root Applied Sciences](https://rootappliedsciences.com)**, and an undergraduate researcher in the **[TAF (Theoretical & Applied Fluid Dynamics) Lab](https://taflab.berkeley.edu)**. Across these roles I've explored robot learning, control systems, simulation engineering, and field-deployed sensing hardware.
+I hold an M.S. in Mechanical Engineering from Berkeley (May 2026). I currently work as a Control & Simulation Engineer Intern at **[Khameleon Robotics](https://www.khameleonrobotics.com)**, and previously as a Junior Engineer at **[Root Applied Sciences](https://rootappliedsciences.com)** and an undergraduate researcher in the **[TAF (Theoretical & Applied Fluid Dynamics) Lab](https://taflab.berkeley.edu)**. Across these roles I've explored robot learning, control systems, simulation engineering, and field-deployed sensing hardware.
 
 I have always been fascinated by the interaction between computers and the physical world. Learning random things has been the greatest source of pleasure for me, and I hope this will never stop. Recently, I have been studying the science of cooking in my free time.
 
@@ -392,51 +396,13 @@ I have always been fascinated by the interaction between computers and the physi
 
 ## Highlights
 
-### Industry Experience
-
-<ol class="publication-list">
-  <li class="publication-item">
-    <span class="publication-number">1.</span>
-    <div class="publication-thumbnail">
-      <video controls muted playsinline preload="metadata" style="width: 100%; height: 100%; object-fit: cover;" poster="{{ '/images/kha_grab_img.png' | relative_url }}">
-        <source src="{{ '/images/kha_move.mp4' | relative_url }}" type="video/mp4">
-        <source src="{{ '/images/kha_move.mov' | relative_url }}" type="video/quicktime">
-      </video>
-      <div class="publication-tag">Work</div>
-    </div>
-    <div class="publication-content">
-      <div class="publication-title"><a href="{{ '/portfolio/portfolio-5/' | relative_url }}">Khameleon Robotics: Control & Simulation Engineer</a></div>
-      <div class="publication-venue">Built Isaac Sim and Isaac Lab control and simulation infrastructure for 13-DOF dual-arm teleoperation, improving stability and responsiveness in imitation/learning workflows.</div>
-      <div class="publication-links">
-        <a href="{{ '/portfolio/portfolio-5/' | relative_url }}" class="publication-link">Project Page</a>
-      </div>
-    </div>
-  </li>
-
-  <li class="publication-item">
-    <span class="publication-number">2.</span>
-    <div class="publication-thumbnail">
-      <img loading="lazy" src="{{ '/images/root_deployment_1.png' | relative_url }}" alt="Root Applied Sciences">
-      <div class="publication-tag">Work</div>
-    </div>
-    <div class="publication-content">
-      <div class="publication-title"><a href="{{ '/portfolio/portfolio-2/' | relative_url }}">Root Applied Sciences: Junior Engineer</a></div>
-      <div class="publication-venue">Designed field-ready microfluidic hardware, including SLA-manufacturable components and protective housings for reliable deployment and maintenance.</div>
-      <div class="publication-links">
-        <a href="{{ '/portfolio/portfolio-2/' | relative_url }}" class="publication-link">Project Page</a>
-      </div>
-    </div>
-  </li>
-
-</ol>
-
 ### Research Experience
 
 <ol class="publication-list">
   <li class="publication-item">
     <span class="publication-number">1.</span>
     <div class="publication-thumbnail">
-      <video controls muted playsinline preload="metadata" style="width: 100%; height: 100%; object-fit: cover;" poster="{{ '/images/icon_front_video.png' | relative_url }}">
+      <video controls muted playsinline preload="metadata" style="width: 100%; height: 100%; object-fit: cover;" poster="{{ '/images/icon_fourarm_poster.png' | relative_url }}">
         <source src="{{ '/images/icon_fourarm.mp4' | relative_url }}" type="video/mp4">
       </video>
       <div class="publication-tag">Research</div>
@@ -484,6 +450,44 @@ I have always been fascinated by the interaction between computers and the physi
   </li>
 </ol>
 
+### Industry Experience
+
+<ol class="publication-list">
+  <li class="publication-item">
+    <span class="publication-number">1.</span>
+    <div class="publication-thumbnail">
+      <video controls muted playsinline preload="metadata" style="width: 100%; height: 100%; object-fit: cover;" poster="{{ '/images/kha_grab_img.png' | relative_url }}">
+        <source src="{{ '/images/kha_move.mp4' | relative_url }}" type="video/mp4">
+        <source src="{{ '/images/kha_move.mov' | relative_url }}" type="video/quicktime">
+      </video>
+      <div class="publication-tag">Work</div>
+    </div>
+    <div class="publication-content">
+      <div class="publication-title"><a href="{{ '/portfolio/portfolio-5/' | relative_url }}">Khameleon Robotics: Control & Simulation Engineer Intern</a></div>
+      <div class="publication-venue">Built Isaac Sim and Isaac Lab control and simulation infrastructure for 13-DOF dual-arm teleoperation, improving stability and responsiveness in imitation/learning workflows.</div>
+      <div class="publication-links">
+        <a href="{{ '/portfolio/portfolio-5/' | relative_url }}" class="publication-link">Project Page</a>
+      </div>
+    </div>
+  </li>
+
+  <li class="publication-item">
+    <span class="publication-number">2.</span>
+    <div class="publication-thumbnail">
+      <img loading="lazy" src="{{ '/images/root_deployment_1.png' | relative_url }}" alt="Root Applied Sciences">
+      <div class="publication-tag">Work</div>
+    </div>
+    <div class="publication-content">
+      <div class="publication-title"><a href="{{ '/portfolio/portfolio-2/' | relative_url }}">Root Applied Sciences: Junior Engineer</a></div>
+      <div class="publication-venue">Designed field-ready microfluidic hardware, including SLA-manufacturable components and protective housings for reliable deployment and maintenance.</div>
+      <div class="publication-links">
+        <a href="{{ '/portfolio/portfolio-2/' | relative_url }}" class="publication-link">Project Page</a>
+      </div>
+    </div>
+  </li>
+
+</ol>
+
 </div>
 <div markdown="1">
 
@@ -492,22 +496,6 @@ I have always been fascinated by the interaction between computers and the physi
 <ol class="publication-list">
   <li class="publication-item">
     <span class="publication-number">1.</span>
-    <div class="publication-thumbnail">
-      <img loading="lazy" src="{{ '/images/caliber_pg1.png' | relative_url }}" alt="Caliber Platform">
-      <div class="publication-tag">Class</div>
-    </div>
-    <div class="publication-content">
-      <div class="publication-title"><a href="{{ '/portfolio/portfolio-3/' | relative_url }}">Caliber - Student Projects Open Source Platform</a></div>
-      <div class="publication-authors">S. Ahn</div>
-      <div class="publication-venue">Designed the discovery and metadata architecture for 500+ UC Berkeley open source projects, making them easier to browse, filter, and reuse.</div>
-      <div class="publication-links">
-        <a href="{{ '/portfolio/portfolio-3/' | relative_url }}" class="publication-link">Project Page</a>
-      </div>
-    </div>
-  </li>
-
-  <li class="publication-item">
-    <span class="publication-number">2.</span>
     <div class="publication-thumbnail">
       <video controls muted playsinline preload="metadata" style="width: 100%; height: 100%; object-fit: cover;" poster="{{ '/images/me231_result_1.png' | relative_url }}">
         <source src="{{ '/images/me231_result_1.mp4' | relative_url }}" type="video/mp4">
@@ -526,11 +514,10 @@ I have always been fascinated by the interaction between computers and the physi
   </li>
 
   <li class="publication-item">
-    <span class="publication-number">3.</span>
+    <span class="publication-number">2.</span>
     <div class="publication-thumbnail">
       <video controls muted playsinline preload="metadata" style="width: 100%; height: 100%; object-fit: cover;" poster="{{ '/images/me239_front_pg.png' | relative_url }}">
         <source src="{{ '/images/me239_backflip.mp4' | relative_url }}" type="video/mp4">
-        <!-- <source src="{{ '/images/me239_spider_jump_1.mov' | relative_url }}" type="video/quicktime"> -->
       </video>
       <div class="publication-tag">ME239</div>
     </div>
@@ -540,6 +527,22 @@ I have always been fascinated by the interaction between computers and the physi
       <div class="publication-venue">Derived Jacobian-based motion relationships and implemented stable forward-jump control for a four-legged robotic platform.</div>
       <div class="publication-links">
         <a href="{{ '/portfolio/portfolio-10/' | relative_url }}" class="publication-link">Project Page</a>
+      </div>
+    </div>
+  </li>
+
+  <li class="publication-item">
+    <span class="publication-number">3.</span>
+    <div class="publication-thumbnail">
+      <img loading="lazy" src="{{ '/images/caliber_pg1.png' | relative_url }}" alt="Caliber Platform">
+      <div class="publication-tag">Class</div>
+    </div>
+    <div class="publication-content">
+      <div class="publication-title"><a href="{{ '/portfolio/portfolio-3/' | relative_url }}">Caliber - Student Projects Open Source Platform</a></div>
+      <div class="publication-authors">S. Ahn</div>
+      <div class="publication-venue">Designed the discovery and metadata architecture for 500+ UC Berkeley open source projects, making them easier to browse, filter, and reuse.</div>
+      <div class="publication-links">
+        <a href="{{ '/portfolio/portfolio-3/' | relative_url }}" class="publication-link">Project Page</a>
       </div>
     </div>
   </li>

@@ -417,8 +417,8 @@ body::before {
 .archive .archive__item-teaser {
   display: block !important;
   visibility: visible !important;
-  max-height: 220px;
-  min-height: 140px;
+  max-height: 280px;
+  min-height: 180px;
   overflow: hidden;
   background: #eee;
   margin-bottom: 0.75em;
@@ -428,8 +428,8 @@ body::before {
 .archive .archive__item-teaser img {
   width: 100% !important;
   height: 100% !important;
-  min-height: 140px !important;
-  max-height: 220px !important;
+  min-height: 180px !important;
+  max-height: 280px !important;
   object-fit: cover;
   display: block !important;
   vertical-align: top;
@@ -570,11 +570,22 @@ video {
   margin: 0.5rem 0;
 }
 
+.portfolio-section-title {
+  color: #4a9eff;
+  font-size: 1.35rem;
+  margin: 2rem 0 1rem;
+  clear: both;
+}
+
 /* Portfolio listing grid */
 .portfolio-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 1.75rem;
+}
+
+.portfolio-grid--supporting {
+  opacity: 0.92;
 }
 
 .portfolio-grid .grid__item {

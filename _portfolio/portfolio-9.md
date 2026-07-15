@@ -10,9 +10,9 @@ tech_tags: ["Diffusion Policy", "robosuite", "MuJoCo", "PyTorch", "LLM", "Isaac 
 featured: true
 impact: "Per-skill policies ≥95%; four-arm end-to-end success ~0.70 → ~0.86 with LLM retry coordination"
 share: false
-teaser: "icon_front_video.png"
+teaser: "icon_fourarm_poster.png"
 header:
-  teaser: "icon_front_video.png"
+  teaser: "icon_fourarm_poster.png"
 ---
 
 ## ICON Lab — Role-Conditioned Robot Manipulation
@@ -92,13 +92,12 @@ robosuite, MuJoCo, PyTorch, Diffusion Transformer (DiT) diffusion policy, Anthro
 ### Demonstrations
 
 <div style="display: flex; justify-content: center; margin: 20px 0;">
-  <video width="100%" controls playsinline style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-    <source src="/images/icon_front_video.mp4" type="video/mp4">
-    <source src="/images/icon_front_video.mov" type="video/quicktime">
+  <video width="100%" controls playsinline poster="/images/icon_fourarm_poster.png" style="max-width: 900px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <source src="/images/icon_fourarm.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
-<p style="margin-top: 8px; font-size: 0.9em; color: #666; text-align: center;">Skill-decomposed manipulation in robosuite / MuJoCo.</p>
+<p style="margin-top: 8px; font-size: 0.9em; color: #666; text-align: center;"><strong>Flagship — Stage 3:</strong> four-arm pick-and-place with LLM coordinator assigning objects, order, and retry budgets.</p>
 
 <div style="display: flex; justify-content: center; margin: 20px 0;">
   <video width="100%" controls playsinline style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
@@ -111,11 +110,12 @@ robosuite, MuJoCo, PyTorch, Diffusion Transformer (DiT) diffusion policy, Anthro
 
 <div style="display: flex; justify-content: center; margin: 20px 0;">
   <video width="100%" controls playsinline style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-    <source src="/images/icon_fourarm.mp4" type="video/mp4">
+    <source src="/images/icon_front_video.mp4" type="video/mp4">
+    <source src="/images/icon_front_video.mov" type="video/quicktime">
     Your browser does not support the video tag.
   </video>
 </div>
-<p style="margin-top: 8px; font-size: 0.9em; color: #666; text-align: center;">Stage 3: four-arm pick-and-place with LLM coordinator assigning objects, order, and retry budgets.</p>
+<p style="margin-top: 8px; font-size: 0.9em; color: #666; text-align: center;">Stage 1: skill-decomposed unimanual manipulation in robosuite / MuJoCo.</p>
 
 <div style="display: flex; justify-content: center; margin: 20px 0;">
   <video width="100%" controls playsinline style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">

@@ -7,6 +7,7 @@ date: 2025-12-02
 role: "CalSol — Battery & Suspension Team"
 duration: "August 2022 – May 2024"
 tech_tags: ["FEA", "CAD", "Structural Design"]
+supporting: true
 share: false
 teaser: "CalSol_suspension.png"
 header:

@@ -7,6 +7,7 @@ date: 2024-12-01
 role: "ME110 — Product Design"
 duration: "Fall 2024"
 tech_tags: ["CAD", "SLA Prototyping", "Mechatronics"]
+supporting: true
 share: false
 teaser: "me110-0.png"
 header:

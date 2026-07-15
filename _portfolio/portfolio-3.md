@@ -7,6 +7,7 @@ date: 2025-12-01
 role: "ENGIN 283 — AI Startup"
 duration: "Fall 2025"
 tech_tags: ["Product Design", "Information Architecture", "React"]
+supporting: true
 share: false
 teaser: "caliber_pg1.png"
 header:

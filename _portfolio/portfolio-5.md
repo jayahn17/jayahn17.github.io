@@ -7,16 +7,18 @@ date: 2025-07-01
 role: "Control & Simulation Engineer Intern"
 duration: "July 2025 – Present"
 tech_tags: ["Isaac Sim", "Isaac Lab", "Dynamixel", "Teleoperation"]
+featured: true
+impact: "13-DOF dual-arm teleoperation stack in Isaac Sim/Lab with multi-camera LeIsaac data capture"
 share: false
 teaser: "kha_grab_img.png"
 header:
   teaser: "kha_grab_img.png"
 ---
 
-## Khameleon Robotics - Controls & Simulation Intern
+## Khameleon Robotics - Control & Simulation Engineer Intern
 
 ### Context
-At Khameleon Robotics, I worked on a simulation-first pipeline for bimanual humanoid manipulation with training-ready data capture. The objective was to create a stable development baseline for coordinated control and learning workflows before more hardware-heavy iterations.
+At Khameleon Robotics, I work on a simulation-first pipeline for bimanual humanoid manipulation with training-ready data capture. The objective is to create a stable development baseline for coordinated control and learning workflows before more hardware-heavy iterations.
 
 ### System Scope
 - Robot model: 13-DOF humanoid arm in NVIDIA Isaac Sim and Isaac Lab.

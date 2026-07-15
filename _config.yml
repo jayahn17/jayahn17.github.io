@@ -136,7 +136,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "icon_front_video.png"
+og_image                 : "icon_fourarm_poster.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:

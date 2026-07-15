@@ -33,9 +33,21 @@ header:
   <a id="project-demos"></a>
 </div>
 
+{% assign primary_projects = site.portfolio | where_exp: "p", "p.supporting != true" | sort: "date" | reverse %}
+{% assign supporting_projects = site.portfolio | where_exp: "p", "p.supporting == true" | sort: "date" | reverse %}
+
+<h2 class="portfolio-section-title">Primary Projects</h2>
 <div class="portfolio-grid">
-{% assign portfolio_sorted = site.portfolio | sort: "date" | reverse %}
-{% for post in portfolio_sorted %}
+{% for post in primary_projects %}
   {% include archive-single.html type="grid" %}
 {% endfor %}
 </div>
+
+{% if supporting_projects.size > 0 %}
+<h2 class="portfolio-section-title">Additional Projects</h2>
+<div class="portfolio-grid portfolio-grid--supporting">
+{% for post in supporting_projects %}
+  {% include archive-single.html type="grid" %}
+{% endfor %}
+</div>
+{% endif %}
