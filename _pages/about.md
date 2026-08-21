@@ -546,6 +546,22 @@ I have always been fascinated by the interaction between computers and the physi
       </div>
     </div>
   </li>
+
+  <li class="publication-item">
+    <span class="publication-number">4.</span>
+    <div class="publication-thumbnail">
+      <img loading="lazy" src="{{ '/images/cratescan_sofa_splat.jpg' | relative_url }}" alt="CrateScanner Gaussian splat with measurements">
+      <div class="publication-tag">ENGIN 170</div>
+    </div>
+    <div class="publication-content">
+      <div class="publication-title"><a href="{{ '/portfolio/portfolio-11/' | relative_url }}">CrateScanner - iPad LiDAR to Measurable 3D Asset Pipeline</a></div>
+      <div class="publication-authors">S. Ahn</div>
+      <div class="publication-venue">Built an iPad LiDAR capture app and Linux GPU pipeline that fuses metric meshes, trains Gaussian splats, and publishes orbit-and-measure web pages that state which reconstruction may be trusted.</div>
+      <div class="publication-links">
+        <a href="{{ '/portfolio/portfolio-11/' | relative_url }}" class="publication-link">Project Page</a>
+      </div>
+    </div>
+  </li>
 </ol>
 
 </div>
