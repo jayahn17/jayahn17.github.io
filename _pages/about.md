@@ -504,7 +504,7 @@ I have always been fascinated by the interaction between computers and the physi
     <div class="publication-content">
       <div class="publication-title"><a href="{{ '/portfolio/portfolio-11/' | relative_url }}">CrateScanner → assetpipe: iPad LiDAR to a Measurable 3D Asset</a></div>
       <div class="publication-authors">S. Ahn</div>
-      <div class="publication-venue">Built an ARKit/LiDAR iPad capture app and a GPU reconstruction backend that returns five reconstructions of one scan, enforces which file may be measured, and refuses to quote an unsupported size. A component-wise cross-check caught silently transposed dimensions in 11 of 14 assets.</div>
+      <div class="publication-venue">One ENGIN 170 system: a SwiftUI/ARKit iPad capture app (sharpness and steadiness gates, guided orbit, stall detection) plus a GPU backend that returns five reconstructions, measures only the defensible file, and caught silently transposed dimensions in 11 of 14 assets.</div>
       <div class="publication-links">
         <a href="{{ '/portfolio/portfolio-11/' | relative_url }}" class="publication-link">Project Page</a>
       </div>
@@ -513,23 +513,6 @@ I have always been fascinated by the interaction between computers and the physi
 
   <li class="publication-item">
     <span class="publication-number">2.</span>
-    <div class="publication-thumbnail">
-      <img loading="lazy" src="{{ '/images/cratescanner_app_icon.png' | relative_url }}" alt="CrateScanner iOS app">
-      <div class="publication-tag">iOS / Swift</div>
-    </div>
-    <div class="publication-content">
-      <div class="publication-title"><a href="{{ '/portfolio/portfolio-12/' | relative_url }}">CrateScanner iOS App: ARKit LiDAR Capture in Swift</a></div>
-      <div class="publication-authors">S. Ahn</div>
-      <div class="publication-venue">Wrote the SwiftUI/ARKit iPad capture client: a sharpness-and-steadiness gate that refuses to save blurry frames, a dome of guided viewpoints, and stall detection that walks the user around the object to get the parallax fusion needs.</div>
-      <div class="publication-links">
-        <a href="{{ '/portfolio/portfolio-12/' | relative_url }}" class="publication-link">Project Page</a>
-      </div>
-    </div>
-  </li>
-
-
-  <li class="publication-item">
-    <span class="publication-number">3.</span>
     <div class="publication-thumbnail">
       <img loading="lazy" src="{{ '/images/me226_espresso_teaser.jpg' | relative_url }}" alt="Grizzly Chiller two-stage espresso cooling loop">
       <div class="publication-tag">ME226</div>
@@ -545,7 +528,7 @@ I have always been fascinated by the interaction between computers and the physi
   </li>
 
   <li class="publication-item">
-    <span class="publication-number">4.</span>
+    <span class="publication-number">3.</span>
     <div class="publication-thumbnail">
       <video controls muted playsinline preload="metadata" style="width: 100%; height: 100%; object-fit: cover;" poster="{{ '/images/me231_result_1.png' | relative_url }}">
         <source src="{{ '/images/me231_result_1.mp4' | relative_url }}" type="video/mp4">
@@ -564,7 +547,7 @@ I have always been fascinated by the interaction between computers and the physi
   </li>
 
   <li class="publication-item">
-    <span class="publication-number">5.</span>
+    <span class="publication-number">4.</span>
     <div class="publication-thumbnail">
       <video controls muted playsinline preload="metadata" style="width: 100%; height: 100%; object-fit: cover;" poster="{{ '/images/me239_front_pg.png' | relative_url }}">
         <source src="{{ '/images/me239_backflip.mp4' | relative_url }}" type="video/mp4">
@@ -582,7 +565,7 @@ I have always been fascinated by the interaction between computers and the physi
   </li>
 
   <li class="publication-item">
-    <span class="publication-number">6.</span>
+    <span class="publication-number">5.</span>
     <div class="publication-thumbnail">
       <video controls muted playsinline preload="metadata" style="width: 100%; height: 100%; object-fit: cover;" poster="{{ '/images/caliber_pg1.png' | relative_url }}">
         <source src="{{ '/images/caliber_demo_part1.mp4' | relative_url }}" type="video/mp4">
