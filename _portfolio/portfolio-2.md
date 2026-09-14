@@ -1,5 +1,5 @@
 ---
-title: "Root Applied Sciences - Pathogen Monitoring Device"
+title: "Root Applied Sciences: Pathogen Monitoring Device"
 excerpt: "Field-deployed pathogen monitoring hardware with SLA-manufacturable microfluidics, serviceable enclosures, and deployment-ready mechanical design."
 collection: portfolio
 category: work
@@ -13,7 +13,7 @@ header:
   teaser: "root_deployment.jpg"
 ---
 
-## Root Applied Sciences - Pathogen Monitoring Device
+## Root Applied Sciences: Pathogen Monitoring Device
 
 ### Context
 At Root Applied Sciences, I contributed to a pathogen monitoring platform designed for environmental deployment. The hardware needed to be manufacturable, easy to service, and robust outside the lab while still preserving microfluidic precision.

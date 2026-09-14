@@ -1,5 +1,5 @@
 ---
-title: "Khameleon Robotics - Humanoid Control and Simulation Platform"
+title: "Khameleon Robotics: Humanoid Control and Simulation Platform"
 excerpt: "Controls and simulation development for a 13-DOF humanoid arm with leader/follower teleoperation, multi-camera capture, and Isaac Sim / Isaac Lab training workflows."
 collection: portfolio
 category: work
@@ -15,7 +15,7 @@ header:
   teaser: "kha_grab_img.png"
 ---
 
-## Khameleon Robotics - Control & Simulation Engineer Intern
+## Khameleon Robotics: Control and Simulation Engineer Intern
 
 ### Context
 At Khameleon Robotics, I work on a simulation-first pipeline for bimanual humanoid manipulation with training-ready data capture. The objective is to create a stable development baseline for coordinated control and learning workflows before more hardware-heavy iterations.

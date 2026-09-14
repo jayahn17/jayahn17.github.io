@@ -3,7 +3,7 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
-description: "Curriculum vitae — SeongJae Ahn, robotics engineer (M.S. ME, UC Berkeley)."
+description: "Curriculum vitae for SeongJae Ahn, a robotics engineer with an M.S. in Mechanical Engineering from UC Berkeley."
 redirect_from:
   - /resume
 ---

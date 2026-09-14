@@ -4,7 +4,7 @@ excerpt: "Model Predictive Control for truck-trailer navigation with forward and
 collection: portfolio
 category: class
 date: 2024-12-01
-role: "ME231 — Advanced Controls"
+role: "ME231: Advanced Controls"
 duration: "Fall 2024"
 tech_tags: ["MPC", "MATLAB", "Obstacle Avoidance"]
 share: false

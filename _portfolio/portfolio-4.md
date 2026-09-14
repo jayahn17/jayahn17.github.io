@@ -1,10 +1,10 @@
 ---
-title: "CalSol - Battery and Suspension Systems"
+title: "CalSol: Battery and Suspension Systems"
 excerpt: "Mechanical design work for a competitive solar vehicle, focused on reducing suspension mass while preserving stiffness and manufacturability."
 collection: portfolio
 category: class
 date: 2025-12-02
-role: "CalSol — Battery & Suspension Team"
+role: "CalSol: Battery and Suspension Team"
 duration: "August 2022 – May 2024"
 tech_tags: ["FEA", "CAD", "Structural Design"]
 supporting: true
@@ -14,7 +14,7 @@ header:
   teaser: "CalSol_suspension.png"
 ---
 
-## CalSol - Solar Vehicle Team
+## CalSol: Solar Vehicle Team
 
 ### Context
 For CalSol at UC Berkeley, I worked with the mechanical and battery teams to optimize key suspension components in a solar-electric vehicle. The challenge was to reduce mass without compromising stiffness, safety margins, or downstream integration.

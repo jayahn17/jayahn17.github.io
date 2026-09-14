@@ -2,7 +2,7 @@
 permalink: /
 title: "About Me"
 author_profile: false
-description: "Robotics researcher at UC Berkeley ICON Lab — diffusion policies, humanoid simulation, and field-deployed autonomy."
+description: "Robotics researcher at UC Berkeley ICON Lab focused on diffusion policies, humanoid simulation, and field-deployed autonomy."
 redirect_from: 
   - /about/
   - /about.html
@@ -385,7 +385,7 @@ p {
 
 ## About Me
 
-I'm a robotics researcher in the **[ICON (Intelligent Control) Lab](https://iconlab.negarmehr.com)** at UC Berkeley, advised by Professor [Negar Mehr](https://mehr.berkeley.edu). My current work builds role-conditioned diffusion policies for multi-arm manipulation — reusing the same per-skill policies from a single arm up to a four-arm, LLM-coordinated system — alongside legged locomotion and simulation infrastructure for learning and control.
+I'm a robotics researcher in the **[ICON (Intelligent Control) Lab](https://iconlab.negarmehr.com)** at UC Berkeley, advised by Professor [Negar Mehr](https://mehr.berkeley.edu). My current work focuses on role-conditioned diffusion policies for multi-arm manipulation. I reuse the same per-skill policies from a single arm through a four-arm system coordinated by an LLM. I also work on legged locomotion and simulation infrastructure for learning and control.
 
 I hold an M.S. in Mechanical Engineering from Berkeley (May 2026). I currently work as a Control & Simulation Engineer Intern at **[Khameleon Robotics](https://www.khameleonrobotics.com)**, and previously as a Junior Engineer at **[Root Applied Sciences](https://rootappliedsciences.com)** and an undergraduate researcher in the **[TAF (Theoretical & Applied Fluid Dynamics) Lab](https://taflab.berkeley.edu)**. Across these roles I've explored robot learning, control systems, simulation engineering, and field-deployed sensing hardware.
 
@@ -436,6 +436,7 @@ I have always been fascinated by the interaction between computers and the physi
     <span class="publication-number">3.</span>
     <div class="publication-thumbnail">
       <video controls muted playsinline preload="metadata" style="width: 100%; height: 100%; object-fit: cover;" poster="{{ '/images/MSC_WL2Isaac.png' | relative_url }}">
+        <source src="{{ '/images/MSC_WL2Isaac.mp4' | relative_url }}" type="video/mp4">
         <source src="{{ '/images/MSC_WL2Isaac.webm' | relative_url }}" type="video/webm">
       </video>
       <div class="publication-tag">Research</div>
@@ -497,6 +498,55 @@ I have always been fascinated by the interaction between computers and the physi
   <li class="publication-item">
     <span class="publication-number">1.</span>
     <div class="publication-thumbnail">
+      <img loading="lazy" src="{{ '/images/cratescanner_dash_sofa_measure.jpg' | relative_url }}" alt="CrateScanner measurement dashboard">
+      <div class="publication-tag">ENGIN 170</div>
+    </div>
+    <div class="publication-content">
+      <div class="publication-title"><a href="{{ '/portfolio/portfolio-11/' | relative_url }}">CrateScanner → assetpipe: iPad LiDAR to a Measurable 3D Asset</a></div>
+      <div class="publication-authors">S. Ahn</div>
+      <div class="publication-venue">Built an ARKit/LiDAR iPad capture app and a GPU reconstruction backend that returns five reconstructions of one scan, enforces which file may be measured, and refuses to quote an unsupported size. A component-wise cross-check caught silently transposed dimensions in 11 of 14 assets.</div>
+      <div class="publication-links">
+        <a href="{{ '/portfolio/portfolio-11/' | relative_url }}" class="publication-link">Project Page</a>
+      </div>
+    </div>
+  </li>
+
+  <li class="publication-item">
+    <span class="publication-number">2.</span>
+    <div class="publication-thumbnail">
+      <img loading="lazy" src="{{ '/images/cratescanner_app_icon.png' | relative_url }}" alt="CrateScanner iOS app">
+      <div class="publication-tag">iOS / Swift</div>
+    </div>
+    <div class="publication-content">
+      <div class="publication-title"><a href="{{ '/portfolio/portfolio-12/' | relative_url }}">CrateScanner iOS App: ARKit LiDAR Capture in Swift</a></div>
+      <div class="publication-authors">S. Ahn</div>
+      <div class="publication-venue">Wrote the SwiftUI/ARKit iPad capture client: a sharpness-and-steadiness gate that refuses to save blurry frames, a dome of guided viewpoints, and stall detection that walks the user around the object to get the parallax fusion needs.</div>
+      <div class="publication-links">
+        <a href="{{ '/portfolio/portfolio-12/' | relative_url }}" class="publication-link">Project Page</a>
+      </div>
+    </div>
+  </li>
+
+
+  <li class="publication-item">
+    <span class="publication-number">3.</span>
+    <div class="publication-thumbnail">
+      <img loading="lazy" src="{{ '/images/me226_espresso_teaser.jpg' | relative_url }}" alt="Grizzly Chiller two-stage espresso cooling loop">
+      <div class="publication-tag">ME226</div>
+    </div>
+    <div class="publication-content">
+      <div class="publication-title"><a href="{{ '/portfolio/portfolio-13/' | relative_url }}">An "Iced" Espresso Machine: Two-Stage Liquid Cooling</a></div>
+      <div class="publication-authors">S. Ahn, M. Martinez Garcia, S. Kashi, S. Heiles</div>
+      <div class="publication-venue">Built a two-stage liquid-cooling loop that pumps fresh espresso through a forced-air copper coil and a Peltier cold block. A filmed run cooled the drink from 73 °C in the reservoir to 11.3 °C in the cup without dilution.</div>
+      <div class="publication-links">
+        <a href="{{ '/portfolio/portfolio-13/' | relative_url }}" class="publication-link">Project Page</a>
+      </div>
+    </div>
+  </li>
+
+  <li class="publication-item">
+    <span class="publication-number">4.</span>
+    <div class="publication-thumbnail">
       <video controls muted playsinline preload="metadata" style="width: 100%; height: 100%; object-fit: cover;" poster="{{ '/images/me231_result_1.png' | relative_url }}">
         <source src="{{ '/images/me231_result_1.mp4' | relative_url }}" type="video/mp4">
         <source src="{{ '/images/me231_result_1.mov' | relative_url }}" type="video/quicktime">
@@ -514,7 +564,7 @@ I have always been fascinated by the interaction between computers and the physi
   </li>
 
   <li class="publication-item">
-    <span class="publication-number">2.</span>
+    <span class="publication-number">5.</span>
     <div class="publication-thumbnail">
       <video controls muted playsinline preload="metadata" style="width: 100%; height: 100%; object-fit: cover;" poster="{{ '/images/me239_front_pg.png' | relative_url }}">
         <source src="{{ '/images/me239_backflip.mp4' | relative_url }}" type="video/mp4">
@@ -522,7 +572,7 @@ I have always been fascinated by the interaction between computers and the physi
       <div class="publication-tag">ME239</div>
     </div>
     <div class="publication-content">
-      <div class="publication-title"><a href="{{ '/portfolio/portfolio-10/' | relative_url }}">Spider Robot - Robotic Locomotion</a></div>
+      <div class="publication-title"><a href="{{ '/portfolio/portfolio-10/' | relative_url }}">Spider Robot: Robotic Locomotion</a></div>
       <div class="publication-authors">S. Ahn</div>
       <div class="publication-venue">Derived Jacobian-based motion relationships and implemented stable forward-jump control for a four-legged robotic platform.</div>
       <div class="publication-links">
@@ -532,13 +582,15 @@ I have always been fascinated by the interaction between computers and the physi
   </li>
 
   <li class="publication-item">
-    <span class="publication-number">3.</span>
+    <span class="publication-number">6.</span>
     <div class="publication-thumbnail">
-      <img loading="lazy" src="{{ '/images/caliber_pg1.png' | relative_url }}" alt="Caliber Platform">
+      <video controls muted playsinline preload="metadata" style="width: 100%; height: 100%; object-fit: cover;" poster="{{ '/images/caliber_pg1.png' | relative_url }}">
+        <source src="{{ '/images/caliber_demo_part1.mp4' | relative_url }}" type="video/mp4">
+      </video>
       <div class="publication-tag">Class</div>
     </div>
     <div class="publication-content">
-      <div class="publication-title"><a href="{{ '/portfolio/portfolio-3/' | relative_url }}">Caliber - Student Projects Open Source Platform</a></div>
+      <div class="publication-title"><a href="{{ '/portfolio/portfolio-3/' | relative_url }}">Caliber: Student Projects Open Source Platform</a></div>
       <div class="publication-authors">S. Ahn</div>
       <div class="publication-venue">Designed the discovery and metadata architecture for 500+ UC Berkeley open source projects, making them easier to browse, filter, and reuse.</div>
       <div class="publication-links">

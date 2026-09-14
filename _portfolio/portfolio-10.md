@@ -1,10 +1,10 @@
 ---
-title: "ME239 - Spider Robot Locomotion"
+title: "ME239: Spider Robot Locomotion"
 excerpt: "Robotic locomotion project using Jacobian analysis and phase-based jump control for a four-legged spider robot in MATLAB and Isaac Sim."
 collection: portfolio
 category: class
 date: 2025-12-02
-role: "ME239 — Robotic Locomotion"
+role: "ME239: Robotic Locomotion"
 duration: "Fall 2025"
 tech_tags: ["Jacobian Analysis", "MATLAB", "Isaac Sim", "Phase Control"]
 share: false
@@ -13,7 +13,7 @@ header:
   teaser: "me239_front_pg.png"
 ---
 
-## ME239 - Robotic Locomotion
+## ME239: Robotic Locomotion
 
 ### Context
 As part of UC Berkeley's ME239 coursework, I developed and validated control methods for a four-legged spider robot, with a focus on jump locomotion and kinematic feasibility.
@@ -69,9 +69,8 @@ After MATLAB/Simulink validation, I converted the model pipeline to Isaac Sim an
 
 <div style="display: flex; justify-content: center; margin: 20px 0;">
   <video width="100%" controls style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-    <source src="/images/me239_isaac.mp4" type="video/mp4">
-    <source src="/images/me239_spider_jump_1.mp4" type="video/mp4">
-    <source src="/images/me239_spider_jump_1.mov" type="video/quicktime">
+    <source src="/images/me239_isaac_full.mp4" type="video/mp4">
+    <source src="/images/me239_isaac.webm" type="video/webm">
     Your browser does not support the video tag.
   </video>
 </div>

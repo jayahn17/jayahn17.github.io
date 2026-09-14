@@ -1,10 +1,10 @@
 ---
-title: "Automatic Snow Goggles - Bioinspired Lens Protection"
+title: "Automatic Snow Goggles: Bioinspired Lens Protection"
 excerpt: "ME110 project developing a bioinspired automatic lens-cleaning mechanism that keeps snow goggles clear without manual wiping."
 collection: portfolio
 category: class
 date: 2024-12-01
-role: "ME110 — Product Design"
+role: "ME110: Product Design"
 duration: "Fall 2024"
 tech_tags: ["CAD", "SLA Prototyping", "Mechatronics"]
 supporting: true
@@ -14,7 +14,7 @@ header:
   teaser: "me110-0.png"
 ---
 
-## Automatic Snow Goggles - Bioinspired by the Nictitating Membrane
+## Automatic Snow Goggles Inspired by the Nictitating Membrane
 
 ### Context
 This ME110 undergraduate project explored whether a biological mechanism could be translated into a practical wearable system for harsh winter conditions, where visibility can degrade quickly from snow and ice buildup.

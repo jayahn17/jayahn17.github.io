@@ -1,10 +1,10 @@
 ---
-title: "Caliber - UC Berkeley Open-Source Project Discovery Platform"
+title: "Caliber: UC Berkeley Open-Source Project Discovery Platform"
 excerpt: "A campus-scale platform prototype for surfacing and organizing 500+ UC Berkeley student projects through searchable metadata and a cleaner browsing experience."
 collection: portfolio
 category: class
 date: 2025-12-01
-role: "ENGIN 283 — AI Startup"
+role: "ENGIN 283: AI Startup"
 duration: "Fall 2025"
 tech_tags: ["Product Design", "Information Architecture", "React"]
 supporting: true
@@ -14,7 +14,7 @@ header:
   teaser: "caliber_pg1.png"
 ---
 
-## Caliber - Open-Source Projects at UC Berkeley
+## Caliber: Open-Source Projects at UC Berkeley
 
 ### Context
 Caliber was built in ENGIN 283 (AI Startup) to solve a practical discovery problem: undergraduate project work at Berkeley was scattered, difficult to browse, and easy to miss. The goal was to reduce discovery time for students, alumni, and collaborators searching for reusable work.
@@ -60,11 +60,11 @@ Caliber was built in ENGIN 283 (AI Startup) to solve a practical discovery probl
 <p><em>Note: Due to the 50 MB file size limit, the demo video is split into two parts.</em></p>
 
 <div style="display: flex; justify-content: center; gap: 20px; margin: 20px 0; flex-wrap: wrap;">
-  <video width="100%" controls muted playsinline style="max-width: 500px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" onloadedmetadata="this.currentTime=0">
+  <video width="100%" controls muted playsinline preload="metadata" style="max-width: 500px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
     <source src="/images/caliber_demo_part1.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-  <video width="100%" controls muted playsinline style="max-width: 500px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" onloadedmetadata="this.currentTime=18">
+  <video width="100%" controls muted playsinline preload="metadata" style="max-width: 500px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
     <source src="/images/caliber_demo_part2.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>

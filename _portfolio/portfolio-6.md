@@ -1,10 +1,10 @@
 ---
-title: "MSC - Render-to-Sim-to-Asset 3D Reconstruction"
+title: "MSC: Render-to-Sim-to-Asset 3D Reconstruction"
 excerpt: "A render-to-sim asset pipeline built with WorldLab.ai, NVIDIA 3DGRUT, and Isaac Lab to produce validated, simulation-ready 3D assets."
 collection: portfolio
 category: work
 date: 2025-01-01
-role: "Research Project — MSC Control Lab"
+role: "Research Project: MSC Control Lab"
 duration: "Fall 2024"
 tech_tags: ["Isaac Lab", "3DGRUT", "WorldLab.ai", "Asset Pipeline"]
 share: false
@@ -13,7 +13,7 @@ header:
   teaser: "MSC_WL2Isaac.png"
 ---
 
-## MSC - 3D Reconstruction
+## MSC: 3D Reconstruction
 
 ### Context
 This project focused on building a production-oriented pipeline from scene capture to simulation-ready asset delivery. The goal was to automate repetitive conversion steps while preserving geometric quality and physical plausibility for downstream robotics simulation.
@@ -54,7 +54,8 @@ This project focused on building a production-oriented pipeline from scene captu
 ### Pipeline Demo
 
 <div style="display: flex; justify-content: center; margin: 20px 0;">
-  <video width="100%" controls style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+  <video width="100%" controls muted playsinline preload="metadata" poster="/images/MSC_WL2Isaac.png" style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <source src="/images/MSC_WL2Isaac.mp4" type="video/mp4">
     <source src="/images/MSC_WL2Isaac.webm" type="video/webm">
     Your browser does not support the video tag.
   </video>
