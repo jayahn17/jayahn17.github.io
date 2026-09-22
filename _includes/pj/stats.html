@@ -1,0 +1,8 @@
+{% comment %}Key numbers, read from page.stats: [{ value: "≥95%", label: "per-skill success" }]{% endcomment %}
+{% if page.stats and page.stats.size > 0 %}
+<dl class="pj-stats">
+{% for s in page.stats %}
+  <div class="pj-stats__item"><dt>{{ s.label }}</dt><dd>{{ s.value }}</dd></div>
+{% endfor %}
+</dl>
+{% endif %}

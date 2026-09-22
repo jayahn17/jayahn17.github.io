@@ -1,0 +1,19 @@
+{% comment %}
+  Pi-style video figure. autoplay=true renders a muted, looping clip with no chrome
+  (the reader never has to press play); otherwise the clip gets controls and loads lazily.
+  {% include pj/video.html src="clip.mp4" webm="clip.webm" poster="poster.png" caption="..." autoplay=true wide=true %}
+{% endcomment %}
+{% include base_path %}
+{% assign _src = include.src %}
+{% assign _c0 = _src | slice: 0, 1 %}{% unless _src contains "://" or _c0 == "/" %}{% assign _src = _src | prepend: "/images/" | prepend: base_path %}{% endunless %}
+{% assign _webm = nil %}
+{% if include.webm %}{% assign _webm = include.webm %}{% assign _c0 = _webm | slice: 0, 1 %}{% unless _webm contains "://" or _c0 == "/" %}{% assign _webm = _webm | prepend: "/images/" | prepend: base_path %}{% endunless %}{% endif %}
+{% assign _poster = nil %}
+{% if include.poster %}{% assign _poster = include.poster %}{% assign _c0 = _poster | slice: 0, 1 %}{% unless _poster contains "://" or _c0 == "/" %}{% assign _poster = _poster | prepend: "/images/" | prepend: base_path %}{% endunless %}{% endif %}
+<figure class="pj-fig{% if include.wide %} pj-fig--wide{% endif %}{% if include.narrow %} pj-fig--narrow{% endif %}">
+  <video class="pj-video"{% if include.autoplay %} autoplay muted loop playsinline preload="metadata"{% else %} controls playsinline preload="{{ include.preload | default: 'metadata' }}"{% endif %}{% if _poster %} poster="{{ _poster }}"{% endif %}>
+    {% if _webm %}<source src="{{ _webm }}" type="video/webm">{% endif %}
+    <source src="{{ _src }}" type="video/mp4">
+  </video>
+  {% if include.caption %}<figcaption>{{ include.caption | markdownify }}</figcaption>{% endif %}
+</figure>

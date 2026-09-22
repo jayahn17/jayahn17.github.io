@@ -1,0 +1,15 @@
+{% comment %}
+  A quiet numbered strip for a pipeline or staged story (no boxes, one rule above).
+    steps:
+      - { label: "Stage 1", title: "Unimanual", text: "..." }
+  {% include pj/steps.html items=page.steps %}
+{% endcomment %}
+<ol class="pj-steps">
+{% for s in include.items %}
+  <li>
+    <span class="pj-steps__label">{{ s.label }}</span>
+    <strong class="pj-steps__title">{{ s.title }}</strong>
+    <span class="pj-steps__text">{{ s.text | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+  </li>
+{% endfor %}
+</ol>

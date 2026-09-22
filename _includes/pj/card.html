@@ -1,0 +1,19 @@
+{% comment %}Compact project card used by "More projects" and the index. Pass p=<portfolio doc>.{% endcomment %}
+{% include base_path %}
+{% assign _p = include.p %}
+{% assign _img = _p.card_image | default: _p.hero.poster | default: _p.hero.image | default: _p.teaser %}
+<a class="pj-card" href="{{ base_path }}{{ _p.url }}">
+  <div class="pj-card__media">
+    {% if _p.card_video and _p.hero.video %}
+    <video autoplay muted loop playsinline preload="metadata"{% if _p.hero.poster %} poster="{{ base_path }}/images/{{ _p.hero.poster }}"{% endif %}>
+      {% if _p.hero.webm %}<source src="{{ base_path }}/images/{{ _p.hero.webm }}" type="video/webm">{% endif %}
+      <source src="{{ base_path }}/images/{{ _p.hero.video }}" type="video/mp4">
+    </video>
+    {% elsif _img %}<img src="{{ base_path }}/images/{{ _img }}" alt="" loading="lazy">{% endif %}
+  </div>
+  <div class="pj-card__text">
+    <h3 class="pj-card__title">{{ _p.title | markdownify | remove: '<p>' | remove: '</p>' }}</h3>
+    <p class="pj-card__deck">{{ _p.deck | default: _p.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+    <p class="pj-card__meta">{% if _p.org %}{{ _p.org }}{% endif %}{% if _p.org and _p.duration %} · {% endif %}{{ _p.duration | default: _p.date | date: "%Y" }}</p>
+  </div>
+</a>

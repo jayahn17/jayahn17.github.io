@@ -1,0 +1,5 @@
+{% comment %}{% include pj/youtube.html id="VIDEOID" caption="..." %}{% endcomment %}
+<figure class="pj-fig{% if include.wide %} pj-fig--wide{% endif %}">
+  <div class="pj-embed"><iframe src="https://www.youtube.com/embed/{{ include.id }}" title="{{ include.caption | default: 'YouTube video' | strip_html | escape }}" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+  {% if include.caption %}<figcaption>{{ include.caption | markdownify }}</figcaption>{% endif %}
+</figure>

@@ -1,68 +1,54 @@
 ---
-title: "Automatic Snow Goggles: Bioinspired Lens Protection"
+layout: project
+track: class
+org: "ME110, UC Berkeley"
+title: "Automatic Snow Goggles Inspired by the Nictitating Membrane"
 excerpt: "ME110 project developing a bioinspired automatic lens-cleaning mechanism that keeps snow goggles clear without manual wiping."
+deck: "A compact sweeping mechanism, modeled on the avian nictitating membrane, that clears snow and ice from a goggle lens without the wearer touching it."
 collection: portfolio
 category: class
 date: 2024-12-01
 role: "ME110: Product Design"
 duration: "Fall 2024"
 tech_tags: ["CAD", "SLA Prototyping", "Mechatronics"]
+tools: "CAD, SLA 3D printing, actuator and gearing design"
 supporting: true
 share: false
 teaser: "me110-0.png"
 header:
   teaser: "me110-0.png"
+hero:
+  image: "me110-0.png"
+  alt: "Automatic snow goggles prototype"
+  caption: "**The prototype.** A self-actuated lens sweep integrated into a goggle frame."
+media:
+  design:
+    - { image: "me110-2.png", caption: "**Bioinspiration.** The nictitating membrane sweeps across a bird's eye with controlled angular motion; the goggle mechanism borrows that kinematics." }
+    - { image: "me110-1.png", caption: "**CAD.** Mechanism and frame integration, planned around SLA-friendly geometry." }
 ---
 
-## Automatic Snow Goggles Inspired by the Nictitating Membrane
+<p class="pj-lede">In harsh winter conditions visibility degrades quickly as snow and ice build up on a lens. This ME110 project asked whether a biological mechanism could be translated into a practical wearable system that clears the lens on its own.</p>
 
-### Context
-This ME110 undergraduate project explored whether a biological mechanism could be translated into a practical wearable system for harsh winter conditions, where visibility can degrade quickly from snow and ice buildup.
+## The problem
 
-### Problem
 - Protect vision from snow and ice accumulation.
 - Remove lens contaminants without manual wiping.
 - Keep the mechanism compact and unobtrusive for user comfort.
 
-### Mechanical Approach
-- Used the avian nictitating membrane as the kinematic reference.
-- Designed a compact sweeping mechanism with controlled angular motion across the lens.
-- Integrated an actuator and gearing strategy that balanced speed, force, and reliability.
+## Mechanical approach
 
-### Design Execution
-**System-Level Design**
-- Structured the mechanism around minimal moving mass to avoid user fatigue and bulk.
-- Combined mechanical and electrical elements to keep actuation consistent across repeated cycles.
-- Prioritized manufacturability through SLA-friendly geometry planning.
+The avian nictitating membrane served as the kinematic reference. The design is a compact sweeping mechanism with controlled angular motion across the lens, driven by an actuator and gearing strategy that balances speed, force, and reliability.
 
-**Modeling and Prototyping**
-- Built CAD models and printed early-generation parts for fit, clearance, and motion testing.
-- Iterated mechanism geometry to reduce binding and improve repeatability.
-- Tuned the sweep arc and timing for practical cleaning performance.
+{% include pj/grid.html items=page.media.design cols=2 class="pj-grid--contain" %}
 
-### Results
-- Delivered a functional prototype with automatic lens-cleaning action.
-- Validated the transfer of a biological concept into a wearable mechanism.
-- Improved reliability through enclosure and linkage refinement.
+## Design execution
 
-### Key Design Attributes
-- Self-actuated lens sweep without full manual intervention.
-- Smooth motion profile for controlled debris removal.
-- Compact architecture suitable for integration into goggle frames.
+**System level.** The mechanism is structured around minimal moving mass to avoid fatigue and bulk, combines mechanical and electrical elements so that actuation stays consistent across repeated cycles, and is planned around SLA-friendly geometry for manufacturability.
 
-### Project Gallery
+**Modeling and prototyping.** CAD models were built and early-generation parts printed for fit, clearance, and motion testing. The mechanism geometry was iterated to reduce binding and improve repeatability, and the sweep arc and timing were tuned for practical cleaning performance.
 
-<div style="display: flex; justify-content: center; margin: 20px 0;">
-  <img src="/images/me110-0.png" alt="Automatic Snow Goggles Prototype" style="width: 100%; max-width: 800px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); object-fit: contain;">
-</div>
+## Results
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
-  <div>
-    <img src="/images/me110-2.png" alt="Nictitating Membrane Inspiration" style="width: 100%; max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); object-fit: contain;">
-    <p style="margin-top: 8px; font-size: 0.9em; color: #666;"><strong>Bioinspiration:</strong> Nictitating membrane mechanism</p>
-  </div>
-  <div>
-    <img src="/images/me110-1.png" alt="CAD Design" style="width: 100%; max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); object-fit: contain;">
-    <p style="margin-top: 8px; font-size: 0.9em; color: #666;"><strong>CAD Design:</strong> 3D model of the mechanism and frame integration</p>
-  </div>
-</div>
+- A functional prototype with automatic lens-cleaning action.
+- A biological concept validated as a wearable mechanism.
+- Reliability improved through enclosure and linkage refinement: a self-actuated sweep, a smooth motion profile, and an architecture compact enough for goggle frames.

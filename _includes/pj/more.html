@@ -1,0 +1,11 @@
+{% comment %}Three other projects, featured ones first, excluding the current page.{% endcomment %}
+{% assign _all = site.portfolio | sort: 'date' | reverse %}
+{% assign _n = 0 %}
+<aside class="pj-more">
+  <h2 class="pj-more__h">More projects</h2>
+  <div class="pj-more__grid">
+  {% for p in _all %}{% if p.url != page.url and p.featured == true and _n < 3 %}{% include pj/card.html p=p %}{% assign _n = _n | plus: 1 %}{% endif %}{% endfor %}
+  {% for p in _all %}{% if p.url != page.url and p.featured != true and _n < 3 %}{% include pj/card.html p=p %}{% assign _n = _n | plus: 1 %}{% endif %}{% endfor %}
+  </div>
+  <p class="pj-more__all"><a href="{{ base_path }}/projects/">All projects →</a></p>
+</aside>
