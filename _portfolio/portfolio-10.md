@@ -19,15 +19,15 @@ header:
 card_video: true
 hero:
   video: "me239_jump.mp4"
-  poster: "me239_front_pg.png"
+  poster: "posters/me239_jump.jpg"
   autoplay: true
   caption: "**Forward jump.** All four legs are coordinated through takeoff, flight, and landing by a phase-based controller."
 media:
   matlab:
-    - { video: "me239_spider_jump_1.mp4", autoplay: true, caption: "**Jump cycle.** Synchronized forward-jump trajectory profiles across all four legs." }
-    - { video: "me239_backflip.mp4", autoplay: true, caption: "**Backflip.** The same phase machinery driving a more aggressive maneuver." }
+    - { video: "me239_spider_jump_1.mp4", poster: "posters/me239_spider_jump_1.jpg", autoplay: true, caption: "**Jump cycle.** Synchronized forward-jump trajectory profiles across all four legs." }
+    - { video: "me239_backflip.mp4", poster: "posters/me239_backflip.jpg", autoplay: true, caption: "**Backflip.** The same phase machinery driving a more aggressive maneuver." }
   isaac:
-    - { video: "me239_isaac_video.mp4", preload: "none", caption: "**Isaac Sim.** The validated controller running on the URDF model under a higher-fidelity physics engine." }
+    - { video: "me239_isaac_video.mp4", poster: "posters/me239_isaac_video.jpg", preload: "none", caption: "**Isaac Sim.** The validated controller running on the URDF model under a higher-fidelity physics engine." }
     - { video: "me239_isaac_full.mp4", webm: "me239_isaac.webm", poster: "posters/me239_isaac_full.jpg", preload: "none", caption: "**Isaac Lab.** Full session, including the dynamic response and stability traces used to assess RL readiness." }
 ---
 

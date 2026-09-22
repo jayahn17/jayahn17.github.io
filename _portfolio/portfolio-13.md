@@ -63,7 +63,7 @@ One probe in the brew reservoir, one in the cup, camera rolling the whole way. T
 
 {% include pj/grid.html items=page.media.run cols=4 class="pj-grid--tall" %}
 
-{% include pj/video.html src="me226_espresso_temp.mp4" narrow=true caption="**The number that matters.** Probe in the cup while the machine is still pouring: **11.3 °C**." %}
+{% include pj/video.html src="me226_espresso_temp.mp4" poster="posters/me226_espresso_temp.jpg" narrow=true caption="**The number that matters.** Probe in the cup while the machine is still pouring: **11.3 °C**." %}
 
 ## Why two stages are necessary
 

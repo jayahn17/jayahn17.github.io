@@ -22,8 +22,9 @@ header:
 card_video: true
 hero:
   video: "icon_fourarm.mp4"
-  poster: "icon_fourarm_poster.png"
+  poster: "posters/icon_fourarm.jpg"
   autoplay: true
+  narrow: true
   caption: "**Stage 3.** Four Kinova3 arms run the same per-skill policies while an LLM coordinator assigns objects, fixes execution order, and sets retry budgets."
 stats:
   - { value: "≥ 95%", label: "per-skill success, single arm" }
@@ -37,10 +38,10 @@ steps:
 media:
   stage1:
     - { video: "icon_front_video.mp4", poster: "icon_front_video.png", autoplay: true, caption: "**Stage 1.** Skill-decomposed unimanual pick, place, and retreat in robosuite / MuJoCo." }
-    - { video: "icon_can_pickandplace.mp4", autoplay: true, caption: "**Shared policy sets.** Pick-and-place with one skill set per object type." }
+    - { video: "icon_can_pickandplace.mp4", poster: "posters/icon_can_pickandplace.jpg", autoplay: true, caption: "**Shared policy sets.** Pick-and-place with one skill set per object type." }
   stage2:
-    - { video: "icon_bimanual_demo.mp4", autoplay: true, caption: "**Stage 2.** Two arms running the identical per-skill policies through the skill router and zone locks." }
-    - { video: "icon_handover.mp4", autoplay: true, caption: "**Bimanual handover** using the same three policies, with no retraining." }
+    - { video: "icon_bimanual_demo.mp4", poster: "posters/icon_bimanual_demo.jpg", autoplay: true, caption: "**Stage 2.** Two arms running the identical per-skill policies through the skill router and zone locks." }
+    - { video: "icon_handover.mp4", poster: "posters/icon_handover.jpg", autoplay: true, caption: "**Bimanual handover** using the same three policies, with no retraining." }
 ---
 
 <p class="pj-lede">Multi-arm manipulation is usually approached by training one monolithic policy for the whole system. This project takes the opposite route. A pick-and-place task is decomposed into three coarse skills, <strong>pick</strong>, <strong>place</strong>, and <strong>retreat</strong>, one diffusion policy is trained per skill on a single arm, and a higher-level layer composes those policies across any number of arms. The central idea is <em>role-conditioned control</em>: the arm's role in the task, not a bespoke policy, is what changes as the system grows.</p>
@@ -79,7 +80,7 @@ The final stage scales to four arms with two instances of each object type, and 
 - **The coordinator.** A pluggable planner decides who picks what, in what order, and with what retry budget, from reachability checks and per-skill success priors. It runs as Anthropic Claude with structured-JSON plans when an API key is present, and falls back to a deterministic planner with the same interface for fully offline runs.
 - **Cadence.** The system plans once at episode start and re-plans only after a skill failure or phase boundary, which separates slow high-level reasoning from fast per-step control.
 
-{% include pj/video.html src="icon_fourarm.mp4" poster="icon_fourarm_poster.png" autoplay=true wide=true caption="**Why retry is the lever.** Whole-task success compounds multiplicatively across stages and arms, so recovering failed picks raises end-to-end success far more than polishing any single policy. At current per-skill rates, retries lift estimated success from roughly 0.70 to about 0.86." %}
+{% include pj/video.html src="icon_fourarm.mp4" poster="posters/icon_fourarm.jpg" autoplay=true narrow=true caption="**Why retry is the lever.** Whole-task success compounds multiplicatively across stages and arms, so recovering failed picks raises end-to-end success far more than polishing any single policy. At current per-skill rates, retries lift estimated success from roughly 0.70 to about 0.86." %}
 
 ## What the numbers say
 

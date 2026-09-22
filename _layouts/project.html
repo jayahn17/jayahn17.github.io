@@ -34,11 +34,11 @@ layout: default
 
     {% if page.hero %}
       {% if page.hero.video %}
-        {% include pj/video.html src=page.hero.video webm=page.hero.webm poster=page.hero.poster caption=page.hero.caption autoplay=page.hero.autoplay preload=page.hero.preload wide=true %}
+        {% include pj/video.html src=page.hero.video webm=page.hero.webm poster=page.hero.poster caption=page.hero.caption autoplay=page.hero.autoplay preload=page.hero.preload wide=true narrow=page.hero.narrow %}
       {% elsif page.hero.youtube %}
         {% include pj/youtube.html id=page.hero.youtube caption=page.hero.caption wide=true %}
       {% elsif page.hero.image %}
-        {% include pj/figure.html src=page.hero.image alt=page.hero.alt caption=page.hero.caption wide=true %}
+        {% include pj/figure.html src=page.hero.image alt=page.hero.alt caption=page.hero.caption wide=true narrow=page.hero.narrow %}
       {% endif %}
     {% endif %}
 

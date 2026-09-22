@@ -30,7 +30,7 @@ stats:
   - { value: "5", label: "camera viewpoints per episode" }
 media:
   capture:
-    - { video: "kha_grab_little.mp4", autoplay: true, caption: "**Grasping in simulation.** Follower arm tracking the leader through a small-object grasp." }
+    - { video: "kha_grab_little.mp4", poster: "posters/kha_grab_little.jpg", autoplay: true, caption: "**Grasping in simulation.** Follower arm tracking the leader through a small-object grasp." }
     - { video: "kha_khaleisaac_top.mp4", webm: "kha_khaleisaac_top.webm", poster: "posters/kha_khaleisaac_top.jpg", preload: "none", caption: "**Top camera, full episode.** One of the five LeIsaac viewpoints recorded for dataset generation." }
   training:
     - { video: "kha_leisaac_so101.mp4", webm: "kha_leisaac_so101.webm", poster: "posters/kha_leisaac_so101.jpg", preload: "none", caption: "**LeIsaac workflow.** Camera sync, URDF-to-USD conversion, and validation for imitation-learning datasets." }
