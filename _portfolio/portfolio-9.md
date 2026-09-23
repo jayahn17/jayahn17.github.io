@@ -41,7 +41,7 @@ media:
     - { video: "icon_can_pickandplace.mp4", poster: "posters/icon_can_pickandplace.jpg", autoplay: true, caption: "**Shared policy sets.** Pick-and-place with one skill set per object type." }
   stage2:
     - { video: "icon_bimanual_demo.mp4", poster: "posters/icon_bimanual_demo.jpg", autoplay: true, caption: "**Stage 2.** Two arms running the identical per-skill policies through the skill router and zone locks." }
-    - { video: "icon_handover.mp4", poster: "posters/icon_handover.jpg", autoplay: true, caption: "**Bimanual handover** using the same three policies, with no retraining." }
+    - { video: "icon_handover.mp4", poster: "posters/icon_handover.jpg", autoplay: true, caption: "**Bimanual peg-in-hole.** One policy, trained from a single demonstration trajectory." }
 ---
 
 <p class="pj-lede">Multi-arm manipulation is usually approached by training one monolithic policy for the whole system. This project takes the opposite route. A pick-and-place task is decomposed into three coarse skills, <strong>pick</strong>, <strong>place</strong>, and <strong>retreat</strong>, one diffusion policy is trained per skill on a single arm, and a higher-level layer composes those policies across any number of arms. The central idea is <em>role-conditioned control</em>: the arm's role in the task, not a bespoke policy, is what changes as the system grows.</p>
