@@ -175,6 +175,7 @@
 
 /* Figures ----------------------------------------------------------------- */
 .pj-fig {
+  display: block; /* the theme makes <figure> a flex container, which pushes captions to the bottom of stretched grid cells */
   margin: 2.2rem auto;
   max-width: var(--pj-text);
 }
@@ -209,6 +210,7 @@
 /* Grids of clips ---------------------------------------------------------- */
 .pj-grid {
   display: grid;
+  align-items: start;
   gap: 1.1rem 1.25rem;
   margin: 2rem auto 2.6rem;
   max-width: var(--pj-wide);
