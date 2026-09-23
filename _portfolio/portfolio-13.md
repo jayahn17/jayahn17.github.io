@@ -19,10 +19,13 @@ share: false
 teaser: "me226_espresso_teaser.jpg"
 header:
   teaser: "me226_espresso_teaser.jpg"
+card_image: "me226_espresso_teaser.jpg"
+card_position: "50% 12%"   # portrait photo: anchor the 16:10 card crop near the top so the coil shows
 hero:
   video: "me226_espresso_demo.mp4"
   poster: "me226_espresso_teaser.jpg"
   preload: "none"
+  narrow: true
   caption: "**Full run, one take.** From the brew reservoir through the copper coil and the Peltier block to the cup. The claim is a temperature, so the demo is the measurement."
 stats:
   - { value: "73 → 11.3 °C", label: "reservoir to cup, on camera" }

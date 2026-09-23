@@ -26,6 +26,7 @@ teaser: "poster.png"       # legacy card image for /portfolio/
 header: { teaser: "poster.png" }
 card_video: true           # /projects/ rows loop hero.video when it is small (< ~1 MB)
 card_image: "alt.png"      # optional override for the card image
+card_position: "50% 12%"   # optional object-position for the card crop (useful for portrait photos)
 links:
   - { label: "Code", url: "https://github.com/..." }
 hero:                      # one of video / image / youtube
