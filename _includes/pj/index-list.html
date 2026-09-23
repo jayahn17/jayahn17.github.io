@@ -1,0 +1,28 @@
+{% comment %}One section of the /projects/ index: a title and a list of rows.{% endcomment %}
+{% include base_path %}
+{% assign _items = include.items %}
+{% if _items.size > 0 %}
+<section class="pj-index__section" id="{{ include.title | slugify }}">
+  <h2 class="pj-index__h">{{ include.title }}</h2>
+  {% if include.blurb %}<p class="pj-index__blurb">{{ include.blurb }}</p>{% endif %}
+  {% for p in _items %}
+  {% assign _img = p.card_image | default: p.hero.poster | default: p.hero.image | default: p.teaser %}
+  <a class="pj-row" href="{{ base_path }}{{ p.url }}">
+    <div class="pj-row__media">
+      {% if p.card_video and p.hero.video %}
+      <video autoplay muted loop playsinline preload="metadata"{% if p.hero.poster %} poster="{{ base_path }}/images/{{ p.hero.poster }}"{% endif %}>
+        {% if p.hero.webm %}<source src="{{ base_path }}/images/{{ p.hero.webm }}" type="video/webm">{% endif %}
+        <source src="{{ base_path }}/images/{{ p.hero.video }}" type="video/mp4">
+      </video>
+      {% elsif _img %}<img src="{{ base_path }}/images/{{ _img }}" alt="" loading="lazy">{% endif %}
+    </div>
+    <div class="pj-row__text">
+      <p class="pj-row__meta">{% if p.org %}{{ p.org }}{% endif %}{% if p.org and p.duration %} · {% endif %}{{ p.duration | default: p.date | date: "%B %Y" }}</p>
+      <h3 class="pj-row__title">{{ p.title | markdownify | remove: '<p>' | remove: '</p>' }}</h3>
+      <p class="pj-row__deck">{{ p.deck | default: p.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      {% if p.stats %}<p class="pj-row__stats">{% for s in p.stats limit: 3 %}<span><b>{{ s.value }}</b> {{ s.label }}</span>{% endfor %}</p>{% endif %}
+    </div>
+  </a>
+  {% endfor %}
+</section>
+{% endif %}

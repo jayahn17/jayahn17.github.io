@@ -1,0 +1,62 @@
+---
+layout: default
+---
+{% include base_path %}
+{% comment %}
+  Research-post style project page (title → hero → key numbers → narrative with captioned media → team/links → more).
+  Front matter contract: track, org, title, excerpt/deck, role, team, duration, links[], hero{}, stats[], tools, media{}.
+{% endcomment %}
+{% capture _track %}{% case page.track %}{% when 'research' %}Research{% when 'industry' %}Industry{% when 'class' %}Course project{% when 'team' %}Student team{% else %}Project{% endcase %}{% endcapture %}
+<div id="main" role="main" class="pj-main">
+  <article class="pj" itemscope itemtype="http://schema.org/CreativeWork">
+    <header class="pj-head">
+      <p class="pj-eyebrow">
+        <a href="{{ base_path }}/projects/">Projects</a>
+        <span class="pj-eyebrow__sep">/</span>
+        <span>{{ _track }}</span>
+        {% if page.org %}<span class="pj-eyebrow__sep">·</span><span>{{ page.org }}</span>{% endif %}
+      </p>
+      <h1 class="pj-title" itemprop="headline">{{ page.title | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
+      {% if page.deck or page.excerpt %}
+      <p class="pj-deck" itemprop="description">{{ page.deck | default: page.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      {% endif %}
+      <div class="pj-meta">
+        {% if page.role %}<span class="pj-meta__item"><span class="pj-meta__k">Role</span>{{ page.role }}</span>{% endif %}
+        {% if page.duration %}<span class="pj-meta__item"><span class="pj-meta__k">When</span><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.duration }}</time></span>{% endif %}
+        {% if page.team %}<span class="pj-meta__item"><span class="pj-meta__k">Team</span>{{ page.team }}</span>{% endif %}
+      </div>
+      {% if page.links and page.links.size > 0 %}
+      <p class="pj-links">
+        {% for l in page.links %}<a class="pj-btn" href="{{ l.url }}"{% if l.url contains '://' %} target="_blank" rel="noopener"{% endif %}>{{ l.label }}</a>{% endfor %}
+      </p>
+      {% endif %}
+    </header>
+
+    {% if page.hero %}
+      {% if page.hero.video %}
+        {% include pj/video.html src=page.hero.video webm=page.hero.webm poster=page.hero.poster caption=page.hero.caption autoplay=page.hero.autoplay preload=page.hero.preload wide=true narrow=page.hero.narrow %}
+      {% elsif page.hero.youtube %}
+        {% include pj/youtube.html id=page.hero.youtube caption=page.hero.caption wide=true %}
+      {% elsif page.hero.image %}
+        {% include pj/figure.html src=page.hero.image alt=page.hero.alt caption=page.hero.caption wide=true narrow=page.hero.narrow %}
+      {% endif %}
+    {% endif %}
+
+    {% include pj/stats.html %}
+
+    <div class="pj-body" itemprop="text">
+      {{ content }}
+    </div>
+
+    <footer class="pj-foot">
+      <dl class="pj-foot__grid">
+        {% if page.team %}<div><dt>Team</dt><dd>{{ page.team }}</dd></div>{% endif %}
+        {% if page.role %}<div><dt>My role</dt><dd>{{ page.role }}</dd></div>{% endif %}
+        {% if page.tools %}<div><dt>Tools</dt><dd>{{ page.tools }}</dd></div>{% endif %}
+        {% if page.links and page.links.size > 0 %}<div><dt>Links</dt><dd>{% for l in page.links %}<a href="{{ l.url }}"{% if l.url contains '://' %} target="_blank" rel="noopener"{% endif %}>{{ l.label }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}</dd></div>{% endif %}
+      </dl>
+    </footer>
+
+    {% include pj/more.html %}
+  </article>
+</div>

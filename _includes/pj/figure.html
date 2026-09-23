@@ -1,0 +1,11 @@
+{% comment %}
+  Pi-style figure: one image, one caption.
+  {% include pj/figure.html src="file.png" alt="..." caption="**Bold lead.** Body." wide=true %}
+{% endcomment %}
+{% include base_path %}
+{% assign _src = include.src %}
+{% assign _c0 = _src | slice: 0, 1 %}{% unless _src contains "://" or _c0 == "/" %}{% assign _src = _src | prepend: "/images/" | prepend: base_path %}{% endunless %}
+<figure class="pj-fig{% if include.wide %} pj-fig--wide{% endif %}{% if include.narrow %} pj-fig--narrow{% endif %}">
+  <img src="{{ _src }}" alt="{{ include.alt | default: include.caption | markdownify | strip_html | strip_newlines | escape }}" loading="lazy">
+  {% if include.caption %}<figcaption>{{ include.caption | markdownify }}</figcaption>{% endif %}
+</figure>

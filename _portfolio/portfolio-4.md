@@ -1,50 +1,50 @@
 ---
-title: "CalSol: Battery and Suspension Systems"
+layout: project
+track: team
+org: "CalSol, UC Berkeley Solar Vehicle Team"
+title: "CalSol: Lighter Front Suspension Without Losing Stiffness"
 excerpt: "Mechanical design work for a competitive solar vehicle, focused on reducing suspension mass while preserving stiffness and manufacturability."
+deck: "A consolidated front suspension bracket for a solar-electric race car, about 10% lighter, validated in FEA before fabrication and coordinated with the battery team's packaging constraints."
 collection: portfolio
 category: class
 date: 2025-12-02
-role: "CalSol: Battery and Suspension Team"
+role: "Battery and Suspension Team"
 duration: "August 2022 – May 2024"
 tech_tags: ["FEA", "CAD", "Structural Design"]
+tools: "CAD, finite element analysis"
 supporting: true
 share: false
 teaser: "CalSol_suspension.png"
 header:
   teaser: "CalSol_suspension.png"
+hero:
+  image: "CalSol_suspension.png"
+  alt: "CalSol front suspension bracket design"
+  caption: "**Front suspension.** The consolidated bracket structure, with load paths rerouted to keep stiffness while removing mass."
+stats:
+  - { value: "~10%", label: "mass reduction, front bracket assembly" }
+  - { value: "FEA", label: "validated before fabrication" }
 ---
 
-## CalSol: Solar Vehicle Team
+<p class="pj-lede">For a solar-electric vehicle, every gram of unsprung mass costs efficiency. On CalSol's mechanical and battery teams, I worked to reduce the mass of key suspension components without compromising stiffness, safety margins, or the way the parts integrate with the rest of the car.</p>
 
-### Context
-For CalSol at UC Berkeley, I worked with the mechanical and battery teams to optimize key suspension components in a solar-electric vehicle. The challenge was to reduce mass without compromising stiffness, safety margins, or downstream integration.
+## The problem
 
-### Problem
 - Lower front-end and unsprung mass to improve vehicle efficiency.
 - Maintain structural stiffness and safety margins required by vehicle integration constraints.
-- Ensure design decisions remained compatible with battery packaging and assembly workflows.
+- Keep design decisions compatible with battery packaging and assembly workflows.
 
-### Engineering Work
-**Suspension Redesign**
-- Consolidated the front suspension bracket structure to reduce part count and mass.
-- Preserved stiffness targets by rerouting load paths and redistributing section geometry.
+## Suspension redesign
 
-**Finite Element Validation**
-- Ran structural simulations to compare baseline and revised bracket concepts.
-- Checked displacement and stress concentration effects under representative loads.
-- Used the results to confirm the redesign met stiffness requirements before fabrication.
+The front suspension bracket structure was consolidated to reduce part count and mass, with stiffness targets preserved by rerouting load paths and redistributing section geometry.
 
-**Cross-Team Coordination**
-- Synced interface assumptions with battery and mechanical leads.
-- Mapped attachment interface changes to avoid downstream integration issues.
+## Finite element validation
 
-### Results
-- Achieved approximately 10% mass reduction in the front suspension bracket assembly.
-- Validated the redesigned brackets through FEA before fabrication.
+Structural simulations compared the baseline and revised bracket concepts, checking displacement and stress-concentration effects under representative loads. The results confirmed that the redesign met stiffness requirements before anything was fabricated.
 
-### Project Photos
+{% include pj/figure.html src="Calsol_battery.jpeg" caption="**Battery packaging.** Interface assumptions were synced with the battery and mechanical leads, and attachment-interface changes were mapped to avoid downstream integration issues." %}
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin: 20px 0;">
-  <img src="/images/CalSol_suspension.png" alt="CalSol Suspension" style="max-width: 360px; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-  <img src="/images/Calsol_battery.jpeg" alt="CalSol Battery" style="max-width: 360px; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-</div>
+## Results
+
+- Approximately 10% mass reduction in the front suspension bracket assembly.
+- Redesigned brackets validated through FEA before fabrication.

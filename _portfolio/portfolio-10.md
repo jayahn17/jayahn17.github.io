@@ -1,76 +1,62 @@
 ---
-title: "ME239: Spider Robot Locomotion"
+layout: project
+track: class
+org: "ME239, UC Berkeley"
+title: "Spider Robot Locomotion: From Jacobians to Isaac Sim"
 excerpt: "Robotic locomotion project using Jacobian analysis and phase-based jump control for a four-legged spider robot in MATLAB and Isaac Sim."
+deck: "Jacobian-based leg kinematics and a phase-based forward-jump controller for a four-legged spider robot, validated first in MATLAB/Simulink and then migrated into NVIDIA Isaac Sim and Isaac Lab."
 collection: portfolio
 category: class
 date: 2025-12-02
 role: "ME239: Robotic Locomotion"
 duration: "Fall 2025"
 tech_tags: ["Jacobian Analysis", "MATLAB", "Isaac Sim", "Phase Control"]
+tools: "MATLAB/Simulink, URDF, NVIDIA Isaac Sim, Isaac Lab"
 share: false
 teaser: "me239_front_pg.png"
 header:
   teaser: "me239_front_pg.png"
+card_video: true
+hero:
+  video: "me239_jump.mp4"
+  poster: "posters/me239_jump.jpg"
+  autoplay: true
+  caption: "**Forward jump.** All four legs are coordinated through takeoff, flight, and landing by a phase-based controller."
+media:
+  matlab:
+    - { video: "me239_spider_jump_1.mp4", poster: "posters/me239_spider_jump_1.jpg", autoplay: true, caption: "**Jump cycle.** Synchronized forward-jump trajectory profiles across all four legs." }
+    - { video: "me239_backflip.mp4", poster: "posters/me239_backflip.jpg", autoplay: true, caption: "**Backflip.** The same phase machinery driving a more aggressive maneuver." }
+  isaac:
+    - { video: "me239_isaac_video.mp4", poster: "posters/me239_isaac_video.jpg", preload: "none", caption: "**Isaac Sim.** The validated controller running on the URDF model under a higher-fidelity physics engine." }
+    - { video: "me239_isaac_full.mp4", webm: "me239_isaac.webm", poster: "posters/me239_isaac_full.jpg", preload: "none", caption: "**Isaac Lab.** Full session, including the dynamic response and stability traces used to assess RL readiness." }
 ---
 
-## ME239: Robotic Locomotion
+<p class="pj-lede">Jumping is the hardest thing to ask of a small legged robot: every leg has to leave the ground at the same instant and every leg has to land. This project derives the kinematics that make coordinated leg motion feasible, builds a jump controller on top of them, and checks that the same behavior holds when the model moves from MATLAB into a physics engine.</p>
 
-### Context
-As part of UC Berkeley's ME239 coursework, I developed and validated control methods for a four-legged spider robot, with a focus on jump locomotion and kinematic feasibility.
+## The technical problem
 
-### Technical Problem
 - Derive and validate Jacobian-based relationships for coordinated leg motion.
 - Create a stable forward-jump trajectory from takeoff to landing.
-- Verify that open-source hardware assumptions remained valid in MATLAB and NVIDIA Isaac Sim.
+- Verify that open-source hardware assumptions remained valid in MATLAB and in NVIDIA Isaac Sim.
 
-### System Development
-**Kinematic and Dynamic Analysis**
-- Performed Jacobian analysis to connect joint rates to task-space motion.
-- Completed forward/inverse kinematics checks for joint limits and workspace bounds.
-- Ran singularity and workspace studies to confirm feasible gait targets.
+## Kinematics first
 
-**Control Development**
-- Designed synchronized forward-jump trajectory profiles across all four legs.
-- Implemented phase-based coordination for takeoff, airborne control, and landing stability.
-- Tuned gains for smooth transitions and reduced oscillation.
+Jacobian analysis connects joint rates to task-space motion for each leg. Forward and inverse kinematics checks confirmed joint limits and workspace bounds, and singularity and workspace studies confirmed that the gait targets were feasible before any controller was written. The result is a formal set of joint-space constraints and feasible kinematic envelopes.
 
-**Validation Flow**
-- Prototyped and tested controllers in MATLAB/Simulink.
-- Migrated validated logic into URDF workflows for higher-fidelity simulation in NVIDIA Isaac Sim and Isaac Lab.
-- Assessed dynamic response and control stability through simulation traces and video evidence.
+## Phase-based jump control
 
-### Results
+The controller produces synchronized forward-jump trajectory profiles across all four legs, with phase-based coordination for takeoff, airborne control, and landing stability. Gains were tuned for smooth transitions and reduced oscillation.
+
+{% include pj/grid.html items=page.media.matlab cols=2 %}
+
+## Validation in Isaac Sim and Isaac Lab
+
+Controllers were prototyped and tested in MATLAB/Simulink, then the validated logic was migrated into URDF workflows for higher-fidelity simulation in NVIDIA Isaac Sim and Isaac Lab, where dynamic response and control stability were assessed through simulation traces and video.
+
+{% include pj/grid.html items=page.media.isaac cols=2 %}
+
+## Results
+
 - Formalized joint-space constraints and feasible kinematic envelopes.
-- Achieved stable forward-jump cycles in simulation with coordinated leg timing and repeatable landing behavior.
-- Built a migration path from academic modeling tools to simulation-scale validation for RL-ready future work.
-
-### Jump Control Demonstration
-
-<div style="display: flex; justify-content: center; margin: 20px 0;">
-  <video width="100%" controls style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-    <source src="/images/me239_jump.mp4" type="video/mp4">
-    <source src="/images/me239_jump.mov" type="video/quicktime">
-    Your browser does not support the video tag.
-  </video>
-</div>
-<p style="margin-top: 8px; font-size: 0.9em; color: #666; text-align: center;"><strong>Forward jump control:</strong> Four-legged robot with coordinated timing</p>
-
-<div style="display: flex; justify-content: center; margin: 20px 0;">
-  <video width="100%" controls style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-    <source src="/images/me239_isaac_video.mp4" type="video/mp4">
-    <source src="/images/me239_issac_video.mov" type="video/quicktime">
-    Your browser does not support the video tag.
-  </video>
-</div>
-
-### Simulation in NVIDIA Isaac Sim and Isaac Lab
-
-After MATLAB/Simulink validation, I converted the model pipeline to Isaac Sim and Isaac Lab to evaluate dynamics under a higher-fidelity engine and assess potential reinforcement learning integration.
-
-<div style="display: flex; justify-content: center; margin: 20px 0;">
-  <video width="100%" controls style="max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-    <source src="/images/me239_isaac_full.mp4" type="video/mp4">
-    <source src="/images/me239_isaac.webm" type="video/webm">
-    Your browser does not support the video tag.
-  </video>
-</div>
+- Stable forward-jump cycles in simulation with coordinated leg timing and repeatable landing behavior.
+- A migration path from academic modeling tools to simulation-scale validation for RL-ready future work.

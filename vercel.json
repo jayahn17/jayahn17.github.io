@@ -1,0 +1,5 @@
+{
+  "framework": "jekyll",
+  "buildCommand": "bundle exec jekyll build --config _config.yml,_config_preview.yml",
+  "outputDirectory": "_site"
+}

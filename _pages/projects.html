@@ -1,0 +1,35 @@
+---
+layout: default
+title: "Projects"
+permalink: /projects/
+author_profile: false
+description: "Research, industry, and course projects by SeongJae (Jay) Ahn: robot learning, humanoid simulation, field autonomy, 3D perception, and controls."
+---
+{% include base_path %}
+{% assign _all = site.portfolio | sort: 'date' | reverse %}
+{% assign _research = _all | where: 'track', 'research' %}
+{% assign _industry = _all | where: 'track', 'industry' %}
+{% assign _class = _all | where: 'track', 'class' %}
+{% assign _team = _all | where: 'track', 'team' %}
+<div id="main" role="main" class="pj-main">
+  <div class="pj pj-index">
+    <header class="pj-index__head">
+      <p class="pj-eyebrow"><span>SeongJae (Jay) Ahn</span><span class="pj-eyebrow__sep">·</span><span>M.S. Mechanical Engineering, UC Berkeley</span></p>
+      <h1 class="pj-title">Projects</h1>
+      <p class="pj-deck">Robots that learn, simulate, and survive the field. Each page below is written like a short research post: what the problem was, what I built, what the videos show, and what the numbers say.</p>
+      <nav class="pj-index__nav" aria-label="Sections">
+        <a href="#research">Research</a>
+        <a href="#industry">Industry</a>
+        <a href="#course-projects">Course projects</a>
+        <a href="#student-teams">Student teams</a>
+        <a href="{{ base_path }}/cv/">CV</a>
+        <a href="https://github.com/jayahn17" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </header>
+
+    {% include pj/index-list.html title="Research" items=_research blurb="Robot learning and simulation infrastructure in UC Berkeley labs." %}
+    {% include pj/index-list.html title="Industry" items=_industry blurb="Shipped hardware and simulation stacks for companies." %}
+    {% include pj/index-list.html title="Course projects" items=_class blurb="Graduate and undergraduate coursework with a working prototype at the end." %}
+    {% include pj/index-list.html title="Student teams" items=_team %}
+  </div>
+</div>

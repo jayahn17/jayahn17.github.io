@@ -1,0 +1,21 @@
+{% comment %}
+  A grid of captioned clips or images, defined as a list in the page front matter:
+    media:
+      results:
+        - { video: a.mp4, poster: a.png, caption: "...", autoplay: true }
+        - { image: b.png, caption: "..." }
+        - { youtube: VIDEOID, caption: "..." }
+  {% include pj/grid.html items=page.media.results cols=2 class="pj-grid--tall" %}   (class: pj-grid--tall | pj-grid--contain)
+{% endcomment %}
+{% assign _cols = include.cols | default: 2 %}
+<div class="pj-grid pj-grid--{{ _cols }}{% if include.class %} {{ include.class }}{% endif %}{% if include.wide %} pj-fig--wide{% endif %}">
+{% for item in include.items %}
+  {% if item.video %}
+    {% include pj/video.html src=item.video webm=item.webm poster=item.poster caption=item.caption autoplay=item.autoplay preload=item.preload %}
+  {% elsif item.youtube %}
+    {% include pj/youtube.html id=item.youtube caption=item.caption %}
+  {% elsif item.image %}
+    {% include pj/figure.html src=item.image alt=item.alt caption=item.caption %}
+  {% endif %}
+{% endfor %}
+</div>
