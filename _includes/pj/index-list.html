@@ -14,7 +14,7 @@
         {% if p.hero.webm %}<source src="{{ base_path }}/images/{{ p.hero.webm }}" type="video/webm">{% endif %}
         <source src="{{ base_path }}/images/{{ p.hero.video }}" type="video/mp4">
       </video>
-      {% elsif _img %}<img src="{{ base_path }}/images/{{ _img }}" alt="" loading="lazy">{% endif %}
+      {% elsif _img %}<img src="{{ base_path }}/images/{{ _img }}" alt="" loading="lazy"{% if p.card_position %} style="object-position: {{ p.card_position }}"{% endif %}>{% endif %}
     </div>
     <div class="pj-row__text">
       <p class="pj-row__meta">{% if p.org %}{{ p.org }}{% endif %}{% if p.org and p.duration %} · {% endif %}{{ p.duration | default: p.date | date: "%B %Y" }}</p>

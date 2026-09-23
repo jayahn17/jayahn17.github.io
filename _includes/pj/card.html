@@ -9,7 +9,7 @@
       {% if _p.hero.webm %}<source src="{{ base_path }}/images/{{ _p.hero.webm }}" type="video/webm">{% endif %}
       <source src="{{ base_path }}/images/{{ _p.hero.video }}" type="video/mp4">
     </video>
-    {% elsif _img %}<img src="{{ base_path }}/images/{{ _img }}" alt="" loading="lazy">{% endif %}
+    {% elsif _img %}<img src="{{ base_path }}/images/{{ _img }}" alt="" loading="lazy"{% if _p.card_position %} style="object-position: {{ _p.card_position }}"{% endif %}>{% endif %}
   </div>
   <div class="pj-card__text">
     <h3 class="pj-card__title">{{ _p.title | markdownify | remove: '<p>' | remove: '</p>' }}</h3>
