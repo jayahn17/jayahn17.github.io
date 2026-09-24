@@ -219,6 +219,12 @@ p {
   background: #1a1a1a;
 }
 
+/* Portrait photos: show the whole image, letterboxed on the dark thumbnail background. */
+.publication-thumbnail img.fit-contain {
+  object-fit: contain;
+  background: #1a1a1a;
+}
+
 .publication-thumbnail:hover {
   border-color: rgba(74, 158, 255, 0.65);
   transform: translateY(-2px);
@@ -373,7 +379,7 @@ p {
       <a href="mailto:jayahn@berkeley.edu">jayahn@berkeley.edu</a> · (628) 529-6598
     </div>
     <div class="social-links">
-      <a href="{{ '/portfolio/' | relative_url }}">Portfolio</a>
+      <a href="{{ '/projects/' | relative_url }}">Projects</a>
       <a href="{{ '/cv/' | relative_url }}">CV</a>
       <a href="https://github.com/jayahn17" target="_blank" rel="noopener">GitHub</a>
       <a href="https://www.linkedin.com/in/seongjae-ahn-126838244/" target="_blank" rel="noopener">LinkedIn</a>
@@ -514,7 +520,7 @@ I have always been fascinated by the interaction between computers and the physi
   <li class="publication-item">
     <span class="publication-number">2.</span>
     <div class="publication-thumbnail">
-      <img loading="lazy" src="{{ '/images/me226_espresso_teaser.jpg' | relative_url }}" alt="Grizzly Chiller two-stage espresso cooling loop">
+      <img loading="lazy" class="fit-contain" src="{{ '/images/me226_espresso_teaser.jpg' | relative_url }}" alt="Grizzly Chiller two-stage espresso cooling loop">
       <div class="publication-tag">ME226</div>
     </div>
     <div class="publication-content">
