@@ -22,8 +22,9 @@ header:
   teaser: "TAF_Lab_1.jpeg"
 hero:
   image: "TAF_Lab_1.jpeg"
-  alt: "CAPTAIN ocean drone prototype with the TAF Lab team"
-  caption: "**The prototype.** CAPTAIN at the Theoretical & Applied Fluid Dynamics (TAF) Lab, UC Berkeley. Marine-grade power and sensor layout inside a custom autonomous drone shell."
+  alt: "CAPTAIN ocean drone prototype floating on open water"
+  narrow: true
+  caption: "**CAPTAIN on the water.** The prototype built at the Theoretical & Applied Fluid Dynamics (TAF) Lab, UC Berkeley: marine-grade power and sensor layout inside a custom autonomous drone shell."
 stats:
   - { value: "50+", label: "ocean tests analyzed" }
   - { value: "7+", label: "sensors integrated" }
@@ -57,7 +58,7 @@ stats:
 
 **Data and reliability engineering.** I built an end-to-end data pipeline from firmware logs to a Python processing database, and standardized filename conventions, metadata tags, and field-run checkpoints so that runs could be compared across tests.
 
-{% include pj/figure.html src="TAFlab_lolus.jpeg" caption="**Field testing.** Every sea trial was logged and post-processed the same way, which made run-level postmortems possible." %}
+{% include pj/figure.html src="TAFlab_lolus.jpeg" caption="**The team with the prototype.** CAPTAIN on its stand next to the project poster." %}
 
 ## Field execution
 

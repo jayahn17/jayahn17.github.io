@@ -1,3 +1,0 @@
-# Overrides for branch preview builds (Vercel). Keeps asset links root-relative
-# instead of pointing at https://jayahn17.github.io, so a preview serves its own CSS and media.
-url: ""
