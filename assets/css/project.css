@@ -223,6 +223,17 @@
 /* Uniform tiles so captions line up; modifiers for portrait sets and for images that must not be cropped. */
 .pj-grid > .pj-fig img { aspect-ratio: 16 / 10; object-fit: cover; }
 .pj-grid--tall > .pj-fig img { aspect-ratio: 3 / 4; }
+.pj-grid--landscape > .pj-fig img { aspect-ratio: 4 / 3; }
+.pj-grid--narrow { max-width: var(--pj-text); }
+
+/* Portrait image beside its caption: keeps a tall photo from dominating the column. */
+.pj-fig--side {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  gap: 1.5rem;
+  align-items: center;
+}
+.pj-fig--side figcaption { margin: 0; font-size: 0.95em; line-height: 1.6; }
 .pj-grid--contain > .pj-fig img { object-fit: contain; }
 
 /* Steps strip ------------------------------------------------------------- */
@@ -299,6 +310,7 @@
   .pj-title { font-size: 1.8em; }
   .pj-deck { font-size: 1.08em; }
   .pj-grid--2, .pj-grid--3, .pj-grid--4 { grid-template-columns: 1fr; }
+  .pj-fig--side { grid-template-columns: 1fr; gap: 0.7rem; }
   .pj-more__grid { grid-template-columns: 1fr; }
   .pj-row { grid-template-columns: 1fr; gap: 0.9rem; padding: 1.4rem 0; }
   .pj-stats { gap: 0.9em 1.6em; }

@@ -5,7 +5,7 @@
         - { video: a.mp4, poster: a.png, caption: "...", autoplay: true }
         - { image: b.png, caption: "..." }
         - { youtube: VIDEOID, caption: "..." }
-  {% include pj/grid.html items=page.media.results cols=2 class="pj-grid--tall" %}   (class: pj-grid--tall | pj-grid--contain)
+  {% include pj/grid.html items=page.media.results cols=2 class="pj-grid--tall" %}   (class: pj-grid--landscape | pj-grid--tall | pj-grid--contain | pj-grid--narrow; items may set position: "50% 70%" to aim the crop)
 {% endcomment %}
 {% assign _cols = include.cols | default: 2 %}
 <div class="pj-grid pj-grid--{{ _cols }}{% if include.class %} {{ include.class }}{% endif %}{% if include.wide %} pj-fig--wide{% endif %}">
@@ -15,7 +15,7 @@
   {% elsif item.youtube %}
     {% include pj/youtube.html id=item.youtube caption=item.caption %}
   {% elsif item.image %}
-    {% include pj/figure.html src=item.image alt=item.alt caption=item.caption %}
+    {% include pj/figure.html src=item.image alt=item.alt caption=item.caption position=item.position %}
   {% endif %}
 {% endfor %}
 </div>

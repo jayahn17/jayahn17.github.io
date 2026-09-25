@@ -19,14 +19,10 @@ share: false
 teaser: "me226_espresso_teaser.jpg"
 header:
   teaser: "me226_espresso_teaser.jpg"
-card_image: "me226_espresso_teaser.jpg"
-card_position: "50% 12%"   # portrait photo: anchor the 16:10 card crop near the top so the coil shows
 hero:
-  video: "me226_espresso_demo.mp4"
-  poster: "me226_espresso_teaser.jpg"
-  preload: "none"
-  narrow: true
-  caption: "**Full run, one take.** From the brew reservoir through the copper coil and the Peltier block to the cup. The claim is a temperature, so the demo is the measurement."
+  image: "me226_espresso_teaser.jpg"
+  alt: "Pump, buck converter, and the ducted copper coil of the two-stage cooling loop"
+  caption: "**Intake and Stage 1.** A 12 V high-temperature pump in 3D-printed brackets feeds 10 ft of ¼″ copper tubing inside a printed shroud. Two fans force air across the coil while the drink is far above ambient, where Newton cooling is most effective."
 stats:
   - { value: "73 → 11.3 °C", label: "reservoir to cup, on camera" }
   - { value: "~520 W", label: "average heat rejection needed" }
@@ -38,14 +34,16 @@ steps:
   - { label: "Outlet · 10–20 °C target", title: "The cup", text: "Insulated silicone tubing carries the chilled espresso to the cup. Measured on camera: **11.3 °C**, full strength, no meltwater." }
 media:
   hardware:
-    - { image: "me226_espresso_teaser.jpg", caption: "**Intake and Stage 1.** A high-temperature pump in 3D-printed brackets feeds 10 ft of ¼″ copper tubing inside a printed shroud. Two fans force air across the coil while the drink is far above ambient, where Newton cooling is most effective." }
-    - { image: "me226_espresso_coil.jpg", caption: "**Coil exit.** The spiral dumps the bulk load, then hands a much cooler stream to Stage 2. Worm-gear clamps and a short silicone coupler keep the joint from leaking under pump pressure." }
-    - { image: "me226_espresso_peltier.jpg", caption: "**Stage 2, the Grizzly Chiller.** Espresso enters the aluminum water block on a TEC1-12706 module. Foam insulation on the cold-side lines limits heat gain; a full tower cooler rejects both the heat removed from the drink and the module's electrical power." }
+    - { image: "me226_espresso_coil.jpg", position: "50% 12%", caption: "**Stage 1 coil.** The spiral dumps the bulk load, then hands a much cooler stream to Stage 2, where worm-gear clamps and a short silicone coupler keep the joint from leaking under pump pressure." }
+    - { image: "me226_espresso_peltier.jpg", position: "50% 100%", caption: "**Stage 2, the Grizzly Chiller.** Espresso enters the aluminum water block on a TEC1-12706 module. Foam insulation on the cold-side lines limits heat gain; a full tower cooler rejects both the heat removed from the drink and the module's electrical power." }
   run:
-    - { image: "me226_espresso_hot.jpg", caption: "**1 · Inlet: 73.3 °C.** Fresh espresso in the brew reservoir at the start of the filmed run." }
-    - { image: "me226_espresso_mid.jpg", caption: "**2 · First milliliters: 26.4 °C.** Residual heat in the lines keeps the initial pour cool rather than chilled. This is the purge, not the serving temperature." }
-    - { image: "me226_espresso_approach.jpg", caption: "**3 · Steady: 13.8 °C.** Once the coil and cold block are fully wetted, the output enters the iced-serving range." }
-    - { image: "me226_espresso_cold.jpg", caption: "**4 · The cup: 11.3 °C.** Still dispensing undiluted espresso at the target serving temperature." }
+    - { image: "me226_espresso_hot.jpg", position: "50% 50%", caption: "**1 · Inlet: 73.3 °C.** Fresh espresso in the brew reservoir at the start of the filmed run." }
+    - { image: "me226_espresso_mid.jpg", position: "50% 55%", caption: "**2 · First milliliters: 26.4 °C.** Residual heat in the lines keeps the initial pour cool rather than chilled. This is the purge, not the serving temperature." }
+    - { image: "me226_espresso_approach.jpg", position: "50% 72%", caption: "**3 · Steady: 13.8 °C.** Once the coil and cold block are fully wetted, the output enters the iced-serving range." }
+    - { image: "me226_espresso_cold.jpg", position: "50% 15%", caption: "**4 · The cup: 11.3 °C.** Still dispensing undiluted espresso at the target serving temperature." }
+  videos:
+    - { video: "me226_espresso_demo.mp4", poster: "posters/me226_espresso_demo.jpg", preload: "none", caption: "**Full run, one take.** From the brew reservoir through the copper coil and the Peltier block to the cup. The claim is a temperature, so the demo is the measurement." }
+    - { video: "me226_espresso_temp.mp4", poster: "posters/me226_espresso_temp.jpg", caption: "**The number that matters.** Probe in the cup while the machine is still pouring: **11.3 °C**." }
 ---
 
 <p class="pj-lede">Conventional iced espresso is a compromise. Waiting degrades the crema and oxidizes the shot, ice dilutes the drink as it melts, and cold brew is a different beverage that takes about twelve hours. This machine treats iced espresso as a heat-rejection problem: a two-stage liquid-cooling loop, adapted from PC water-cooling hardware, uses the espresso itself as the working fluid.</p>
@@ -56,17 +54,17 @@ media:
 
 The whole loop lives on one plywood board so a demo can be walked rather than explained. Power, pump, coil, and cold block sit in the same order the espresso travels.
 
-{% include pj/figure.html src="me226_espresso_rig.jpg" narrow=true caption="**The loop.** The marble brew reservoir and 12 V pump on the left; the ducted copper coil between two Arctic fans at the upper right; the Thermal Grizzly Peltier stack on the tower cooler at the lower right. The buck converter beneath the pump is the only control: reducing flow increases residence time in both heat exchangers." %}
+{% include pj/figure.html src="me226_espresso_rig.jpg" side=true caption="**The loop.** The marble brew reservoir and 12 V pump on the left; the ducted copper coil between two Arctic fans at the upper right; the Thermal Grizzly Peltier stack on the tower cooler at the lower right. The buck converter beneath the pump is the only control: reducing flow increases residence time in both heat exchangers." %}
 
-{% include pj/grid.html items=page.media.hardware cols=3 class="pj-grid--tall" %}
+{% include pj/grid.html items=page.media.hardware cols=2 class="pj-grid--landscape" %}
 
 ## A filmed run: 73 °C in, 11 °C out
 
 One probe in the brew reservoir, one in the cup, camera rolling the whole way. The temperature staircase is the workflow: **73 → 26 → 14 → 11 °C** as the loop comes onto condition. Stage 1 does the long drop toward ambient; Stage 2 crosses room temperature and lands in the 10–20 °C iced-drink window.
 
-{% include pj/grid.html items=page.media.run cols=4 class="pj-grid--tall" %}
+{% include pj/grid.html items=page.media.run cols=2 class="pj-grid--landscape" %}
 
-{% include pj/video.html src="me226_espresso_temp.mp4" poster="posters/me226_espresso_temp.jpg" narrow=true caption="**The number that matters.** Probe in the cup while the machine is still pouring: **11.3 °C**." %}
+{% include pj/grid.html items=page.media.videos cols=2 class="pj-grid--narrow" %}
 
 ## Why two stages are necessary
 
