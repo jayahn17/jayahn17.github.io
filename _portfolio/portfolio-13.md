@@ -19,10 +19,12 @@ share: false
 teaser: "me226_espresso_teaser.jpg"
 header:
   teaser: "me226_espresso_teaser.jpg"
+card_position: "50% 35%"   # portrait teaser: aim the 16:10 card crop at the coil
 hero:
   image: "me226_espresso_teaser.jpg"
-  alt: "Pump, buck converter, and the ducted copper coil of the two-stage cooling loop"
-  caption: "**Intake and Stage 1.** A 12 V high-temperature pump in 3D-printed brackets feeds 10 ft of ¼″ copper tubing inside a printed shroud. Two fans force air across the coil while the drink is far above ambient, where Newton cooling is most effective."
+  alt: "The ducted copper coil of the two-stage cooling loop, with the insulated line to the Peltier block"
+  narrow: true
+  caption: "**Stage 1: copper coil and fans.** 10 ft of ¼″ copper tubing sits inside a printed shroud, and two fans force air across it while the drink is far above ambient, where Newton cooling is most effective. The insulated line at the bottom carries the pre-cooled stream on to the Peltier block."
 stats:
   - { value: "73 → 11.3 °C", label: "reservoir to cup, on camera" }
   - { value: "~520 W", label: "average heat rejection needed" }
