@@ -43,7 +43,7 @@ steps:                     # optional pipeline strip, rendered with pj/steps.htm
 media:                     # named grids, rendered with pj/grid.html
   results:
     - { video: "a.mp4", poster: "a.png", autoplay: true, caption: "**Stage 1.** ..." }
-    - { image: "b.png", caption: "..." }
+    - { image: "b.png", position: "50% 70%", caption: "..." }   # position aims the crop
     - { youtube: "VIDEOID", caption: "..." }
 ---
 ```
@@ -54,8 +54,9 @@ Body building blocks (all in `_includes/pj/`):
 <p class="pj-lede">Problem, approach, and punchline in three sentences.</p>
 {% include pj/steps.html items=page.steps %}
 {% include pj/figure.html src="diagram.png" wide=true caption="**Figure lead.** Explanation." %}
+{% include pj/figure.html src="portrait.jpg" side=true caption="Portrait photo beside its caption." %}
 {% include pj/video.html src="clip.mp4" poster="poster.png" autoplay=true caption="..." %}
-{% include pj/grid.html items=page.media.results cols=2 %}
+{% include pj/grid.html items=page.media.results cols=2 class="pj-grid--landscape" %}  <!-- or pj-grid--tall, pj-grid--contain, pj-grid--narrow -->
 {% include pj/youtube.html id="VIDEOID" caption="..." %}
 ```
 
