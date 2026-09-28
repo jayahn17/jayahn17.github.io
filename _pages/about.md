@@ -573,6 +573,21 @@ I have always been fascinated by the interaction between computers and the physi
   <li class="publication-item">
     <span class="publication-number">5.</span>
     <div class="publication-thumbnail">
+      <img loading="lazy" src="{{ '/images/me102b/assembly.jpg' | relative_url }}" alt="ME102B robotic fish assembly">
+      <div class="publication-tag">ME102B</div>
+    </div>
+    <div class="publication-content">
+      <div class="publication-title"><a href="{{ '/portfolio/portfolio-14/' | relative_url }}">Robotic Fish: A Damped-Sine Tail on One DC Motor</a></div>
+      <div class="publication-venue">Designed the tail mechanism for an ESP32-controlled robotic fish: one DC motor turns a rod bent to a damped sine wave, with two servo pectoral fins for steering. Second place at the ME102B design showcase.</div>
+      <div class="publication-links">
+        <a href="{{ '/portfolio/portfolio-14/' | relative_url }}" class="publication-link">Project Page</a>
+      </div>
+    </div>
+  </li>
+
+  <li class="publication-item">
+    <span class="publication-number">6.</span>
+    <div class="publication-thumbnail">
       <video controls muted playsinline preload="metadata" style="width: 100%; height: 100%; object-fit: cover;" poster="{{ '/images/caliber_pg1.png' | relative_url }}">
         <source src="{{ '/images/caliber_demo_part1.mp4' | relative_url }}" type="video/mp4">
       </video>

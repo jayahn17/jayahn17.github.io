@@ -235,6 +235,8 @@
 }
 .pj-fig--side figcaption { margin: 0; font-size: 0.95em; line-height: 1.6; }
 .pj-grid--contain > .pj-fig img { object-fit: contain; }
+.pj-grid--natural { align-items: start; }
+.pj-grid--natural > .pj-fig img { aspect-ratio: auto; object-fit: fill; }
 
 /* Steps strip ------------------------------------------------------------- */
 .pj-steps {
