@@ -56,7 +56,7 @@ Body building blocks (all in `_includes/pj/`):
 {% include pj/figure.html src="diagram.png" wide=true caption="**Figure lead.** Explanation." %}
 {% include pj/figure.html src="portrait.jpg" side=true caption="Portrait photo beside its caption." %}
 {% include pj/video.html src="clip.mp4" poster="poster.png" autoplay=true caption="..." %}
-{% include pj/grid.html items=page.media.results cols=2 class="pj-grid--landscape" %}  <!-- or pj-grid--tall, pj-grid--contain, pj-grid--narrow -->
+{% include pj/grid.html items=page.media.results cols=2 class="pj-grid--landscape" %}  <!-- or pj-grid--tall, pj-grid--contain, pj-grid--natural (keep each image's own shape), pj-grid--narrow -->
 {% include pj/youtube.html id="VIDEOID" caption="..." %}
 ```
 
