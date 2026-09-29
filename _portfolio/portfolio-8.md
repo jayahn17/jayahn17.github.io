@@ -21,7 +21,7 @@ hero:
   video: "me231_result_1.mp4"
   poster: "me231_result_1.png"
   autoplay: true
-  caption: "**Reverse navigation.** The trailer is steered backwards around obstacles while the MPC keeps articulation and heading inside their constraint sets."
+  caption: "**Results with moving obstacles.** Two truck-trailer runs from the results slides, with the MPC enforcing obstacle constraints, followed by a comparison of the MPC runs."
 stats:
   - { value: "3+", label: "moving obstacles handled" }
   - { value: "2 modes", label: "forward and reverse planning" }

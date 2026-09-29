@@ -21,14 +21,14 @@ hero:
   video: "me239_jump.mp4"
   poster: "posters/me239_jump.jpg"
   autoplay: true
-  caption: "**Forward jump.** All four legs are coordinated through takeoff, flight, and landing by a phase-based controller."
+  caption: "**Forward jump in simulation.** The four-legged robot crouching and jumping under the phase-based controller."
 media:
   matlab:
-    - { video: "me239_spider_jump_1.mp4", poster: "posters/me239_spider_jump_1.jpg", autoplay: true, caption: "**Jump cycle.** Synchronized forward-jump trajectory profiles across all four legs." }
-    - { video: "me239_backflip.mp4", poster: "posters/me239_backflip.jpg", autoplay: true, caption: "**Backflip.** The same phase machinery driving a more aggressive maneuver." }
+    - { video: "me239_spider_jump_1.mp4", poster: "posters/me239_spider_jump_1.jpg", autoplay: true, caption: "**Spider reference and robot.** High-speed frames of a real jumping spider at 76 ms and 92 ms (left) beside the simulated robot's jump (right)." }
+    - { video: "me239_backflip.mp4", poster: "posters/me239_backflip.jpg", autoplay: true, caption: "**Backflip.** The simulated robot rotating through a backflip." }
   isaac:
-    - { video: "me239_isaac_video.mp4", poster: "posters/me239_isaac_video.jpg", preload: "none", caption: "**Isaac Sim.** The validated controller running on the URDF model under a higher-fidelity physics engine." }
-    - { video: "me239_isaac_full.mp4", webm: "me239_isaac.webm", poster: "posters/me239_isaac_full.jpg", preload: "none", caption: "**Isaac Lab.** Full session, including the dynamic response and stability traces used to assess RL readiness." }
+    - { video: "me239_isaac_video.mp4", poster: "posters/me239_isaac_video.jpg", preload: "none", caption: "**Isaac Sim.** The robot's URDF model running in NVIDIA Isaac Sim, shown from several camera angles." }
+    - { video: "me239_isaac_full.mp4", webm: "me239_isaac.webm", poster: "posters/me239_isaac_full.jpg", preload: "none", caption: "**Longer Isaac Sim session.** The robot over a longer run, with its leg motion shown from several viewpoints." }
 ---
 
 <p class="pj-lede">Jumping is the hardest thing to ask of a small legged robot: every leg has to leave the ground at the same instant and every leg has to land. This project derives the kinematics that make coordinated leg motion feasible, builds a jump controller on top of them, and checks that the same behavior holds when the model moves from MATLAB into a physics engine.</p>

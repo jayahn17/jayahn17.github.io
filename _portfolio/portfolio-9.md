@@ -38,7 +38,7 @@ steps:
 media:
   stage1:
     - { video: "icon_front_video.mp4", poster: "icon_front_video.png", autoplay: true, caption: "**Stage 1.** Skill-decomposed unimanual pick, place, and retreat in robosuite / MuJoCo." }
-    - { video: "icon_can_pickandplace.mp4", poster: "posters/icon_can_pickandplace.jpg", autoplay: true, caption: "**Shared policy sets.** Pick-and-place with one skill set per object type." }
+    - { video: "icon_can_pickandplace.mp4", poster: "posters/icon_can_pickandplace.jpg", autoplay: true, caption: "**Can pick-and-place.** A single arm moving the red can into its bin, using one of the per-object-type skill sets." }
   stage2:
     - { video: "icon_bimanual_demo.mp4", poster: "posters/icon_bimanual_demo.jpg", autoplay: true, caption: "**Stage 2.** Two arms running the identical per-skill policies through the skill router and zone locks." }
     - { video: "icon_handover.mp4", poster: "posters/icon_handover.jpg", autoplay: true, caption: "**Bimanual peg-in-hole.** One policy, trained from a single demonstration trajectory." }
