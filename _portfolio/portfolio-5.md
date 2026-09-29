@@ -23,17 +23,17 @@ hero:
   video: "kha_move.mp4"
   poster: "kha_grab_img.png"
   autoplay: true
-  caption: "**Leader/follower teleoperation.** A 12-DOF puppet controller built on Dynamixel XC-330 servos drives the 13-DOF humanoid arm in Isaac Sim."
+  caption: "**The humanoid arm in Isaac Sim.** The 13-DOF arm moving through the kitchen scene: the simulation side of the leader/follower teleoperation setup."
 stats:
   - { value: "13 DOF", label: "simulated humanoid arm" }
   - { value: "12 DOF", label: "servo-driven leader controller" }
   - { value: "5", label: "camera viewpoints per episode" }
 media:
   capture:
-    - { video: "kha_grab_little.mp4", poster: "posters/kha_grab_little.jpg", autoplay: true, caption: "**Grasping in simulation.** Follower arm tracking the leader through a small-object grasp." }
-    - { video: "kha_khaleisaac_top.mp4", webm: "kha_khaleisaac_top.webm", poster: "posters/kha_khaleisaac_top.jpg", preload: "none", caption: "**Top camera, full episode.** One of the five LeIsaac viewpoints recorded for dataset generation." }
+    - { video: "kha_grab_little.mp4", poster: "posters/kha_grab_little.jpg", autoplay: true, caption: "**Grasping in simulation.** The arm reaching for and closing on a ball at the kitchen counter." }
+    - { video: "kha_khaleisaac_top.mp4", webm: "kha_khaleisaac_top.webm", poster: "posters/kha_khaleisaac_top.jpg", preload: "none", caption: "**Full two-arm episode.** The humanoid working through a kitchen manipulation episode in Isaac Sim." }
   training:
-    - { video: "kha_leisaac_so101.mp4", webm: "kha_leisaac_so101.webm", poster: "posters/kha_leisaac_so101.jpg", preload: "none", caption: "**LeIsaac workflow.** Camera sync, URDF-to-USD conversion, and validation for imitation-learning datasets." }
+    - { video: "kha_leisaac_so101.mp4", webm: "kha_leisaac_so101.webm", poster: "posters/kha_leisaac_so101.jpg", preload: "none", caption: "**LeIsaac with an SO-101 arm.** The LeIsaac kitchen task, with the arm picking oranges and the video cycling through the scene's camera views." }
     - { youtube: "YaZquZc88fw", caption: "**Walkthrough.** Isaac Sim / Isaac Lab pipeline for the humanoid arm." }
 ---
 
@@ -50,7 +50,7 @@ media:
 
 The workflow runs end to end from robot import to dynamic behavior verification. Articulation properties, collision primitives, and controller timing were configured for stable real-time simulation, and simulation settings were aligned with the training-data requirements from the start so that captured episodes could feed learning runs without a second conversion step.
 
-{% include pj/figure.html src="kha_top_cam.png" wide=true caption="**Five viewpoints.** Front, back, left, right, and chest cameras cover the manipulation envelope. Viewpoint combinations were validated against the interaction volume to reduce occlusion for both the operator and the dataset." %}
+{% include pj/figure.html src="kha_top_cam.png" wide=true caption="**The kitchen scene.** The two-arm humanoid at the counter in Isaac Sim. Five cameras (front, back, left, right, and chest) record each episode, placed to reduce occlusion for both the operator and the dataset." %}
 
 ## Control architecture
 

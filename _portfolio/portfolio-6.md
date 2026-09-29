@@ -21,7 +21,7 @@ hero:
   webm: "MSC_WL2Isaac.webm"
   poster: "MSC_WL2Isaac.png"
   autoplay: true
-  caption: "**Pipeline demo.** A WorldLab.ai scene reconstructed with 3DGRUT, converted, and loaded into NVIDIA Isaac Lab."
+  caption: "**Pipeline demo.** A WorldLab.ai room reconstructed with 3DGRUT and loaded into NVIDIA Isaac Sim, with the camera moving through the scene."
 steps:
   - { label: "1", title: "Render-to-image", text: "Standardized capture settings and preprocessing keep reconstruction inputs consistent." }
   - { label: "2", title: "Reconstruct + convert", text: "WorldLab.ai and NVIDIA 3DGRUT outputs pass through one processing graph with GPU-accelerated geometry reconstruction and conversion filters." }

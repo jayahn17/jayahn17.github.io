@@ -22,11 +22,11 @@ links:
 hero:
   image: "caliber_pg1.png"
   alt: "Caliber landing page"
-  caption: "**Landing page.** Projects are surfaced as cards with consistent metadata, so browsing and comparing work takes seconds instead of a search across scattered repositories."
+  caption: "**Caliber Explore.** Projects laid out as a similarity graph, with a chat panel that answers questions about them and a side panel that opens the selected project's report."
 media:
   demo:
-    - { video: "caliber_demo_part1.mp4", poster: "caliber_pg1.png", preload: "none", caption: "**Demo, part 1.** Browsing and filtering." }
-    - { video: "caliber_demo_part2.mp4", poster: "caliber_pg2.png", preload: "none", caption: "**Demo, part 2.** Project detail pages and contributor flow." }
+    - { video: "caliber_demo_part1.mp4", poster: "caliber_pg1.png", preload: "none", caption: "**Demo, part 1.** Browsing the similarity graph and opening project reports." }
+    - { video: "caliber_demo_part2.mp4", poster: "caliber_pg2.png", preload: "none", caption: "**Demo, part 2.** Adjusting the similarity threshold and asking the chat for \"robotic animals\", which lists matching projects and opens one." }
 ---
 
 <p class="pj-lede">Undergraduate project work at Berkeley was scattered, difficult to browse, and easy to miss. Caliber, built in ENGIN 283 (AI Startup), reduces discovery time for students, alumni, and collaborators looking for reusable work.</p>
@@ -41,13 +41,13 @@ media:
 
 I defined the metadata schema used for project cards, search indexing, and detail pages, and designed a responsive UI with a clear visual hierarchy across devices. Discovery is driven by category- and technology-based filters rather than free-text search alone.
 
-{% include pj/figure.html src="caliber_front.png" wide=true caption="**Project cards.** Every card is generated from the same schema, so technical metadata stays readable and comparable across hundreds of projects." %}
+{% include pj/figure.html src="caliber_front.png" wide=true caption="**Search by chat.** Queries such as robot, fish, and wire return matching projects in the chat, and selecting one opens its report in the side panel." %}
 
 ## Data management
 
 Project ingestion and normalization were structured so contributor submissions used consistent fields, with display controls to keep technical metadata legible. Metadata logic is separated from presentation components to prepare for future file-management features.
 
-{% include pj/figure.html src="caliber_pg2.png" wide=true caption="**Detail page.** One layout for every project, populated from the ingested metadata." %}
+{% include pj/figure.html src="caliber_pg2.png" wide=true caption="**Similarity map.** Clusters of related projects, with the chat summarizing the top matches for a query." %}
 
 ## Demo
 

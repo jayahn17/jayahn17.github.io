@@ -23,10 +23,10 @@ hero:
   caption: "**Deployed.** The monitoring device installed at a field location, where the enclosure, mounting, and service access all get tested by weather rather than by a lab bench."
 media:
   design:
-    - { image: "root_microfluid_CAD.png", caption: "**Microfluidics CAD.** Channel and valve geometry designed around SLA manufacturing constraints." }
-    - { image: "root_microfluid_door_SLA.jpg", caption: "**SLA-printed door.** The motorized microfluidic door component, printed and tested for repeatable closure." }
-    - { image: "root_protector.png", caption: "**Protector housing.** Splash resistance and impact tolerance for outdoor monitoring." }
-    - { image: "root_maintenance_1.jpeg", caption: "**Maintenance.** Access points and fixture interfaces planned so an operator can service the unit on site." }
+    - { image: "root_microfluid_CAD.png", caption: "**Microfluidic housing (CAD).** The body and door geometry, designed around SLA printing constraints." }
+    - { image: "root_microfluid_door_SLA.jpg", caption: "**SLA-printed door.** The door part for the motorized microfluidic mechanism, printed in clear resin." }
+    - { image: "root_protector.png", caption: "**Protector (CAD).** The two-part protector ring from the enclosure design." }
+    - { image: "root_maintenance_1.jpeg", caption: "**Field maintenance.** A wasp nest found built inside a deployed unit's housing, the kind of insect intrusion the insect-resistant enclosures were designed to keep out." }
 ---
 
 <p class="pj-lede">Root Applied Sciences builds a pathogen monitoring platform for environmental deployment. The hardware has to be manufacturable, easy to service, and robust outside the lab, while still preserving microfluidic precision. I worked on the mechanical side of that trade-off.</p>
@@ -45,7 +45,7 @@ I designed motorized microfluidic door mechanisms to improve sample-handling rep
 
 ## Housing and field readiness
 
-The protective enclosures were designed for splash resistance and impact tolerance, with maintenance-friendly access points and fixture interfaces to simplify service. Microfluidic modules were integrated with sensor interfaces for automated detection workflows. I also wrote deployment and maintenance procedures that reduced setup ambiguity for operators, and verified that key mechanical tolerances held across repeated installation cycles.
+The protective enclosures were designed for splash resistance and impact tolerance, with maintenance-friendly access points and fixture interfaces to simplify service. Microfluidic modules were integrated with sensor interfaces for automated detection workflows. Insect intrusion was a real field failure mode, so I also designed and fabricated insect-resistant PCB enclosures, which eliminated insect-related field failures. I also wrote deployment and maintenance procedures that reduced setup ambiguity for operators, and verified that key mechanical tolerances held across repeated installation cycles.
 
 ## Results
 
