@@ -21,7 +21,7 @@ hero:
   video: "me231_result_1.mp4"
   poster: "me231_result_1.png"
   autoplay: true
-  caption: "**Reverse navigation.** The trailer is steered backwards around obstacles while the MPC keeps articulation and heading inside their constraint sets."
+  caption: "**Forward navigation with moving obstacles.** Results slides from the final presentation: the truck pulls the trailer from the green start to the red target past one or three moving obstacles, while the MPC keeps the articulation angle within its limits."
 stats:
   - { value: "3+", label: "moving obstacles handled" }
   - { value: "2 modes", label: "forward and reverse planning" }
@@ -50,7 +50,7 @@ stats:
 - Multi-obstacle support, validated with three or more moving obstacles.
 - Trajectory quality evaluated for obstacle clearance and convergence in both motion directions.
 
-{% include pj/youtube.html id="OLZXH1YNP-M" wide=true caption="**Full demonstration.** Forward and reverse scenarios with moving obstacles, including cases where adaptive relaxation is needed to recover feasibility." %}
+{% include pj/youtube.html id="OLZXH1YNP-M" wide=true caption="**Final presentation.** The team's recorded ME231 talk covers the truck-trailer models, constraints, and MPC formulation, then shows forward and reverse runs with moving obstacles." %}
 
 ## Results
 

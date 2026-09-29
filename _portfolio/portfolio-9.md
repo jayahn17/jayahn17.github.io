@@ -38,7 +38,7 @@ steps:
 media:
   stage1:
     - { video: "icon_front_video.mp4", poster: "icon_front_video.png", autoplay: true, caption: "**Stage 1.** Skill-decomposed unimanual pick, place, and retreat in robosuite / MuJoCo." }
-    - { video: "icon_can_pickandplace.mp4", poster: "posters/icon_can_pickandplace.jpg", autoplay: true, caption: "**Shared policy sets.** Pick-and-place with one skill set per object type." }
+    - { video: "icon_can_pickandplace.mp4", poster: "posters/icon_can_pickandplace.jpg", autoplay: true, caption: "**Single-arm can pick-and-place.** One arm lifts the red can out of the source bin and sets it in the target bin, in the same robosuite / MuJoCo scene." }
   stage2:
     - { video: "icon_bimanual_demo.mp4", poster: "posters/icon_bimanual_demo.jpg", autoplay: true, caption: "**Stage 2.** Two arms running the identical per-skill policies through the skill router and zone locks." }
     - { video: "icon_handover.mp4", poster: "posters/icon_handover.jpg", autoplay: true, caption: "**Bimanual peg-in-hole.** One policy, trained from a single demonstration trajectory." }
@@ -80,7 +80,7 @@ The final stage scales to four arms with two instances of each object type, and 
 - **The coordinator.** A pluggable planner decides who picks what, in what order, and with what retry budget, from reachability checks and per-skill success priors. It runs as Anthropic Claude with structured-JSON plans when an API key is present, and falls back to a deterministic planner with the same interface for fully offline runs.
 - **Cadence.** The system plans once at episode start and re-plans only after a skill failure or phase boundary, which separates slow high-level reasoning from fast per-step control.
 
-{% include pj/video.html src="icon_fourarm.mp4" poster="posters/icon_fourarm.jpg" autoplay=true narrow=true caption="**Why retry is the lever.** Whole-task success compounds multiplicatively across stages and arms, so recovering failed picks raises end-to-end success far more than polishing any single policy. At current per-skill rates, retries lift estimated success from roughly 0.70 to about 0.86." %}
+{% include pj/video.html src="icon_fourarm.mp4" poster="posters/icon_fourarm.jpg" autoplay=true narrow=true caption="**Why retry is the lever.** In this run all four objects are picked and placed on the first attempt, but whole-task success compounds multiplicatively across stages and arms, so recovering failed picks raises end-to-end success far more than polishing any single policy. At current per-skill rates, retries lift estimated success from roughly 0.70 to about 0.86." %}
 
 ## What the numbers say
 

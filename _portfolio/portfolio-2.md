@@ -23,10 +23,10 @@ hero:
   caption: "**Deployed.** The monitoring device installed at a field location, where the enclosure, mounting, and service access all get tested by weather rather than by a lab bench."
 media:
   design:
-    - { image: "root_microfluid_CAD.png", caption: "**Microfluidics CAD.** Channel and valve geometry designed around SLA manufacturing constraints." }
+    - { image: "root_microfluid_CAD.png", caption: "**Microfluidics CAD.** The microfluidic door component, modeled around SLA manufacturing constraints before it was printed." }
     - { image: "root_microfluid_door_SLA.jpg", caption: "**SLA-printed door.** The motorized microfluidic door component, printed and tested for repeatable closure." }
     - { image: "root_protector.png", caption: "**Protector housing.** Splash resistance and impact tolerance for outdoor monitoring." }
-    - { image: "root_maintenance_1.jpeg", caption: "**Maintenance.** Access points and fixture interfaces planned so an operator can service the unit on site." }
+    - { image: "root_maintenance_1.jpeg", caption: "**Maintenance.** A unit opened for service, with a wasp nest built on the air blower next to its outlet." }
 ---
 
 <p class="pj-lede">Root Applied Sciences builds a pathogen monitoring platform for environmental deployment. The hardware has to be manufacturable, easy to service, and robust outside the lab, while still preserving microfluidic precision. I worked on the mechanical side of that trade-off.</p>
