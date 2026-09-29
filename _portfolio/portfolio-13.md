@@ -19,12 +19,10 @@ share: false
 teaser: "me226_espresso_teaser.jpg"
 header:
   teaser: "me226_espresso_teaser.jpg"
-card_position: "50% 35%"   # portrait teaser: aim the 16:10 card crop at the coil
 hero:
   image: "me226_espresso_teaser.jpg"
-  alt: "The ducted copper coil of the two-stage cooling loop, with the insulated outlet line from the Peltier block"
-  narrow: true
-  caption: "**Stage 1: copper coil and fans.** 10 ft of ¼″ copper tubing sits inside a printed shroud, and two fans force air across it while the drink is far above ambient, where Newton cooling is most effective. The coil drops into a clamped coupler on the Peltier block at the lower right, and the insulated line leaving the block carries the chilled espresso on to the cup."
+  alt: "Top-down view of the whole two-stage cooling rig on its board"
+  caption: "**The whole loop on one board.** The marble brew reservoir (lower left) feeds the 12 V pump (bottom), with the buck converter beside it as the only control. The copper coil sits in its fan shroud (upper left) and runs into the Peltier stack on the tower cooler (upper right), under the team's Grizzly Chiller plate; the insulated line leaving the block carries the chilled espresso on to the cup. The power supply is at the lower right."
 stats:
   - { value: "73 → 11.3 °C", label: "reservoir to cup, on camera" }
   - { value: "~520 W", label: "average heat rejection needed" }
@@ -52,11 +50,9 @@ media:
 
 {% include pj/steps.html items=page.steps %}
 
-## The hardware, left to right
+## The hardware, stage by stage
 
-The whole loop lives on one plywood board so a demo can be walked rather than explained. Power, pump, coil, and cold block sit in the same order the espresso travels.
-
-{% include pj/figure.html src="me226_espresso_rig.jpg" side=true caption="**The loop.** The marble brew reservoir and 12 V pump on the left; the ducted copper coil between two Arctic fans at the upper right; the Peltier stack (behind the team's Grizzly Chiller plate) on the tower cooler at the lower right. The buck converter beneath the pump is the only control: reducing flow increases residence time in both heat exchangers." %}
+The whole loop lives on one plywood board so a demo can be walked rather than explained; the photo at the top of the page shows all of it. The buck converter on the pump line is the only control: reducing flow increases residence time in both heat exchangers.
 
 {% include pj/grid.html items=page.media.hardware cols=2 class="pj-grid--landscape" %}
 

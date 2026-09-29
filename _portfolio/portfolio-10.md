@@ -21,14 +21,14 @@ hero:
   video: "me239_jump.mp4"
   poster: "posters/me239_jump.jpg"
   autoplay: true
-  caption: "**Jump control.** All four legs are coordinated through takeoff, flight, and landing by a phase-based controller."
+  caption: "**Jump in simulation.** The four-legged robot crouching and jumping under the phase-based controller."
 media:
   matlab:
-    - { video: "me239_spider_jump_1.mp4", poster: "posters/me239_spider_jump_1.jpg", autoplay: true, caption: "**Jump cycle.** Side view of the simulated robot's synchronized jump: crouch, takeoff, flight, and landing. Alongside it, high-speed frames of a real spider's takeoff at 76 and 92 ms, with the leg segments traced." }
-    - { video: "me239_backflip.mp4", poster: "posters/me239_backflip.jpg", autoplay: true, caption: "**Backflip.** A more aggressive maneuver than the forward jump: the robot launches, rotates fully over in the air, and lands upright on all four legs." }
+    - { video: "me239_spider_jump_1.mp4", poster: "posters/me239_spider_jump_1.jpg", autoplay: true, caption: "**Spider reference and robot.** High-speed frames of a real jumping spider at 76 ms and 92 ms (left) beside the simulated robot's jump (right)." }
+    - { video: "me239_backflip.mp4", poster: "posters/me239_backflip.jpg", autoplay: true, caption: "**Backflip.** The simulated robot rotating through a backflip." }
   isaac:
-    - { video: "me239_isaac_video.mp4", poster: "posters/me239_isaac_video.jpg", preload: "none", caption: "**Isaac Sim.** The URDF model under a higher-fidelity physics engine, lifting and placing one leg at a time." }
-    - { video: "me239_isaac_full.mp4", webm: "me239_isaac.webm", poster: "posters/me239_isaac_full.jpg", preload: "none", caption: "**Isaac Sim, full session.** The URDF model through a whole run, from crouches and leg lifts to stepping and turning on the ground plane." }
+    - { video: "me239_isaac_video.mp4", poster: "posters/me239_isaac_video.jpg", preload: "none", caption: "**Isaac Sim.** The robot's URDF model running in NVIDIA Isaac Sim, shown from several camera angles." }
+    - { video: "me239_isaac_full.mp4", webm: "me239_isaac.webm", poster: "posters/me239_isaac_full.jpg", preload: "none", caption: "**Longer Isaac Sim session.** The robot over a longer run, with its leg motion shown from several viewpoints." }
 ---
 
 <p class="pj-lede">Jumping is the hardest thing to ask of a small legged robot: every leg has to leave the ground at the same instant and every leg has to land. This project derives the kinematics that make coordinated leg motion feasible, builds a jump controller on top of them, and checks that the same behavior holds when the model moves from MATLAB into a physics engine.</p>

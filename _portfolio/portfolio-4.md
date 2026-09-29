@@ -20,7 +20,7 @@ header:
 hero:
   image: "CalSol_suspension.png"
   alt: "CalSol front suspension as installed: the pocketed aluminum bracket bolted to the carbon-fiber chassis, with the control arms, coilover shock, and upright"
-  caption: "**Front suspension.** The consolidated bracket structure, with load paths rerouted to keep stiffness while removing mass."
+  caption: "**Front suspension.** The front suspension assembly, with its control arms, brackets, and coil-over shock."
 stats:
   - { value: "~10%", label: "mass reduction, front bracket assembly" }
   - { value: "FEA", label: "validated before fabrication" }
@@ -42,7 +42,7 @@ The front suspension bracket structure was consolidated to reduce part count and
 
 Structural simulations compared the baseline and revised bracket concepts, checking displacement and stress-concentration effects under representative loads. The results confirmed that the redesign met stiffness requirements before anything was fabricated.
 
-{% include pj/figure.html src="Calsol_battery.jpeg" caption="**Battery packaging.** Inside the battery enclosure, with its contactors, fuse, and Anderson power connectors. Interface assumptions were synced with the battery and mechanical leads, and attachment-interface changes were mapped to avoid downstream integration issues." %}
+{% include pj/figure.html src="Calsol_battery.jpeg" caption="**Battery box.** The battery enclosure and its wiring. Suspension interface changes were coordinated with the battery and mechanical leads." %}
 
 ## Results
 

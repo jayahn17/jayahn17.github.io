@@ -21,7 +21,7 @@ hero:
   video: "me231_result_1.mp4"
   poster: "me231_result_1.png"
   autoplay: true
-  caption: "**Forward navigation with moving obstacles.** Results slides from the final presentation: the truck pulls the trailer from the green start to the red target past one or three moving obstacles, while the MPC keeps the articulation angle within its limits."
+  caption: "**Results with moving obstacles.** Two truck-trailer runs from the results slides, with the MPC enforcing obstacle constraints, followed by a comparison of the MPC runs."
 stats:
   - { value: "3+", label: "moving obstacles handled" }
   - { value: "2 modes", label: "forward and reverse planning" }
