@@ -21,7 +21,7 @@ hero:
   video: "me239_jump.mp4"
   poster: "posters/me239_jump.jpg"
   autoplay: true
-  caption: "**Forward jump in simulation.** The four-legged robot crouching and jumping under the phase-based controller."
+  caption: "**Jump in simulation.** The four-legged robot crouching and jumping under the phase-based controller."
 media:
   matlab:
     - { video: "me239_spider_jump_1.mp4", poster: "posters/me239_spider_jump_1.jpg", autoplay: true, caption: "**Spider reference and robot.** High-speed frames of a real jumping spider at 76 ms and 92 ms (left) beside the simulated robot's jump (right)." }

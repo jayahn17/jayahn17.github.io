@@ -50,7 +50,7 @@ stats:
 - Multi-obstacle support, validated with three or more moving obstacles.
 - Trajectory quality evaluated for obstacle clearance and convergence in both motion directions.
 
-{% include pj/youtube.html id="OLZXH1YNP-M" wide=true caption="**Full demonstration.** Forward and reverse scenarios with moving obstacles, including cases where adaptive relaxation is needed to recover feasibility." %}
+{% include pj/youtube.html id="OLZXH1YNP-M" wide=true caption="**Final presentation.** The team's recorded ME231 talk covers the truck-trailer models, constraints, and MPC formulation, then shows forward and reverse runs with moving obstacles." %}
 
 ## Results
 

@@ -30,11 +30,11 @@ stats:
   - { value: "5", label: "camera viewpoints per episode" }
 media:
   capture:
-    - { video: "kha_grab_little.mp4", poster: "posters/kha_grab_little.jpg", autoplay: true, caption: "**Grasping in simulation.** The arm reaching for and closing on a ball at the kitchen counter." }
+    - { video: "kha_grab_little.mp4", poster: "posters/kha_grab_little.jpg", autoplay: true, caption: "**Leader/follower motion in simulation.** The follower arms track the leader: the dome-tipped arm lifts away from the bowl, then the gripper arm swings in with its jaws open." }
     - { video: "kha_khaleisaac_top.mp4", webm: "kha_khaleisaac_top.webm", poster: "posters/kha_khaleisaac_top.jpg", preload: "none", caption: "**Full two-arm episode.** The humanoid working through a kitchen manipulation episode in Isaac Sim." }
   training:
-    - { video: "kha_leisaac_so101.mp4", webm: "kha_leisaac_so101.webm", poster: "posters/kha_leisaac_so101.jpg", preload: "none", caption: "**LeIsaac with an SO-101 arm.** The LeIsaac kitchen task, with the arm picking oranges and the video cycling through the scene's camera views." }
-    - { youtube: "YaZquZc88fw", caption: "**Walkthrough.** Isaac Sim / Isaac Lab pipeline for the humanoid arm." }
+    - { video: "kha_leisaac_so101.mp4", webm: "kha_leisaac_so101.webm", poster: "posters/kha_leisaac_so101.jpg", preload: "none", caption: "**LeIsaac with an SO-101 arm.** LeIsaac's pick-orange kitchen task, teleoperated in Isaac Sim while the video cycles through the scene's camera views." }
+    - { youtube: "YaZquZc88fw", caption: "**Customized LeIsaac kitchen scene.** The dual-arm humanoid working at a kitchen counter with a plate and oranges, recorded from the Isaac Sim viewport." }
 ---
 
 <p class="pj-lede">At Khameleon Robotics I work on a simulation-first pipeline for bimanual humanoid manipulation with training-ready data capture. The objective is a stable development baseline for coordinated control and learning workflows before the more hardware-heavy iterations begin.</p>

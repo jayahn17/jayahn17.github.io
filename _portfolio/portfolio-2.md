@@ -23,7 +23,7 @@ hero:
   caption: "**Deployed.** The monitoring device installed at a field location, where the enclosure, mounting, and service access all get tested by weather rather than by a lab bench."
 media:
   design:
-    - { image: "root_microfluid_CAD.png", caption: "**Microfluidic housing (CAD).** The body and door geometry, designed around SLA printing constraints." }
+    - { image: "root_microfluid_CAD.png", caption: "**Microfluidic door (CAD).** The door component, designed around SLA printing constraints before it was printed." }
     - { image: "root_microfluid_door_SLA.jpg", caption: "**SLA-printed door.** The door part for the motorized microfluidic mechanism, printed in clear resin." }
     - { image: "root_protector.png", caption: "**Protector (CAD).** The two-part protector ring from the enclosure design." }
     - { image: "root_maintenance_1.jpeg", caption: "**Field maintenance.** A wasp nest found built inside a deployed unit's housing, the kind of insect intrusion the insect-resistant enclosures were designed to keep out." }

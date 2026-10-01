@@ -27,7 +27,7 @@ links:
 hero:
   image: "cratescanner_dash_sofa_measure.jpg"
   alt: "Sofa dashboard with a printed size disputed by the on-page tape measure"
-  caption: "**The deliverable is a verdict, not a mesh.** The page publishes `53.75 × 52.25 × 30.00 in` for this sofa, but the live tape measure on the same model reads 68 in along the seat and 72 in along the base, so the badge says `not safe to quote`."
+  caption: "**The deliverable is a verdict, not a mesh.** The page publishes `53.75 × 52.25 × 30.00 in` for this sofa, and the badge says `not safe to quote`. The live tape measure on the same model shows the problem: it reads 68 in along the seat and 72 in along the base."
 stats:
   - { value: "11 / 14", label: "RGB-D assets with silently transposed L/W, caught by cross-check" }
   - { value: "85 → 20 min", label: "splat training at equal quality" }
@@ -45,11 +45,11 @@ problems:
 media:
   dashboards:
     - { image: "cratescanner_dash_sofa_measure.jpg", caption: "**Sofa: a frame bug.** Published `53.75 × 52.25 × 30.00 in`; the tape reads 68 in along the seat and 72 in along the base." }
-    - { image: "cratescanner_dash_table_measure.jpg", caption: "**Coffee table: an isolation bug.** Published `46.25 × 44.25 × 13.75 in`; the tape reads 34 in across the top, 13 in to the floor, 5 in of slab." }
+    - { image: "cratescanner_dash_table_measure.jpg", caption: "**Coffee table: an isolation bug.** Published `46.25 × 44.25 × 13.75 in`; the tape on the photo mesh reads 34 in across the top and 13 in to the floor." }
   labels:
     - { image: "cratescanner_koala_mesh.png", caption: "**Koala, measured mesh.** Cleanly isolated: a live tape reading of 2.0 in across the arm and a published box of `6.00 × 5.75 × 5.00 in`. 25 frames captured, 7 merged." }
-    - { image: "cratescanner_book_gen.png", caption: "**Book, cautionary example.** The generative mesh is the most polished output in the project, but its `32.75 × 34.00 in` bounds describe the *table beneath the book*, not the ~11 in book." }
-    - { image: "cratescanner_koala_splat.png", caption: "**Koala, Gaussian splat.** Photorealistic and explicitly labeled `rough only`. Ray hit-testing accumulates transmittance and stops at half-opacity." }
+    - { image: "cratescanner_book_gen.png", caption: "**Book, cautionary example.** The generative mesh is visually the most polished output in the project, but the `32.75 × 34.00 in` box it carries comes from the RGB-D fuse and describes the *table beneath the book*, not the ~11 in book." }
+    - { image: "cratescanner_koala_splat.png", caption: "**Koala, Gaussian splat.** Explicitly labeled `rough only`: a splat is a density cloud, not a surface. Ray hit-testing accumulates transmittance and stops at half-opacity." }
 ---
 
 <p class="pj-lede">The customer needs to answer one practical question: <em>how large should the shipping crate be?</em> A plausible but wrong answer costs more than no answer. So the system's most important output is not the dimension itself. It is the <strong>verdict on whether that dimension is reliable enough to quote</strong>. Everything below is organized around that distinction.</p>

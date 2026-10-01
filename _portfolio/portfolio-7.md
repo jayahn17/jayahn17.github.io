@@ -23,7 +23,7 @@ hero:
   caption: "**The prototype.** A self-actuated lens sweep integrated into a goggle frame."
 media:
   design:
-    - { image: "me110-2.png", caption: "**Bioinspiration.** The nictitating membrane sweeps across a bird's eye with controlled angular motion; the goggle mechanism borrows that kinematics." }
+    - { image: "me110-2.png", caption: "**Bioinspiration.** The nictitating membrane, a bird's translucent third eyelid, sweeps sideways across the eye; the goggle mechanism borrows that sweeping motion." }
     - { image: "me110-1.png", caption: "**CAD.** Mechanism and frame integration, planned around SLA-friendly geometry." }
 ---
 

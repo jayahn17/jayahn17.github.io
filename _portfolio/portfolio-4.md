@@ -19,7 +19,7 @@ header:
   teaser: "CalSol_suspension.png"
 hero:
   image: "CalSol_suspension.png"
-  alt: "CalSol front suspension bracket design"
+  alt: "CalSol front suspension as installed: the pocketed aluminum bracket bolted to the carbon-fiber chassis, with the control arms, coilover shock, and upright"
   caption: "**Front suspension.** The front suspension assembly, with its control arms, brackets, and coil-over shock."
 stats:
   - { value: "~10%", label: "mass reduction, front bracket assembly" }

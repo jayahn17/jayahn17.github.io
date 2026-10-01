@@ -21,7 +21,7 @@ header:
   teaser: "me102b/assembly.jpg"
 hero:
   image: "me102b/assembly.jpg"
-  alt: "The assembled robotic fish held by two team members, with the rod-mount tail at the rear"
+  alt: "The assembled robotic fish held up in two hands, with the rod-mount tail at the rear"
   caption: "**The full assembly.** Printed body with dorsal and pectoral fins at the front, and the tail's chain of rod mounts at the rear (report Figure 1)."
 stats:
   - { value: "2nd place", label: "ME102B design showcase" }
@@ -34,11 +34,11 @@ steps:
   - { label: "Thrust", title: "Tail", text: "The DC motor turns a rod bent to a damped sine curve, threaded through a chain of rod mounts." }
 media:
   design:
-    - { image: "me102b/fig18_top_view.jpg", caption: "**Top view.** The printed body, the pectoral fin, and the rod mounts that grow taller toward the tail tip." }
+    - { image: "me102b/fig18_top_view.jpg", caption: "**Side view.** The printed body with the dorsal fin on top, a pectoral fin, and the rod mounts that grow taller toward the tail tip." }
     - { image: "me102b/fig18_section_view.jpg", caption: "**Section view.** Servo, electronics, and motor mount packed inside the body, with the curved rod running out through the mounts." }
   electronics:
     - { image: "me102b/fig03_control_board.jpg", caption: "**Control board (Figure 3).** ESP32, the State 0/1 and State 1/2 buttons, left and right pectoral fin knobs, the tail knob, and the red and blue mode LEDs." }
-    - { image: "me102b/fig04_circuit.jpg", caption: "**Circuit (Figure 4).** ESP32, potentiometers, buttons, and LEDs on the breadboard, driving the motor driver, DC motor, two servos, and voltage regulator." }
+    - { image: "me102b/fig04_circuit.jpg", caption: "**Circuit (Figure 4).** The ESP32, potentiometers, buttons, and LEDs sit on the breadboards, and the ESP32 drives the two servos and, through the motor driver, the DC motor. A voltage regulator steps the battery voltage down for the servos." }
 ---
 
 <p class="pj-lede">A common way to build a robotic fish tail is a chain of servos, one per segment, each needing its own control signal. This design moves the whole tail with one DC motor instead. The tail's spine is a rod bent to a damped sine wave, so the shape of the wave is built into the part, and the motor only has to turn it. Two servo-driven pectoral fins handle steering, and an ESP32 control panel switches between three operating modes.</p>
@@ -75,9 +75,9 @@ The rod passes through a chain of rod mounts. As the motor turns the bent rod, i
 
 ## Inside the body
 
-The body carries the power and actuation hardware: the motor driver, the voltage regulator, a servo motor, the LiPo battery, and the DC motor at the tail end.
+The body carries the power and actuation hardware: the motor driver, the voltage regulator, two servo motors, the LiPo battery, and the DC motor at the tail end.
 
-{% include pj/figure.html src="me102b/fig02_interior.jpg" side=true caption="**Fish interior (Figure 2).** Motor driver, voltage regulator, servo motor, and LiPo battery in the main cavity, with the DC motor in the rear section (inset)." %}
+{% include pj/figure.html src="me102b/fig02_interior.jpg" side=true caption="**Fish interior (Figure 2).** Motor driver, voltage regulator, two servo motors, and LiPo battery in the main cavity, with the DC motor in the rear section (right-hand photo)." %}
 
 ## Electronics and control
 

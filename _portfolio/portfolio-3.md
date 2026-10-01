@@ -21,12 +21,12 @@ links:
   - { label: "Pitch deck (PPTX)", url: "/images/Caliber%20Final%20Pitch.pptx" }
 hero:
   image: "caliber_pg1.png"
-  alt: "Caliber landing page"
+  alt: "Caliber Explore view: a chat panel on the left, a knowledge graph of student projects in the center, and the Little Drummer Bot report open on the right"
   caption: "**Caliber Explore.** Projects laid out as a similarity graph, with a chat panel that answers questions about them and a side panel that opens the selected project's report."
 media:
   demo:
     - { video: "caliber_demo_part1.mp4", poster: "caliber_pg1.png", preload: "none", caption: "**Demo, part 1.** Browsing the similarity graph and opening project reports." }
-    - { video: "caliber_demo_part2.mp4", poster: "caliber_pg2.png", preload: "none", caption: "**Demo, part 2.** Adjusting the similarity threshold and asking the chat for \"robotic animals\", which lists matching projects and opens one." }
+    - { video: "caliber_demo_part2.mp4", poster: "caliber_pg2.png", preload: "none", caption: "**Demo, part 2.** Adjusting the similarity threshold and asking the chat for \"robotic animals\", which lists three projects and opens one." }
 ---
 
 <p class="pj-lede">Undergraduate project work at Berkeley was scattered, difficult to browse, and easy to miss. Caliber, built in ENGIN 283 (AI Startup), reduces discovery time for students, alumni, and collaborators looking for reusable work.</p>

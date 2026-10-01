@@ -80,7 +80,7 @@ The final stage scales to four arms with two instances of each object type, and 
 - **The coordinator.** A pluggable planner decides who picks what, in what order, and with what retry budget, from reachability checks and per-skill success priors. It runs as Anthropic Claude with structured-JSON plans when an API key is present, and falls back to a deterministic planner with the same interface for fully offline runs.
 - **Cadence.** The system plans once at episode start and re-plans only after a skill failure or phase boundary, which separates slow high-level reasoning from fast per-step control.
 
-{% include pj/video.html src="icon_fourarm.mp4" poster="posters/icon_fourarm.jpg" autoplay=true narrow=true caption="**Why retry is the lever.** Whole-task success compounds multiplicatively across stages and arms, so recovering failed picks raises end-to-end success far more than polishing any single policy. At current per-skill rates, retries lift estimated success from roughly 0.70 to about 0.86." %}
+{% include pj/video.html src="icon_fourarm.mp4" poster="posters/icon_fourarm.jpg" autoplay=true narrow=true caption="**Why retry is the lever.** In this run all four objects are picked and placed on the first attempt, but whole-task success compounds multiplicatively across stages and arms, so recovering failed picks raises end-to-end success far more than polishing any single policy. At current per-skill rates, retries lift estimated success from roughly 0.70 to about 0.86." %}
 
 ## What the numbers say
 
