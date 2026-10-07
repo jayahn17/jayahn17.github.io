@@ -425,7 +425,7 @@ I have always been fascinated by the interaction between computers and the physi
   <li class="publication-item">
     <span class="publication-number">2.</span>
     <div class="publication-thumbnail">
-      <img loading="lazy" src="{{ '/images/TAFlab_lolus.jpeg' | relative_url }}" alt="TAF Lab">
+      <img loading="lazy" src="{{ '/images/TAF_Lab_1_thumb.jpg' | relative_url }}" alt="CAPTAIN ocean drone prototype floating on open water" style="object-position: 50% 32%;">
       <div class="publication-tag">Research</div>
     </div>
     <div class="publication-content">
