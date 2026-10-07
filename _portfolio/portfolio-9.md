@@ -2,9 +2,9 @@
 layout: project
 track: research
 org: "ICON Lab, UC Berkeley"
-title: "Role-Conditioned Manipulation: One Arm, Two Arms, Four Arms and an LLM Coordinator"
-excerpt: "Skill-decomposed diffusion policies that scale from a single arm to a four-arm pick-and-place system coordinated by an LLM, while reusing the same per-skill policies across every arm."
-deck: "Train three per-skill diffusion policies once on a single arm, verify each above 95%, then reuse them unchanged on two arms and on four arms whose assignment, ordering, and retries are decided by a language-model planner."
+title: "Role-Conditioned Manipulation: One Arm, Two Arms, Four Arms, and an LLM Coordinator"
+excerpt: "Skill-decomposed diffusion policies, each ≥ 95% successful on one arm, reused unchanged on two arms and on a four-arm pick-and-place system coordinated by an LLM."
+deck: "Three diffusion-policy skills (pick, place, retreat), each verified at ≥ 95% success on one arm, run unchanged on two arms and on four arms, where an LLM coordinator sets assignment, order, and retry budgets. Retries raise estimated four-arm success from 0.70 to 0.86."
 collection: portfolio
 category: work
 date: 2026-06-01
@@ -14,7 +14,7 @@ team: "Prof. Negar Mehr's Intelligent Control (ICON) Lab"
 tech_tags: ["Diffusion Policy", "robosuite", "MuJoCo", "PyTorch", "LLM", "Isaac Gym"]
 tools: "robosuite, MuJoCo, PyTorch, Diffusion Transformer (DiT) diffusion policy, Anthropic Claude API, Isaac Gym"
 featured: true
-impact: "Per-skill policies ≥95%; four-arm end-to-end success ~0.70 → ~0.86 with LLM retry coordination"
+impact: "Per-skill policies ≥ 95%; estimated four-arm end-to-end success 0.70 → 0.86 with LLM-set retry budgets"
 share: false
 teaser: "icon_fourarm_poster.png"
 header:
@@ -27,69 +27,78 @@ hero:
   narrow: true
   caption: "**Stage 3.** Four Kinova3 arms run the same per-skill policies while an LLM coordinator assigns objects, fixes execution order, and sets retry budgets."
 stats:
-  - { value: "≥ 95%", label: "per-skill success, single arm" }
-  - { value: "3", label: "policies reused on every arm" }
+  - { value: "≥ 95%", label: "per-skill success, one arm" }
+  - { value: "~83% → ~97–100%", label: "pick success, before → after object-frame targets" }
   - { value: "0.70 → 0.86", label: "est. four-arm success with retries" }
-  - { value: "~5e-16 m", label: "cross-arm input mismatch" }
 steps:
   - { label: "Stage 1", title: "Unimanual", text: "One Kinova3 arm. Skill-decomposed DiT policies (pick / place / retreat), each verified ≥ 95%." }
-  - { label: "Stage 2", title: "Bimanual", text: "Two arms across a shared bin. Same policies, transferred through a per-arm rigid-frame correction and a skill router." }
-  - { label: "Stage 3", title: "Four arms + LLM coordinator", text: "Four arms, shared object types, one LLM planner deciding assignment, order, and retry budgets." }
+  - { label: "Stage 2", title: "Bimanual", text: "Two arms across a shared bin. Same policies, transferred through a per-arm mirror transform and a skill router." }
+  - { label: "Stage 3", title: "Four arms + LLM coordinator", text: "Four arms, two skill sets (one per object type), one LLM coordinator deciding assignment, order, and retry budgets." }
 media:
   stage1:
     - { video: "icon_front_video.mp4", poster: "icon_front_video.png", autoplay: true, caption: "**Stage 1.** Skill-decomposed unimanual pick, place, and retreat in robosuite / MuJoCo." }
-    - { video: "icon_can_pickandplace.mp4", poster: "posters/icon_can_pickandplace.jpg", autoplay: true, caption: "**Can pick-and-place.** A single arm moving the red can into its bin, using one of the per-object-type skill sets." }
+    - { video: "icon_can_pickandplace.mp4", poster: "posters/icon_can_pickandplace.jpg", autoplay: true, caption: "**Can pick-and-place.** A single arm moves the red can into its bin using one of the per-object-type skill sets." }
   stage2:
-    - { video: "icon_bimanual_demo.mp4", poster: "posters/icon_bimanual_demo.jpg", autoplay: true, caption: "**Stage 2.** Two arms running the identical per-skill policies through the skill router and zone locks." }
-    - { video: "icon_handover.mp4", poster: "posters/icon_handover.jpg", autoplay: true, caption: "**Bimanual handover.** The left arm passes a hammer to the right arm. One policy, trained from a single demonstration trajectory." }
+    - { video: "icon_bimanual_demo.mp4", poster: "posters/icon_bimanual_demo.jpg", autoplay: true, caption: "**Stage 2.** Two arms run the same per-skill policies through the skill router and zone locks." }
+    - { video: "icon_handover.mp4", poster: "posters/icon_handover.jpg", autoplay: true, caption: "**Bimanual handover.** The left arm passes a hammer to the right arm; one policy, trained from a single demonstration trajectory, runs the handover." }
 ---
 
-<p class="pj-lede">Multi-arm manipulation is usually approached by training one monolithic policy for the whole system. This project takes the opposite route. A pick-and-place task is decomposed into three coarse skills, <strong>pick</strong>, <strong>place</strong>, and <strong>retreat</strong>, one diffusion policy is trained per skill on a single arm, and a higher-level layer composes those policies across any number of arms. The central idea is <em>role-conditioned control</em>: the arm's role in the task, not a bespoke policy, is what changes as the system grows.</p>
+<p class="pj-lede">Multi-arm manipulation is usually approached with one monolithic policy for the whole system, which must be retrained as the system grows. Instead, I split pick-and-place into three skills (<strong>pick</strong>, <strong>place</strong>, <strong>retreat</strong>), trained one Diffusion Transformer (DiT) policy per skill on one Kinova3 arm to ≥ 95% success, and reused the policies unchanged on two and four arms; only each arm's frame and role change (<em>role-conditioned control</em>). On four arms, LLM-set retry budgets raise <em>estimated</em> end-to-end success from 0.70 to 0.86.</p>
 
 {% include pj/steps.html items=page.steps %}
 
-## Stage 1: Learn skills once, on one arm
+## Stage 1: One arm, three skills
 
-The goal of the first stage is reliable low-level manipulation that can later be reused rather than retrained.
+A scripted expert's 14 waypoints are grouped into six sub-skills and merged into three policies; keeping the far reach inside `pick` leaves higher layers only three skills to sequence. Each object type gets its own three-policy skill set, trained on both orderings (bread → milk, milk → bread) so it works whether its object comes first or second.
 
-- **Skill decomposition.** A scripted expert produces a 14-waypoint trajectory. I group it into six sub-skills and merge them into the three coarse policies that are actually trained: `pick`, `place`, and `retreat`. Keeping the far reach inside `pick` means every higher layer only ever sees one of three skills.
-- **Diffusion policy (DiT).** Each skill is a roughly 48M-parameter Diffusion Transformer trained on a 28-D state / 10-D action schema with a 13-step action chunk, in robosuite / MuJoCo.
-- **The object-relative fix.** A vanilla `pick` policy regresses to the mean and under-reaches at far object positions, at about 83% success. Predicting the end-effector target in the object's frame makes the target translation-invariant and lifts `pick` to roughly 97–100%.
-- **Order invariance.** Every skill is trained on both task orderings (bread→milk and milk→bread) so a policy behaves correctly whether it is handling the first or second object.
+| Per-skill DiT | Value |
+|---|---|
+| Parameters | ≈ 48 million |
+| State / action | 28-D / 10-D |
+| Action chunk | 13 steps |
 
-Verified over 100 in-distribution seeds per ordering: `pick` 95–98%, `place` 100%, `retreat` 100%. Each skill cleared the 95% bar before any multi-arm work began.
+**Object-frame targets.** A vanilla `pick` policy regressed to the mean and under-reached at far object positions (~83% success). I instead predicted the end-effector target in the object's frame, \\({}^{o}\mathbf{p}^{\ast}=\mathbf{T}^{-1}\mathbf{p}^{\ast}\\) with \\(\mathbf{T}\\) the object pose; the target became translation-invariant, and `pick` rose to ~97–100% (95–98% in the 100-seed-per-ordering evaluation below). Every skill cleared 95% before any multi-arm work.
 
 {% include pj/grid.html items=page.media.stage1 cols=2 %}
 
-## Stage 2: Two arms, and the frame problem
+## Stage 2: Two arms and a mirror
 
-The second stage reuses the identical single-arm policies on two arms facing each other across a shared central bin. The catch is handedness. Measured in each arm's own base frame, one arm reproduces the training distribution natively; the other sees a y-reflection of it, and a naive reuse sends that arm to the wrong side.
+The arms face each other across a shared bin. In each arm's base frame, one arm sees the training distribution and the other its y-reflection, so naive reuse sends the second arm to the wrong side. I reflect that arm's observations and actions:
 
-- **Per-arm rigid-frame correction.** The mirrored arm is wrapped with `M = diag(1, −1, 1)` applied to both observations and actions (`p → Mp`, `R → MRM`). The conjugation keeps rotations proper (det +1), which preserves a valid top-down grasp without retraining.
-- **Skill router.** A per-arm state machine sequences `pick → place → retreat`, switching on measured events such as "object lifted", and applies the object-relative de-transform per arm.
-- **Shared-space safety.** Pipelined source and target zone locks stagger the two arms so they never contend for the shared center at the same instant.
+$$
+M = \mathrm{diag}(1,-1,1),\qquad \mathbf{p}\mapsto M\mathbf{p},\qquad R\mapsto MRM.
+$$
+
+Conjugating by \\(M\\) keeps rotations proper, \\(\det(MRM)=\det(M)^2\det R=+1\\), so the top-down grasp stays valid without retraining. A per-arm skill router sequences `pick → place → retreat`, switching on measured events (e.g., object lifted), and undoes the object-frame transform; pipelined source/target zone locks keep both arms from entering the shared center at once.
 
 {% include pj/grid.html items=page.media.stage2 cols=2 %}
 
-## Stage 3: Four arms and a language-model planner
+## Stage 3: Four arms and an LLM coordinator
 
-The final stage scales to four arms with two instances of each object type, and hands the high-level decisions to a planner.
+- **Sharing by type.** The arms share two skill sets, one per object type (two objects of each type); a per-episode 4 × 4 minimum-distance assignment binds each object to an arm.
+- **Common frame.** Observations map into one virtual reference frame, so every arm's policy input is identical up to floating-point round-off (≈ 5 × 10⁻¹⁶ m) and the policies apply unchanged.
+- **Coordinator.** A pluggable planner sets assignment, order, and retry budgets from reachability checks and per-skill success priors. It runs on Anthropic Claude (structured-JSON plans) when an API key is present and falls back offline to a deterministic planner with the same interface.
+- **Cadence.** It plans once at episode start and re-plans only after a skill failure or phase boundary, separating slow reasoning from fast per-step control.
 
-- **Policy sharing by type.** All four arms share exactly two skill sets, one per object type. A per-episode 4×4 minimum-distance assignment binds each object instance to an arm.
-- **One reference frame for all arms.** Each arm's observations are transformed into a common virtual reference frame, so every arm sees a bit-identical policy input (verified to about 5e-16 m) and the same trained policies apply unchanged.
-- **The coordinator.** A pluggable planner decides who picks what, in what order, and with what retry budget, from reachability checks and per-skill success priors. It runs as Anthropic Claude with structured-JSON plans when an API key is present, and falls back to a deterministic planner with the same interface for fully offline runs.
-- **Cadence.** The system plans once at episode start and re-plans only after a skill failure or phase boundary, which separates slow high-level reasoning from fast per-step control.
+Task success probability is the product of per-skill success probabilities \\(p_k\\) over every skill of every arm; with independent attempts, a retry budget \\(r_k\\) raises each factor:
 
-{% include pj/video.html src="icon_fourarm.mp4" poster="posters/icon_fourarm.jpg" autoplay=true narrow=true caption="**Why retry is the lever.** In this run all four objects are picked and placed on the first attempt, but whole-task success compounds multiplicatively across stages and arms, so recovering failed picks raises end-to-end success far more than polishing any single policy. At current per-skill rates, retries lift estimated success from roughly 0.70 to about 0.86." %}
+$$
+P_{\text{task}}=\prod_{k} p_k \quad\longrightarrow\quad \prod_{k}\left[1-(1-p_k)^{r_k+1}\right].
+$$
 
-## What the numbers say
+Applied to current per-skill rates, retries lift the estimated four-arm success from 0.70 to 0.86; this is an estimate, not a measured rate.
 
-| Stage | What is shared | Verified result |
+{% include pj/video.html src="icon_fourarm.mp4" poster="posters/icon_fourarm.jpg" autoplay=true narrow=true caption="**Why retry is the lever.** In this run all four objects are picked and placed on the first attempt. Because task success compounds across skills and arms, recovering failed picks raises end-to-end success more than polishing any single policy." %}
+
+## Results
+
+| Stage | Result | Basis |
 |---|---|---|
-| 1 · one arm | three skill policies | `pick` 95–98%, `place` 100%, `retreat` 100% (100 seeds per ordering) |
-| 2 · two arms | the same policies + frame correction | valid top-down grasps on the mirrored arm with no retraining |
-| 3 · four arms | two skill sets across four arms + LLM planner | estimated end-to-end success ~0.70 → ~0.86 with retry budgets |
+| 1 | `pick` 95–98%, `place` 100%, `retreat` 100% (100 in-distribution seeds per ordering) | measured |
+| 2 | mirrored arm keeps a valid top-down grasp, no retraining | verified (no rate reported) |
+| 3 | cross-arm input mismatch ≈ 5 × 10⁻¹⁶ m | measured |
+| 3 | end-to-end success 0.70 → 0.86 with retries | estimate |
 
 ## Alongside: multi-agent quadruped RL
 
-In parallel with the manipulation stack, I ported a multi-agent quadruped RL environment from Unitree Go1 to Go2 in Isaac Gym, preserving task logic and evaluation conventions across the hardware change so results stayed comparable.
+I ported a multi-agent quadruped RL environment from Unitree Go1 to Go2 in Isaac Gym, preserving task logic and evaluation conventions so results stayed comparable.

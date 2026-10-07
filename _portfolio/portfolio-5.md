@@ -2,18 +2,18 @@
 layout: project
 track: industry
 org: "Khameleon Robotics"
-title: "A Simulation-First Stack for a 13-DOF Humanoid Arm"
-excerpt: "Controls and simulation development for a 13-DOF humanoid arm with leader/follower teleoperation, multi-camera capture, and Isaac Sim / Isaac Lab training workflows."
-deck: "Isaac Sim and Isaac Lab infrastructure for bimanual humanoid manipulation: a 12-DOF Dynamixel puppet drives a 13-DOF simulated arm, five cameras record every episode, and the same scenes double as training environments."
+title: "A Simulation-First Stack for a 13-DOF Dual-Arm Humanoid"
+excerpt: "Controls and simulation for a 13-DOF dual-arm humanoid: leader/follower teleoperation, five-camera capture, and Isaac Sim / Isaac Lab training scenes."
+deck: "A hardware-in-the-loop teleoperation stack in Isaac Sim and Isaac Lab: a 12-servo Dynamixel puppet drives a 13-DOF (6 + 6 + 1) simulated humanoid, five cameras record every episode, and the same scenes double as training environments."
 collection: portfolio
 category: work
 date: 2025-07-01
 role: "Control & Simulation Engineer Intern"
 duration: "July 2025 – Present"
 tech_tags: ["Isaac Sim", "Isaac Lab", "Dynamixel", "Teleoperation"]
-tools: "NVIDIA Isaac Sim, Isaac Lab, LeIsaac, Dynamixel XC-330, URDF → USD"
+tools: "NVIDIA Isaac Sim, Isaac Lab, PhysX, LeIsaac (LeRobot + GR00T), Dynamixel XC-330, URDF → USD"
 featured: true
-impact: "13-DOF dual-arm teleoperation stack in Isaac Sim/Lab with multi-camera LeIsaac data capture"
+impact: "13-DOF dual-arm teleoperation stack in Isaac Sim/Lab with five-camera LeIsaac data capture"
 share: false
 teaser: "kha_grab_img.png"
 header:
@@ -23,50 +23,36 @@ hero:
   video: "kha_move.mp4"
   poster: "kha_grab_img.png"
   autoplay: true
-  caption: "**The humanoid arm in Isaac Sim.** The 13-DOF arm moving through the kitchen scene: the simulation side of the leader/follower teleoperation setup."
+  caption: "**The dual-arm humanoid in Isaac Sim.** The 13-DOF robot moving through the kitchen scene: the simulation side of the leader/follower teleoperation setup."
 stats:
-  - { value: "13 DOF", label: "simulated humanoid arm" }
-  - { value: "12 DOF", label: "servo-driven leader controller" }
+  - { value: "13 DOF", label: "simulated dual-arm humanoid" }
+  - { value: "12 DOF", label: "servo-driven leader puppet" }
   - { value: "5", label: "camera viewpoints per episode" }
 media:
   capture:
     - { video: "kha_grab_little.mp4", poster: "posters/kha_grab_little.jpg", autoplay: true, caption: "**Leader/follower motion in simulation.** The follower arms track the leader: the dome-tipped arm lifts away from the bowl, then the gripper arm swings in with its jaws open." }
-    - { video: "kha_khaleisaac_top.mp4", webm: "kha_khaleisaac_top.webm", poster: "posters/kha_khaleisaac_top.jpg", preload: "none", caption: "**Full two-arm episode.** The humanoid working through a kitchen manipulation episode in Isaac Sim." }
+    - { video: "kha_khaleisaac_top.mp4", webm: "kha_khaleisaac_top.webm", poster: "posters/kha_khaleisaac_top.jpg", preload: "none", caption: "**Full dual-arm episode.** The humanoid working through a kitchen manipulation task in Isaac Sim." }
   training:
     - { video: "kha_leisaac_so101.mp4", webm: "kha_leisaac_so101.webm", poster: "posters/kha_leisaac_so101.jpg", preload: "none", caption: "**LeIsaac with an SO-101 arm.** LeIsaac's pick-orange kitchen task, teleoperated in Isaac Sim while the video cycles through the scene's camera views." }
     - { youtube: "YaZquZc88fw", caption: "**Customized LeIsaac kitchen scene.** The dual-arm humanoid working at a kitchen counter with a plate and oranges, recorded from the Isaac Sim viewport." }
 ---
 
-<p class="pj-lede">At Khameleon Robotics I work on a simulation-first pipeline for bimanual humanoid manipulation with training-ready data capture. The objective is a stable development baseline for coordinated control and learning workflows before the more hardware-heavy iterations begin.</p>
+<p class="pj-lede">Khameleon Robotics, a cleaning-humanoid startup, needed to validate dual-arm control and collect training data before on-robot deployment. I built a hardware-in-the-loop teleoperation system in which a 12-servo Dynamixel puppet streams real-time joint states into a 13-DOF humanoid in Isaac Sim. Five cameras record each episode, and the same scenes serve as Isaac Lab training environments.</p>
 
-## System scope
+## Robot model and cameras
 
-- **Robot model.** A 13-DOF humanoid arm in NVIDIA Isaac Sim and Isaac Lab.
-- **Command side.** A 12-DOF puppet controller using Dynamixel XC-330 servos.
-- **Use cases.** Teleoperation and manipulation tasks that require leader/follower behavior.
-- **Training target.** Collision-avoidance and bimanual interaction tasks in Isaac Lab.
+I automated URDF-to-USD conversion (joint/link remapping, inertia tuning, sensor attachment points) so kinematics match across CAD, simulation, and hardware. Articulation, collision-primitive, and controller-timing settings target stable real-time simulation and meet training-data requirements, so recorded episodes feed learning runs without reformatting. Using LeIsaac, I reconfigured and synchronized the cameras so one calibration serves both teleoperation and dataset capture.
 
-## Simulation pipeline
+{% include pj/figure.html src="kha_top_cam.png" wide=true caption="**The kitchen scene.** The dual-arm humanoid at the counter in Isaac Sim. Five cameras (front, back, left, right, and chest) record each episode, placed to reduce occlusion for both the operator and the dataset." %}
 
-The workflow runs end to end from robot import to dynamic behavior verification. Articulation properties, collision primitives, and controller timing were configured for stable real-time simulation, and simulation settings were aligned with the training-data requirements from the start so that captured episodes could feed learning runs without a second conversion step.
+## Leader/follower control
 
-{% include pj/figure.html src="kha_top_cam.png" wide=true caption="**The kitchen scene.** The two-arm humanoid at the counter in Isaac Sim. Five cameras (front, back, left, right, and chest) record each episode, placed to reduce occlusion for both the operator and the dataset." %}
-
-## Control architecture
-
-The 12-DOF puppet controller is integrated with the bimanual arm model, with leader/follower motion-transfer logic for coordinated manipulation. Control loops were tuned for smooth transitions and low-latency behavior, which is what the clips below are testing.
+Motion-transfer logic maps the puppet's 12 joint states onto both 6-DOF arms, with control loops tuned for smooth transitions and low latency. A modular control stack with collision-aware joint-space and task-space modes lets dual-arm tests run in simulation before hardware.
 
 {% include pj/grid.html items=page.media.capture cols=2 %}
 
-## Training environments
+## Training and next steps
 
-Task scenes for collision avoidance and bimanual object handling reuse the same simulation setup. Scene complexity was tuned so that learning runs stayed computationally efficient, and camera calibration and rendering settings serve both teleoperation and dataset generation.
+Isaac Lab scenes for collision avoidance and dual-arm object handling reuse this setup, with complexity tuned for compute-efficient learning. The humanoid scene is a customized LeIsaac kitchen; the first clip below shows the stock scene with an SO-101 arm. Next: fine-tuning on recorded episodes, vision-language-action (VLA) operation, and on-robot deployment.
 
 {% include pj/grid.html items=page.media.training cols=2 %}
-
-## Outcomes
-
-- A full Isaac Sim and Isaac Lab stack for 13-DOF humanoid arm development.
-- Leader/follower bimanual control with 12 servo-driven DOFs.
-- Five-view sensing coverage for operator control and dataset generation.
-- Repeatable collision-avoidance and manipulation training deployments.

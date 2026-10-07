@@ -3,8 +3,8 @@ layout: project
 track: research
 org: "TAF Lab, UC Berkeley"
 title: "CAPTAIN: An Autonomous Ocean Drone for Sustainable Marine Transport"
-excerpt: "Autonomous ocean-drone prototype for low-carbon marine transport. Built a real-time telemetry and data pipeline and validated it across 50+ sea trials; recognized in the U.S. DOE Power at Sea Prize."
-deck: "An ocean-drone prototype that steers through wind and waves. I led the electronics, the upwind/downwind autonomy, and the data pipeline that turned more than 50 sea trials into weekly design iterations."
+excerpt: "Sail-equipped autonomous ocean drone for low-carbon marine transport: 7+ sensors, upwind/downwind sail control, and a firmware-to-Python data pipeline used in 50+ ocean tests. Top 20 of 3,400 in the U.S. DOE Power at Sea Prize."
+deck: "A sail-equipped ocean drone that steers itself upwind and downwind. I led the electronics (7+ sensors, XBee telemetry) and built the sail control and the data pipeline behind 50+ ocean tests; the project placed Top 20 of 3,400 in the U.S. DOE Power at Sea Prize."
 collection: portfolio
 category: work
 date: 2025-11-01
@@ -15,7 +15,7 @@ team_size: 4
 tech_tags: ["Python", "Sensors", "XBee", "Embedded"]
 tools: "GPS, IMU, magnetometer, wind vane, XBee telemetry, servo and stepper control, Python data pipeline"
 featured: true
-impact: "Top 20 in the U.S. DOE 'Power at Sea' Prize; real-time data pipeline supporting 50+ ocean tests"
+impact: "Top 20 of 3,400 in the U.S. DOE Power at Sea Prize; real-time data pipeline supporting 50+ ocean tests"
 share: false
 teaser: "TAF_Lab_1.jpeg"
 header:
@@ -26,47 +26,39 @@ hero:
   narrow: true
   caption: "**CAPTAIN on the water.** The prototype built at the Theoretical & Applied Fluid Dynamics (TAF) Lab, UC Berkeley: marine-grade power and sensor layout inside a custom autonomous drone shell."
 stats:
-  - { value: "50+", label: "ocean tests analyzed" }
+  - { value: "50+", label: "ocean tests run and analyzed" }
   - { value: "7+", label: "sensors integrated" }
-  - { value: "Top 20", label: "U.S. DOE Power at Sea Prize" }
+  - { value: "Top 20 / 3,400", label: "U.S. DOE Power at Sea Prize" }
 ---
 
-<p class="pj-lede">CAPTAIN is an ocean-drone prototype for low-carbon marine transport. The engineering challenge was to make the system reliable enough for real ocean testing while keeping the architecture simple enough to iterate on every week.</p>
+<p class="pj-lede">CAPTAIN is a sail-equipped autonomous ocean drone for low-carbon marine transport. It had to keep station and hold heading in wind and waves, and each ocean test had to feed the next weekly design iteration.</p>
 
-## The problem
+## Design
 
-- Demonstrate reliable station-keeping and heading control in wind- and wave-driven conditions.
-- Maintain dependable wireless telemetry for remote monitoring and logging during field tests.
-- Turn each sea trial into usable data for weekly design iteration.
-- Deliver a polished prototype suitable for internal reviews and external judging.
-
-## System architecture
-
-| Layer | What it is |
+| Layer | Implementation |
 |---|---|
-| Platform | Custom autonomous ocean-drone shell with marine-grade power and sensor layout |
-| Perception | GPS, IMU, magnetometer, and wind-vane sensors for pose and flow-aware heading |
-| Communication | XBee protocol for low-latency telemetry between drone and base station |
-| Control | Upwind/downwind steering logic combining sensor fusion with waypoint objectives |
-| Logging | Firmware-side data capture plus Python-based ingestion for post-run analysis |
+| Sensing | 7+ sensors, including GPS, IMU, magnetometer, and wind vane, for pose and flow-aware heading |
+| Telemetry | Real-time XBee link to a base station |
+| Control | Upwind/downwind sail logic steering to waypoints via servo and stepper motors |
+| Logging | Real-time firmware → Python database pipeline |
 
-## What I built
+## Build
 
-**Electronics and sensing.** I designed the instrumentation architecture and integrated more than seven sensors with robust connectors, power management, and signal conditioning, then implemented sensor-fusion logic to stabilize heading estimates under intermittent disturbances.
+**Electronics.** I designed the instrumentation, integrated the sensors (connectors, power management, signal conditioning), and wrote sensor-fusion code to stabilize the heading estimate under disturbances.
 
-**Autonomy and motion control.** I developed the upwind/downwind autonomous navigation logic, including thresholding for wind-angle transitions and recovery behavior, and tuned the servo and stepper control loops for turning and course correction with reduced overshoot in wave conditions.
+**Sail control.** I wrote the upwind/downwind logic with wind-angle transition thresholds and recovery behavior, and tuned the servo and stepper turning loops to limit overshoot in waves.
 
-**Data and reliability engineering.** I built an end-to-end data pipeline from firmware logs to a Python processing database, and standardized filename conventions, metadata tags, and field-run checkpoints so that runs could be compared across tests.
+**Data.** I built the logging pipeline and standardized filenames, metadata tags, and field-run checkpoints for run-to-run comparison.
+
+## Testing
+
+I ran 50+ ocean tests with the team, evaluating telemetry, control stability, and sensor behavior in changing wind. Run-level postmortems turned recurring control and estimation failures into fixes.
+
+## Results
+
+- **U.S. DOE Power at Sea Prize:** Top 20 of 3,400 (top 0.6%).
+- **Patent application** (pending review): *PowerCab: A Multimodal Mobile Sea-based Power Generation and Delivery*, listing me as an inventor.
+- **Team pitch** to the UC Berkeley Vice Chancellor for Research.
+- **Operational prototype** with a repeatable control-and-data feedback loop, suitable for scaling toward the multi-drone mesh network on the poster.
 
 {% include pj/figure.html src="TAFlab_lolus.jpeg" caption="**The team with the prototype.** CAPTAIN on its stand next to the project poster." %}
-
-## Field execution
-
-More than 50 ocean tests were conducted and analyzed, each one used to evaluate telemetry reliability, control stability, and sensor behavior under changing wind conditions. Recurring control and estimation failure modes were identified and resolved through run-level postmortems.
-
-## Outcomes
-
-- Top 20 placement in the U.S. Department of Energy "Power at Sea Prize."
-- An operational prototype with a repeatable control-and-data feedback loop suitable for next-stage scaling.
-- Intellectual property submitted under the title **PowerCab: A Multimodal Mobile Sea-based Power Generation and Delivery**.
-- CAPTAIN was presented to the UC Berkeley Vice Chancellor for Research during prototype evaluation.
