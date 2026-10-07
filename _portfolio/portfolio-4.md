@@ -3,8 +3,8 @@ layout: project
 track: team
 org: "CalSol, UC Berkeley Solar Vehicle Team"
 title: "CalSol: Lighter Front Suspension Without Losing Stiffness"
-excerpt: "Mechanical design work for a competitive solar vehicle, focused on reducing suspension mass while preserving stiffness and manufacturability."
-deck: "A consolidated front suspension bracket for a solar-electric race car, about 10% lighter, validated in FEA before fabrication and coordinated with the battery team's packaging constraints."
+excerpt: "Two front suspension brackets on CalSol's solar car consolidated into one: 10% lighter, with stiffness and stress checked in FEA before fabrication."
+deck: "I consolidated two front suspension brackets on CalSol's solar car into one part, cutting their mass by 10%, and checked stiffness and stress with finite element analysis (FEA) before fabrication."
 collection: portfolio
 category: class
 date: 2025-12-02
@@ -20,31 +20,29 @@ header:
 hero:
   image: "CalSol_suspension.png"
   alt: "CalSol front suspension as installed: the pocketed aluminum bracket bolted to the carbon-fiber chassis, with the control arms, coilover shock, and upright"
-  caption: "**Front suspension.** The front suspension assembly, with its control arms, brackets, and coil-over shock."
+  caption: "**Front suspension.** The assembly with its control arms, brackets, and coilover shock."
 stats:
-  - { value: "~10%", label: "mass reduction, front bracket assembly" }
-  - { value: "FEA", label: "validated before fabrication" }
+  - { value: "10%", label: "lower front bracket mass" }
+  - { value: "2 → 1", label: "front suspension brackets" }
+  - { value: "5%", label: "power saved by reconfiguring circuit wiring" }
 ---
 
-<p class="pj-lede">For a solar-electric vehicle, every gram of unsprung mass costs efficiency. On CalSol's mechanical and battery teams, I worked to reduce the mass of key suspension components without compromising stiffness, safety margins, or the way the parts integrate with the rest of the car.</p>
+<p class="pj-lede">Mass costs a solar car efficiency, but CalSol's front suspension could not lose stiffness or safety margin. I consolidated two front brackets into one part weighing 10% less than the pair, and checked it in FEA before fabrication.</p>
 
-## The problem
+## Design and FEA
 
-- Lower front-end and unsprung mass to improve vehicle efficiency.
-- Maintain structural stiffness and safety margins required by vehicle integration constraints.
-- Keep design decisions compatible with battery packaging and assembly workflows.
+To preserve the stiffness targets with one part instead of two, I rerouted load paths and redistributed section geometry. FEA of the baseline and consolidated designs under representative loads compared displacement and stress concentrations; the redesign met the stiffness and safety-margin requirements.
 
-## Suspension redesign
+## Battery packaging and wiring
 
-The front suspension bracket structure was consolidated to reduce part count and mass, with stiffness targets preserved by rerouting load paths and redistributing section geometry.
+I coordinated bracket-interface changes with the battery and mechanical leads to fit battery packaging and assembly. I also reconfigured circuit wiring to improve battery efficiency, saving 5% in power.
 
-## Finite element validation
-
-Structural simulations compared the baseline and revised bracket concepts, checking displacement and stress-concentration effects under representative loads. The results confirmed that the redesign met stiffness requirements before anything was fabricated.
-
-{% include pj/figure.html src="Calsol_battery.jpeg" caption="**Battery box.** The battery enclosure and its wiring. Suspension interface changes were coordinated with the battery and mechanical leads." %}
+{% include pj/figure.html src="Calsol_battery.jpeg" caption="**Battery box.** The battery enclosure and its wiring." %}
 
 ## Results
 
-- Approximately 10% mass reduction in the front suspension bracket assembly.
-- Redesigned brackets validated through FEA before fabrication.
+| Result | Value |
+|---|---|
+| Front brackets | 2 → 1 |
+| Bracket mass | −10% |
+| Power savings from rewiring | 5% |

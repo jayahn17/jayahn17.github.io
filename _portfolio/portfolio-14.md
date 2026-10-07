@@ -4,7 +4,7 @@ track: class
 org: "ME102B, UC Berkeley"
 title: "Robotic Fish: A Damped-Sine Tail on One DC Motor"
 excerpt: "An ME102B mechatronics robotic fish: an ESP32 control panel drives two servo pectoral fins and a DC-motor tail whose spine is bent to a damped sine wave. Second place at the course design showcase."
-deck: "A mechatronics robotic fish built for ME102B. An ESP32 control panel steers two servo-driven pectoral fins and a tail whose spine is a rod bent to a damped sine wave, turned by a single DC motor. The design took second place at the course design showcase."
+deck: "An ME102B robotic fish with three actuators: two servos angle the pectoral fins for steering, and one DC motor drives the whole tail by turning a rod bent to a damped sine wave. I designed the tail mechanism; the fish took second place at the course design showcase."
 collection: portfolio
 category: class
 supporting: true
@@ -41,74 +41,71 @@ media:
     - { image: "me102b/fig04_circuit.jpg", caption: "**Circuit (Figure 4).** The ESP32, potentiometers, buttons, and LEDs sit on the breadboards, and the ESP32 drives the two servos and, through the motor driver, the DC motor. A voltage regulator steps the battery voltage down for the servos." }
 ---
 
-<p class="pj-lede">A common way to build a robotic fish tail is a chain of servos, one per segment, each needing its own control signal. This design moves the whole tail with one DC motor instead. The tail's spine is a rod bent to a damped sine wave, so the shape of the wave is built into the part, and the motor only has to turn it. Two servo-driven pectoral fins handle steering, and an ESP32 control panel switches between three operating modes.</p>
+<p class="pj-lede">A common robotic-fish tail is a chain of servos, one per segment, each with its own control signal. I designed a tail that runs on one DC motor: its spine is a rod bent to a damped sine wave, so the wave is built into the part and the motor only turns it. Two servo-driven pectoral fins bring the total to three actuators, and the fish took second place at the ME102B design showcase.</p>
 
 {% include pj/steps.html items=page.steps %}
 
-## The design
+## Design overview
 
-The body is a printed shell with a dorsal fin, two pectoral fins, and a motor mount at the rear. Behind it, the tail is a row of rod mounts that grow taller toward the tip, with the curved rod running through all of them.
+The body is a printed shell with a dorsal fin, two pectoral fins, and a rear motor mount. Behind it, the curved tail rod runs through a row of rod mounts.
 
 {% include pj/figure.html src="me102b/fig18_render.jpg" narrow=true caption="**Complete design (Figure 18).** CAD render of the body, fins, and tail assembly." %}
 
 {% include pj/grid.html items=page.media.design cols=2 class="pj-grid--natural" %}
 
-## The tail: a damped sine built into the part
+## The tail: a damped sine built into the rod
 
-The tail profile comes from one equation, a sine wave that decays along its length:
+I based the tail on a sine wave whose amplitude decays with \\(x\\):
 
 $$
 y = \sin(\pi x)\, e^{-x}
 $$
 
-The right-hand plot in Figure 6 shows the full curve. The left-hand plot zooms into the section between \\(x \approx 2.4\\) and \\(5\\), where the oscillation is gentle enough to follow with a solid rod.
+The rod uses only the section from \\(x \approx 2.4\\) to \\(5\\) (Figure 6, left), where the oscillation is gentle enough for a solid rod.
 
 {% include pj/figure.html src="me102b/fig06_tail_equation.jpg" wide=true caption="**Tail equation (Figure 6).** The damped sine \\(y = \sin(\pi x)\,e^{-x}\\): a zoomed section on the left, the full curve on the right." %}
 
-That curve became the tail rod in CAD. A coupler at the base connects it to the DC motor inside the body.
+| Rod section (Figure 6 units) | Value |
+|---|---|
+| Span | \\(x = 2.4\\) to \\(5\\): 1.3 periods of \\(\sin \pi x\\), from a crest to a zero crossing |
+| Peaks | \\(y \approx +0.086, -0.032, +0.012\\) at \\(x \approx 2.4, 3.4, 4.4\\), each \\(e^{-1} \approx 0.37\\) times the previous |
+
+## Rod and mounts
+
+A coupler at the rod's base connects it to the DC motor inside the body.
 
 {% include pj/figure.html src="me102b/fig07_tail_cad.jpg" wide=true caption="**Tail rod (Figure 7).** The rod modeled from the tail equation, with the motor coupler at the left." %}
 
-The rod passes through a chain of rod mounts. As the motor turns the bent rod, its curve sweeps through the mounts, and the mounts carry that motion out to the tail tip.
+As the motor turns the rod, its curve sweeps through a chain of rod mounts, which carry the motion to the tail tip.
 
 {% include pj/figure.html src="me102b/fig08_rod_mounts.jpg" wide=true caption="**Rod mounts (Figure 8).** Front view of the tail and mounts (left) and an isometric view of the mounts (right)." %}
 
 ## Inside the body
 
-The body carries the power and actuation hardware: the motor driver, the voltage regulator, two servo motors, the LiPo battery, and the DC motor at the tail end.
-
 {% include pj/figure.html src="me102b/fig02_interior.jpg" side=true caption="**Fish interior (Figure 2).** Motor driver, voltage regulator, two servo motors, and LiPo battery in the main cavity, with the DC motor in the rear section (right-hand photo)." %}
 
 ## Electronics and control
 
-The control board sits outside the fish. Three knobs set the left fin, right fin, and tail, two buttons change the operating mode, and a red and a blue LED show which mode is active.
+The control board sits outside the fish.
 
 {% include pj/grid.html items=page.media.electronics cols=2 class="pj-grid--natural" %}
 
-The firmware is a three-state machine. Buttons move between states, and in either moving state the ESP32 keeps reading the knobs and driving the servos and the DC motor.
+## Firmware: a three-state machine
+
+Two buttons switch states, and in both moving states the ESP32 reads the knobs and drives the two servos and the DC motor.
 
 {% include pj/figure.html src="me102b/fig05_state_machine.jpg" caption="**State transition diagram (Figure 5).** Idling, moving with independent pectoral fins, and moving with linked pectoral fins." %}
 
-| State | How you get there | LEDs | What moves |
+| State | Entered by | LED | Motion |
 |---|---|---|---|
-| Idling | Power-up, or the left button from either moving state | Off | Nothing; the DC motor is off |
-| Independent pectoral fins | Left button from Idling, or right button from Linked | Red on | Each fin follows its own knob; the tail follows the tail knob |
-| Linked pectoral fins | Right button from Independent | Blue on | Both fins move together; the tail follows the tail knob |
+| Idling | Power-up; left button from either moving state | Off | None; DC motor off |
+| Independent fins | Left button from Idling; right button from Linked | Red | Each fin follows its own knob; tail follows the tail knob |
+| Linked fins | Right button from Independent | Blue | Fins move together; tail follows the tail knob |
 
 ## Result
 
-The robotic fish took **second place at the ME102B design showcase**. The tail was the distinctive part: one motor and one shaped rod drive the whole tail, instead of a chain of individually controlled actuators.
+The fish took **second place at the ME102B design showcase**.
 
 ## Documents
 
-The figures on this page are taken from the team's ME102B final report:
-
-- Figure 1: full assembly
-- Figure 2: fish interior
-- Figure 3: control board
-- Figure 4: circuit diagram
-- Figure 5: state transition diagram
-- Figure 6: tail equation
-- Figure 7: tail rod CAD
-- Figure 8: rod mounts
-- Figure 18: overview of the complete design
+All figures are from the team's ME102B final report (Figures 1–8 and 18).

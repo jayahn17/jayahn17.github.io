@@ -4,7 +4,7 @@ track: class
 org: "ME110, UC Berkeley"
 title: "Automatic Snow Goggles Inspired by the Nictitating Membrane"
 excerpt: "ME110 project developing a bioinspired automatic lens-cleaning mechanism that keeps snow goggles clear without manual wiping."
-deck: "A compact sweeping mechanism, modeled on the avian nictitating membrane, that clears snow and ice from a goggle lens without the wearer touching it."
+deck: "A hands-free snow-goggle mechanism modeled on the avian nictitating membrane: motor-driven roller posts sweep a transparent sheet sideways across the lens to clear snow and ice."
 collection: portfolio
 category: class
 date: 2024-12-01
@@ -27,28 +27,24 @@ media:
     - { image: "me110-1.png", caption: "**CAD.** Mechanism and frame integration, planned around SLA-friendly geometry." }
 ---
 
-<p class="pj-lede">In harsh winter conditions visibility degrades quickly as snow and ice build up on a lens. This ME110 project asked whether a biological mechanism could be translated into a practical wearable system that clears the lens on its own.</p>
+<p class="pj-lede">Snow and ice build up on a goggle lens and degrade vision until wiped by hand. For ME110, our team borrowed the sideways sweep of a bird's nictitating membrane and built a working prototype that clears the lens hands-free.</p>
 
-## The problem
+## Concept
 
-- Protect vision from snow and ice accumulation.
-- Remove lens contaminants without manual wiping.
-- Keep the mechanism compact and unobtrusive for user comfort.
+We agreed on the membrane as our most feasible, effective, and novel idea.
 
-## Mechanical approach
-
-The avian nictitating membrane served as the kinematic reference. The design is a compact sweeping mechanism with controlled angular motion across the lens, driven by an actuator and gearing strategy that balances speed, force, and reliability.
+| Requirement | Design response |
+|---|---|
+| Clear snow and ice | Transparent sheet swept across the lens |
+| Hands-free, repeatable | Gearmotor-driven roller posts carry the sheet |
+| Compact, comfortable to wear | Minimal moving mass; frame-mounted drive |
 
 {% include pj/grid.html items=page.media.design cols=2 class="pj-grid--contain" %}
 
-## Design execution
+## Build
 
-**System level.** The mechanism is structured around minimal moving mass to avoid fatigue and bulk, combines mechanical and electrical elements so that actuation stays consistent across repeated cycles, and is planned around SLA-friendly geometry for manufacturability.
-
-**Modeling and prototyping.** CAD models were built and early-generation parts printed for fit, clearance, and motion testing. The mechanism geometry was iterated to reduce binding and improve repeatability, and the sweep arc and timing were tuned for practical cleaning performance.
+In CAD, a gearmotor at each post's base turns its roller. Early prints checked fit, clearance, and motion; we iterated the geometry to reduce binding and improve repeatability, refined the enclosure and linkage to improve reliability, and tuned sweep travel and timing. The final prototype drives the rollers through bevel-gear pairs at the post tops. In both versions, the gearing balances sweep speed, force, and reliability.
 
 ## Results
 
-- A functional prototype with automatic lens-cleaning action.
-- A biological concept validated as a wearable mechanism.
-- Reliability improved through enclosure and linkage refinement: a self-actuated sweep, a smooth motion profile, and an architecture compact enough for goggle frames.
+The prototype sweeps the lens on its own with a smooth motion profile and is compact enough to mount on a goggle frame, turning the membrane's sweep into a wearable mechanism.
