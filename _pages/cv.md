@@ -18,7 +18,7 @@ Berkeley / Santa Clara, CA • [jayahn@berkeley.edu](mailto:jayahn@berkeley.edu)
 
 * **Master of Science in Mechanical Engineering**  
   University of California, Berkeley  
-  *May 2026*
+  *August 2026*
 
 * **Bachelor of Science in Mechanical Engineering**  
   University of California, Berkeley • December 2024
