@@ -393,7 +393,7 @@ p {
 
 I'm a robotics researcher in the **[ICON (Intelligent Control) Lab](https://iconlab.negarmehr.com)** at UC Berkeley, advised by Professor [Negar Mehr](https://mehr.berkeley.edu). My current work focuses on role-conditioned diffusion policies for multi-arm manipulation. I reuse the same per-skill policies from a single arm through a four-arm system coordinated by an LLM. I also work on legged locomotion and simulation infrastructure for learning and control.
 
-I hold an M.S. in Mechanical Engineering from Berkeley (May 2026). I currently work as a Control & Simulation Engineer Intern at **[Khameleon Robotics](https://www.khameleonrobotics.com)**, and previously as a Junior Engineer at **[Root Applied Sciences](https://rootappliedsciences.com)** and an undergraduate researcher in the **[TAF (Theoretical & Applied Fluid Dynamics) Lab](https://taflab.berkeley.edu)**. Across these roles I've explored robot learning, control systems, simulation engineering, and field-deployed sensing hardware.
+I hold an M.S. in Mechanical Engineering from Berkeley (August 2026). I currently work as a Control & Simulation Engineer Intern at **[Khameleon Robotics](https://www.khameleonrobotics.com)**, and previously as a Junior Engineer at **[Root Applied Sciences](https://rootappliedsciences.com)** and an undergraduate researcher in the **[TAF (Theoretical & Applied Fluid Dynamics) Lab](https://taflab.berkeley.edu)**. Across these roles I've explored robot learning, control systems, simulation engineering, and field-deployed sensing hardware.
 
 I have always been fascinated by the interaction between computers and the physical world. Learning random things has been the greatest source of pleasure for me, and I hope this will never stop. Recently, I have been studying the science of cooking in my free time.
 
@@ -634,7 +634,7 @@ I have always been fascinated by the interaction between computers and the physi
 
 * **Master of Science in Mechanical Engineering**  
   University of California, Berkeley  
-  *May 2026*
+  *August 2026*
 
 * **Bachelor of Science in Mechanical Engineering**  
   University of California, Berkeley  
