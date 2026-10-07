@@ -437,24 +437,6 @@ I have always been fascinated by the interaction between computers and the physi
       </div>
     </div>
   </li>
-
-  <li class="publication-item">
-    <span class="publication-number">3.</span>
-    <div class="publication-thumbnail">
-      <video controls muted playsinline preload="metadata" style="width: 100%; height: 100%; object-fit: cover;" poster="{{ '/images/MSC_WL2Isaac.png' | relative_url }}">
-        <source src="{{ '/images/MSC_WL2Isaac.mp4' | relative_url }}" type="video/mp4">
-        <source src="{{ '/images/MSC_WL2Isaac.webm' | relative_url }}" type="video/webm">
-      </video>
-      <div class="publication-tag">Research</div>
-    </div>
-    <div class="publication-content">
-      <div class="publication-title"><a href="{{ '/portfolio/portfolio-6/' | relative_url }}">MSC (Mechanical Systems) Control Lab</a></div>
-      <div class="publication-venue">Created a unified render-to-sim-to-asset workflow with Worldlab.ai, NVIDIA 3DGRUT, and Isaac Lab for reusable, validated assets.</div>
-      <div class="publication-links">
-        <a href="{{ '/portfolio/portfolio-6/' | relative_url }}" class="publication-link">Project Page</a>
-      </div>
-    </div>
-  </li>
 </ol>
 
 ### Industry Experience
