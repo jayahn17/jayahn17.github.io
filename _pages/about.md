@@ -508,7 +508,7 @@ I have always been fascinated by the interaction between computers and the physi
     <div class="publication-content">
       <div class="publication-title"><a href="{{ '/portfolio/portfolio-13/' | relative_url }}">An "Iced" Espresso Machine: Two-Stage Liquid Cooling</a></div>
       <div class="publication-authors">S. Ahn, M. Martinez Garcia, S. Kashi, S. Heiles</div>
-      <div class="publication-venue">Built a two-stage liquid-cooling loop that pumps fresh espresso through a forced-air copper coil and a Peltier cold block. A filmed run cooled the drink from 73 °C in the reservoir to 11.3 °C in the cup without dilution.</div>
+      <div class="publication-venue">Built a two-stage liquid-cooling loop that pumps fresh espresso through a forced-air copper coil and a Peltier cold block. In one filmed take it cooled the shot from 73.3 °C to 12.9 °C, with no ice or dilution; a separate cup clip reads 11.3 °C.</div>
       <div class="publication-links">
         <a href="{{ '/portfolio/portfolio-13/' | relative_url }}" class="publication-link">Project Page</a>
       </div>
@@ -526,8 +526,8 @@ I have always been fascinated by the interaction between computers and the physi
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="{{ '/portfolio/portfolio-8/' | relative_url }}">MPC for Truck-Trailer System with Obstacle Avoidance</a></div>
-      <div class="publication-authors">S. Ahn</div>
-      <div class="publication-venue">Implemented constrained MPC for forward and reverse truck-trailer navigation with dynamic obstacle prediction and feasibility recovery.</div>
+      <div class="publication-authors">E. Chuang, E. Grealish, L. Peus, S. Ahn, T. Wayne, Y. Chang</div>
+      <div class="publication-venue">Nonlinear MPC (Python, Pyomo + IPOPT) for forward and reverse truck-trailer navigation with predicted moving obstacles and a ±90° hitch-angle limit; reached the 0.5 m goal tolerance in 4 of 5 simulated runs.</div>
       <div class="publication-links">
         <a href="{{ '/portfolio/portfolio-8/' | relative_url }}" class="publication-link">Project Page</a>
       </div>
