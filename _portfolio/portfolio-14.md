@@ -80,7 +80,11 @@ As the motor turns the rod, its curve sweeps through a chain of rod mounts, whic
 
 {% include pj/figure.html src="me102b/fig08_rod_mounts.jpg" wide=true caption="**Rod mounts (Figure 8).** Front view of the tail and mounts (left) and an isometric view of the mounts (right)." %}
 
+{% include pj/figure.html src="me102b/build_tail_fin.jpg" wide=true caption="**The finished tail on the bench.** The flexible caudal fin fitted over the rod-mount chain, with the body seam taped shut." %}
+
 ## Inside the body
+
+{% include pj/figure.html src="me102b/build_interior.jpg" side=true caption="**Electronics bay (build photo).** Inside the main cavity: the motor driver and voltage regulator on the top shelf, the two pectoral-fin servos in the middle, and the LiPo battery at the bottom." %}
 
 {% include pj/figure.html src="me102b/fig02_interior.jpg" side=true caption="**Fish interior (Figure 2).** Motor driver, voltage regulator, two servo motors, and LiPo battery in the main cavity, with the DC motor in the rear section (right-hand photo)." %}
 
@@ -108,4 +112,4 @@ The fish took **second place at the ME102B design showcase**.
 
 ## Documents
 
-All figures are from the team's ME102B final report (Figures 1–8 and 18).
+Figures 1–8 and 18 are from the team's ME102B final report; the two bench photos are from the build.

@@ -84,6 +84,10 @@ Berkeley / Santa Clara, CA • [jayahn@berkeley.edu](mailto:jayahn@berkeley.edu)
 
 ## Projects
 
+* **ENGIN 170: CrateScanner — iPad LiDAR to Measurable 3D Assets**  
+  Summer 2026  
+  - Built an iPad LiDAR capture app and GPU reconstruction pipeline (Open3D, nvblox, Gaussian splats, TRELLIS) that publishes metric, orbit-and-measure 3D assets to a web dashboard.
+
 * **ME102B (Mechatronics): Robotic Fish**  
   Fall 2024  
   - Designed a unique tail mechanism for a robotic fish, earning second place at the design showcase.
