@@ -573,11 +573,11 @@ I have always been fascinated by the interaction between computers and the physi
       <video controls muted playsinline preload="metadata" style="width: 100%; height: 100%; object-fit: cover;" poster="{{ '/images/caliber_pg1.png' | relative_url }}">
         <source src="{{ '/images/caliber_demo_part1.mp4' | relative_url }}" type="video/mp4">
       </video>
-      <div class="publication-tag">Class</div>
+      <div class="publication-tag">ENGIN 283</div>
     </div>
     <div class="publication-content">
       <div class="publication-title"><a href="{{ '/portfolio/portfolio-3/' | relative_url }}">Caliber: Student Projects Open Source Platform</a></div>
-      <div class="publication-authors">S. Ahn</div>
+      <div class="publication-authors">M. Mittal, S. Ahn</div>
       <div class="publication-venue">Designed the discovery and metadata architecture for 500+ UC Berkeley open source projects, making them easier to browse, filter, and reuse.</div>
       <div class="publication-links">
         <a href="{{ '/portfolio/portfolio-3/' | relative_url }}" class="publication-link">Project Page</a>

@@ -41,12 +41,12 @@ Berkeley / Santa Clara, CA • [jayahn@berkeley.edu](mailto:jayahn@berkeley.edu)
   May 2025 – Present  
   - Built a role-conditioned manipulation stack in robosuite/MuJoCo that decomposes pick-and-place into three reusable per-skill Diffusion Transformer (DiT) policies (pick / place / retreat), each verified to ≥95% success on a single Kinova3 arm.
   - Raised pick reliability from ~83% to ~97–100% by reformulating the pick action in the object's reference frame, making the learning target translation-invariant across object positions.
-  - Transferred the identical single-arm policies to a two-arm setup through a per-arm rigid-frame correction and a skill router, then scaled to a four-arm system where an LLM coordinator (Anthropic Claude, with a deterministic fallback) assigns objects to arms and sets execution order and per-arm retry budgets.
+  - Transferred the identical single-arm policies to a two-arm setup through a per-arm mirror transform and a skill router, then scaled to a four-arm system where an LLM coordinator (Anthropic Claude, with a deterministic fallback) assigns objects to arms and sets execution order and per-arm retry budgets.
   - Ported a multi-agent quadruped RL environment from Unitree Go1 to Go2 in Isaac Gym, preserving task logic and evaluation conventions across platforms.
 
 * **Junior Engineer (Contractor) / Mechanical / Hardware Engineering Intern**  
   *Root Applied Sciences: biotechnology company pioneering pathogen monitoring systems, Emeryville, CA*  
-  November 2024 – May 2025 (5 months)  
+  November 2024 – May 2025  
   - Managed preparation and maintenance of 80+ devices, improving firmware reliability and real-time control readiness.
   - Designed and 3D-printed insect-resistant housings for field PCBs, reducing insect-related damage and improving quality-control maintenance efficiency.
   - Designed a new microfluidic door system using electromagnetic actuation and stereolithography (SLA) to support accurate bacteria/spore solution data collection.
@@ -59,7 +59,7 @@ Berkeley / Santa Clara, CA • [jayahn@berkeley.edu](mailto:jayahn@berkeley.edu)
 * **Undergraduate Research Assistant**  
   *TAF Lab (Theoretical & Applied Fluid Dynamics Laboratory) - Prof. M. Reza Alam, UC Berkeley*  
   May 2024 – November 2025  
-  - Ranked Top 20 / 3400 in the U.S. DOE "Power at Sea Prize" competition and listed as an inventor on the submitted patent application "A Multimodal Mobile Sea-based Power Generation and Delivery" (patent pending review).
+  - Ranked Top 20 / 3400 in the U.S. DOE "Power at Sea Prize" competition and listed as an inventor on the submitted patent application "PowerCab: A Multimodal Mobile Sea-based Power Generation and Delivery" (patent pending review).
   - Led electronics implementation with 7+ sensors and established wireless communication using the XBee protocol for an autonomous ocean-drone prototype.
   - Developed autonomous upwind/downwind sail-motion control using wind vanes, GPS, magnetometers, and motors, and designed a real-time data-acquisition pipeline from device firmware to database.
   - Conducted 50+ ocean tests and built a real-time raw-data acquisition pipeline linking device firmware to a Python database.
@@ -83,6 +83,10 @@ Berkeley / Santa Clara, CA • [jayahn@berkeley.edu](mailto:jayahn@berkeley.edu)
   - Led and trained Signal Corps troops, earning recognition in the Best Warrior Competition.
 
 ## Projects
+
+* **ENGIN 170: CrateScanner — iPad LiDAR to Measurable 3D Assets**  
+  Summer 2026  
+  - Built an iPad LiDAR capture app and GPU reconstruction pipeline (Open3D, nvblox, Gaussian splats, TRELLIS) that publishes metric, orbit-and-measure 3D assets to a web dashboard.
 
 * **ME102B (Mechatronics): Robotic Fish**  
   Fall 2024  
