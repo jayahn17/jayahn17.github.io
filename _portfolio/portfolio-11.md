@@ -33,7 +33,7 @@ stats:
   - { value: "85 → 20 min", label: "splat training at equal quality" }
   - { value: "5", label: "reconstructions per capture, 1 measurable" }
 steps:
-  - { label: "Stage 1", title: "Capture", text: "SwiftUI/ARKit iPad app records RGB, 16-bit millimeter depth, and gravity-aligned pose; an AR arrow keeps the user orbiting. Uploads to a shared Drive folder." }
+  - { label: "Stage 1", title: "Capture", text: "SwiftUI/ARKit iPad app records RGB, 16-bit millimeter depth, and gravity-aligned pose; an AR arrow keeps the user orbiting. The app uploads captures to a shared Drive folder." }
   - { label: "Stage 2", title: "Reconstruct", text: "Five reconstructions on one 16 GB GPU: RGB-D object fuse, full-scene 3DGS splat, depth cloud, nvblox TSDF, and Meshroom photogrammetry, plus an optional TRELLIS generative mesh. Stages run serially and are skippable and resumable." }
   - { label: "Stage 3", title: "Publish + adjudicate", text: "One web page per capture: every reconstruction behind a switcher, a live tape measure (disabled on the generative mesh), and a badge that can read `not safe to quote`." }
 problems:
@@ -42,6 +42,9 @@ problems:
   - { label: "Problem 3", title: "ARFrame is a trap", text: "Frames own pixel buffers from a small fixed pool. Hold one past the delegate callback and you starve ARKit until it stops delivering frames." }
   - { label: "Problem 4", title: "Resolution is a trap too", text: "Fusion resizes color to the 256 × 192 LiDAR depth map, so a 1920 × 1440 image stores 56× the pixels the fuser reads." }
 media:
+  scans:
+    - { image: "cratescanner_scan_1.jpg", alt: "iPad in landscape running the capture app outdoors, a colored mesh over benches, a tree, and stairs", caption: "**Closer view of the benches.** An iPad in landscape runs the capture app outdoors. A colored mesh overlays the camera view of the benches, with a tree and stairs behind them. The status line reads “Scanning — move slowly around the machine.” The buttons are “Take Photo” and “Finish Scan.”" }
+    - { image: "cratescanner_scan_2.jpg", alt: "iPad capture app looking up into a tree, a denser blue mesh over the trunk and branches", caption: "**Looking up into the tree.** The camera looks up into the tree. A denser blue mesh covers the trunk and branches, and the benches and stairs remain in frame. The status line reads “Scanning — move slowly around the machine.” The buttons are “Take Photo” and “Finish Scan.”" }
   dashboards:
     - { image: "cratescanner_dash_sofa_measure.jpg", caption: "**Sofa: a frame bug.** Published `53.75 × 52.25 × 30.00 in`; the tape reads 68 in along the seat and 72 in along the base." }
     - { image: "cratescanner_dash_table_measure.jpg", caption: "**Coffee table: an isolation bug.** Published `46.25 × 44.25 × 13.75 in`; the tape on the photo mesh reads 34 in across the top and 13 in to the floor." }
@@ -51,13 +54,13 @@ media:
     - { image: "cratescanner_koala_splat.png", caption: "**Koala, Gaussian splat.** Explicitly labeled `rough only`: a splat is a density cloud, not a surface. Ray hit-testing accumulates transmittance and stops at half-opacity." }
 ---
 
-<p class="pj-lede">Before building a shipping crate, the client needs one answer: <em>how large should the crate be?</em> A plausible wrong size costs more than none, so my iPad LiDAR app and GPU backend publish size only from the metric RGB-D fuse, with a <strong>verdict on whether it is safe to quote</strong>.</p>
+<p class="pj-lede">CrateScanner is a SwiftUI/ARKit scan app for iPad and iPhone (LiDAR required). Before building a shipping crate, the client needs one answer: <em>how large should the crate be?</em> A plausible wrong size costs more than none, so the app and its GPU backend publish size only from the metric RGB-D fuse, with a <strong>verdict on whether it is safe to quote</strong>.</p>
 
-{% include pj/steps.html items=page.steps %}
-
-## Capture: the iPad records, the GPU reconstructs {#ios-capture}
+## Scan app: iPad and iPhone {#ios-capture}
 
 I wrote CrateScanner (Swift, SwiftUI, ARKit, RealityKit; iPadOS/iOS 16+, LiDAR required) on top of E170_Client_Project. It records RGB-D and pose, rejects unusable frames, and hands reconstruction to the GPU box. That is harder than it sounds: ARKit will deliver thousands of them and report success.
+
+{% include pj/grid.html items=page.media.scans cols=2 class="pj-grid--landscape" %}
 
 {% include pj/steps.html items=page.problems %}
 
@@ -113,6 +116,12 @@ The decisions worth testing never import ARKit: geometry and policy (`GuidedCapt
 
 **Shipping details.** `LiDARAvailability` sends unsupported devices to an explanation screen before ARKit can fail mid-scan. XcodeGen generates the `.xcodeproj` from `project.yml` and keeps it out of Git, so a teammate's new files join the target with no `.pbxproj` merge conflicts. Drive sync resolves the shared folder by owner, not name, so a teammate cannot silently create a private folder that pools nothing (a live bug before it became a rule). `PackageExporter` writes one AirDrop/scp-ready folder (`measurement.json`, `mesh.obj` in inches, RGB-D `session/` in the backend's schema); Drive upload and a worker POST endpoint automate the transfer. TestFlight and a privacy manifest cover client testing.
 
+## Reconstructions and measurement
+
+One scan becomes five reconstructions. Size is published only from the metric RGB-D fuse, and a size the geometry does not support is not quoted.
+
+{% include pj/steps.html items=page.steps %}
+
 ## Reconstruction: metric scale from the sensor, gates at every merge
 
 I wrote the orchestrator (`recon3.py`) and the measurement path (`rgbd_object_asset.py`), which run on one RTX 4080 (16 GB) under Ubuntu 22.04.
@@ -155,7 +164,7 @@ The residual is kept: a scale that failed to converge is dangerous in a way that
 
 ### Perception: detection, segmentation, tracking
 
-The backend is a `CAPTURE → IDENTIFY → RECONSTRUCT → DIGITALIZE → ORGANIZE` chain; each arrow is a typed interface with a working implementation and an adapter seam for a stronger model.
+The backend is a CAPTURE → IDENTIFY → RECONSTRUCT → DIGITIZE → ORGANIZE chain; each arrow is a typed interface with a working implementation and an adapter seam for a stronger model.
 
 **Detection is open-vocabulary**, because 80 fixed classes cannot describe a warehouse: `Detector` takes class names as text (`["cardboard box", "sneaker", "coffee mug"]`). A zero-dependency heuristic detector lets the core run without an ML stack; a lazily imported **YOLO-World** adapter (`yolov8x-worldv2`, text-prompted, confidence-gated) serves the live streaming path, where speed matters more than peak accuracy.
 

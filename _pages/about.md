@@ -490,9 +490,9 @@ I have always been fascinated by the interaction between computers and the physi
       <div class="publication-tag">ENGIN 170</div>
     </div>
     <div class="publication-content">
-      <div class="publication-title"><a href="{{ '/portfolio/portfolio-11/' | relative_url }}">CrateScanner → assetpipe: iPad LiDAR to a Measurable 3D Asset</a></div>
+      <div class="publication-title"><a href="{{ '/portfolio/portfolio-11/' | relative_url }}">CrateScanner → assetpipe: iPad LiDAR Scan to a Measurable 3D Asset</a></div>
       <div class="publication-authors">S. Ahn</div>
-      <div class="publication-venue">One ENGIN 170 system: a SwiftUI/ARKit iPad capture app (sharpness and steadiness gates, guided orbit, stall detection) plus a GPU backend that returns five reconstructions, measures only the defensible file, and caught silently transposed dimensions in 11 of 14 assets.</div>
+      <div class="publication-venue">One ENGIN 170 system: a SwiftUI/ARKit iPad capture app (sharpness and steadiness gates, guided orbit, stall detection) plus a GPU backend that returns five reconstructions and measures only the file that is safe to quote. A cross-check caught silently transposed dimensions in 11 of 14 assets.</div>
       <div class="publication-links">
         <a href="{{ '/portfolio/portfolio-11/' | relative_url }}" class="publication-link">Project Page</a>
       </div>
